@@ -26,13 +26,14 @@ export default async function ExplorePage({
     : allPrompts;
 
   return (
-    <div className="max-w-[1400px] mx-auto px-6 pt-8 pb-16">
+    <div className="max-w-[1200px] mx-auto px-8 pt-10 pb-20">
       {/* Page header */}
-      <div className="mb-8 animate-fade-in-up">
-        <h1 className="font-display text-2xl md:text-3xl font-bold tracking-tight mb-2">
+      <div className="mb-10 animate-fade-in-up">
+        <div className="section-label mb-2">Explore</div>
+        <h1 className="font-display text-[26px] md:text-[30px] font-bold tracking-tight mb-2">
           探索提示词
         </h1>
-        <p className="text-text-secondary text-sm">
+        <p className="text-text-secondary text-[13.5px] tracking-wide">
           {hasFilters
             ? `找到 ${filtered.length} 条匹配的提示词`
             : `共 ${allPrompts.length} 条精选提示词`}
@@ -40,7 +41,7 @@ export default async function ExplorePage({
       </div>
 
       {/* Filters */}
-      <div className="mb-8 p-5 rounded-xl border border-border-subtle bg-bg-card animate-fade-in-up stagger-1">
+      <div className="mb-10 p-6 rounded-2xl border border-border-subtle bg-bg-card/50 animate-fade-in-up stagger-1">
         <Suspense fallback={null}>
           <FilterBar />
         </Suspense>
@@ -56,10 +57,10 @@ export default async function ExplorePage({
           ))}
         </div>
       ) : (
-        <div className="text-center py-20">
-          <div className="text-4xl mb-4">🔍</div>
-          <p className="text-text-secondary font-display">没有找到匹配的提示词</p>
-          <p className="text-text-muted text-sm mt-2">试试调整筛选条件</p>
+        <div className="text-center py-24">
+          <div className="text-3xl mb-5 opacity-40">&#x2715;</div>
+          <p className="text-text-secondary font-display text-lg">没有找到匹配的提示词</p>
+          <p className="text-text-muted text-[13px] mt-2 tracking-wide">试试调整筛选条件</p>
         </div>
       )}
     </div>

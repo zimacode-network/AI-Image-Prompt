@@ -28,17 +28,15 @@ export default function FilterBar() {
   const hasFilters = activeStyle || activeScene || activeModel;
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-6">
       {/* Style filters */}
       <div>
-        <div className="flex items-center justify-between mb-2.5">
-          <h3 className="text-xs font-display font-medium text-text-muted uppercase tracking-widest">
-            风格 Style
-          </h3>
+        <div className="flex items-center justify-between mb-3">
+          <span className="section-label">风格 Style</span>
           {hasFilters && (
             <button
               onClick={clearAll}
-              className="text-[11px] text-accent-amber hover:underline"
+              className="text-[11px] text-accent-gold hover:text-accent-gold-bright transition-colors tracking-wide"
             >
               清除筛选
             </button>
@@ -51,7 +49,7 @@ export default function FilterBar() {
               onClick={() => setFilter("style", key)}
               className={`tag-chip ${activeStyle === key ? "active" : ""}`}
             >
-              <span className="mr-1">{val.icon}</span>
+              <span>{val.icon}</span>
               {val.zh}
             </button>
           ))}
@@ -60,9 +58,7 @@ export default function FilterBar() {
 
       {/* Scene filters */}
       <div>
-        <h3 className="text-xs font-display font-medium text-text-muted uppercase tracking-widest mb-2.5">
-          场景 Scene
-        </h3>
+        <span className="section-label block mb-3">场景 Scene</span>
         <div className="flex flex-wrap gap-2">
           {Object.entries(SCENE_LABELS).map(([key, val]) => (
             <button
@@ -70,7 +66,7 @@ export default function FilterBar() {
               onClick={() => setFilter("scene", key)}
               className={`tag-chip ${activeScene === key ? "active" : ""}`}
             >
-              <span className="mr-1">{val.icon}</span>
+              <span>{val.icon}</span>
               {val.zh}
             </button>
           ))}
@@ -79,9 +75,7 @@ export default function FilterBar() {
 
       {/* Model filters */}
       <div>
-        <h3 className="text-xs font-display font-medium text-text-muted uppercase tracking-widest mb-2.5">
-          模型 Model
-        </h3>
+        <span className="section-label block mb-3">模型 Model</span>
         <div className="flex flex-wrap gap-2">
           {Object.entries(MODEL_LABELS).map(([key, val]) => (
             <button
@@ -90,7 +84,7 @@ export default function FilterBar() {
               className={`tag-chip ${activeModel === key ? "active" : ""}`}
               style={
                 activeModel === key
-                  ? { borderColor: val.color, color: val.color, background: `${val.color}15` }
+                  ? { borderColor: val.color, color: val.color, background: `${val.color}12` }
                   : {}
               }
             >

@@ -36,7 +36,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <body className="antialiased">
         <Header />
-        <main className="pt-16 min-h-screen">{children}</main>
+        <main className="pt-[60px] min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
