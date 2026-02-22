@@ -45,102 +45,132 @@ export default async function PromptDetailPage({
   const related = getRelatedPrompts(prompt);
 
   return (
-    <div className="max-w-[1200px] mx-auto px-8 pt-8 pb-20">
+    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-20">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-[12px] text-text-muted mb-8 animate-fade-in tracking-wide">
-        <Link href="/" className="hover:text-accent-gold transition-colors duration-200">首页</Link>
-        <span className="text-text-dim">/</span>
-        <Link href="/explore" className="hover:text-accent-gold transition-colors duration-200">探索</Link>
-        <span className="text-text-dim">/</span>
+      <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
+        <Link href="/" className="hover:text-primary transition-colors duration-200">首页</Link>
+        <span>/</span>
+        <Link href="/explore" className="hover:text-primary transition-colors duration-200">探索</Link>
+        <span>/</span>
         <Link
           href={`/explore?style=${prompt.category_style}`}
-          className="hover:text-accent-gold transition-colors duration-200"
+          className="hover:text-primary transition-colors duration-200"
         >
           {style.zh}
         </Link>
-        <span className="text-text-dim">/</span>
-        <span className="text-text-secondary truncate max-w-[180px]">{prompt.title_zh}</span>
+        <span>/</span>
+        <span className="text-text-secondary truncate max-w-[180px] normal-case">{prompt.title_zh}</span>
       </nav>
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14">
-        {/* Image column */}
-        <div className="lg:col-span-5 animate-fade-in-up">
-          <div className="rounded-2xl overflow-hidden bg-bg-card sticky top-20" style={{ boxShadow: 'var(--shadow-elevated)' }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={prompt.example_image_url}
-              alt={prompt.title_zh}
-              className="w-full block"
-            />
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
+        {/* Image column — LEFT, larger (7 cols) */}
+        <div className="lg:col-span-7 animate-fade-in-up">
+          <div className="sticky top-20">
+            <div className="overflow-hidden rounded-3xl bg-bg-surface">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={prompt.example_image_url}
+                alt={prompt.title_zh}
+                className="w-full block aspect-square object-cover"
+              />
+            </div>
+
+            {/* Image toolbar */}
+            <div className="flex items-center justify-between mt-4">
+              <div className="flex items-center gap-2">
+                <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-bg-card border border-border-default text-sm font-medium text-text-secondary hover:border-primary/30 transition-all">
+                  <span className="material-symbols-outlined text-[16px]">zoom_in</span>
+                  放大
+                </button>
+                <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-bg-card border border-border-default text-sm font-medium text-text-secondary hover:border-primary/30 transition-all">
+                  <span className="material-symbols-outlined text-[16px]">download</span>
+                  下载
+                </button>
+              </div>
+              <div className="flex items-center gap-1 rounded-xl bg-bg-card border border-border-default p-1">
+                <button className="px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-bold">高清</button>
+                <button className="px-3 py-1.5 rounded-lg text-xs font-medium text-text-muted hover:text-text-primary transition-colors">原图</button>
+              </div>
+            </div>
+
+            {/* Author card */}
+            <div className="flex items-center gap-3 mt-6 p-4 rounded-2xl bg-bg-card border border-border-default">
+              <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-sm">
+                {prompt.source_model.charAt(0).toUpperCase()}
+              </div>
+              <div>
+                <div className="text-sm font-bold text-text-primary">{prompt.source_model}</div>
+                <div className="text-xs text-text-muted">AI 模型</div>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Content column */}
-        <div className="lg:col-span-7 animate-fade-in-up stagger-2">
+        {/* Content column — RIGHT (5 cols) */}
+        <div className="lg:col-span-5 animate-fade-in-up stagger-2">
           {/* Title */}
-          <h1 className="font-display text-[26px] md:text-[32px] font-bold tracking-tight leading-[1.15] mb-2">
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-2">
             {prompt.title_zh}
+            <span className="text-primary">.</span>
           </h1>
-          <p className="text-text-secondary text-[13.5px] tracking-wide mb-8">{prompt.title_en}</p>
+          <p className="text-sm text-text-secondary mb-6">{prompt.title_en}</p>
 
           {/* Meta badges */}
-          <div className="flex flex-wrap items-center gap-2.5 mb-10">
-            <span
-              className="px-3.5 py-1.5 text-[11px] font-semibold tracking-wide rounded-lg"
-              style={{
-                background: `${model.color}15`,
-                color: model.color,
-                border: `1px solid ${model.color}30`,
-              }}
-            >
+          <div className="flex flex-wrap items-center gap-2 mb-8">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wide rounded-xl bg-primary/10 text-primary border border-primary/20">
+              <span className="material-symbols-outlined text-[14px]">smart_toy</span>
               {model.en}
             </span>
             <Link
               href={`/explore?style=${prompt.category_style}`}
-              className="tag-chip"
+              className="tag-chip text-xs"
             >
               {style.icon} {style.zh}
             </Link>
             <Link
               href={`/explore?scene=${prompt.category_scene}`}
-              className="tag-chip"
+              className="tag-chip text-xs"
             >
               {scene.icon} {scene.zh}
             </Link>
           </div>
 
-          {/* English prompt */}
-          <div className="mb-6">
+          {/* Large Copy CTA */}
+          <CopyButton text={prompt.prompt_text} label="复制提示词" large />
+
+          {/* Full prompt block */}
+          <div className="mt-6 mb-6">
             <div className="flex items-center justify-between mb-3">
-              <span className="section-label">English Prompt</span>
-              <CopyButton text={prompt.prompt_text} label="复制英文" />
+              <span className="section-label">英文提示词</span>
+              <CopyButton text={prompt.prompt_text} label="复制" />
             </div>
-            <div className="prompt-code">{prompt.prompt_text}</div>
+            <div className="prompt-code text-sm">{prompt.prompt_text}</div>
           </div>
 
           {/* Chinese translation */}
           <div className="mb-8">
             <div className="flex items-center justify-between mb-3">
               <span className="section-label">中文描述</span>
-              <CopyButton text={prompt.prompt_zh} label="复制中文" />
+              <CopyButton text={prompt.prompt_zh} label="复制" />
             </div>
-            <div className="prompt-code">{prompt.prompt_zh}</div>
+            <div className="prompt-code text-sm">{prompt.prompt_zh}</div>
           </div>
 
-          {/* Parameters */}
+          {/* Parameters — 2x2 grid */}
           {Object.keys(prompt.parameters).length > 0 && (
             <div className="mb-8">
               <span className="section-label block mb-4">参数配置</span>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+              <div className="grid grid-cols-2 gap-3">
                 {Object.entries(prompt.parameters).map(([key, val]) => (
                   <div
                     key={key}
-                    className="flex items-center justify-between px-4 py-3 rounded-xl bg-bg-surface border border-border-subtle"
+                    className="flex flex-col gap-1 px-4 py-3 rounded-2xl bg-bg-card border border-border-default"
                   >
-                    <span className="text-[11px] text-text-muted font-mono tracking-wide">{key}</span>
-                    <span className="text-[12px] text-text-primary font-mono font-medium">
-                      {String(val)}
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      <span className="material-symbols-outlined text-[14px] text-primary">tune</span>
+                      <span className="text-[11px] text-text-muted font-medium uppercase tracking-wider">{key}</span>
+                    </div>
+                    <span className="text-sm text-text-primary font-bold">{String(val)}</span>
                   </div>
                 ))}
               </div>
@@ -155,29 +185,28 @@ export default async function PromptDetailPage({
                 <Link
                   key={tag}
                   href={`/explore?style=${prompt.category_style}`}
-                  className="tag-chip"
+                  className="tag-chip text-xs"
                 >
                   {tag}
                 </Link>
               ))}
             </div>
           </div>
-
-          {/* Source model */}
-          <div className="px-5 py-4 rounded-xl bg-bg-surface border border-border-subtle text-[13px] text-text-muted tracking-wide">
-            推荐模型：<span className="text-text-primary font-medium">{prompt.source_model}</span>
-          </div>
         </div>
       </div>
 
       {/* Related prompts */}
       {related.length > 0 && (
-        <section className="mt-24">
-          <div className="divider mb-12" />
-          <div className="section-label mb-2">Related</div>
-          <h2 className="font-display text-[20px] font-semibold tracking-tight mb-8">
-            相关提示词
-          </h2>
+        <section className="mt-20">
+          <div className="divider mb-10" />
+          <div className="flex items-center gap-3 mb-6">
+            <h2 className="text-xl font-bold text-text-primary">
+              相似风格推荐
+            </h2>
+            <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider">
+              推荐
+            </span>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {related.map((p, i) => (
               <PromptCard key={p.id} prompt={p} index={i} />

@@ -28,71 +28,126 @@ export default function FilterBar() {
   const hasFilters = activeStyle || activeScene || activeModel;
 
   return (
-    <div className="space-y-6">
-      {/* Style filters */}
-      <div>
-        <div className="flex items-center justify-between mb-3">
-          <span className="section-label">风格 Style</span>
-          {hasFilters && (
-            <button
-              onClick={clearAll}
-              className="text-[11px] text-accent-gold hover:text-accent-gold-bright transition-colors tracking-wide"
-            >
-              清除筛选
-            </button>
-          )}
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {Object.entries(STYLE_LABELS).map(([key, val]) => (
-            <button
-              key={key}
-              onClick={() => setFilter("style", key)}
-              className={`tag-chip ${activeStyle === key ? "active" : ""}`}
-            >
-              <span>{val.icon}</span>
-              {val.zh}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Scene filters */}
-      <div>
-        <span className="section-label block mb-3">场景 Scene</span>
-        <div className="flex flex-wrap gap-2">
-          {Object.entries(SCENE_LABELS).map(([key, val]) => (
-            <button
-              key={key}
-              onClick={() => setFilter("scene", key)}
-              className={`tag-chip ${activeScene === key ? "active" : ""}`}
-            >
-              <span>{val.icon}</span>
-              {val.zh}
-            </button>
-          ))}
-        </div>
-      </div>
-
-      {/* Model filters */}
-      <div>
-        <span className="section-label block mb-3">模型 Model</span>
-        <div className="flex flex-wrap gap-2">
+    <div className="flex flex-col gap-5 rounded-3xl bg-bg-card/40 dark:bg-bg-card/60 p-6 sm:p-7 border border-border-default/50">
+      {/* Model row */}
+      <div className="flex items-center gap-4">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted w-20 shrink-0">
+          AI 模型
+        </span>
+        <div className="flex gap-2 overflow-x-auto no-scrollbar py-0.5">
+          <button
+            onClick={clearAll}
+            className={`shrink-0 flex items-center gap-1.5 px-5 py-2 rounded-full text-xs font-bold transition-all ${
+              !activeModel
+                ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+            }`}
+          >
+            全部模型
+          </button>
           {Object.entries(MODEL_LABELS).map(([key, val]) => (
             <button
               key={key}
               onClick={() => setFilter("model", key)}
-              className={`tag-chip ${activeModel === key ? "active" : ""}`}
-              style={
+              className={`shrink-0 flex items-center gap-1.5 px-5 py-2 rounded-full text-xs font-bold transition-all ${
                 activeModel === key
-                  ? { borderColor: val.color, color: val.color, background: `${val.color}12` }
-                  : {}
-              }
+                  ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                  : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+              }`}
             >
               {val.en}
             </button>
           ))}
         </div>
       </div>
+
+      <div className="h-px bg-gradient-to-r from-transparent via-border-default to-transparent" />
+
+      {/* Style row */}
+      <div className="flex items-center gap-4">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted w-20 shrink-0">
+          风格
+        </span>
+        <div className="flex gap-2 overflow-x-auto no-scrollbar py-0.5">
+          <button
+            onClick={() => {
+              const params = new URLSearchParams(searchParams.toString());
+              params.delete("style");
+              router.push(`/explore?${params.toString()}`, { scroll: false });
+            }}
+            className={`shrink-0 flex items-center px-5 py-2 rounded-full text-xs font-bold transition-all ${
+              !activeStyle
+                ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+            }`}
+          >
+            全部风格
+          </button>
+          {Object.entries(STYLE_LABELS).map(([key, val]) => (
+            <button
+              key={key}
+              onClick={() => setFilter("style", key)}
+              className={`shrink-0 flex items-center px-5 py-2 rounded-full text-xs font-bold transition-all ${
+                activeStyle === key
+                  ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                  : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+              }`}
+            >
+              {val.zh}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="h-px bg-gradient-to-r from-transparent via-border-default to-transparent" />
+
+      {/* Scene row */}
+      <div className="flex items-center gap-4">
+        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-text-muted w-20 shrink-0">
+          场景
+        </span>
+        <div className="flex gap-2 overflow-x-auto no-scrollbar py-0.5">
+          <button
+            onClick={() => {
+              const params = new URLSearchParams(searchParams.toString());
+              params.delete("scene");
+              router.push(`/explore?${params.toString()}`, { scroll: false });
+            }}
+            className={`shrink-0 flex items-center px-5 py-2 rounded-full text-xs font-bold transition-all ${
+              !activeScene
+                ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+            }`}
+          >
+            全部场景
+          </button>
+          {Object.entries(SCENE_LABELS).map(([key, val]) => (
+            <button
+              key={key}
+              onClick={() => setFilter("scene", key)}
+              className={`shrink-0 flex items-center px-5 py-2 rounded-full text-xs font-bold transition-all ${
+                activeScene === key
+                  ? "bg-primary text-white shadow-[0_0_12px_rgba(249,115,22,0.3)]"
+                  : "bg-bg-card border border-border-default text-text-secondary hover:border-primary/30 hover:text-primary"
+              }`}
+            >
+              {val.zh}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Clear filters */}
+      {hasFilters && (
+        <div className="flex justify-end">
+          <button
+            onClick={clearAll}
+            className="text-xs font-bold text-primary hover:text-primary-hover transition-colors"
+          >
+            清除全部筛选
+          </button>
+        </div>
+      )}
     </div>
   );
 }

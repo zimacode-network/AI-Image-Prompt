@@ -2,53 +2,87 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className="glass-header fixed top-0 left-0 right-0 z-50 border-b border-border-subtle">
-      <div className="max-w-[1200px] mx-auto px-8 h-[60px] flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-[30px] h-[30px] rounded-lg bg-accent-gold/12 flex items-center justify-center border border-accent-gold/20 group-hover:bg-accent-gold/20 transition-all duration-300">
-            <span className="text-accent-gold text-[13px] font-bold font-display">P</span>
+    <header className="glass-header fixed top-0 left-0 right-0 z-50 border-b border-border-default">
+      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 h-16 flex items-center justify-between">
+        {/* Logo */}
+        <Link href="/" className="flex items-center gap-2.5 group shrink-0">
+          <div className="w-8 h-8 rounded-xl bg-primary flex items-center justify-center">
+            <span className="material-symbols-outlined text-white text-[18px]">flare</span>
           </div>
-          <span className="font-display font-semibold text-[17px] tracking-tight text-text-primary">
-            Prompt<span className="text-accent-gold-soft">Studio</span>
+          <span className="font-semibold text-[17px] tracking-tight text-text-primary">
+            Prompt<span className="text-primary">Studio</span>
           </span>
         </Link>
 
-        <nav className="flex items-center gap-1">
-          <NavLink href="/" label="首页" active={pathname === "/"} />
-          <NavLink href="/explore" label="探索" active={pathname.startsWith("/explore")} />
-          <div className="w-px h-4 bg-border-light mx-2" />
-          <a
-            href="https://github.com/xiaoYuan928/AI-Image-Prompt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="p-2 rounded-lg text-text-muted hover:text-text-secondary transition-colors duration-200"
-            aria-label="GitHub"
+        {/* Search (hidden on mobile) */}
+        <div className="hidden md:flex items-center flex-1 max-w-md mx-8">
+          <div className="relative w-full">
+            <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-text-muted text-[18px]">search</span>
+            <input
+              type="text"
+              placeholder="搜索提示词..."
+              className="w-full pl-10 pr-4 py-2 rounded-xl border border-border-default bg-bg-surface text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-primary/30 focus:ring-2 focus:ring-primary/10 transition-all"
+            />
+          </div>
+        </div>
+
+        {/* Nav + Actions */}
+        <div className="flex items-center gap-1">
+          <nav className="hidden sm:flex items-center gap-0.5">
+            <NavLink href="/" label="首页" icon="home" active={pathname === "/"} />
+            <NavLink href="/explore" label="探索" icon="explore" active={pathname.startsWith("/explore")} />
+            <NavLink href="/models" label="模型" icon="smart_toy" active={pathname.startsWith("/models")} />
+          </nav>
+
+          <div className="w-px h-5 bg-border-default mx-2 hidden sm:block" />
+
+          <ThemeToggle />
+
+          <Link
+            href="/explore"
+            className="ml-2 hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-white text-sm font-bold hover:bg-primary-hover transition-colors duration-200"
           >
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-            </svg>
-          </a>
-        </nav>
+            <span className="material-symbols-outlined text-[16px]">add</span>
+            投稿
+          </Link>
+
+          {/* Mobile menu button */}
+          <button className="sm:hidden ml-2 w-9 h-9 rounded-xl flex items-center justify-center border border-border-default text-text-muted">
+            <span className="material-symbols-outlined text-[20px]">menu</span>
+          </button>
+        </div>
       </div>
     </header>
   );
 }
 
-function NavLink({ href, label, active }: { href: string; label: string; active: boolean }) {
+function NavLink({
+  href,
+  label,
+  icon,
+  active,
+}: {
+  href: string;
+  label: string;
+  icon: string;
+  active: boolean;
+}) {
   return (
     <Link
       href={href}
-      className={`px-4 py-1.5 rounded-lg text-[13px] font-medium tracking-wide transition-all duration-200 ${
+      className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-sm font-medium transition-all duration-200 ${
         active
-          ? "text-accent-gold bg-accent-gold/8"
-          : "text-text-secondary hover:text-text-primary"
+          ? "text-primary bg-primary/8"
+          : "text-text-secondary hover:text-text-primary hover:bg-bg-surface"
       }`}
     >
+      <span className="material-symbols-outlined text-[18px]">{icon}</span>
       {label}
     </Link>
   );

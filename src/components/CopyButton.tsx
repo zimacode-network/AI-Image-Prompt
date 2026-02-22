@@ -2,7 +2,15 @@
 
 import { useState } from "react";
 
-export default function CopyButton({ text, label = "复制" }: { text: string; label?: string }) {
+export default function CopyButton({
+  text,
+  label = "复制",
+  large = false,
+}: {
+  text: string;
+  label?: string;
+  large?: boolean;
+}) {
   const [copied, setCopied] = useState(false);
 
   async function handleCopy() {
@@ -11,31 +19,37 @@ export default function CopyButton({ text, label = "复制" }: { text: string; l
     setTimeout(() => setCopied(false), 2000);
   }
 
+  if (large) {
+    return (
+      <button
+        onClick={handleCopy}
+        className={`w-full flex items-center justify-center gap-2 h-14 rounded-2xl font-bold text-base transition-all duration-200 ${
+          copied
+            ? "bg-green-500 text-white"
+            : "bg-primary text-white hover:bg-primary-hover"
+        }`}
+      >
+        <span className="material-symbols-outlined text-[20px]">
+          {copied ? "check" : "content_copy"}
+        </span>
+        {copied ? "已复制到剪贴板" : label}
+      </button>
+    );
+  }
+
   return (
     <button
       onClick={handleCopy}
-      className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-[11px] font-medium tracking-wide transition-all duration-250 ${
+      className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold tracking-wide transition-all duration-200 ${
         copied
-          ? "bg-accent-sage/15 text-accent-sage border border-accent-sage/30"
-          : "bg-accent-gold/10 text-accent-gold border border-accent-gold/20 hover:bg-accent-gold/18 hover:border-accent-gold/35"
+          ? "bg-green-500/10 text-green-600 border border-green-500/20"
+          : "bg-primary/10 text-primary border border-primary/20 hover:bg-primary/15 hover:border-primary/30"
       }`}
     >
-      {copied ? (
-        <>
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="20 6 9 17 4 12" />
-          </svg>
-          已复制
-        </>
-      ) : (
-        <>
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
-            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
-          </svg>
-          {label}
-        </>
-      )}
+      <span className="material-symbols-outlined text-[14px]">
+        {copied ? "check" : "content_copy"}
+      </span>
+      {copied ? "已复制" : label}
     </button>
   );
 }

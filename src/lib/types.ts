@@ -68,11 +68,70 @@ export const SCENE_LABELS: Record<SceneCategory, { zh: string; en: string; icon:
   wallpaper: { zh: "壁纸", en: "Wallpaper", icon: "🖼" },
 };
 
-export const MODEL_LABELS: Record<ModelCategory, { zh: string; en: string; color: string }> = {
-  gemini: { zh: "Gemini", en: "Gemini", color: "#4285f4" },
-  midjourney: { zh: "Midjourney", en: "Midjourney", color: "#00d4aa" },
-  "stable-diffusion": { zh: "Stable Diffusion", en: "SD/SDXL", color: "#a855f7" },
-  flux: { zh: "FLUX", en: "FLUX", color: "#f97316" },
-  "dall-e": { zh: "DALL-E", en: "DALL-E", color: "#10b981" },
-  "chatgpt-image": { zh: "ChatGPT", en: "ChatGPT Image", color: "#6366f1" },
+export const MODEL_LABELS: Record<
+  ModelCategory,
+  {
+    zh: string;
+    en: string;
+    color: string;
+    description: string;
+    version: string;
+    tags: string[];
+    openSource: boolean;
+  }
+> = {
+  gemini: {
+    zh: "Gemini",
+    en: "Gemini",
+    color: "#4285f4",
+    description: "Google 的多模态 AI 模型，支持高质量图像生成与理解，擅长创意图像和复杂场景构建。",
+    version: "2.0 Flash",
+    tags: ["多模态", "高质量", "Google"],
+    openSource: false,
+  },
+  midjourney: {
+    zh: "Midjourney",
+    en: "Midjourney",
+    color: "#00d4aa",
+    description: "行业领先的 AI 绘画工具，以极致的艺术性和美学表现力著称，适合概念艺术和创意设计。",
+    version: "v6.1",
+    tags: ["艺术性", "高美感", "Discord"],
+    openSource: false,
+  },
+  "stable-diffusion": {
+    zh: "Stable Diffusion",
+    en: "SD/SDXL",
+    color: "#a855f7",
+    description: "最流行的开源图像生成模型，支持本地部署和高度自定义，社区生态丰富。",
+    version: "SDXL 1.0",
+    tags: ["开源", "可本地部署", "社区丰富"],
+    openSource: true,
+  },
+  flux: {
+    zh: "FLUX",
+    en: "FLUX",
+    color: "#f97316",
+    description: "Black Forest Labs 推出的新一代模型，在文本渲染和细节表现上有突出优势。",
+    version: "1.1 Pro",
+    tags: ["文本渲染", "高细节", "新一代"],
+    openSource: true,
+  },
+  "dall-e": {
+    zh: "DALL-E",
+    en: "DALL-E",
+    color: "#10b981",
+    description: "OpenAI 的图像生成模型，以出色的指令理解能力和创意表达能力著称。",
+    version: "3",
+    tags: ["指令理解", "创意表达", "OpenAI"],
+    openSource: false,
+  },
+  "chatgpt-image": {
+    zh: "ChatGPT",
+    en: "ChatGPT Image",
+    color: "#6366f1",
+    description: "ChatGPT 内置的图像生成功能，支持对话式创作，可根据反馈迭代优化。",
+    version: "4o",
+    tags: ["对话创作", "迭代优化", "易用"],
+    openSource: false,
+  },
 };

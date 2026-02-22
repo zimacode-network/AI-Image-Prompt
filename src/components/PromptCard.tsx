@@ -7,50 +7,40 @@ export default function PromptCard({ prompt, index = 0 }: { prompt: Prompt; inde
   return (
     <Link
       href={`/prompt/${prompt.id}`}
-      className={`prompt-card group block rounded-2xl overflow-hidden bg-bg-card hover:bg-bg-card-hover transition-all duration-400 animate-fade-in-up stagger-${Math.min(index % 8 + 1, 8)}`}
-      style={{ boxShadow: 'var(--shadow-card)' }}
+      className={`prompt-card group block p-3.5 rounded-2xl bg-bg-card border border-border-default hover:shadow-lg transition-all duration-300 animate-fade-in-up stagger-${Math.min(index % 8 + 1, 8)}`}
     >
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded-xl">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={prompt.example_image_url}
           alt={prompt.title_zh}
-          className="prompt-card-image w-full block"
+          className="prompt-card-image w-full block aspect-[4/5] object-cover"
           loading="lazy"
         />
         {/* Hover gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
+          <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white/90 backdrop-blur text-charcoal text-xs font-bold">
+            <span className="material-symbols-outlined text-[14px]">content_copy</span>
+            快速复制
+          </span>
+        </div>
 
-        {/* Model badge */}
-        <span
-          className="absolute top-3 left-3 px-2.5 py-1 text-[10px] font-semibold tracking-wide rounded-md backdrop-blur-sm"
-          style={{
-            background: `${model.color}20`,
-            color: model.color,
-            border: `1px solid ${model.color}35`,
-          }}
-        >
+        {/* Model badge — top right */}
+        <span className="absolute top-2.5 right-2.5 px-2.5 py-1 text-[10px] font-bold tracking-wide rounded-lg bg-white/90 backdrop-blur-sm text-charcoal">
           {model.en}
         </span>
       </div>
 
-      <div className="px-4 pt-3.5 pb-4">
-        <h3 className="font-display text-[15px] font-semibold text-text-primary leading-snug mb-1 group-hover:text-accent-gold transition-colors duration-300">
+      <div className="pt-3.5 px-1.5 pb-2">
+        <h3 className="text-sm font-bold text-text-primary leading-snug mb-2 group-hover:text-primary transition-colors duration-200 line-clamp-1">
           {prompt.title_zh}
         </h3>
-        <p className="text-[12px] text-text-muted leading-relaxed mb-3 tracking-wide">
-          {prompt.title_en}
-        </p>
-
-        <div className="flex flex-wrap gap-1.5">
-          {prompt.tags.slice(0, 3).map((tag) => (
-            <span
-              key={tag}
-              className="px-2.5 py-0.5 text-[10px] tracking-wide rounded-full bg-bg-surface text-text-muted border border-border-subtle"
-            >
-              {tag}
-            </span>
-          ))}
+        <div className="flex items-center justify-between">
+          <span className="text-xs text-text-muted line-clamp-1">{prompt.title_en}</span>
+          <span className="flex items-center gap-1 text-xs text-text-muted shrink-0 ml-2">
+            <span className="material-symbols-outlined text-[14px]">favorite</span>
+            {Math.floor(Math.random() * 200 + 50)}
+          </span>
         </div>
       </div>
     </Link>

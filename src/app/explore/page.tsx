@@ -26,41 +26,56 @@ export default async function ExplorePage({
     : allPrompts;
 
   return (
-    <div className="max-w-[1200px] mx-auto px-8 pt-10 pb-20">
-      {/* Page header */}
-      <div className="mb-10 animate-fade-in-up">
-        <div className="section-label mb-2">Explore</div>
-        <h1 className="font-display text-[26px] md:text-[30px] font-bold tracking-tight mb-2">
-          探索提示词
-        </h1>
-        <p className="text-text-secondary text-[13.5px] tracking-wide">
-          {hasFilters
-            ? `找到 ${filtered.length} 条匹配的提示词`
-            : `共 ${allPrompts.length} 条精选提示词`}
-        </p>
-      </div>
-
+    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-20">
       {/* Filters */}
-      <div className="mb-10 p-6 rounded-2xl border border-border-subtle bg-bg-card/50 animate-fade-in-up stagger-1">
+      <div className="mb-10 animate-fade-in-up">
         <Suspense fallback={null}>
           <FilterBar />
         </Suspense>
       </div>
 
-      {/* Results */}
+      {/* Discovery Feed title + sort */}
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-10 animate-fade-in-up stagger-1">
+        <div>
+          <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-text-primary">
+            发现
+          </h1>
+          <p className="text-sm text-text-muted mt-1">
+            {hasFilters
+              ? `找到 ${filtered.length} 条匹配的提示词`
+              : `共 ${allPrompts.length} 条精选提示词`}
+          </p>
+        </div>
+        <div className="flex items-center gap-3">
+          <div className="flex gap-1 rounded-full bg-bg-surface p-1">
+            <button className="rounded-full bg-bg-card px-4 py-1.5 text-xs font-bold text-text-primary shadow-sm">
+              最新
+            </button>
+            <button className="rounded-full px-4 py-1.5 text-xs font-bold text-text-muted hover:text-text-primary transition-colors">
+              热门
+            </button>
+            <button className="rounded-full px-4 py-1.5 text-xs font-bold text-text-muted hover:text-text-primary transition-colors">
+              趋势
+            </button>
+          </div>
+          <button className="flex h-9 w-9 items-center justify-center rounded-xl border border-border-default bg-bg-card text-text-muted hover:border-primary/20 hover:text-primary transition-all">
+            <span className="material-symbols-outlined text-[18px]">tune</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Results — 4-col grid */}
       {filtered.length > 0 ? (
-        <div className="masonry-grid">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {filtered.map((prompt, i) => (
-            <div key={prompt.id} className="masonry-item">
-              <PromptCard prompt={prompt} index={i} />
-            </div>
+            <PromptCard key={prompt.id} prompt={prompt} index={i} />
           ))}
         </div>
       ) : (
         <div className="text-center py-24">
-          <div className="text-3xl mb-5 opacity-40">&#x2715;</div>
-          <p className="text-text-secondary font-display text-lg">没有找到匹配的提示词</p>
-          <p className="text-text-muted text-[13px] mt-2 tracking-wide">试试调整筛选条件</p>
+          <span className="material-symbols-outlined text-5xl text-text-muted/30 mb-4 block">search_off</span>
+          <p className="text-lg font-bold text-text-secondary">没有找到匹配的提示词</p>
+          <p className="text-sm text-text-muted mt-2">试试调整筛选条件</p>
         </div>
       )}
     </div>
