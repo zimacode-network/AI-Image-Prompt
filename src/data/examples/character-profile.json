@@ -1,0 +1,67 @@
+[
+  {
+    "id": "character-profile-fantasy-wizard",
+    "style_id": "character-profile",
+    "title_zh": "奇幻法师",
+    "title_en": "Fantasy Wizard",
+    "subject_zh": "奇幻法师角色",
+    "prompt_text": "A detailed character profile card for an elderly fantasy wizard, depicting a full-body portrait in flowing midnight-blue robes embroidered with silver constellations. His long white beard reaches his waist, and his gnarled oak staff glows with arcane blue energy. Stat bars for wisdom, magic power, and intelligence line the right side. A parchment-textured background holds backstory text in elegant serif font. Smaller insets show his spell book, enchanted amulet, and owl companion.",
+    "prompt_zh": "一张精细的奇幻老法师角色档案卡，展示一幅全身肖像——高大身影身穿午夜蓝长袍，绣有银色星座图案。他的白色长须垂至腰间，虬结的橡木法杖顶端闪烁着奥术蓝光。右侧排列着智慧、魔力和智力的属性条。羊皮纸纹理背景上以优雅衬线字体书写着他的背景故事。较小的嵌入插图展示他的魔法书、附魔护身符和栖息在肩头的猫头鹰使魔。",
+    "example_image_url": "https://img.promptstudio.art/prompts/character-profile-fantasy-wizard.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["角色档案", "奇幻法师", "RPG角色", "魔法", "角色设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "character-profile-sci-fi-captain",
+    "style_id": "character-profile",
+    "title_zh": "星舰舰长",
+    "title_en": "Sci-Fi Captain",
+    "subject_zh": "科幻舰长角色",
+    "prompt_text": "A sleek character profile card for a starship captain, featuring a confident woman in a fitted dark grey uniform with luminous cyan rank insignia. She stands on the bridge, holographic star maps reflecting in her determined eyes. Technical readouts display leadership, combat, and diplomacy scores in futuristic gauge graphics. Her ship schematic appears as a translucent overlay below. The color scheme pairs gunmetal grey with electric blue accents against a deep space backdrop with distant nebulae.",
+    "prompt_zh": "一张流线型的星舰舰长角色档案卡，展示一位自信的女性穿着合身的深灰色制服，衣领上带有发光的青色军衔徽章。她站在舰桥上，全息星图映射在坚定的眼眸中。卡片边缘的技术读数以未来感仪表图形展示领导力评级、战斗经验和外交能力分数。她的飞船示意图以半透明叠加形式出现在下方区域。配色方案将枪灰色与电光蓝点缀搭配，背景是充满遥远星云的深空。",
+    "example_image_url": "https://img.promptstudio.art/prompts/character-profile-sci-fi-captain.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["角色档案", "星舰舰长", "科幻", "太空歌剧", "角色设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "character-profile-detective-character",
+    "style_id": "character-profile",
+    "title_zh": "侦探角色",
+    "title_en": "Detective Character",
+    "subject_zh": "经典侦探角色",
+    "prompt_text": "A noir-styled character profile card for a private detective, showing a sharp-eyed man in a trench coat and fedora under a flickering streetlamp in a rain-slicked alley. The card features a manila folder aesthetic with clipped polaroid photos, fingerprint stamps, and redacted text. Skill meters for observation, deduction, and interrogation use typewriter font. A city skyline silhouette runs along the bottom, and the design is rendered in moody sepia tones with splashes of crimson.",
+    "prompt_zh": "一张黑色电影风格的私家侦探角色档案卡，展示一位目光犀利的男子身穿长风衣、头戴软呢帽，站在雨水浸湿的小巷闪烁的路灯下。香烟烟雾缭绕在他脸旁，投射出戏剧性的阴影。卡片采用马尼拉文件夹美学，附有夹上去的宝丽来照片、指纹印章和涂黑的文字块。观察力、推理力和审讯能力的技能条使用打字机字体风格。城市天际线剪影沿底部延伸，整体设计以沉郁的棕褐色调为主，点缀深红色。",
+    "example_image_url": "https://img.promptstudio.art/prompts/character-profile-detective-character.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["角色档案", "侦探", "黑色电影", "悬疑", "角色设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "character-profile-anime-protagonist",
+    "style_id": "character-profile",
+    "title_zh": "动漫主角",
+    "title_en": "Anime Protagonist",
+    "subject_zh": "动漫主角角色",
+    "prompt_text": "A dynamic character profile card for a teenage anime protagonist with spiky crimson hair and fierce golden eyes, wearing a black school uniform jacket open over a white shirt. Wind whips his hair as he clenches his fist, energy sparks crackling around his knuckles. The card uses a bold manga panel layout with diagonal speed lines. Stat hexagons display strength, speed, spirit, skill, and luck. Cherry blossom petals drift across the scene, and his name appears in bold katakana.",
+    "prompt_zh": "一张充满活力的青少年动漫主角角色档案卡，主角有着尖翘的绯红色头发和锐利的金色眼眸，穿着敞开的黑色校服外套露出白衬衫。风吹动他的头发，他握紧拳头表情坚毅，指关节周围噼啪作响着能量火花。卡片采用大胆的漫画分镜布局，背景有对角线速度线。六角形属性图展示力量、速度、精神、技巧和运气。樱花花瓣飘过画面，角色名以粗体日文片假名呈现，下方配有风格化的英文副标题。",
+    "example_image_url": "https://img.promptstudio.art/prompts/character-profile-anime-protagonist.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["角色档案", "动漫主角", "热血少年", "漫画风格", "角色设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "character-profile-historical-figure",
+    "style_id": "character-profile",
+    "title_zh": "历史人物",
+    "title_en": "Historical Figure",
+    "subject_zh": "历史名人档案",
+    "prompt_text": "A stately character profile card for Leonardo da Vinci, featuring a Renaissance oil painting style portrait of the bearded polymath in a red velvet cap and dark robes, holding a compass and quill. Behind him, faded sketches of flying machines and anatomical drawings fill the background like notebook pages. A timeline ribbon traces his major works. The border uses ornate gilded scrollwork from fifteenth-century manuscripts. Warm candlelight tones unify the composition with historical gravitas.",
+    "prompt_zh": "一张庄重的达芬奇角色档案卡，采用文艺复兴油画风格的肖像，这位蓄须的博学家戴着红色天鹅绒帽、穿着深色长袍，手持圆规和鹅毛笔。他身后，飞行器、解剖图和建筑方案的淡化草图填满背景，宛如他著名笔记本中的页面。时间线丝带追踪他从《蒙娜丽莎》到《最后的晚餐》的主要作品。卡片边框使用十五世纪手稿典型的华丽鎏金卷轴纹饰。温暖的烛光色调统一整个构图，赋予历史的厚重感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/character-profile-historical-figure.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["角色档案", "达芬奇", "历史人物", "文艺复兴", "名人传记"],
+    "created_at": "2026-02-20"
+  }
+]

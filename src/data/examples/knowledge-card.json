@@ -1,0 +1,67 @@
+[
+  {
+    "id": "knowledge-card-solar-system",
+    "style_id": "knowledge-card",
+    "title_zh": "太阳系探索",
+    "title_en": "Solar System",
+    "subject_zh": "太阳系知识卡片",
+    "prompt_text": "A beautifully designed knowledge card illustrating the solar system, showing all eight planets in correct orbital order around a glowing golden sun. Each planet features accurate surface details, from Jupiter's swirling red storm to Saturn's icy rings. Thin orbital lines connect them in elegant arcs. The background is deep cosmic navy with scattered stars. Clean sans-serif labels float beside each planet. The layout feels like a premium educational poster combining scientific accuracy with visual appeal.",
+    "prompt_zh": "一张精美设计的太阳系知识卡片，展示八大行星按正确轨道顺序环绕金色发光的太阳。每颗行星都呈现精确的表面细节，从木星旋转的红色风暴到土星的冰环。细细的轨道线以优雅的弧线连接各行星。背景是深邃的宇宙藏青色，散布着繁星。简洁无衬线字体的信息标签浮现在每颗行星旁，给出比例对比。整体布局如同一张高品质教育海报，将科学准确性与视觉美感完美结合。",
+    "example_image_url": "https://img.promptstudio.art/prompts/knowledge-card-solar-system.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["知识卡片", "太阳系", "科普教育", "天文学", "信息图"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "knowledge-card-historical-event",
+    "style_id": "knowledge-card",
+    "title_zh": "历史事件卡",
+    "title_en": "Historical Event",
+    "subject_zh": "重大历史事件",
+    "prompt_text": "A richly illustrated knowledge card depicting the moon landing of 1969, featuring an astronaut planting a flag on the lunar surface. The Earth rises in the black sky above grey dusty terrain. A timeline ribbon along the bottom marks key milestones of the space race. Vintage photograph textures blend with modern infographic elements. Sepia-toned inset panels show the rocket launch and mission control. The typography uses a retro space-age font paired with crisp body text.",
+    "prompt_zh": "一张精美插图的知识卡片，描绘1969年登月事件，展示宇航员在月球表面插下美国国旗。地球在灰色尘土地形上方的黑色天空中升起。时间线带状图沿底部边缘延伸，标记太空竞赛的关键里程碑。复古照片纹理与现代信息图元素融合。棕褐色调的嵌入面板展示火箭发射和任务控制中心。字体采用复古太空时代风格搭配清晰正文，打造引人入胜的教育参考卡片。",
+    "example_image_url": "https://img.promptstudio.art/prompts/knowledge-card-historical-event.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["知识卡片", "登月", "历史事件", "太空探索", "科普"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "knowledge-card-programming-concept",
+    "style_id": "knowledge-card",
+    "title_zh": "编程概念卡",
+    "title_en": "Programming Concept",
+    "subject_zh": "编程概念解析",
+    "prompt_text": "A clean modern knowledge card explaining recursion in programming. A central illustration shows nested Russian dolls opening one inside another as a visual metaphor. Beside the dolls, a code snippet in a dark-themed editor demonstrates a factorial function. Colorful arrows trace the call stack flowing downward then returning upward. The card uses a dark charcoal background with syntax-highlighted accents in teal, magenta, and gold. A concise definition in white text sits at the top.",
+    "prompt_zh": "一张简洁现代的知识卡片，讲解编程中的递归概念。中央插图展示层层打开的俄罗斯套娃，作为概念的视觉隐喻。套娃旁边，一个深色主题代码编辑器块中展示阶乘函数的短代码片段。彩色箭头追踪调用栈向下流动再向上返回。卡片使用深炭色背景搭配青色、品红和金色的鲜艳语法高亮。白色文字的简洁定义位于顶部，让复杂逻辑变得平易近人且优雅。",
+    "example_image_url": "https://img.promptstudio.art/prompts/knowledge-card-programming-concept.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["知识卡片", "编程", "递归", "代码可视化", "科技教育"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "knowledge-card-famous-painting",
+    "style_id": "knowledge-card",
+    "title_zh": "名画鉴赏卡",
+    "title_en": "Famous Painting",
+    "subject_zh": "经典名画赏析",
+    "prompt_text": "An elegant knowledge card featuring Starry Night by Van Gogh as the hero image, surrounded by annotation callouts highlighting the swirling sky technique and cypress tree composition. A color palette strip along the side extracts the signature cobalt blues, luminous yellows, and deep greens. A small portrait sketch of the artist appears in the corner with birth and death years. The background uses creamy parchment texture with gold foil borders, evoking a museum exhibition catalog.",
+    "prompt_zh": "一张优雅的知识卡片，以梵高的《星夜》作为主图，周围环绕着注释标注，突出旋转天空技法、柏树构图和宁静的村庄。侧边的色板条提取画作标志性的钴蓝、明亮黄色和深绿色。角落里有艺术家的小幅肖像素描及生卒年份。卡片背景使用奶油色羊皮纸纹理搭配金箔点缀边框，唤起博物馆展览图录的典雅气息。",
+    "example_image_url": "https://img.promptstudio.art/prompts/knowledge-card-famous-painting.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["知识卡片", "名画鉴赏", "梵高", "星夜", "艺术教育"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "knowledge-card-animal-encyclopedia",
+    "style_id": "knowledge-card",
+    "title_zh": "动物百科卡",
+    "title_en": "Animal Encyclopedia",
+    "subject_zh": "动物百科知识",
+    "prompt_text": "A vivid knowledge card showcasing the red fox in a naturalist illustration style. The fox stands alert in a meadow, its bushy tail and bright orange fur rendered with fine brushwork. Around the main illustration, smaller diagrams show paw prints, skull anatomy, and habitat range on a miniature world map. Key statistics like lifespan, weight, and diet appear in organized icon-and-text pairs. The background blends soft watercolor washes in sage green and warm tan, giving a field journal aesthetic.",
+    "prompt_zh": "一张生动的知识卡片，以博物学插图风格展示赤狐。狐狸警觉地站在草地上，蓬松的尾巴和明亮的橙色皮毛以精细笔触呈现。主插图周围，小型图解展示爪印、头骨解剖和微型世界地图上的栖息地范围。寿命、体重和饮食等关键数据以整齐的图标文字配对形式呈现。背景融合了鼠尾草绿和暖棕褐的柔和水彩渲染，赋予卡片田野日志般的美感，兼具科学性与趣味性。",
+    "example_image_url": "https://img.promptstudio.art/prompts/knowledge-card-animal-encyclopedia.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["知识卡片", "动物百科", "赤狐", "博物学", "自然插图"],
+    "created_at": "2026-02-20"
+  }
+]

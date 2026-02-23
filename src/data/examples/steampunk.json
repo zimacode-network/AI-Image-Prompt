@@ -1,0 +1,67 @@
+[
+  {
+    "id": "steampunk-flying-airship",
+    "style_id": "steampunk",
+    "title_zh": "云端飞艇",
+    "title_en": "The Sky Voyager",
+    "subject_zh": "蒸汽朋克飞艇",
+    "prompt_text": "A colossal steampunk airship soaring through golden sunset clouds, its hull made of riveted copper plates and dark mahogany wood. Multiple brass propellers spin beneath a massive elongated balloon wrapped in leather straps and netting. Steam vents release white plumes from the engine gondola. Tiny observation decks with wrought iron railings line the sides, and navigation flags flutter in the wind.",
+    "prompt_zh": "一艘巨大的蒸汽朋克飞艇穿越金色日落云层，船体由铆接铜板和深色桃花心木制成。多个黄铜螺旋桨在巨大的椭圆气囊下旋转，气囊被皮带和网绳缠绕。蒸汽排气口从引擎吊舱释放出白色蒸汽。两侧排列着带锻铁栏杆的小型观景台，航行旗帜在风中飘扬。",
+    "example_image_url": "https://img.promptstudio.art/prompts/steampunk-flying-airship.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["蒸汽朋克", "飞艇", "幻想", "铜质机械"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "steampunk-clockwork-robot",
+    "style_id": "steampunk",
+    "title_zh": "发条机械人",
+    "title_en": "The Clockwork Automaton",
+    "subject_zh": "蒸汽朋克机器人",
+    "prompt_text": "A humanoid steampunk robot standing in an inventor's workshop, its body assembled from polished brass gears, copper pistons, and glass vacuum tubes glowing amber. The chest cavity is open, revealing an intricate clockwork heart with spinning cogs and a tiny pressure gauge. Its eyes are round magnifying lenses with iris-like apertures. One hand holds a delicate porcelain teacup with mechanical fingers.",
+    "prompt_zh": "一个人形蒸汽朋克机器人站在发明家的工坊中，身体由抛光黄铜齿轮、铜质活塞和发出琥珀色光芒的玻璃真空管组装而成。胸腔打开，露出精密的发条心脏——旋转的齿轮和一个微型压力表。眼睛是圆形放大镜片，配有虹膜般的光圈结构。一只机械手指精巧地托着一个瓷茶杯。",
+    "example_image_url": "https://img.promptstudio.art/prompts/steampunk-clockwork-robot.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["蒸汽朋克", "机器人", "发条", "齿轮", "工坊"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "steampunk-victorian-city",
+    "style_id": "steampunk",
+    "title_zh": "蒸汽维多利亚城",
+    "title_en": "Steam Victorian Metropolis",
+    "subject_zh": "蒸汽朋克维多利亚城市",
+    "prompt_text": "A sprawling steampunk Victorian cityscape at dusk, towering brick factory chimneys belching steam into an amber sky. Elevated railways with brass-plated trains wind between ornate Gothic buildings fitted with giant gear mechanisms on their facades. Gas lamps line cobblestone streets where horse-drawn carriages share the road with three-wheeled steam automobiles. Airships drift lazily above clock tower spires.",
+    "prompt_zh": "黄昏时分一座蔓延的蒸汽朋克维多利亚城市全景，高耸的砖砌工厂烟囱向琥珀色天空喷吐蒸汽。镀铜列车沿高架铁路在华丽的哥特式建筑间穿行，建筑立面装有巨大齿轮机构。煤气灯排列在鹅卵石街道旁，马车与三轮蒸汽汽车共享路面。飞艇在钟楼尖顶上方悠然飘荡。",
+    "example_image_url": "https://img.promptstudio.art/prompts/steampunk-victorian-city.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["蒸汽朋克", "维多利亚", "城市", "黄昏", "工业"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "steampunk-pocket-watch",
+    "style_id": "steampunk",
+    "title_zh": "时光齿轮",
+    "title_en": "Gears of Time",
+    "subject_zh": "蒸汽朋克怀表",
+    "prompt_text": "A magnificent steampunk pocket watch with its case opened to reveal layers of intricate golden clockwork mechanisms. Tiny ruby jewel bearings gleam between meshing brass gears of various sizes. The watch face features Roman numerals engraved in silver with ornate filigree hands. A delicate chain of interlocking miniature keys attaches to the crown. Photographed on aged leather with dramatic side lighting.",
+    "prompt_zh": "一只华丽的蒸汽朋克怀表，表壳打开展露出层层精密的金色发条机构。微小的红宝石轴承在各种尺寸的啮合黄铜齿轮间闪烁。表盘上刻有银质罗马数字，配以华丽的金银丝工艺指针。一条由微型钥匙互锁而成的精致链条连接在表冠上。在陈旧皮革上以戏剧性侧光拍摄。",
+    "example_image_url": "https://img.promptstudio.art/prompts/steampunk-pocket-watch.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["蒸汽朋克", "怀表", "齿轮", "精密机械"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "steampunk-steam-locomotive",
+    "style_id": "steampunk",
+    "title_zh": "钢铁巨兽",
+    "title_en": "Iron Beast Express",
+    "subject_zh": "蒸汽朋克火车头",
+    "prompt_text": "A massive steampunk locomotive thundering down brass-railed tracks through a mountain pass, its boiler glowing cherry red with internal furnace heat. Oversized copper pipes and pressure valves adorn the engine body, releasing jets of white steam. The cowcatcher is shaped like a fierce eagle head in blackened iron. Glowing headlamp cuts through swirling mist as pistons drive enormous spiked wheels forward relentlessly.",
+    "prompt_zh": "一辆巨型蒸汽朋克火车头轰鸣着沿黄铜铁轨驶过山口，锅炉因内部炉火而泛着樱桃红光。超大铜管和压力阀装饰着车身，喷射出白色蒸汽。排障器被铸造成凶猛的鹰头造型，材质为烧黑的铸铁。明亮的车头灯穿透翻涌的迷雾，活塞驱动着巨大的尖刺车轮不停向前。",
+    "example_image_url": "https://img.promptstudio.art/prompts/steampunk-steam-locomotive.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["蒸汽朋克", "火车", "机械", "山谷", "工业"],
+    "created_at": "2026-02-20"
+  }
+]

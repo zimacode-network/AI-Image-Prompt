@@ -1,14 +1,21 @@
 import { MetadataRoute } from "next";
-import { prompts } from "@/lib/data";
+import { getAllStyles, getAllExamples } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://promptstudio.art";
 
-  const promptPages = prompts.map((p) => ({
-    url: `${baseUrl}/prompt/${p.id}`,
-    lastModified: new Date(p.created_at),
+  const stylePages = getAllStyles().map((s) => ({
+    url: `${baseUrl}/style/${s.id}`,
+    lastModified: new Date(s.created_at),
     changeFrequency: "weekly" as const,
-    priority: 0.8,
+    priority: 0.85,
+  }));
+
+  const examplePages = getAllExamples().map((e) => ({
+    url: `${baseUrl}/prompt/${e.id}`,
+    lastModified: new Date(e.created_at),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
   }));
 
   return [
@@ -19,17 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/explore`,
+      url: `${baseUrl}/styles`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 0.9,
     },
-    {
-      url: `${baseUrl}/models`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.85,
-    },
-    ...promptPages,
+    ...stylePages,
+    ...examplePages,
   ];
 }

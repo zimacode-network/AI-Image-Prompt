@@ -1,0 +1,67 @@
+[
+  {
+    "id": "pop-art-portrait-woman",
+    "style_id": "pop-art",
+    "title_zh": "波普风格女性肖像",
+    "title_en": "Pop Art Woman Portrait",
+    "subject_zh": "女性肖像",
+    "prompt_text": "A striking pop art portrait of a glamorous woman in the style of nineteen-sixties commercial illustration. Her face is rendered with bold black outlines and flat areas of vivid color, her lips a brilliant cherry red, her eyeshadow electric blue. Ben-Day dots pattern her skin in gradients of peach and pink, giving a vintage halftone printing effect. Her platinum blonde hair swoops dramatically to one side in a stylized wave. The background is split diagonally into hot pink and bright yellow sections. A thick comic-style thought bubble floats above her head, empty and inviting. The overall composition is graphic, punchy, and unapologetically bold, capturing the spirit of mass-produced commercial art elevated to fine art status.",
+    "prompt_zh": "一幅引人注目的波普艺术风格迷人女性肖像，采用六十年代商业插画风格。她的面部以粗黑色轮廓线和鲜艳色彩的平涂区域呈现，嘴唇是明亮的樱桃红，眼影是电光蓝。本戴圆点图案以桃色和粉色的渐变覆盖她的皮肤，营造出复古的半色调印刷效果。她铂金色的头发以夸张的造型波浪状甩向一侧。背景沿对角线分为亮粉色和明黄色两部分。一个粗线条漫画风格的思想气泡漂浮在她头顶，空白而引人遐想。整体构图图形化、有冲击力、大胆无畏，捕捉了大众商业艺术升华为高雅艺术的精神。",
+    "example_image_url": "https://img.promptstudio.art/prompts/pop-art-portrait-woman.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["波普艺术", "女性肖像", "本戴圆点", "六十年代", "复古风格"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "pop-art-classic-car",
+    "style_id": "pop-art",
+    "title_zh": "波普风格经典老爷车",
+    "title_en": "Pop Art Classic Car",
+    "subject_zh": "经典汽车",
+    "prompt_text": "A pop art depiction of a nineteen-fifty-seven Chevrolet Bel Air convertible shown in a three-quarter front view. The car is rendered in flat, screen-printed layers of candy apple red with thick black contour lines defining its iconic chrome fins, whitewall tires, and sweeping body curves. The chrome details are simplified into stark white highlights against gray shadow shapes. The background is a repeating pattern of the same car in a grid, each copy tinted a different bold color: turquoise, lemon yellow, violet, and orange, reminiscent of Warhol's serial repetition technique. Ben-Day dots texture the sky area in a gradient from cyan to white. The image celebrates consumer culture and automotive nostalgia through the lens of mass reproduction and graphic simplification.",
+    "prompt_zh": "一幅波普艺术风格的1957年雪佛兰贝尔艾尔敞篷车描绘，以四分之三正面视角呈现。汽车以平涂丝网印刷层次的糖果苹果红色渲染，粗黑色轮廓线勾勒出标志性的镀铬尾鳍、白壁轮胎和流畅的车身曲线。镀铬细节被简化为灰色阴影形状上的纯白色高光。背景是同一辆车在网格中的重复排列，每一份染上不同的醒目色彩：绿松石色、柠檬黄、紫罗兰色和橙色，令人联想到沃霍尔的系列重复技法。本戴圆点纹理以青色到白色的渐变填充天空区域。画面通过大量复制和图形简化的视角，颂扬消费文化和汽车怀旧情怀。",
+    "example_image_url": "https://img.promptstudio.art/prompts/pop-art-classic-car.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["波普艺术", "经典汽车", "沃霍尔风格", "复古美国", "丝网印刷"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "pop-art-hamburger-food",
+    "style_id": "pop-art",
+    "title_zh": "波普风格巨型汉堡",
+    "title_en": "Pop Art Giant Hamburger",
+    "subject_zh": "汉堡美食",
+    "prompt_text": "A larger-than-life pop art rendering of a towering cheeseburger floating against a flat background of concentric radiating stripes in alternating red and white, like a vintage advertising starburst. The burger is depicted with exaggerated proportions: an impossibly thick beef patty, dripping neon-yellow melted cheese, crisp green lettuce with serrated edges outlined in black, bright red tomato slices, and a glossy golden sesame seed bun. Every element is defined by heavy black outlines and filled with flat, saturated colors. Small halftone dot patterns add texture to the bun and meat. Tiny action words like pow and sizzle appear in angular comic lettering around the burger. The style transforms ordinary fast food into an iconic object of desire and visual spectacle.",
+    "prompt_zh": "一幅比真实尺寸更大的波普艺术风格巨型芝士汉堡渲染，漂浮在由红白交替的同心放射条纹组成的平面背景上，如同复古广告的星芒图案。汉堡以夸张的比例描绘：厚得不可思议的牛肉饼、滴落的霓虹黄色融化芝士、边缘锯齿状并以黑色勾勒的翠绿生菜、鲜红色的番茄片，以及光泽金黄的芝麻面包。每个元素都由粗重的黑色轮廓线定义，并填充平涂饱和的色彩。细小的半色调圆点图案为面包和肉饼增添质感。汉堡周围以棱角分明的漫画字体出现微小的拟声词。该风格将普通快餐转化为令人渴望的标志性物体和视觉奇观。",
+    "example_image_url": "https://img.promptstudio.art/prompts/pop-art-hamburger-food.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["波普艺术", "汉堡", "美食艺术", "复古广告", "消费文化"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "pop-art-electric-guitar",
+    "style_id": "pop-art",
+    "title_zh": "波普风格电吉他",
+    "title_en": "Pop Art Electric Guitar",
+    "subject_zh": "电吉他",
+    "prompt_text": "A vibrant pop art illustration of an electric guitar rendered as a cultural icon. The guitar body is a Fender Stratocaster shape filled with a psychedelic swirl of hot pink, electric blue, and acid green, outlined by a thick black border. The neck and fretboard are depicted in flat graphical strips of alternating black and white. Musical notes and lightning bolt shapes burst from the headstock in an explosive radial pattern. The background is a grid of four quadrants, each a different solid neon color: magenta, chartreuse, cyan, and tangerine. Halftone dot gradients overlay the lower portion of the composition. The overall effect is loud, energetic, and celebratory, treating the instrument as both a pop culture symbol and a bold graphic object.",
+    "prompt_zh": "一幅充满活力的波普艺术风格电吉他插画，将其呈现为一个文化符号。吉他琴身为芬达Stratocaster形状，填充着亮粉色、电光蓝和酸性绿的迷幻漩涡，外围以粗黑色边框。琴颈和指板以黑白交替的平面图形条纹描绘。音符和闪电形状从琴头以爆炸性的放射状图案迸发而出。背景是四个象限的网格，每个象限为不同的纯色霓虹色：品红、黄绿、青色和橘红。半色调圆点渐变覆盖在构图的下半部分。整体效果响亮、充满能量且富有庆祝感，将乐器同时视为流行文化符号和大胆的图形对象。",
+    "example_image_url": "https://img.promptstudio.art/prompts/pop-art-electric-guitar.webp",
+    "aspect_ratio": "9:16",
+    "tags": ["波普艺术", "电吉他", "音乐文化", "霓虹色彩", "摇滚精神"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "pop-art-sneaker-shoe",
+    "style_id": "pop-art",
+    "title_zh": "波普风格潮流球鞋",
+    "title_en": "Pop Art Sneaker Shoe",
+    "subject_zh": "运动球鞋",
+    "prompt_text": "A pop art celebration of a classic high-top sneaker rendered as a bold graphic icon. The shoe is shown in a dynamic side profile, slightly tilted as if caught mid-step. Its canvas upper is filled with flat white, accented by a thick rubber sole in vivid orange and a toe cap outlined with heavy black lines. The iconic circular ankle patch glows in electric red. Ben-Day dots in various sizes create shading on the fabric and subtle blue shadows beneath the shoe. The background features overlapping speech bubbles in bright yellow and pink containing onomatopoeia words in blocky comic font. Drips and splashes of cyan and magenta paint streak across the lower edge of the canvas, adding controlled chaos. The composition elevates everyday streetwear into a striking piece of graphic art that comments on sneaker culture and mass consumer identity.",
+    "prompt_zh": "一幅波普艺术风格对经典高帮运动鞋的致敬，将其呈现为大胆的图形符号。球鞋以动感的侧面轮廓展示，微微倾斜仿佛被捕捉在迈步的瞬间。帆布鞋面填充平涂白色，搭配鲜艳橙色的厚橡胶鞋底和以粗黑线勾勒的鞋头。标志性的圆形脚踝贴片发出电光红的光芒。各种大小的本戴圆点在织物上创造出阴影效果，鞋底下方有微妙的蓝色投影。背景是明黄色和粉色重叠的对话气泡，内含方块漫画字体的拟声词。青色和品红色的油漆滴落和飞溅横跨画布下缘，增添了可控的混沌感。构图将日常街头穿着提升为引人注目的图形艺术作品，评论着球鞋文化和大众消费认同。",
+    "example_image_url": "https://img.promptstudio.art/prompts/pop-art-sneaker-shoe.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["波普艺术", "球鞋文化", "潮流", "街头艺术", "图形设计"],
+    "created_at": "2026-02-20"
+  }
+]

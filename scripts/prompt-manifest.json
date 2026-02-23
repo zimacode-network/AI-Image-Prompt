@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "3d-render-abstract-sculpture",
+    "style_id": "3d-render",
+    "prompt_text": "A striking abstract sculpture rendered in three dimensions, consisting of intertwined ribbons of polished rose gold and matte ceramic white that spiral upward from a dark stone pedestal. The ribbons twist and fold with organic fluidity, creating negative spaces that frame glimpses of a deep teal background. Each metallic surface catches environmental reflections with photographic accuracy, while the ceramic portions absorb light with a chalky softness. The composition is balanced yet asymmetrical, suggesting both growth and tension. A single overhead spotlight produces a complex pattern of overlapping shadows on the ground plane, adding another layer of visual rhythm to the piece.",
+    "aspect_ratio": "9:16",
+    "filename": "3d-render-abstract-sculpture.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "3d-render-cute-character",
+    "style_id": "3d-render",
+    "prompt_text": "A lovable three-dimensional cartoon character resembling a small round fox with oversized sparkling eyes and tiny stubby legs, standing on a grassy hilltop at golden hour. The fox wears a miniature blue scarf that flutters gently in the breeze. Its fur has a velvety subsurface scattering quality, glowing warmly where the backlight hits the edges of its ears and tail. Daisies and clover surround its feet. The background shows a soft bokeh landscape of rolling green hills under a peachy sunset sky. The overall aesthetic is toy-like and endearing, with smooth rounded forms and a pastel color harmony that feels gentle and inviting.",
+    "aspect_ratio": "3:4",
+    "filename": "3d-render-cute-character.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "3d-render-isometric-room",
+    "style_id": "3d-render",
+    "prompt_text": "A beautifully detailed isometric view of a creative studio room with the front two walls removed to reveal the interior. The space contains a wooden desk with a glowing monitor, a pegboard wall covered in colorful tools, and a cozy armchair with a knitted throw blanket. Warm afternoon sunlight pours through a tall arched window, casting long soft shadows across a herringbone wood floor. Potted plants in terracotta pots sit on floating shelves. A sleeping golden retriever lies on a round rug. The rendering style is clean and slightly stylized with soft global illumination, giving the scene a miniature architectural model quality.",
+    "aspect_ratio": "1:1",
+    "filename": "3d-render-isometric-room.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "3d-render-miniature-kitchen",
+    "style_id": "3d-render",
+    "prompt_text": "A delightful miniature kitchen diorama rendered in three dimensions with tilt-shift depth of field that enhances the tiny scale. The kitchen has sage green cabinetry with brass knob hardware, a white subway tile backsplash, and butcher block countertops holding a tiny stand mixer and ceramic canisters. A miniature copper kettle sits on a vintage-style gas range. Open shelving displays rows of small jars and hanging mugs. Morning light enters through a small window above the sink, illuminating floating dust motes. The scene is cropped tight, filling the frame completely, with every surface showing realistic wear and material texture that sells the illusion of a real space photographed through a macro lens.",
+    "aspect_ratio": "4:3",
+    "filename": "3d-render-miniature-kitchen.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "3d-render-product-sneaker",
+    "style_id": "3d-render",
+    "prompt_text": "A high-end product visualization of a futuristic sneaker floating at a dynamic angle against a smooth gradient background transitioning from warm gray to white. The shoe features a translucent icy blue sole unit, a knitted upper in midnight black with iridescent thread accents, and a chunky sculpted midsole with visible air cushioning chambers. Dramatic studio lighting from the upper left creates crisp highlights along the edges and a soft contact shadow beneath. Tiny particles of light dust drift around the shoe, suggesting weightlessness. The rendering is photorealistic with attention to material differentiation between the matte knit, glossy rubber, and frosted translucent elements.",
+    "aspect_ratio": "4:3",
+    "filename": "3d-render-product-sneaker.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "abstract-color-field-painting",
+    "style_id": "abstract",
+    "prompt_text": "A monumental color field painting in the tradition of Mark Rothko, featuring two large horizontal bands of color hovering on a luminous background. The upper rectangle is a deep, velvety ultramarine blue with softly feathered edges that seem to breathe and pulse. Below it floats a warm rectangle of burnt sienna that glows like embers at dusk. Between and around these forms, a pale saffron ground shimmers with barely visible brushwork. The boundaries between colors are deliberately blurred, creating an atmospheric haze that gives the painting a profound emotional resonance and spiritual depth.",
+    "aspect_ratio": "3:4",
+    "filename": "abstract-color-field-painting.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "abstract-emotional-explosion",
+    "style_id": "abstract",
+    "prompt_text": "An abstract painting capturing the raw intensity of human emotion through violent splashes of crimson red, deep violet, and molten gold against a stark black background. Thick impasto brushstrokes radiate outward from the center like a supernova, with drips and splatters creating a sense of uncontrolled energy. The composition feels chaotic yet deeply intentional, with layers of translucent color building depth and complexity. Fine cracks in the paint surface add texture and age, as if the emotion has been crystallized in time. The overall mood is cathartic, passionate, and overwhelmingly alive.",
+    "aspect_ratio": "1:1",
+    "filename": "abstract-emotional-explosion.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "abstract-flowing-forms",
+    "style_id": "abstract",
+    "prompt_text": "A serene abstract composition of soft, organic forms flowing gracefully across the canvas like slow-moving currents of water. Pale cerulean blue, seafoam green, and warm ivory blend seamlessly into one another with no hard edges. The shapes suggest natural phenomena such as clouds drifting, rivers meandering, or silk fabric caught in a gentle breeze. Subtle gradients create a sense of luminosity from within, as though the forms themselves are glowing softly. The overall feeling is meditative and tranquil, evoking the quiet beauty of nature in constant gentle motion.",
+    "aspect_ratio": "16:9",
+    "filename": "abstract-flowing-forms.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "abstract-geometric-meditation",
+    "style_id": "abstract",
+    "prompt_text": "A precise and contemplative abstract artwork built entirely from interlocking geometric shapes. Concentric circles, perfect triangles, and tessellated hexagons overlap and nest within each other in a mathematically harmonious arrangement. The color palette is restrained, using only matte charcoal, dusty rose, muted teal, and antique white. Each shape casts a subtle shadow suggesting slight depth, as if the geometry floats just above the surface. Fine golden lines trace the edges of key forms, adding a sacred quality. The composition radiates outward from a central point, inviting the viewer into deep, focused contemplation.",
+    "aspect_ratio": "1:1",
+    "filename": "abstract-geometric-meditation.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "abstract-rhythm-and-movement",
+    "style_id": "abstract",
+    "prompt_text": "A dynamic abstract composition that translates the sensation of music into visual form. Sweeping curved lines in jet black dance across a warm cream background, rising and falling like the notation of an unheard symphony. Bursts of bright cadmium orange and electric magenta punctuate the composition at rhythmic intervals, suggesting staccato notes and cymbal crashes. Thinner lines weave between the bold strokes like delicate violin melodies. The entire composition moves from left to right with building intensity, creating a visual crescendo. The energy feels joyful and kinetic, as if the painting itself is performing.",
+    "aspect_ratio": "16:9",
+    "filename": "abstract-rhythm-and-movement.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "anime-cherry-blossom-school-girl",
+    "style_id": "anime",
+    "prompt_text": "A beautiful anime-style illustration of a high school girl standing beneath a canopy of blooming cherry blossom trees along a quiet school path. She wears a classic navy sailor uniform with a red ribbon tie, her long dark hair flowing gently in the spring breeze. Soft pink petals drift around her as she tilts her head slightly, smiling with warm brown eyes. The background shows a blurred school building and a pale blue sky streaked with wispy clouds. The lighting is gentle and diffused, creating a dreamy atmosphere with soft lens-flare accents. Delicate linework, pastel color harmony, and subtle cel-shading give the scene a refined Japanese animation quality.",
+    "aspect_ratio": "3:4",
+    "filename": "anime-cherry-blossom-school-girl.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "anime-cozy-ramen-shop",
+    "style_id": "anime",
+    "prompt_text": "A warm and inviting anime illustration of a tiny ramen shop on a quiet Japanese side street at night. Soft golden light spills from the open front onto the wet cobblestone, where a cat sits grooming itself. Inside, a kind elderly chef in a white headband stirs a steaming pot behind a worn wooden counter. A lone female customer sits on a stool, happily slurping noodles from a large bowl, steam curling upward. Handwritten menu signs hang from the ceiling, and vintage posters decorate the tiled walls. A string of paper lanterns glows above the entrance. Rain falls gently outside, visible as fine silver streaks against the dark indigo sky. The palette is dominated by warm yellows, soft oranges, and cool night blues, evoking nostalgia and comfort.",
+    "aspect_ratio": "4:3",
+    "filename": "anime-cozy-ramen-shop.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "anime-magical-girl-transformation",
+    "style_id": "anime",
+    "prompt_text": "A dazzling anime magical girl transformation sequence captured in a single dynamic frame. The girl is mid-spin at the center of the composition, surrounded by swirling ribbons of sparkling light that are forming her elaborate costume. Her hair transforms from short brown to flowing silver-white, radiating outward in elegant spirals. Crystalline wings begin to materialize behind her, refracting rainbow light. Her expression is one of fierce determination mixed with joy. The background is an abstract burst of concentric star patterns and shimmering geometric shapes in magenta, gold, and cerulean. Every element conveys motion and magic, with generous use of lens flares, glowing particles, and iridescent highlights in the tradition of classic magical girl anime.",
+    "aspect_ratio": "3:4",
+    "filename": "anime-magical-girl-transformation.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "anime-mecha-battle",
+    "style_id": "anime",
+    "prompt_text": "An intense anime mecha battle scene showing a towering humanoid robot clashing with a monstrous biomechanical creature in the ruins of a futuristic Tokyo. The mecha is sleek and angular, armored in white and cobalt blue with glowing orange energy vents along its joints. It wields a massive plasma sword mid-swing, trailing arcs of brilliant white light. The creature is dark and organic, covered in spiny carapace plates. Shattered skyscrapers and clouds of dust fill the background under a blood-red evening sky. Speed lines, particle effects, and dramatic foreshortening emphasize the explosive moment of impact. The rendering combines sharp mechanical detail with fluid action poses characteristic of classic mecha anime.",
+    "aspect_ratio": "16:9",
+    "filename": "anime-mecha-battle.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "anime-sunset-rooftop-scene",
+    "style_id": "anime",
+    "prompt_text": "A melancholic anime scene of a teenage boy sitting alone on the edge of a school rooftop during golden hour. He leans back on his hands, legs dangling over the railing, gazing out at a vast cityscape bathed in warm amber and deep orange sunset light. His school blazer is draped over the railing beside him, his white shirt slightly untucked, tie loosened. The wind tousles his messy dark hair. In the distance, layered silhouettes of buildings fade into a gradient sky that transitions from fiery orange to soft violet. Power lines cut across the composition. The mood is quiet and contemplative, with rich atmospheric perspective and the soft painterly glow typical of emotional anime key visuals.",
+    "aspect_ratio": "16:9",
+    "filename": "anime-sunset-rooftop-scene.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "art-nouveau-botanical-frame",
+    "style_id": "art-nouveau",
+    "prompt_text": "An intricate Art Nouveau decorative border frame composed entirely of intertwining botanical elements. Morning glory vines with heart-shaped leaves spiral upward along both vertical sides, their trumpet flowers opening in gradients of lavender to deep purple. At the top, the vines meet and form an elaborate arched crest where ginkgo leaves fan out in pale gold. The bottom border features a row of stylized lotus buds rising from flowing water lines. Delicate tendrils and unfurling fern fronds fill every gap with rhythmic organic curves. The interior of the frame is left as open negative space with a subtle parchment texture. The line work varies from thick confident outlines on structural elements to hairline details on secondary ornament, all rendered in rich sepia ink with selective color fills in sage green, dusty rose, and antique gold.",
+    "aspect_ratio": "3:4",
+    "filename": "art-nouveau-botanical-frame.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "art-nouveau-peacock-feathers",
+    "style_id": "art-nouveau",
+    "prompt_text": "An opulent Art Nouveau decorative panel featuring a majestic peacock displaying its full tail in a symmetrical fan. Each feather eye is rendered as an intricate medallion of iridescent teal, sapphire blue, and burnished gold, outlined with sinuous black lines that echo organic plant tendrils. The peacock stands on a stylized mosaic floor of interlocking geometric tiles in jade green and amber. Its body is painted in deep jewel-toned blues and greens with metallic gold accents on the breast and crown feathers. The background features a repeating pattern of elongated lily pads and water ripples. The entire composition is framed within a tall arched border decorated with Celtic-inspired knotwork that transitions seamlessly into the natural forms of the feathers.",
+    "aspect_ratio": "9:16",
+    "filename": "art-nouveau-peacock-feathers.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "art-nouveau-stained-glass-window",
+    "style_id": "art-nouveau",
+    "prompt_text": "A luminous Art Nouveau stained glass window design depicting a lush garden scene at sunrise. The central motif is a tall wisteria tree with cascading purple and violet blossom clusters, its trunk forming the main structural lead line that branches into graceful organic curves. Dragonflies with translucent amber wings hover among the blooms. The lower section shows a tranquil pond with water lilies in soft pink and white. Warm golden sunlight streams through from behind, causing each glass segment to glow with saturated color. The lead came lines follow flowing natural forms rather than rigid geometric divisions. Rich emerald greens, deep amethyst purples, and warm honey golds dominate the palette, all appearing to radiate inner light as if backlit by morning sun.",
+    "aspect_ratio": "9:16",
+    "filename": "art-nouveau-stained-glass-window.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "art-nouveau-theater-poster",
+    "style_id": "art-nouveau",
+    "prompt_text": "A striking Art Nouveau theater poster advertising a dramatic performance. A statuesque actress stands center stage in a flowing midnight blue velvet gown, one arm raised gracefully toward a constellation of stars rendered as golden spirals. Her dark hair streams upward, transforming into ornamental swirls that merge with the decorative typography above. The title lettering uses custom hand-drawn characters with elongated serifs that morph into vine tendrils and small blossoms. A border of stylized poppies in vermillion and orange frames the composition. The background transitions from a deep theatrical black at the bottom to a warm amber spotlight effect behind the figure. Smaller text at the bottom announces dates and venue in an elegant period typeface. The overall effect combines dramatic illustration with functional graphic design in the tradition of Toulouse-Lautrec and Mucha.",
+    "aspect_ratio": "9:16",
+    "filename": "art-nouveau-theater-poster.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "art-nouveau-woman-with-flowers",
+    "style_id": "art-nouveau",
+    "prompt_text": "An Art Nouveau illustration of a beautiful woman surrounded by an abundance of flowers in the style of Alphonse Mucha. She is depicted in profile with flowing auburn hair that cascades and intertwines with sinuous stems of lilies and irises. Her features are idealized and serene, with closed eyes suggesting quiet reverie. She wears a loosely draped gown in soft gold and cream that follows the organic curves of her body. An ornate circular halo frames her head, filled with intricate geometric and floral patterns. The color palette is dominated by muted pastels with accents of deep burgundy and forest green. Every line in the composition curves and flows, with the characteristic whiplash curves defining borders and decorative bands at top and bottom.",
+    "aspect_ratio": "3:4",
+    "filename": "art-nouveau-woman-with-flowers.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cartoon-comic-children-book-illustration",
+    "style_id": "cartoon-comic",
+    "prompt_text": "A heartwarming children's book illustration of a small baby elephant sitting on a fluffy cloud high above a sleeping village at night. The elephant holds a glowing golden lantern that casts a warm circle of light, illuminating nearby stars that have friendly smiling faces. Below, tiny cottages with orange-lit windows nestle among rolling green hills. A crescent moon wearing a sleeping cap peeks from the corner. The art style is soft and gentle with rounded shapes, subtle watercolor textures, and a soothing palette of deep indigo, lavender, warm gold, and mint green. Everything feels safe, magical, and dreamlike.",
+    "aspect_ratio": "1:1",
+    "filename": "cartoon-comic-children-book-illustration.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cartoon-comic-comic-strip-scene",
+    "style_id": "cartoon-comic",
+    "prompt_text": "A four-panel comic strip layout telling a short visual story set in a cozy cartoon coffee shop. In the first panel, a cheerful barista with a tall chef hat greets a sleepy office worker. In the second panel, the barista prepares an enormous, impossibly tall latte with dramatic flair. In the third panel, the office worker takes a single sip, eyes bulging wide with shock. In the fourth panel, the worker rockets through the ceiling, leaving a person-shaped hole, while the barista gives a thumbs up. Each panel has a simple flat background with pastel tones, thick black panel borders, and small speech bubbles with symbols instead of words.",
+    "aspect_ratio": "4:3",
+    "filename": "cartoon-comic-comic-strip-scene.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cartoon-comic-funny-animals",
+    "style_id": "cartoon-comic",
+    "prompt_text": "A hilarious cartoon scene of a four-piece animal rock band performing on a makeshift wooden stage deep in a lush green forest. A bear wearing sunglasses plays electric guitar, a fox in a leather jacket pounds the drums, a rabbit with oversized ears sings passionately into a microphone, and a raccoon slaps a bass guitar with a mischievous grin. The audience is a crowd of wide-eyed woodland creatures cheering, some holding tiny glow sticks. Bright stage lights cast colorful beams through the trees. The style is rounded and bouncy with clean outlines, playful exaggerated expressions, and a warm cheerful color palette.",
+    "aspect_ratio": "16:9",
+    "filename": "cartoon-comic-funny-animals.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cartoon-comic-mascot-character",
+    "style_id": "cartoon-comic",
+    "prompt_text": "A friendly cartoon mascot character design of a round, chubby owl wearing a tiny pair of blue-tinted smart glasses and a miniature hoodie with a lightning bolt logo. The owl stands upright on two stubby legs, one wing raised in a confident wave, the other holding a small glowing tablet. Its large expressive eyes are bright amber with a spark of curiosity. The character is shown against a clean white background with a subtle circular shadow beneath, presented in a three-quarter view. The style uses smooth vector-like shapes, minimal shading, a limited palette of teal, amber, soft gray, and white, designed to work as an app icon or brand mascot.",
+    "aspect_ratio": "1:1",
+    "filename": "cartoon-comic-mascot-character.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cartoon-comic-superhero-action",
+    "style_id": "cartoon-comic",
+    "prompt_text": "A bold superhero soaring through the sky above a sprawling cartoon city at sunset, cape billowing dramatically behind them. The hero is mid-punch, clashing with a masked villain on a floating platform surrounded by crackling energy rings. Thick black outlines define every shape, and the color palette is saturated with primary reds, blues, and yellows. Motion lines radiate from the point of impact, and small debris chunks fly outward in exaggerated arcs. The city below is rendered in a simplified, blocky style with tiny cars and pedestrians looking up in awe. Dynamic diagonal composition conveys intense speed and power.",
+    "aspect_ratio": "16:9",
+    "filename": "cartoon-comic-superhero-action.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-design-forest-elf",
+    "style_id": "character-design",
+    "prompt_text": "An elegant forest elf archer with long silver-white hair braided with tiny living vines and blossoms. Pointed ears extend gracefully through the hair. Form-fitting armor crafted from layered green leaves and hardened bark plates, bound with golden thread. A carved wooden longbow rests across the back, a quiver of emerald-fletched arrows at the hip. Striking amber eyes with vertical pupils. Skin with a faint olive-green undertone. Full body character sheet on neutral parchment background.",
+    "aspect_ratio": "3:4",
+    "filename": "character-design-forest-elf.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-design-mythical-creature",
+    "style_id": "character-design",
+    "prompt_text": "An original mythical creature blending Eastern and Western dragon aesthetics. Serpentine body covered in iridescent scales shifting between sapphire blue and jade green. A majestic deer-like head with branching crystal antlers that refract light into tiny rainbows. Four clawed limbs with feathered fetlocks support its sinuous frame. Flowing whiskers and a mane of cloud-like fur trail from jaw and spine. Large luminous golden eyes convey ancient wisdom. Translucent wings patterned like stained glass. Creature design sheet on grey background.",
+    "aspect_ratio": "4:3",
+    "filename": "character-design-mythical-creature.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-design-robot-companion",
+    "style_id": "character-design",
+    "prompt_text": "A small round companion robot with a glossy white ceramic body and soft rounded edges, standing knee-high. Its single large circular eye glows warm teal, expressing curiosity through subtle aperture changes. Two stubby articulated arms end in three-fingered rubber-padded hands. A tiny antenna on top tilts expressively like an ear. Faint seam lines and a chest panel with a glowing heart icon suggest friendliness. Shown on a clean white background in three-quarter view.",
+    "aspect_ratio": "3:4",
+    "filename": "character-design-robot-companion.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-design-space-pirate",
+    "style_id": "character-design",
+    "prompt_text": "A rugged space pirate captain with weathered dark skin and a confident smirk, wearing a tattered leather duster over a reinforced flight suit. One arm replaced by a sleek gunmetal prosthetic with exposed hydraulic pistons and an integrated plasma blaster. A holographic eye patch projects a faint red targeting reticle over the left eye. Heavy magnetic boots and a utility belt loaded with alien gadgets. A cybernetic parrot perches on one shoulder. Character turnaround on dark starfield background.",
+    "aspect_ratio": "4:3",
+    "filename": "character-design-space-pirate.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-design-steampunk-inventor",
+    "style_id": "character-design",
+    "prompt_text": "A Victorian-era steampunk inventor, a middle-aged woman with wild curly auburn hair pinned messily with brass hairpins and small gears. She wears multi-lensed brass goggles on her forehead, a fitted waistcoat over a cream blouse with rolled sleeves. Her leather apron is stained with oil and scorch marks. One hand holds a delicate clockwork bird mid-assembly, the other grips a miniature welding torch. A mechanical backpack with extending copper arms rises behind her. Warm-toned studio background.",
+    "aspect_ratio": "3:4",
+    "filename": "character-design-steampunk-inventor.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-profile-anime-protagonist",
+    "style_id": "character-profile",
+    "prompt_text": "A dynamic character profile card for a teenage anime protagonist with spiky crimson hair and fierce golden eyes, wearing a black school uniform jacket open over a white shirt. Wind whips his hair as he clenches his fist, energy sparks crackling around his knuckles. The card uses a bold manga panel layout with diagonal speed lines. Stat hexagons display strength, speed, spirit, skill, and luck. Cherry blossom petals drift across the scene, and his name appears in bold katakana.",
+    "aspect_ratio": "3:4",
+    "filename": "character-profile-anime-protagonist.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-profile-detective-character",
+    "style_id": "character-profile",
+    "prompt_text": "A noir-styled character profile card for a private detective, showing a sharp-eyed man in a trench coat and fedora under a flickering streetlamp in a rain-slicked alley. The card features a manila folder aesthetic with clipped polaroid photos, fingerprint stamps, and redacted text. Skill meters for observation, deduction, and interrogation use typewriter font. A city skyline silhouette runs along the bottom, and the design is rendered in moody sepia tones with splashes of crimson.",
+    "aspect_ratio": "3:4",
+    "filename": "character-profile-detective-character.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-profile-fantasy-wizard",
+    "style_id": "character-profile",
+    "prompt_text": "A detailed character profile card for an elderly fantasy wizard, depicting a full-body portrait in flowing midnight-blue robes embroidered with silver constellations. His long white beard reaches his waist, and his gnarled oak staff glows with arcane blue energy. Stat bars for wisdom, magic power, and intelligence line the right side. A parchment-textured background holds backstory text in elegant serif font. Smaller insets show his spell book, enchanted amulet, and owl companion.",
+    "aspect_ratio": "3:4",
+    "filename": "character-profile-fantasy-wizard.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-profile-historical-figure",
+    "style_id": "character-profile",
+    "prompt_text": "A stately character profile card for Leonardo da Vinci, featuring a Renaissance oil painting style portrait of the bearded polymath in a red velvet cap and dark robes, holding a compass and quill. Behind him, faded sketches of flying machines and anatomical drawings fill the background like notebook pages. A timeline ribbon traces his major works. The border uses ornate gilded scrollwork from fifteenth-century manuscripts. Warm candlelight tones unify the composition with historical gravitas.",
+    "aspect_ratio": "3:4",
+    "filename": "character-profile-historical-figure.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "character-profile-sci-fi-captain",
+    "style_id": "character-profile",
+    "prompt_text": "A sleek character profile card for a starship captain, featuring a confident woman in a fitted dark grey uniform with luminous cyan rank insignia. She stands on the bridge, holographic star maps reflecting in her determined eyes. Technical readouts display leadership, combat, and diplomacy scores in futuristic gauge graphics. Her ship schematic appears as a translucent overlay below. The color scheme pairs gunmetal grey with electric blue accents against a deep space backdrop with distant nebulae.",
+    "aspect_ratio": "3:4",
+    "filename": "character-profile-sci-fi-captain.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "chinese-classical-hanfu-portrait",
+    "style_id": "chinese-classical",
+    "prompt_text": "An elegant portrait of a young woman wearing a flowing Tang Dynasty style hanfu in layers of soft peach silk and embroidered celadon gauze. Her hair is styled in an elaborate updo adorned with golden phoenix hairpins, jade pendants, and tiny pearl chains that cascade beside her temples. She holds a folding silk fan painted with plum blossoms near her chest, her expression serene and contemplative. Delicate makeup follows classical beauty standards with finely drawn moth eyebrows, powdered porcelain skin, and lips tinted in a subtle cherry red. Behind her, a circular moon gate frames a courtyard garden of blooming peonies and a gently curving willow tree. Soft lantern light illuminates her face from the side, creating a warm painterly atmosphere reminiscent of classical court paintings.",
+    "aspect_ratio": "3:4",
+    "filename": "chinese-classical-hanfu-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "chinese-classical-koi-fish",
+    "style_id": "chinese-classical",
+    "prompt_text": "A vivid Chinese classical painting of koi fish swimming gracefully through a lotus pond. Three magnificent koi glide beneath the water surface, their scales shimmering in brilliant vermillion, pure white, and deep obsidian with golden patches. The water is rendered with translucent layered washes that reveal smooth pebbles and trailing aquatic grasses on the pond floor. Above the surface, large lotus leaves in varying shades of emerald and sage create circular canopies, while a single perfect pink lotus blossom opens its layered petals toward the viewer. Tiny water droplets sit like glass beads on the waxy leaf surfaces. Ripples radiate outward from where one koi breaks the surface, distorting the reflection of a weeping willow overhead. The style blends the precision of traditional gongbi technique with the lively spirit of folk new year paintings, celebrating abundance and good fortune.",
+    "aspect_ratio": "1:1",
+    "filename": "chinese-classical-koi-fish.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "chinese-classical-mountain-landscape",
+    "style_id": "chinese-classical",
+    "prompt_text": "A breathtaking Chinese classical landscape depicting towering jade-green mountains rising through layers of swirling white clouds and golden mist. Ancient pine trees cling to sheer cliff faces, their gnarled branches reaching toward the heavens. A slender waterfall cascades from the highest peak into a tranquil emerald pool far below. A tiny wooden pavilion sits on a rocky outcrop halfway up the mountain, where a lone scholar gazes into the vast distance. The color palette draws from traditional Chinese pigments with rich mineral greens, soft ink washes, and touches of vermillion on the pavilion roof. Auspicious cranes soar between the peaks, their white feathers catching the warm light of a setting sun that bathes the entire scene in a dreamlike amber glow.",
+    "aspect_ratio": "3:4",
+    "filename": "chinese-classical-mountain-landscape.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "chinese-classical-palace-architecture",
+    "style_id": "chinese-classical",
+    "prompt_text": "A majestic view of a Chinese imperial palace complex at dusk, rendered in the rich aesthetic of classical Chinese painting with a contemporary sense of grandeur. Massive red lacquered columns support layered roofs with upturned golden eaves that gleam against a sky painted in gradients of tangerine, rose, and deep indigo. A wide marble terrace leads up to the main hall, flanked by carved stone balustrades and bronze lion guardians. Red palace lanterns hang in rows beneath the eaves, their warm glow beginning to illuminate as twilight deepens. The vast courtyard stretches forward, its polished stone floor reflecting the last light of day. In the distance, watchtowers and secondary halls create a layered silhouette against the darkening sky. Wisps of cloud streak overhead in strokes of gold and violet.",
+    "aspect_ratio": "16:9",
+    "filename": "chinese-classical-palace-architecture.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "chinese-classical-tea-ceremony",
+    "style_id": "chinese-classical",
+    "prompt_text": "A refined Chinese classical scene of an intimate tea ceremony in a scholar's bamboo studio. On a dark rosewood tea table, a rustic clay Yixing teapot steams gently beside a row of small porcelain cups glazed in pale celadon. Dried tea leaves are scattered artfully on a woven bamboo tea tray. An antique bronze incense burner releases a thin curl of fragrant smoke that drifts upward through a shaft of warm afternoon light entering from a latticed wooden window. A partially unrolled calligraphy scroll, an ink stone, and a brush rest occupy one corner of the table. The background reveals a quiet garden courtyard with mossy stones and a single twisted pine. The entire composition conveys scholarly tranquility, rendered in warm earth tones with accents of jade green and aged gold.",
+    "aspect_ratio": "16:9",
+    "filename": "chinese-classical-tea-ceremony.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "claymation-bakery-shop",
+    "style_id": "claymation",
+    "prompt_text": "A cozy claymation bakery shop interior with warm terracotta walls and a checkered floor of flattened clay tiles. Shelves display handcrafted clay pastries including croissants with layered rolls, round bread loaves with scored tops, and colorful cupcakes with swirled frosting. A plump baker in a white apron pulls a tray from a brick oven. The shop window lets in golden afternoon light, and a small chalkboard menu hangs on the wall.",
+    "aspect_ratio": "4:3",
+    "filename": "claymation-bakery-shop.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "claymation-birthday-party",
+    "style_id": "claymation",
+    "prompt_text": "A festive claymation birthday party scene on a sculpted tabletop. A layered clay cake with rainbow frosting and tiny candle flames in orange and yellow clay sits at center. Happy clay characters wearing pointed party hats surround the table with raised arms. Streamers in bright primary colors drape across the frame, and confetti dots the surface. Wrapped gift boxes with clay ribbon bows are stacked beside the table under warm overhead lighting.",
+    "aspect_ratio": "4:3",
+    "filename": "claymation-birthday-party.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "claymation-cute-monster",
+    "style_id": "claymation",
+    "prompt_text": "A charming claymation-style cute monster with a round squishy body in bright lime green, stubby arms, and two mismatched googly eyes. It has a wide toothy grin showing tiny white clay teeth, and small purple horns sit crookedly atop its head. The monster stands on a miniature clay landscape with mushrooms and pebbles. Visible fingerprint textures cover its surface, and warm studio lighting creates soft shadows emphasizing the handmade quality.",
+    "aspect_ratio": "1:1",
+    "filename": "claymation-cute-monster.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "claymation-farm-animals",
+    "style_id": "claymation",
+    "prompt_text": "A lively claymation farm scene with adorable clay animals on a green pasture. A spotted cow with an oversized head chews grass beside a fluffy white sheep with curly wool pressed into the clay. Chickens peck near a bright red barn, and a pink pig rolls in a mud puddle. A border collie herds the group with an alert expression. The ground is textured clay with tiny sculpted flowers, and a wooden fence runs along the background.",
+    "aspect_ratio": "16:9",
+    "filename": "claymation-farm-animals.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "claymation-space-astronaut",
+    "style_id": "claymation",
+    "prompt_text": "A whimsical claymation astronaut floating in outer space, wearing a chunky rounded spacesuit sculpted from white and orange clay with visible seam lines. The helmet visor reflects a tiny clay Earth. The astronaut reaches toward a smiling crescent moon with rosy cheeks. Stars are small balls of yellow clay against a deep navy backdrop. A clay rocket with exaggerated proportions hovers nearby, trailing sculpted smoke puffs in delightful stop-motion style.",
+    "aspect_ratio": "9:16",
+    "filename": "claymation-space-astronaut.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "concept-art-abandoned-temple",
+    "style_id": "concept-art",
+    "prompt_text": "A grand abandoned temple concept art, half-swallowed by jungle overgrowth. Massive stone columns carved with serpentine motifs lean at precarious angles, draped in thick vines. Golden sunlight pierces through the collapsed roof, illuminating a cracked mosaic floor where rainwater reflects the sky. Ancient statues with weathered faces guard a darkened inner sanctum. Parrots perch on broken archways while roots split the flagstones apart.",
+    "aspect_ratio": "4:3",
+    "filename": "concept-art-abandoned-temple.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "concept-art-alien-planet",
+    "style_id": "concept-art",
+    "prompt_text": "A breathtaking concept art vista of an alien planet at dusk, featuring towering bioluminescent crystal spires rising from a violet desert. Twin suns hang low on the horizon, casting amber and magenta shadows across rippled dunes. Strange flora with translucent petals sway in an unseen wind. A lone explorer in a pressure suit stands atop a ridge, gazing toward a distant floating archipelago suspended by unknown forces.",
+    "aspect_ratio": "16:9",
+    "filename": "concept-art-alien-planet.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "concept-art-creature-design",
+    "style_id": "concept-art",
+    "prompt_text": "A detailed creature design concept art sheet showing a majestic forest guardian beast from multiple angles. The creature combines an elk and a great owl, with a broad antlered skull, luminous amber eyes, and layered feather-fur covering its muscular body. Bioluminescent markings trace along its spine in soft green patterns. The sheet includes front, side, and rear views alongside close-ups of claws and wing membrane structure.",
+    "aspect_ratio": "4:3",
+    "filename": "concept-art-creature-design.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "concept-art-futuristic-vehicle",
+    "style_id": "concept-art",
+    "prompt_text": "A sleek futuristic hover vehicle concept art in three-quarter front view against a neutral studio backdrop. The craft features an aerodynamic teardrop body with exposed turbine intakes, glowing cyan propulsion strips along the undercarriage, and a transparent canopy revealing a minimalist cockpit. Matte charcoal carbon fiber panels contrast with polished chrome accents. Faint blue exhaust trails suggest silent electromagnetic propulsion, conveying speed even at rest.",
+    "aspect_ratio": "16:9",
+    "filename": "concept-art-futuristic-vehicle.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "concept-art-underwater-city",
+    "style_id": "concept-art",
+    "prompt_text": "A sprawling underwater city concept art glowing beneath a deep ocean twilight zone. Domed habitats of reinforced glass and coral-inspired architecture cluster around a central spire pulsing with amber light. Transparent transit tubes connect districts while bioluminescent jellyfish drift between towers like living lanterns. Kelp gardens line terraced balconies and tiny submarines glide along designated lanes. The water shifts from deep indigo above to soft turquoise near the city lights.",
+    "aspect_ratio": "16:9",
+    "filename": "concept-art-underwater-city.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cyberpunk-cyber-girl",
+    "style_id": "cyberpunk",
+    "prompt_text": "A close-up portrait of a young woman with striking cybernetic enhancements in a dark cyberpunk setting. One side of her face is organic with pale luminous skin, dark eyeliner, and a piercing violet eye. The other side reveals sleek titanium-grey mechanical components integrated seamlessly beneath translucent synthetic skin, with tiny circuits glowing in soft cyan lines along her cheekbone and temple. Her hair is a dramatic asymmetric cut, jet black on one side and electric white on the other, with fiber-optic strands that emit a faint blue shimmer. She wears a high-collared black jacket with subtle LED piping along the seams. Behind her, out of focus, a rain-streaked window shows the blurred neon glow of the city. Her expression is calm, contemplative, almost melancholic.",
+    "aspect_ratio": "3:4",
+    "filename": "cyberpunk-cyber-girl.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cyberpunk-flying-car-chase",
+    "style_id": "cyberpunk",
+    "prompt_text": "A high-speed chase between two flying vehicles threading through the canyons of a cyberpunk megacity. The lead vehicle is a battered, heavily modified hover-car trailing sparks and blue exhaust flame, banking hard around the corner of a massive building covered in flickering kanji neon signs. The pursuing craft is a sleek black enforcement drone with pulsing red scanner lights and angular predatory lines. Motion blur streaks the neon-lit building facades as both vehicles scream past at impossible speed. Below, thousands of feet down, the city floor glows with a grid of amber streetlights. Holographic traffic lanes glow faintly in parallel green lines between the towers. The atmosphere is thick with rain and smog, catching every light source in a cinematic haze of color.",
+    "aspect_ratio": "16:9",
+    "filename": "cyberpunk-flying-car-chase.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cyberpunk-neon-cityscape",
+    "style_id": "cyberpunk",
+    "prompt_text": "A sprawling cyberpunk cityscape at night, drenched in rain and bathed in neon light. Towering mega-skyscrapers stretch impossibly high, their surfaces covered with massive holographic advertisements in electric pink, cyan, and acid green that reflect off the wet streets below. Elevated monorail tracks weave between buildings, carrying sleek luminous trains. Dense clusters of smaller structures crowd the lower levels, connected by walkways and tangled cables. Steam vents release plumes of warm vapor that catch the colored light, creating an atmospheric haze. The sky above is a dark bruised purple, barely visible through the light pollution. Tiny figures with umbrellas navigate the crowded ground level, dwarfed by the colossal urban machinery surrounding them.",
+    "aspect_ratio": "16:9",
+    "filename": "cyberpunk-neon-cityscape.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cyberpunk-robot-bartender",
+    "style_id": "cyberpunk",
+    "prompt_text": "A humanoid robot bartender working behind the counter of a moody cyberpunk bar. The robot has a polished chrome torso and articulated fingers that move with elegant precision, pouring a luminous turquoise cocktail from a crystal shaker into a glass that glows from within. Its face is a smooth featureless oval with a single horizontal strip of soft amber light where eyes would be, giving it an enigmatic expression. The bar counter is dark mahogany with embedded LED strips pulsing slowly in deep purple. Behind the robot, shelves of exotic bottles contain liquids in impossible neon colors. A few patrons sit on tall stools in the foreground, visible only as dark silhouettes against the warm bar light. Jazz plays from an unseen speaker, suggested by floating holographic music notes drifting lazily through the smoky air.",
+    "aspect_ratio": "4:3",
+    "filename": "cyberpunk-robot-bartender.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "cyberpunk-underground-market",
+    "style_id": "cyberpunk",
+    "prompt_text": "A bustling underground black market hidden beneath a cyberpunk city, crammed into a converted subway station. Vendors hawk their wares from makeshift stalls built of scrap metal and illuminated by strings of mismatched colored lights. One stall displays rows of glowing cybernetic eyes floating in jars of blue liquid. Another offers racks of data chips and cracked holographic displays. The crowd is a motley mix of augmented humans, masked figures in hooded coats, and small cargo drones weaving overhead. Graffiti in multiple languages covers every concrete pillar. Thick cables snake across the ceiling, some sparking where insulation has worn through. The air is hazy with smoke from a noodle stand whose chef works behind a cloud of fragrant steam. A flickering sign overhead reads an indecipherable script in hot magenta neon.",
+    "aspect_ratio": "16:9",
+    "filename": "cyberpunk-underground-market.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "fantasy-dragon-lair",
+    "style_id": "fantasy",
+    "prompt_text": "A vast underground dragon lair illuminated by rivers of molten lava flowing between jagged obsidian rocks. An enormous crimson dragon rests coiled atop a glittering mountain of gold coins, gemstones, and ancient crowns. Its scales shimmer with an inner fire, and thin tendrils of smoke curl from its nostrils. Massive stalactites hang from the cathedral-high ceiling, their tips glowing orange from the heat below. Scattered bones and rusted weapons hint at fallen adventurers who dared enter this forbidden domain.",
+    "aspect_ratio": "16:9",
+    "filename": "fantasy-dragon-lair.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "fantasy-enchanted-forest",
+    "style_id": "fantasy",
+    "prompt_text": "A breathtaking enchanted forest bathed in ethereal moonlight, where ancient towering trees with twisting silver bark glow softly from within. Luminous fireflies and tiny sprites drift between massive roots draped in phosphorescent moss. A crystal-clear stream winds through the undergrowth, its surface reflecting scattered starlight. Delicate mushrooms with translucent caps emit a warm amber glow along the mossy banks. Faint wisps of golden magic spiral upward through the canopy, dissolving into the violet-hued mist above.",
+    "aspect_ratio": "16:9",
+    "filename": "fantasy-enchanted-forest.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "fantasy-fairy-village",
+    "style_id": "fantasy",
+    "prompt_text": "A miniature fairy village nestled among oversized wildflowers and towering blades of grass, seen from a tiny perspective. Delicate houses are crafted from acorn caps, hollowed-out mushrooms, and curled leaves stitched with spider silk. Tiny lanterns made of dewdrops and firefly light hang from woven grass bridges connecting the treetop dwellings. A gentle waterfall cascading from a mossy pebble forms a sparkling pond where fairies with iridescent dragonfly wings gather. Soft golden afternoon sunlight filters through the petal canopy above.",
+    "aspect_ratio": "1:1",
+    "filename": "fantasy-fairy-village.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "fantasy-underwater-kingdom",
+    "style_id": "fantasy",
+    "prompt_text": "A magnificent underwater kingdom sprawling across the ocean floor, with grand palaces built from living coral in rose, gold, and turquoise. Bioluminescent jellyfish drift overhead like floating lanterns, casting shifting blue and violet light across pearl-inlaid streets. Mermaid sentinels in ornate shell armor patrol near towering gates with giant clamshell arches. Schools of tropical fish weave between spiraling seashell towers. Columns of sunlight pierce the deep water, illuminating a central throne carved from a single enormous amethyst.",
+    "aspect_ratio": "16:9",
+    "filename": "fantasy-underwater-kingdom.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "fantasy-wizard-tower",
+    "style_id": "fantasy",
+    "prompt_text": "A tall spiraling wizard tower perched on a dramatic cliff edge, silhouetted against a sky swirling with aurora-like magical currents in deep purple and emerald green. Built from weathered grey stone with arched windows emitting warm candlelight. An open balcony near the top reveals shelves overflowing with ancient tomes and floating celestial globes. Arcane symbols carved into the stonework pulse with faint blue light. Ravens circle the pointed roof as storm clouds gather beyond a darkened valley.",
+    "aspect_ratio": "3:4",
+    "filename": "fantasy-wizard-tower.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "flat-illustration-city-park",
+    "style_id": "flat-illustration",
+    "prompt_text": "A lively flat illustration of a bustling city park on a weekend afternoon. Simplified human figures stroll along curving paths, jog with dogs, and sit on benches reading. A small pond in the center reflects rounded trees in muted olive, sage, and forest green. Children fly a diamond-shaped kite against a pale sky with layered pastel clouds. A food cart with a striped awning sells ice cream near the entrance. The background skyline features geometric skyscrapers in dusty blue and light grey. The entire composition uses flat color blocks without gradients, bold yet harmonious hues, and slightly elongated character proportions that give the scene a modern editorial feel.",
+    "aspect_ratio": "16:9",
+    "filename": "flat-illustration-city-park.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "flat-illustration-coffee-shop",
+    "style_id": "flat-illustration",
+    "prompt_text": "A warm flat illustration of the interior of a cozy corner coffee shop. A barista in an apron stands behind a wooden counter preparing a pour-over, with neatly arranged glass jars of beans on shelves behind. Two customers sit at a round marble table, one sketching in a notebook while the other scrolls through a phone. Warm overhead pendant lamps cast circular pools of golden light. The walls are decorated with simple framed prints and a hanging chalkboard menu with playful lettering. The palette is built around warm browns, burnt orange, cream, and touches of dusty pink. Shapes are geometric and clean, with no visible line work, creating a welcoming and stylish atmosphere.",
+    "aspect_ratio": "4:3",
+    "filename": "flat-illustration-coffee-shop.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "flat-illustration-remote-work",
+    "style_id": "flat-illustration",
+    "prompt_text": "A cheerful flat illustration of a young freelancer working from home at a clean wooden desk. The character sits in a cozy room wearing headphones, typing on a laptop with a steaming cup of coffee beside them. A large window behind reveals a sunny cityscape with simplified geometric buildings in soft pastel tones. A playful cat naps on a stack of books nearby. Potted plants with bold green leaves frame the scene. The color palette uses warm coral, muted teal, creamy yellow, and soft lavender. All shapes are clean with no outlines, relying on color contrast and subtle shadows to define forms. The overall mood is productive yet relaxed.",
+    "aspect_ratio": "16:9",
+    "filename": "flat-illustration-remote-work.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "flat-illustration-team-meeting",
+    "style_id": "flat-illustration",
+    "prompt_text": "A dynamic flat illustration of a diverse team brainstorming in a modern open-plan office. Five characters with varied skin tones and hairstyles gather around a large whiteboard covered with colorful sticky notes and hand-drawn diagrams. One person stands pointing at the board, another leans forward excitedly from a bright orange chair, while others hold tablets and notebooks. The room features floor-to-ceiling glass walls showing a blurred green courtyard outside. Overhead, round acoustic panels in coral and mint hang from the ceiling. A long conference table holds scattered markers, a laptop, and paper coffee cups. The style uses confident flat shapes, no outlines, and a vibrant yet professional palette of navy, coral, mint green, and warm grey.",
+    "aspect_ratio": "16:9",
+    "filename": "flat-illustration-team-meeting.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "flat-illustration-travel-map",
+    "style_id": "flat-illustration",
+    "prompt_text": "A colorful flat illustration of a stylized world travel map spread across the full frame. Continents are rendered as simplified shapes in distinct muted pastels, ocean areas in soft teal blue. Iconic landmarks are scattered across their locations as tiny pictograms: the Eiffel Tower, Mount Fuji, the Pyramids of Giza, the Statue of Liberty, the Sydney Opera House, and the Great Wall. Small airplanes with dotted flight paths arc between destinations. Suitcases, cameras, and passport stamps are tucked into the corners as decorative elements. The typography for continent names uses a clean rounded sans-serif font. The overall design feels like a cheerful infographic poster with a bold yet approachable visual language.",
+    "aspect_ratio": "16:9",
+    "filename": "flat-illustration-travel-map.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "graffiti-animal-character",
+    "style_id": "graffiti",
+    "prompt_text": "A cool graffiti style cartoon bear character standing upright on a painted brick wall, wearing a gold chain necklace and holding a boombox on its shoulder. The bear is spray painted in turquoise and white with heavy black outlines and expressive angular eyes. Dripping paint runs down from the figure. Surrounding elements include stars, arrows, and the tag name BEAR KING in bubbly pink letters.",
+    "aspect_ratio": "4:3",
+    "filename": "graffiti-animal-character.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "graffiti-hip-hop-portrait",
+    "style_id": "graffiti",
+    "prompt_text": "A bold graffiti style portrait of a hip-hop artist wearing oversized headphones and a snapback cap tilted sideways. The face is rendered in high contrast with thick black marker outlines and filled with gradient spray paint from deep violet to bright magenta. The background is a chaotic collage of torn music posters, spray can drips, and bubble letter tags in gold and red.",
+    "aspect_ratio": "3:4",
+    "filename": "graffiti-hip-hop-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "graffiti-skateboard-design",
+    "style_id": "graffiti",
+    "prompt_text": "A skateboard deck design painted in raw graffiti style, viewed from above on a concrete skatepark floor. The deck surface features a screaming skull with flame hair in yellow and orange, surrounded by dripping throw-up letters reading SKATE OR DIE in toxic green with red outlines. Crossed spray cans form an X behind the skull. Paint splatters and scratches give it an authentic street-worn texture.",
+    "aspect_ratio": "9:16",
+    "filename": "graffiti-skateboard-design.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "graffiti-street-wall-mural",
+    "style_id": "graffiti",
+    "prompt_text": "A massive street graffiti mural covering an entire brick warehouse wall in an urban alley. The centerpiece is a roaring lion head painted in dripping neon pink and electric blue with sharp black outlines. Abstract splatter patterns in orange and lime green explode outward. Wildstyle lettering spelling FREEDOM arches above in chrome silver with purple shadows. Raw concrete and peeling posters frame the edges.",
+    "aspect_ratio": "16:9",
+    "filename": "graffiti-street-wall-mural.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "graffiti-subway-train",
+    "style_id": "graffiti",
+    "prompt_text": "A silver subway train car completely covered in colorful whole-car graffiti piece parked at an underground station platform. The artwork features wildstyle interlocking letters in rainbow gradients with three-dimensional block shadows, surrounded by cartoon characters peeking between letters. The station walls show additional tags and throw-ups. Fluorescent platform lights cast a gritty yellow glow over the scene.",
+    "aspect_ratio": "16:9",
+    "filename": "graffiti-subway-train.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "infographic-climate-change",
+    "style_id": "infographic",
+    "prompt_text": "A compelling infographic about global climate change, centered on a large thermometer rising from an Earth illustration that transitions from lush green to scorched brown. Circular charts show carbon emissions by sector in orange and red. A timeline along the left marks temperature anomalies from 1900 to 2025 with an alarming upward curve. Melting ice cap icons and rising sea level diagrams occupy the right panel. The design uses a white background with urgent red and cool blue contrast.",
+    "aspect_ratio": "9:16",
+    "filename": "infographic-climate-change.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "infographic-nutrition-comparison",
+    "style_id": "infographic",
+    "prompt_text": "A clean infographic comparing nutritional profiles of five superfoods: avocado, quinoa, blueberries, salmon, and kale. Each food is represented by a realistic illustration with radiating data spokes showing protein, fiber, vitamins, and antioxidant levels. A horizontal bar at the bottom ranks them by nutrient density. The layout uses a fresh white background with each food assigned a distinct soft pastel color zone. Minimalist icons and modern sans-serif font keep the design approachable and easy to scan.",
+    "aspect_ratio": "4:3",
+    "filename": "infographic-nutrition-comparison.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "infographic-startup-growth",
+    "style_id": "infographic",
+    "prompt_text": "A dynamic infographic charting growth stages of a tech startup, structured as an ascending rocket trajectory from bottom to top. Each stage is a labeled platform: ideation, seed funding, product launch, scaling, and IPO. Bar charts and pie graphs branch outward showing user growth and revenue milestones. The palette shifts from cool startup teal at the bottom to prosperous gold at the summit. Flat-design icons of laptops, handshakes, and dollar signs punctuate each section against a subtle grid background.",
+    "aspect_ratio": "9:16",
+    "filename": "infographic-startup-growth.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "infographic-tech-evolution",
+    "style_id": "infographic",
+    "prompt_text": "A visually rich infographic tracing personal technology evolution from the 1980s to 2020s, arranged as a winding road timeline. Illustrated devices mark each era: bulky desktops, flip phones, smartphones, tablets, and smartwatches. Each device sits on a platform showing its year, key innovation, and adoption rate as a donut chart. The background gradient transitions from retro pixelated greens on the left to sleek minimalist whites on the right, reflecting the modernization of design across four decades.",
+    "aspect_ratio": "16:9",
+    "filename": "infographic-tech-evolution.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "infographic-world-population",
+    "style_id": "infographic",
+    "prompt_text": "A striking infographic visualizing world population distribution, featuring a stylized flat world map where each continent is sized proportionally to its population rather than land area. Human figure pictograms fill each region with density indicated by spacing. A vertical bar compares population milestones from one billion in 1800 to eight billion today. Callout bubbles highlight the ten most populous countries with flag icons. The design employs a dark navy background with warm amber and coral data highlights.",
+    "aspect_ratio": "16:9",
+    "filename": "infographic-world-population.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ink-painting-bamboo-forest",
+    "style_id": "ink-painting",
+    "prompt_text": "A refined Chinese ink painting of a dense bamboo forest swaying in an unseen breeze. Tall bamboo stalks are rendered with confident, single-stroke segments in varying concentrations of ink, from jet black in the foreground to pale silvery grey in the receding depths. Each node is marked with a precise horizontal accent. The leaves burst outward in dynamic clusters, painted with swift, sharp brushstrokes that convey the energy of wind rustling through the grove. Light filters through the canopy, suggested by strategic areas of unpainted white paper that create dappled brightness on the forest floor. A narrow stone path winds between the stalks, disappearing into the misty depths. The ground is indicated with a few loose horizontal strokes and scattered ink dots representing fallen leaves and moss. The composition channels the spirit of the great bamboo painters, celebrating simplicity, resilience, and the beauty of monochrome expression.",
+    "aspect_ratio": "3:4",
+    "filename": "ink-painting-bamboo-forest.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ink-painting-crane-bird",
+    "style_id": "ink-painting",
+    "prompt_text": "A striking ink painting of a red-crowned crane perched on the branch of an ancient pine tree, embodying the classical theme of longevity and nobility. The crane stands tall with its elegant neck curved in a gentle S-shape, its body rendered in clean white space defined by precise ink outlines, with wing tips detailed in graduating black ink feathers. The vivid red crown atop its head provides the single point of color in the otherwise monochrome composition. The pine tree is painted with a gnarled, powerful trunk using dry brush technique that reveals the texture of aged bark, while the needle clusters are depicted as dark ink masses with individual needles radiating outward. A few branches extend horizontally, creating strong compositional lines. The background remains pure white emptiness, evoking an infinite sky. A column of classical calligraphy and a red seal stamp occupy the upper left corner.",
+    "aspect_ratio": "3:4",
+    "filename": "ink-painting-crane-bird.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ink-painting-lotus-pond",
+    "style_id": "ink-painting",
+    "prompt_text": "A contemplative ink painting of a lotus pond at the height of summer. Large circular lotus leaves dominate the composition, painted with broad, expressive brushstrokes in varying ink densities from rich black to translucent grey, their surfaces showing the organic veining created by the brush moving across textured paper. Several lotus flowers rise on slender stems above the leaves, rendered with delicate outlines that suggest soft petals without filling them in, allowing the white of the paper to become the flower itself. A few seed pods stand tall on dried stems, their honeycomb faces dotted with dark seeds. The water surface is implied rather than drawn, existing in the negative space between leaves. A solitary dragonfly, captured in just three or four quick brushstrokes, hovers above one blossom. Ink splatter along the bottom edge suggests ripples and organic debris floating on still water.",
+    "aspect_ratio": "1:1",
+    "filename": "ink-painting-lotus-pond.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ink-painting-misty-village",
+    "style_id": "ink-painting",
+    "prompt_text": "A poetic ink painting of a traditional Jiangnan water village shrouded in soft morning mist. White-walled houses with dark grey tiled roofs line both sides of a narrow canal, their reflections shimmering in loose, wet ink strokes on the water below. A single stone arch bridge spans the canal, its graceful curve echoed perfectly in the reflection to form a complete circle. A wooden sampan is moored beside stone steps descending into the water, a bamboo pole resting across its bow. Weeping willows drape their branches over the canal, their foliage rendered as soft, drooping ink dots that blur into the surrounding mist. The scene is executed in light to medium ink tones, with mist created through generous blank space and wet-on-wet diffusion. Distant rooftops and a pagoda dissolve into pure atmosphere at the edges.",
+    "aspect_ratio": "16:9",
+    "filename": "ink-painting-misty-village.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ink-painting-mountain-river",
+    "style_id": "ink-painting",
+    "prompt_text": "A sweeping Chinese ink painting panorama of mountains and a winding river, executed in the grand shanshui tradition. The composition unfolds from right to left, beginning with towering craggy peaks rendered in bold, saturated ink with powerful textural strokes that suggest layered rock formations. The mountains gradually transition through lighter ink washes toward a broad river that meanders through the valley in silvery, barely tinted water. Tiny fishing boats with triangular sails dot the river surface. Sparse pine trees cling to ridgelines, their needles suggested by clusters of fine brushwork. Mist occupies the middle ground as pure blank space, allowing the paper itself to breathe as cloud and atmosphere. A distant mountain range dissolves into the palest grey, almost vanishing into the white void of the sky. The overall mood is one of vast solitude and philosophical contemplation.",
+    "aspect_ratio": "16:9",
+    "filename": "ink-painting-mountain-river.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "knowledge-card-animal-encyclopedia",
+    "style_id": "knowledge-card",
+    "prompt_text": "A vivid knowledge card showcasing the red fox in a naturalist illustration style. The fox stands alert in a meadow, its bushy tail and bright orange fur rendered with fine brushwork. Around the main illustration, smaller diagrams show paw prints, skull anatomy, and habitat range on a miniature world map. Key statistics like lifespan, weight, and diet appear in organized icon-and-text pairs. The background blends soft watercolor washes in sage green and warm tan, giving a field journal aesthetic.",
+    "aspect_ratio": "3:4",
+    "filename": "knowledge-card-animal-encyclopedia.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "knowledge-card-famous-painting",
+    "style_id": "knowledge-card",
+    "prompt_text": "An elegant knowledge card featuring Starry Night by Van Gogh as the hero image, surrounded by annotation callouts highlighting the swirling sky technique and cypress tree composition. A color palette strip along the side extracts the signature cobalt blues, luminous yellows, and deep greens. A small portrait sketch of the artist appears in the corner with birth and death years. The background uses creamy parchment texture with gold foil borders, evoking a museum exhibition catalog.",
+    "aspect_ratio": "3:4",
+    "filename": "knowledge-card-famous-painting.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "knowledge-card-historical-event",
+    "style_id": "knowledge-card",
+    "prompt_text": "A richly illustrated knowledge card depicting the moon landing of 1969, featuring an astronaut planting a flag on the lunar surface. The Earth rises in the black sky above grey dusty terrain. A timeline ribbon along the bottom marks key milestones of the space race. Vintage photograph textures blend with modern infographic elements. Sepia-toned inset panels show the rocket launch and mission control. The typography uses a retro space-age font paired with crisp body text.",
+    "aspect_ratio": "4:3",
+    "filename": "knowledge-card-historical-event.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "knowledge-card-programming-concept",
+    "style_id": "knowledge-card",
+    "prompt_text": "A clean modern knowledge card explaining recursion in programming. A central illustration shows nested Russian dolls opening one inside another as a visual metaphor. Beside the dolls, a code snippet in a dark-themed editor demonstrates a factorial function. Colorful arrows trace the call stack flowing downward then returning upward. The card uses a dark charcoal background with syntax-highlighted accents in teal, magenta, and gold. A concise definition in white text sits at the top.",
+    "aspect_ratio": "1:1",
+    "filename": "knowledge-card-programming-concept.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "knowledge-card-solar-system",
+    "style_id": "knowledge-card",
+    "prompt_text": "A beautifully designed knowledge card illustrating the solar system, showing all eight planets in correct orbital order around a glowing golden sun. Each planet features accurate surface details, from Jupiter's swirling red storm to Saturn's icy rings. Thin orbital lines connect them in elegant arcs. The background is deep cosmic navy with scattered stars. Clean sans-serif labels float beside each planet. The layout feels like a premium educational poster combining scientific accuracy with visual appeal.",
+    "aspect_ratio": "4:3",
+    "filename": "knowledge-card-solar-system.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "logo-brand-coffee-shop",
+    "style_id": "logo-brand",
+    "prompt_text": "A sophisticated logo design for an artisan coffee shop, featuring a minimalist line drawing of a steaming coffee cup integrated with a single coffee bean motif. The cup is rendered with one continuous flowing line that suggests both warmth and craftsmanship. Below the icon, the brand name is set in a refined serif typeface with generous letter spacing. The entire logo uses a rich espresso brown color on a clean white background. A subtle circular border with a thin double-line treatment frames the composition, giving it the feel of a quality stamp or seal. The design balances modern simplicity with timeless coffeehouse elegance.",
+    "aspect_ratio": "1:1",
+    "filename": "logo-brand-coffee-shop.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "logo-brand-eco-brand",
+    "style_id": "logo-brand",
+    "prompt_text": "A nature-inspired logo for a sustainable lifestyle brand that sells eco-friendly household products. The central icon is a delicate leaf whose veins transform into flowing water ripples at its base, symbolizing the harmony between plant life and water conservation. The leaf is rendered in two tones of sage green with soft, hand-drawn organic linework that feels approachable and honest. The brand name is written beneath in a friendly rounded sans-serif typeface in warm charcoal gray. A small tagline in lighter weight sits below. The overall design feels earthy, trustworthy, and genuinely committed to environmental stewardship without appearing corporate or sterile.",
+    "aspect_ratio": "1:1",
+    "filename": "logo-brand-eco-brand.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "logo-brand-fitness",
+    "style_id": "logo-brand",
+    "prompt_text": "A bold and powerful logo for a modern fitness studio brand. The icon features an abstract human figure in a dynamic athletic pose, constructed from sharp angular geometric shapes that convey strength, speed, and determination. The figure appears to be lunging forward with explosive momentum. The design uses a striking combination of matte black and vivid coral orange, creating high visual impact. The brand name is set in a heavy condensed sans-serif typeface with slightly italicized letters that reinforce the sense of forward motion. The negative space between the geometric forms is used cleverly to suggest additional musculature and energy lines. Clean, powerful, and unmistakably athletic.",
+    "aspect_ratio": "4:3",
+    "filename": "logo-brand-fitness.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "logo-brand-restaurant",
+    "style_id": "logo-brand",
+    "prompt_text": "An elegant logo for a premium Japanese fine dining restaurant. The design centers on a stylized circular emblem inspired by traditional Japanese family crests, containing an abstract arrangement of chopsticks and a cherry blossom branch rendered with precise, balanced symmetry. The emblem uses a single color of deep indigo ink on a warm rice paper white background, evoking the aesthetic of traditional sumi-e brush painting. The restaurant name is set vertically in a refined serif typeface alongside the emblem, with an English translation in small capitals beneath. The composition exudes quiet luxury, cultural authenticity, and meticulous attention to detail.",
+    "aspect_ratio": "1:1",
+    "filename": "logo-brand-restaurant.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "logo-brand-tech-startup",
+    "style_id": "logo-brand",
+    "prompt_text": "A cutting-edge logo for an artificial intelligence technology startup. The mark consists of an abstract neural network pattern formed by interconnected nodes and clean geometric lines, subtly shaped into the silhouette of a human brain. The design uses a vibrant gradient transitioning from electric blue to vivid cyan, conveying innovation and intelligence. The brand name appears to the right in a modern geometric sans-serif typeface with sharp, precise letterforms. The entire composition sits on a deep navy background that makes the bright gradient logo pop with energy. The style communicates forward-thinking technology with clarity and confidence.",
+    "aspect_ratio": "16:9",
+    "filename": "logo-brand-tech-startup.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "low-poly-crystal-cave",
+    "style_id": "low-poly",
+    "prompt_text": "A mesmerizing low-poly crystal cave interior glowing with otherworldly light. Massive crystalline formations jut from the floor and ceiling as clusters of elongated geometric prisms in translucent amethyst purple, icy aquamarine, and pale rose quartz. The faceted surfaces catch and refract an unseen light source, creating bright highlight triangles of white and soft pink on each crystal face. The cave walls are composed of rough, irregular polygons in deep charcoal, dark brown, and mossy green, providing stark contrast to the luminous crystals. A shallow underground pool on the cave floor reflects the crystal formations as a mosaic of shimmering color fragments. Faint bioluminescent spots in electric blue dot the darker recesses, adding depth and mystery to the geometric underworld.",
+    "aspect_ratio": "16:9",
+    "filename": "low-poly-crystal-cave.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "low-poly-forest-deer",
+    "style_id": "low-poly",
+    "prompt_text": "A majestic low-poly stag standing in an autumn forest clearing. The deer is composed of angular triangular facets in rich amber, warm chestnut, and creamy beige, with its large antlers branching upward in sharp crystalline formations of bronze and gold. The animal stands on a carpet of fallen leaves rendered as small flat polygons in burnt orange, deep red, and mustard yellow. Surrounding birch trees are built from vertical faceted cylinders of white and pale grey, their canopies a burst of triangulated amber and crimson. Shafts of low golden sunlight cut through the forest as geometric beams, illuminating floating dust motes represented by tiny bright triangles. The background fades into cooler purple and blue-grey facets suggesting distant forest depth.",
+    "aspect_ratio": "4:3",
+    "filename": "low-poly-forest-deer.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "low-poly-geometric-portrait",
+    "style_id": "low-poly",
+    "prompt_text": "A striking low-poly portrait of a woman facing slightly to the left, her features defined entirely by triangular facets of varying sizes. Larger polygons shape the broad planes of the forehead and cheeks in warm peach and soft terracotta, while smaller, more detailed triangles define the nose ridge, lips, and the subtle curve of the eyelids. Her eyes are rendered as deep amber and dark walnut facets with a single bright highlight triangle in each. The hair cascades in flowing geometric planes of deep burgundy, chocolate brown, and hints of copper, each strand suggested by elongated angular shapes. The background shifts from a warm rose gold on the lit side to cool slate blue in shadow, creating a dramatic chiaroscuro effect built entirely from flat polygonal surfaces.",
+    "aspect_ratio": "3:4",
+    "filename": "low-poly-geometric-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "low-poly-mountain-landscape",
+    "style_id": "low-poly",
+    "prompt_text": "A breathtaking low-poly landscape of snow-capped mountains towering above a mirror-still alpine lake. The scene is constructed entirely from triangular facets, with the peaks rendered in crisp white and pale blue polygons that transition to slate grey and deep indigo at the base. The lake surface is a mosaic of teal and cerulean triangles reflecting the mountain geometry in a slightly shifted pattern. A narrow band of evergreen forest lines the shore, built from dark green and emerald faceted shapes resembling abstract pine silhouettes. The sky graduates from warm peach at the horizon through soft lavender to a deep cobalt overhead, each color zone defined by clean geometric planes. The entire composition feels like a crystalline digital diorama.",
+    "aspect_ratio": "16:9",
+    "filename": "low-poly-mountain-landscape.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "low-poly-ocean-sunset",
+    "style_id": "low-poly",
+    "prompt_text": "A stunning low-poly ocean sunset viewed from a rocky shore. The sky is a dramatic tessellation of triangular facets transitioning from intense tangerine and molten gold near the sun to deep magenta, violet, and finally dark navy at the top. The sun itself is a bright faceted hexagon of pure warm yellow sitting on the horizon line. Ocean waves are abstracted into rows of elongated triangles in deep teal, dark turquoise, and midnight blue, with occasional bright orange facets catching the reflected sunlight. Foreground rocks jut from the water as clusters of dark angular polygons in charcoal and slate. A lone sailboat in the mid-distance is reduced to a handful of white and grey triangles. The water near the horizon glows with a shimmering path of amber and pink geometric fragments.",
+    "aspect_ratio": "16:9",
+    "filename": "low-poly-ocean-sunset.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "memphis-furniture-set",
+    "style_id": "memphis",
+    "prompt_text": "A Memphis design furniture set in a bright studio space. A bookshelf with asymmetric colored shelves in red, yellow, and turquoise stands beside a terrazzo-patterned armchair with tubular chrome legs. A kidney-shaped coffee table in bubblegum pink sits on a geometric rug with black zigzag lines on a mint green ground. Bold, whimsical, and unapologetically postmodern.",
+    "aspect_ratio": "16:9",
+    "filename": "memphis-furniture-set.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "memphis-party-invitation",
+    "style_id": "memphis",
+    "prompt_text": "A fun Memphis style party invitation card with a lavender background. A large star shape in neon orange dominates the center with party details in bold black text inside. Surrounding decorations include wavy teal ribbons, yellow confetti triangles, red outlined circles, and small black squiggles. The border features alternating pink and blue rectangular tabs creating a playful torn-ticket aesthetic.",
+    "aspect_ratio": "3:4",
+    "filename": "memphis-party-invitation.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "memphis-pattern-background",
+    "style_id": "memphis",
+    "prompt_text": "A seamless Memphis pattern background densely packed with geometric motifs on a cream white base. Scattered elements include coral pink semicircles, cobalt blue lightning bolts, yellow polka dots, green cross shapes, and thin black parallel lines at various angles. Small terrazzo speckles fill the gaps. The pattern is flat, graphic, and radiates retro eighties energy with contemporary freshness.",
+    "aspect_ratio": "1:1",
+    "filename": "memphis-pattern-background.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "memphis-poster-design",
+    "style_id": "memphis",
+    "prompt_text": "A vibrant Memphis style poster with bold geometric shapes scattered across a hot pink background. Oversized yellow triangles, teal squiggly lines, black and white checkerboard patterns, and floating purple circles overlap playfully. Large sans-serif typography reads DESIGN FEST in electric blue. Confetti-like dots and zigzag borders frame the composition in a joyful celebration of color and pattern.",
+    "aspect_ratio": "3:4",
+    "filename": "memphis-poster-design.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "memphis-product-packaging",
+    "style_id": "memphis",
+    "prompt_text": "A product packaging box design in Memphis style for a trendy snack brand. The box surface features a bright yellow base covered with scattered geometric shapes including magenta diamonds, cyan wavy stripes, and black dotted circles. The brand logo sits inside a green rounded rectangle with white retro lettering. Studio shot on a pastel gradient background with playful shadow angles.",
+    "aspect_ratio": "1:1",
+    "filename": "memphis-product-packaging.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "minimalism-architecture-facade",
+    "style_id": "minimalism",
+    "prompt_text": "A monumental minimalist building facade of raw white concrete, featuring a single large rectangular window positioned asymmetrically. Sharp afternoon sunlight carves deep geometric shadows across the flat surface. A narrow vertical slit window punctuates the far edge. The sky above is a clear deep blue, amplifying the stark contrast between light, shadow, and pure architectural form.",
+    "aspect_ratio": "4:3",
+    "filename": "minimalism-architecture-facade.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "minimalism-interior-space",
+    "style_id": "minimalism",
+    "prompt_text": "A serene minimalist living room bathed in soft natural light streaming through floor-to-ceiling windows. White linen sofa rests on pale oak flooring, a single ceramic vase with one dried pampas grass stem sits on a low concrete coffee table. Walls are bare plaster in warm ivory, casting gentle shadows. The composition breathes with negative space and quiet elegance.",
+    "aspect_ratio": "16:9",
+    "filename": "minimalism-interior-space.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "minimalism-landscape-horizon",
+    "style_id": "minimalism",
+    "prompt_text": "A vast minimalist landscape where a perfectly straight horizon line divides the canvas into two halves. The upper half is a pale lavender sky fading into soft peach at the edge. The lower half is a calm still lake reflecting the sky like a mirror. A single tiny sailboat sits off-center, creating a quiet focal point in the immense emptiness of sky and water.",
+    "aspect_ratio": "16:9",
+    "filename": "minimalism-landscape-horizon.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "minimalism-product-design",
+    "style_id": "minimalism",
+    "prompt_text": "A minimalist desk lamp with a slender matte black metal arm and a thin circular LED disc head, placed on a smooth white marble surface. The base is a single solid brass cylinder. Background is a uniform warm gray gradient. Studio lighting highlights the clean geometric lines and premium material contrast between metal, brass, and stone.",
+    "aspect_ratio": "1:1",
+    "filename": "minimalism-product-design.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "minimalism-single-flower",
+    "style_id": "minimalism",
+    "prompt_text": "A single white tulip with a long elegant stem placed in a narrow frosted glass vase, set against a pure soft beige background. Delicate morning light enters from the left side, creating a subtle shadow on the wall behind. Every petal edge is crisp and luminous. The mood is meditative and pure, celebrating the profound beauty found in one solitary bloom.",
+    "aspect_ratio": "3:4",
+    "filename": "minimalism-single-flower.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "mosaic-cathedral-ceiling",
+    "style_id": "mosaic",
+    "prompt_text": "A magnificent Byzantine-style mosaic ceiling viewed from directly below, radiating outward from a central golden sun motif. Concentric rings of angels with outstretched wings are formed from thousands of shimmering gold, cobalt blue, and deep crimson glass tesserae. Halos glow with real gold smalti catching scattered light. Intricate vine scrolls fill the pendentives between arches. The dome's curved surface creates a breathtaking sense of heavenly depth with rich gold suggesting infinite divine light.",
+    "aspect_ratio": "1:1",
+    "filename": "mosaic-cathedral-ceiling.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "mosaic-city-skyline",
+    "style_id": "mosaic",
+    "prompt_text": "A modern mosaic interpretation of a city skyline at twilight, blending contemporary design with traditional tile craft. Skyscrapers rise in columns of mirrored silver and steel blue glass tesserae, their windows suggested by tiny gold pieces glowing against dark facades. The sky transitions from deep violet through rose to a luminous golden horizon. A river in the foreground reflects the skyline in softly scrambled tiles. Geometric building precision contrasts beautifully with the organic water flow.",
+    "aspect_ratio": "16:9",
+    "filename": "mosaic-city-skyline.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "mosaic-garden-bird",
+    "style_id": "mosaic",
+    "prompt_text": "A delightful mosaic artwork of a European robin perched on a flowering branch, crafted from irregularly shaped ceramic and glass tiles. The bird's breast glows in warm orange and rust tesserae, while its wings use cool slate gray pieces. Cherry blossom petals are made from pale pink porcelain fragments with visible crackle glaze. The background is a soft sage green field of uniform square tiles. The overall effect feels fresh, decorative, and garden-inspired.",
+    "aspect_ratio": "1:1",
+    "filename": "mosaic-garden-bird.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "mosaic-ocean-fish",
+    "style_id": "mosaic",
+    "prompt_text": "A vibrant mosaic depicting a school of tropical fish swimming through a coral reef, using iridescent glass tiles that shimmer between turquoise and sapphire. Each fish is outlined in darker tesserae with scales suggested by tiny tiles in electric blue, tangerine, and lemon yellow. Sea anemones anchor the bottom in textured pink pieces. Bubbles are circular arrangements of translucent white glass. The flowing composition captures underwater movement with grout lines adding a rhythmic grid unifying the organic forms.",
+    "aspect_ratio": "16:9",
+    "filename": "mosaic-ocean-fish.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "mosaic-roman-portrait",
+    "style_id": "mosaic",
+    "prompt_text": "A classical Roman mosaic portrait of a noble woman rendered in small square tesserae of marble and colored glass. Her face is composed of warm ivory, sienna, and terracotta tiles with subtle gradations modeling the cheekbones. Dark obsidian pieces define her almond-shaped eyes, and tiny gold leaf tesserae highlight her earrings and laurel crown. The background features a geometric border in navy and cream with visible grout lines lending authentic archaeological texture.",
+    "aspect_ratio": "3:4",
+    "filename": "mosaic-roman-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "oil-painting-flower-bouquet",
+    "style_id": "oil-painting",
+    "prompt_text": "A lush oil painting still life of a lavish flower bouquet arranged in an ornate blue and white Delft ceramic vase. The arrangement overflows with full-blown garden roses in cream and blush pink, deep burgundy dahlias, sprays of white hydrangea, and trailing stems of purple wisteria. Each petal is modeled with careful attention to the play of light and shadow, built up from dark undertones to luminous highlights with visible directional brushwork. Several petals have begun to fall, resting on the dark mahogany tabletop alongside a few scattered water droplets that gleam like tiny jewels. The background is a deep, warm umber that gradually darkens toward the edges in the Dutch Golden Age tradition, focusing all attention on the radiant bouquet. A single bumblebee rests on a rose petal, adding a touch of life. The overall lighting is soft and directional from the upper left, creating a Baroque chiaroscuro effect.",
+    "aspect_ratio": "3:4",
+    "filename": "oil-painting-flower-bouquet.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "oil-painting-old-town-street",
+    "style_id": "oil-painting",
+    "prompt_text": "An atmospheric oil painting of a narrow cobblestone street in a European old town just after a rain shower. The wet stones glisten and reflect the warm amber light pouring from cafe windows and wrought-iron street lamps. Colorful building facades in faded ochre, terracotta, and sage green line both sides, their plaster walls showing charming signs of age with peeling paint and exposed brick. Window boxes overflow with red geraniums. A lone figure with a dark umbrella walks away from the viewer down the gently curving street, their reflection stretching along the wet pavement. Puddles mirror fragments of the buildings and a strip of clearing evening sky in soft lavender and steel blue. The paint is applied with confident, expressive strokes that balance detail in the foreground with increasingly loose, suggestive marks in the distance. The palette is dominated by warm golds and cool blue-greys, creating a nostalgic, intimate mood.",
+    "aspect_ratio": "3:4",
+    "filename": "oil-painting-old-town-street.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "oil-painting-portrait-woman",
+    "style_id": "oil-painting",
+    "prompt_text": "A captivating oil portrait of a young woman seated beside a tall window, bathed in soft natural light streaming through sheer linen curtains. She turns slightly toward the viewer with a thoughtful, enigmatic expression. Her dark auburn hair is loosely gathered, with strands falling across her forehead. She wears a simple white cotton blouse with sleeves rolled to her elbows, the fabric folds rendered with subtle variations of warm white, pale blue shadows, and creamy highlights. One hand rests on the windowsill near a ceramic bowl of ripe figs. Her skin is painted with remarkable luminosity, warm undertones of cheeks and lips contrasting with cooler shadows beneath the jaw. The background is a muted grey-green interior wall, understated to keep focus on the figure. The brushwork blends smooth modeling with visible energetic strokes that give the painting life and immediacy.",
+    "aspect_ratio": "3:4",
+    "filename": "oil-painting-portrait-woman.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "oil-painting-stormy-sea",
+    "style_id": "oil-painting",
+    "prompt_text": "A powerful oil painting of a raging sea during a violent storm. Enormous waves rise like dark mountains of water, their crests curling and breaking into explosions of white foam rendered with thick palette knife strokes. The water churns in deep viridian, prussian blue, and near-black indigo, with flashes of translucent turquoise where light penetrates the thinnest wave edges. A small wooden sailing vessel tilts precariously on the slope of a massive swell, its torn sails whipping in the gale, tiny figures on deck clinging to the rigging. The sky is a turbulent mass of slate grey storm clouds, split by a dramatic shaft of golden light breaking through and illuminating the nearest wave. Lightning forks in the distance. The entire surface is alive with texture, paint applied with raw physical energy that mirrors the fury of the ocean.",
+    "aspect_ratio": "16:9",
+    "filename": "oil-painting-stormy-sea.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "oil-painting-sunset-landscape",
+    "style_id": "oil-painting",
+    "prompt_text": "A richly textured oil painting of a vast wheat field stretching toward a dramatic sunset horizon. The foreground is filled with golden stalks of ripe wheat rendered with thick impasto brushstrokes that catch the light, each stroke visible and tactile. A dirt path cuts diagonally through the field, leading the eye toward dark cypress trees silhouetted against the sky. The sky is a symphony of color in layered glazes, transitioning from deep cadmium orange near the sun to bands of rose madder, then cooling into cerulean and deep prussian blue at the zenith. The sun sits low as a molten disk of Naples yellow surrounded by radiating streaks of light. Long shadows stretch across the field in warm purple tones. The paint surface is richly built up with visible palette knife marks that give the canvas a sculptural quality reminiscent of Impressionist landscape masters.",
+    "aspect_ratio": "16:9",
+    "filename": "oil-painting-sunset-landscape.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "papercut-butterfly-garden",
+    "style_id": "papercut",
+    "prompt_text": "A vibrant papercut artwork of a butterfly garden bursting with color and intricate detail. Dozens of butterflies in jewel tones of sapphire, ruby, and emerald flutter among blooming peonies and wisteria vines. Each butterfly wing features symmetrical filigree cuts revealing the pale background beneath. Flower petals layer upon one another with visible paper edges adding texture. A decorative archway of intertwined stems frames the central composition, blending traditional papercut precision with botanical illustration sensibility.",
+    "aspect_ratio": "3:4",
+    "filename": "papercut-butterfly-garden.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "papercut-forest-animals",
+    "style_id": "papercut",
+    "prompt_text": "A layered papercut diorama of a whimsical forest scene with multiple depth layers in soft earth tones. In the foreground, a fox and rabbit sit among ferns cut from amber paper. The middle layer shows birch trees in cream white with delicate bark texture. Deeper layers reveal a deer family silhouetted against a pale peach sunset. Tiny birds perch on branches throughout, and mushrooms dot the floor. Each layer casts subtle shadows on the one behind it.",
+    "aspect_ratio": "4:3",
+    "filename": "papercut-forest-animals.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "papercut-ocean-waves",
+    "style_id": "papercut",
+    "prompt_text": "A dramatic papercut artwork of rolling ocean waves in graduated shades of blue, teal, and white. Curling wave crests are formed by intricate spiral cuts that let light pass through, creating a luminous foam effect. Beneath the surface, silhouettes of whales and sea turtles are visible through delicate cutout windows. A small sailing boat rides the tallest wave. The entire composition uses negative space masterfully to suggest motion, depth, and the raw power of the sea.",
+    "aspect_ratio": "16:9",
+    "filename": "papercut-ocean-waves.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "papercut-spring-festival",
+    "style_id": "papercut",
+    "prompt_text": "An intricate Chinese papercut artwork depicting a joyful Spring Festival scene in traditional red and gold. A family gathers around a round table laden with dumplings, framed by an ornate window lattice border. Paper lanterns hang from above while firecrackers burst in symmetrical patterns. Plum blossoms weave through the negative space. Every element is connected by delicate bridges of uncut paper, maintaining single-sheet integrity characteristic of folk papercut art.",
+    "aspect_ratio": "1:1",
+    "filename": "papercut-spring-festival.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "papercut-village-landscape",
+    "style_id": "papercut",
+    "prompt_text": "A charming papercut panorama of a pastoral village landscape in warm harvest colors. Rolling hills in layered ochre and sage green paper recede into the distance. Cottages with thatched roofs sit beside a winding river cut from silver-blue paper. Terraced rice paddies step down a hillside, and a stone bridge arches over the stream. A farmer leads an ox along a narrow path while geese waddle nearby. Willow trees frame the scene with cascading cut-paper leaves.",
+    "aspect_ratio": "16:9",
+    "filename": "papercut-village-landscape.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "photography-architecture-brutalist",
+    "style_id": "photography",
+    "prompt_text": "A dramatic architectural photograph of a brutalist concrete building from a low angle against a stark overcast sky. Bold geometric forms with massive cantilevered slabs, deep recessed windows creating strong shadow patterns, and raw board-formed concrete textures showing every grain. Strong diagonal lines from an exterior staircase cut across the composition. A single small human figure at the base provides powerful scale contrast. High contrast black and white with rich tonal range emphasizing the sculptural quality of raw concrete.",
+    "aspect_ratio": "9:16",
+    "filename": "photography-architecture-brutalist.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "photography-food-styling",
+    "style_id": "photography",
+    "prompt_text": "A top-down food photograph of an elegantly plated French dessert on a handmade ceramic plate with an organic irregular edge. A dark chocolate mousse dome with mirror glaze reflecting studio lights, garnished with gold leaf, a delicate tuile cookie, and three precisely placed fresh raspberries. Scattered cocoa powder and a thin berry coulis drizzle create artful negative space. Weathered grey marble surface beneath. Soft diffused overhead lighting, styled with linen napkin and vintage silver spoon at frame edge.",
+    "aspect_ratio": "1:1",
+    "filename": "photography-food-styling.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "photography-golden-hour-portrait",
+    "style_id": "photography",
+    "prompt_text": "A portrait photograph of a young woman during golden hour, the warm setting sun behind her left shoulder creating a radiant backlit halo around her windswept hair. Soft amber light wraps around her face, casting gentle shadows beneath her cheekbones. She gazes slightly off-camera with a serene expression. The background is dreamy bokeh of sun-dappled meadow grasses in warm honey and apricot tones. Shallow depth of field at f/1.8, natural skin tones, warm color grading.",
+    "aspect_ratio": "3:4",
+    "filename": "photography-golden-hour-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "photography-macro-dewdrop",
+    "style_id": "photography",
+    "prompt_text": "An extreme macro photograph of a single perfect dewdrop resting on the velvety petal of a deep red rose in early morning light. The droplet acts as a natural lens, refracting an inverted image of the surrounding garden within its curved surface. Tiny surface tension ripples visible at the contact point. The petal texture shows intricate cellular patterns in rich crimson. Background dissolves into creamy soft-focus green and pink. Dedicated macro lens at 2:1 magnification, focus-stacked for razor sharpness.",
+    "aspect_ratio": "1:1",
+    "filename": "photography-macro-dewdrop.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "photography-street-photography",
+    "style_id": "photography",
+    "prompt_text": "A candid street photograph on a rainy evening in Tokyo. A lone figure with a transparent umbrella walks across a neon-reflected crosswalk, silhouette sharp against blurred streaks of passing taxi lights. Puddles on asphalt mirror glowing signs of izakayas and convenience stores in warm reds and cool blues. Composition uses leading lines from crosswalk stripes toward the figure. Slight motion blur on passing traffic, high contrast black and white with selective color preserving only neon reflections.",
+    "aspect_ratio": "16:9",
+    "filename": "photography-street-photography.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pixel-art-cozy-room",
+    "style_id": "pixel-art",
+    "prompt_text": "A charming pixel art depiction of a cozy bedroom at night, seen from the front like a dollhouse cross-section. A small character with pajamas reads a book under a warm lamp on a wooden nightstand. Rain streams down the window in animated pixel droplets, and a cat curls up at the foot of a quilted bed. Bookshelves overflow with colorful tiny spines, and a steaming mug of cocoa sits on a round rug beside fuzzy slippers. The lighting is soft and warm, with the lamp casting a golden glow that fades into gentle shadow at the room edges. Everything radiates comfort and quiet contentment.",
+    "aspect_ratio": "1:1",
+    "filename": "pixel-art-cozy-room.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pixel-art-dragon-castle",
+    "style_id": "pixel-art",
+    "prompt_text": "A massive pixel art castle perched on a craggy mountain peak under a stormy twilight sky. A fearsome dragon with outstretched wings circles the tallest tower, breathing a stream of orange and red fire that illuminates the stone walls below. Knights in silver armor stand along the battlements, their tiny pixel shields raised. Lightning forks across dark purple clouds in the background, each bolt a jagged white line just a few pixels wide. Tattered banners in royal blue and gold flutter from the turrets. The scene captures an epic moment of fantasy conflict, rendered with the loving precision and limited palette of classic adventure game art.",
+    "aspect_ratio": "4:3",
+    "filename": "pixel-art-dragon-castle.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pixel-art-forest-adventure",
+    "style_id": "pixel-art",
+    "prompt_text": "A lush pixel art forest scene viewed from side-scrolling perspective, with a small adventurer character wearing a green cloak standing on a mossy stone bridge over a sparkling stream. Towering oak trees with individually placed leaf clusters create a dense canopy that lets golden sunbeams filter through in visible shafts of light. Tiny woodland creatures peek from behind mushrooms and fallen logs. Fireflies drift lazily near the water surface, each one a single bright yellow pixel. The color palette uses rich emerald greens, warm amber, and deep earth browns, evoking the charm of classic sixteen-bit role-playing games from the golden era.",
+    "aspect_ratio": "16:9",
+    "filename": "pixel-art-forest-adventure.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pixel-art-pixel-food",
+    "style_id": "pixel-art",
+    "prompt_text": "A delightful pixel art spread of Japanese street food arranged on a wooden counter, viewed from directly above in a flat top-down composition. A bowl of steaming ramen with carefully pixelated noodles, a soft-boiled egg sliced in half, and green onion garnish sits at the center. Surrounding it are takoyaki on a boat-shaped plate, a row of colorful dango on bamboo skewers, a tall glass of melon soda with a striped straw, and a taiyaki with cream filling peeking out. Each item uses a distinct warm color cluster against the dark wood grain background. The style is clean, appetizing, and playfully miniature.",
+    "aspect_ratio": "1:1",
+    "filename": "pixel-art-pixel-food.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pixel-art-space-station",
+    "style_id": "pixel-art",
+    "prompt_text": "A detailed pixel art interior of a futuristic space station command center, viewed from a slightly elevated isometric angle. Multiple holographic screens display star maps and system diagnostics in glowing cyan and orange pixels. An astronaut in a white suit sits in a swivel chair monitoring the controls. Through a large panoramic window, a ringed gas giant planet dominates the view, its bands of cream and russet rendered in careful horizontal pixel rows. Blinking indicator lights in red and green dot the control panels. The floor has metallic tiles with subtle reflections, and overhead pipe systems run along the ceiling in orderly patterns.",
+    "aspect_ratio": "16:9",
+    "filename": "pixel-art-space-station.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pop-art-classic-car",
+    "style_id": "pop-art",
+    "prompt_text": "A pop art depiction of a nineteen-fifty-seven Chevrolet Bel Air convertible shown in a three-quarter front view. The car is rendered in flat, screen-printed layers of candy apple red with thick black contour lines defining its iconic chrome fins, whitewall tires, and sweeping body curves. The chrome details are simplified into stark white highlights against gray shadow shapes. The background is a repeating pattern of the same car in a grid, each copy tinted a different bold color: turquoise, lemon yellow, violet, and orange, reminiscent of Warhol's serial repetition technique. Ben-Day dots texture the sky area in a gradient from cyan to white. The image celebrates consumer culture and automotive nostalgia through the lens of mass reproduction and graphic simplification.",
+    "aspect_ratio": "16:9",
+    "filename": "pop-art-classic-car.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pop-art-electric-guitar",
+    "style_id": "pop-art",
+    "prompt_text": "A vibrant pop art illustration of an electric guitar rendered as a cultural icon. The guitar body is a Fender Stratocaster shape filled with a psychedelic swirl of hot pink, electric blue, and acid green, outlined by a thick black border. The neck and fretboard are depicted in flat graphical strips of alternating black and white. Musical notes and lightning bolt shapes burst from the headstock in an explosive radial pattern. The background is a grid of four quadrants, each a different solid neon color: magenta, chartreuse, cyan, and tangerine. Halftone dot gradients overlay the lower portion of the composition. The overall effect is loud, energetic, and celebratory, treating the instrument as both a pop culture symbol and a bold graphic object.",
+    "aspect_ratio": "9:16",
+    "filename": "pop-art-electric-guitar.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pop-art-hamburger-food",
+    "style_id": "pop-art",
+    "prompt_text": "A larger-than-life pop art rendering of a towering cheeseburger floating against a flat background of concentric radiating stripes in alternating red and white, like a vintage advertising starburst. The burger is depicted with exaggerated proportions: an impossibly thick beef patty, dripping neon-yellow melted cheese, crisp green lettuce with serrated edges outlined in black, bright red tomato slices, and a glossy golden sesame seed bun. Every element is defined by heavy black outlines and filled with flat, saturated colors. Small halftone dot patterns add texture to the bun and meat. Tiny action words like pow and sizzle appear in angular comic lettering around the burger. The style transforms ordinary fast food into an iconic object of desire and visual spectacle.",
+    "aspect_ratio": "1:1",
+    "filename": "pop-art-hamburger-food.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pop-art-portrait-woman",
+    "style_id": "pop-art",
+    "prompt_text": "A striking pop art portrait of a glamorous woman in the style of nineteen-sixties commercial illustration. Her face is rendered with bold black outlines and flat areas of vivid color, her lips a brilliant cherry red, her eyeshadow electric blue. Ben-Day dots pattern her skin in gradients of peach and pink, giving a vintage halftone printing effect. Her platinum blonde hair swoops dramatically to one side in a stylized wave. The background is split diagonally into hot pink and bright yellow sections. A thick comic-style thought bubble floats above her head, empty and inviting. The overall composition is graphic, punchy, and unapologetically bold, capturing the spirit of mass-produced commercial art elevated to fine art status.",
+    "aspect_ratio": "3:4",
+    "filename": "pop-art-portrait-woman.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "pop-art-sneaker-shoe",
+    "style_id": "pop-art",
+    "prompt_text": "A pop art celebration of a classic high-top sneaker rendered as a bold graphic icon. The shoe is shown in a dynamic side profile, slightly tilted as if caught mid-step. Its canvas upper is filled with flat white, accented by a thick rubber sole in vivid orange and a toe cap outlined with heavy black lines. The iconic circular ankle patch glows in electric red. Ben-Day dots in various sizes create shading on the fabric and subtle blue shadows beneath the shoe. The background features overlapping speech bubbles in bright yellow and pink containing onomatopoeia words in blocky comic font. Drips and splashes of cyan and magenta paint streak across the lower edge of the canvas, adding controlled chaos. The composition elevates everyday streetwear into a striking piece of graphic art that comments on sneaker culture and mass consumer identity.",
+    "aspect_ratio": "4:3",
+    "filename": "pop-art-sneaker-shoe.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "recipe-card-chocolate-cake",
+    "style_id": "recipe-card",
+    "prompt_text": "A decadent recipe card for triple-layer chocolate cake, showcasing a cross-section slice revealing moist dark sponge layers with glossy ganache filling. Rich frosting drips down the sides, topped with fresh raspberries and cocoa powder. The layout arranges ingredients in a flat-lay circle around the cake photo, including cocoa beans, butter, and vanilla pods. A vintage kraft paper background with hand-drawn cocoa plant borders frames everything. Typography mixes serif headers with handwritten baking tips.",
+    "aspect_ratio": "3:4",
+    "filename": "recipe-card-chocolate-cake.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "recipe-card-dim-sum",
+    "style_id": "recipe-card",
+    "prompt_text": "A charming recipe card for traditional Cantonese dim sum, featuring a steaming bamboo basket filled with translucent crystal shrimp dumplings, their pleated edges folded with precision. Alongside sit fluffy char siu bao with golden tops revealing barbecue pork filling. Wisps of steam rise against a warm red and gold background evoking a tea house atmosphere. Side panels illustrate the wrapping technique in four sequential sketches. The typography combines bold Chinese brush characters with bilingual instructions.",
+    "aspect_ratio": "4:3",
+    "filename": "recipe-card-dim-sum.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "recipe-card-pasta-recipe",
+    "style_id": "recipe-card",
+    "prompt_text": "A warm recipe card for classic spaghetti carbonara, featuring the finished dish in a rustic ceramic bowl, creamy egg sauce coating each strand with crispy guanciale on top. Fresh cracked pepper and grated pecorino dust the surface. Below, neatly typeset ingredient lists and numbered steps appear on a linen-textured background. Small watercolor illustrations of eggs, cheese, and pasta accent the margins. The design feels like a page from an Italian grandmother's handwritten cookbook.",
+    "aspect_ratio": "3:4",
+    "filename": "recipe-card-pasta-recipe.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "recipe-card-smoothie-bowl",
+    "style_id": "recipe-card",
+    "prompt_text": "A vibrant recipe card for an acai smoothie bowl, featuring a top-down photo of a deep purple blended base topped with sliced banana, granola clusters, chia seeds, coconut flakes, and fresh blueberries in neat rows. The bowl sits on a light marble surface with a wooden spoon beside it. The design uses a tropical palette of magenta, teal, and sunny yellow. Nutritional icons display calories and protein in circular badges. Clean sans-serif text keeps the layout airy.",
+    "aspect_ratio": "1:1",
+    "filename": "recipe-card-smoothie-bowl.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "recipe-card-sushi-making",
+    "style_id": "recipe-card",
+    "prompt_text": "A refined recipe card for homemade sushi rolls, featuring an overhead shot of a bamboo mat with neatly sliced maki revealing salmon, avocado, and cucumber fillings. Wasabi and pickled ginger sit in small ceramic dishes beside dark soy sauce. Step-by-step illustrations along the bottom show hands spreading rice, placing fillings, and rolling tightly. The card uses a clean Japanese aesthetic with soft cream background, indigo accents, and minimalist brush-stroke typography.",
+    "aspect_ratio": "3:4",
+    "filename": "recipe-card-sushi-making.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "retro-poster-concert-announcement",
+    "style_id": "retro-poster",
+    "prompt_text": "A psychedelic rock concert poster inspired by the San Francisco poster art of the late 1960s. Swirling, organic lettering morphs and flows like melting wax, spelling out the band name in nearly illegible but visually stunning typography. The background features kaleidoscopic patterns of electric purple, acid green, hot pink, and sunshine yellow radiating from a central mandala. A stylized figure plays guitar surrounded by blooming flowers and cosmic starbursts. The ink appears to have been screen-printed with slight registration misalignment, adding authentic vintage charm. Every inch of the poster is filled with intricate decorative detail.",
+    "aspect_ratio": "3:4",
+    "filename": "retro-poster-concert-announcement.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "retro-poster-movie-poster",
+    "style_id": "retro-poster",
+    "prompt_text": "A dramatic film noir movie poster from the 1940s featuring a mysterious detective standing beneath a flickering streetlamp on a rain-slicked city street. Deep shadows cut across the scene at sharp diagonal angles. A femme fatale silhouette appears in an illuminated window above. The composition uses a stark contrast of pitch black and golden lamplight, with occasional accents of blood red. Hand-painted lettering in a classic serif typeface announces the film title at the bottom. The entire poster has a slightly weathered, aged paper quality with subtle fold marks and foxing spots that suggest decades of history.",
+    "aspect_ratio": "3:4",
+    "filename": "retro-poster-movie-poster.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "retro-poster-product-advertisement",
+    "style_id": "retro-poster",
+    "prompt_text": "A cheerful 1950s-style advertising poster for a premium coffee brand. A smiling housewife in a polka-dot dress holds up a steaming cup of coffee with an expression of pure delight. The illustration style is clean and optimistic with bold outlines and flat colors typical of postwar commercial art. A large coffee cup dominates the lower portion with aromatic steam curling upward in decorative swirls. The background is a warm buttercup yellow with a red and white checkerboard border. Retro display typeface announces the brand slogan in a playful, confident tone. The print quality mimics offset lithography with rich, saturated inks.",
+    "aspect_ratio": "3:4",
+    "filename": "retro-poster-product-advertisement.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "retro-poster-space-exploration",
+    "style_id": "retro-poster",
+    "prompt_text": "A retro-futuristic space exploration poster depicting a grand vision of human settlement on Mars, styled after mid-century NASA promotional artwork. A sleek rocket ship with chrome fins stands tall on the rust-red Martian surface, with geodesic dome habitats glowing warmly in the background. Two astronauts in bulky vintage spacesuits plant a flag while gazing at the pale blue dot of Earth in the starry sky above. The illustration uses a limited palette of deep space navy, Martian terra cotta, metallic silver, and warm white. Bold condensed sans-serif lettering at the top proclaims an inspiring call to explore the cosmos.",
+    "aspect_ratio": "3:4",
+    "filename": "retro-poster-space-exploration.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "retro-poster-travel-destination",
+    "style_id": "retro-poster",
+    "prompt_text": "A vintage travel poster advertising the Swiss Alps in the classic mid-century illustration style. A majestic snow-capped mountain peak rises against a brilliant azure sky, with a charming alpine village nestled in the green valley below. Bold sans-serif typography at the top reads the destination name in an elegant arc. The color palette uses rich, slightly faded tones of forest green, sky blue, warm ochre, and crisp white, printed with visible halftone dot texture. A small retro airplane trails across the corner of the sky. The overall design channels the golden age of travel with optimism and wanderlust.",
+    "aspect_ratio": "3:4",
+    "filename": "retro-poster-travel-destination.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "social-media-event-announcement",
+    "style_id": "social-media",
+    "prompt_text": "A vibrant social media event poster for a summer music festival, featuring a bold geometric sun bursting with rays in hot orange, magenta, and golden yellow. Silhouettes of festival-goers with raised hands dance along the bottom. The event name appears in chunky retro display font at center, with date and venue stacked below. Confetti particles and musical notes scatter across the design. The energy is celebratory and youthful, using a saturated tropical palette conveying outdoor summer vibes.",
+    "aspect_ratio": "9:16",
+    "filename": "social-media-event-announcement.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "social-media-holiday-greeting",
+    "style_id": "social-media",
+    "prompt_text": "A festive social media holiday greeting for Chinese New Year, featuring an adorable illustrated dragon in red and gold coiling playfully around a glowing lantern. Cherry blossom branches frame the top corners, and golden firework bursts sparkle across a rich crimson background. The greeting in elegant Chinese calligraphy wishes prosperity, with a smaller English translation beneath. Traditional cloud motifs and lucky coin patterns fill the negative space. Red envelopes and tangerine illustrations decorate the lower border.",
+    "aspect_ratio": "1:1",
+    "filename": "social-media-holiday-greeting.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "social-media-personal-branding",
+    "style_id": "social-media",
+    "prompt_text": "A sophisticated personal branding social media template with a professional headshot in a circular frame, surrounded by name, title, and three expertise areas displayed as elegant pill-shaped tags. The background uses a refined split design with soft blush pink on the left and crisp white on the right, divided by a thin gold line. Contact icons for email, LinkedIn, and portfolio align along the bottom. Typography pairs a modern serif for the name with light sans-serif for details.",
+    "aspect_ratio": "1:1",
+    "filename": "social-media-personal-branding.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "social-media-product-launch",
+    "style_id": "social-media",
+    "prompt_text": "A high-impact social media announcement for a wireless earbud launch, featuring sleek pearl-white earbuds floating against a gradient from deep midnight blue to vibrant electric purple. Dynamic light streaks radiate outward suggesting innovation and energy. Bold sans-serif headline announces the launch date in crisp white. Feature icons for noise cancellation, battery life, and water resistance line the bottom. The composition is sharp and premium, designed to stop the scroll with cinematic lighting and minimalist luxury.",
+    "aspect_ratio": "1:1",
+    "filename": "social-media-product-launch.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "social-media-quote-card",
+    "style_id": "social-media",
+    "prompt_text": "A polished social media quote card featuring an inspirational message in bold white calligraphy centered on a dreamy out-of-focus golden sunset cloud background. The quote appears in elegant flowing script with thin decorative lines above and below. The author attribution sits in small caps beneath. Subtle lens flare blooms from the upper right corner. The composition is perfectly sized for Instagram with generous breathing room around the text. The color mood blends peach, amber, and soft lavender hues.",
+    "aspect_ratio": "1:1",
+    "filename": "social-media-quote-card.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "steampunk-clockwork-robot",
+    "style_id": "steampunk",
+    "prompt_text": "A humanoid steampunk robot standing in an inventor's workshop, its body assembled from polished brass gears, copper pistons, and glass vacuum tubes glowing amber. The chest cavity is open, revealing an intricate clockwork heart with spinning cogs and a tiny pressure gauge. Its eyes are round magnifying lenses with iris-like apertures. One hand holds a delicate porcelain teacup with mechanical fingers.",
+    "aspect_ratio": "3:4",
+    "filename": "steampunk-clockwork-robot.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "steampunk-flying-airship",
+    "style_id": "steampunk",
+    "prompt_text": "A colossal steampunk airship soaring through golden sunset clouds, its hull made of riveted copper plates and dark mahogany wood. Multiple brass propellers spin beneath a massive elongated balloon wrapped in leather straps and netting. Steam vents release white plumes from the engine gondola. Tiny observation decks with wrought iron railings line the sides, and navigation flags flutter in the wind.",
+    "aspect_ratio": "16:9",
+    "filename": "steampunk-flying-airship.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "steampunk-pocket-watch",
+    "style_id": "steampunk",
+    "prompt_text": "A magnificent steampunk pocket watch with its case opened to reveal layers of intricate golden clockwork mechanisms. Tiny ruby jewel bearings gleam between meshing brass gears of various sizes. The watch face features Roman numerals engraved in silver with ornate filigree hands. A delicate chain of interlocking miniature keys attaches to the crown. Photographed on aged leather with dramatic side lighting.",
+    "aspect_ratio": "1:1",
+    "filename": "steampunk-pocket-watch.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "steampunk-steam-locomotive",
+    "style_id": "steampunk",
+    "prompt_text": "A massive steampunk locomotive thundering down brass-railed tracks through a mountain pass, its boiler glowing cherry red with internal furnace heat. Oversized copper pipes and pressure valves adorn the engine body, releasing jets of white steam. The cowcatcher is shaped like a fierce eagle head in blackened iron. Glowing headlamp cuts through swirling mist as pistons drive enormous spiked wheels forward relentlessly.",
+    "aspect_ratio": "16:9",
+    "filename": "steampunk-steam-locomotive.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "steampunk-victorian-city",
+    "style_id": "steampunk",
+    "prompt_text": "A sprawling steampunk Victorian cityscape at dusk, towering brick factory chimneys belching steam into an amber sky. Elevated railways with brass-plated trains wind between ornate Gothic buildings fitted with giant gear mechanisms on their facades. Gas lamps line cobblestone streets where horse-drawn carriages share the road with three-wheeled steam automobiles. Airships drift lazily above clock tower spires.",
+    "aspect_ratio": "16:9",
+    "filename": "steampunk-victorian-city.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ukiyo-e-cherry-blossom-temple",
+    "style_id": "ukiyo-e",
+    "prompt_text": "A serene ukiyo-e landscape of an ancient Japanese temple nestled among clouds of cherry blossoms in full bloom. The multi-tiered pagoda rises gracefully with its curved eaves, printed in warm vermillion and earthy brown tones with precise architectural lines. Cherry trees frame the composition from both sides, their branches heavy with clusters of pale pink petals, some drifting downward like snow. A stone path leads through a torii gate toward the temple entrance, where two small figures in traditional robes walk in quiet contemplation. A gentle stream crosses the foreground over mossy rocks. The sky shifts from warm peach at the horizon through bands of soft blue, rendered in the flat color planes typical of woodblock printing.",
+    "aspect_ratio": "4:3",
+    "filename": "ukiyo-e-cherry-blossom-temple.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ukiyo-e-geisha-portrait",
+    "style_id": "ukiyo-e",
+    "prompt_text": "An elegant ukiyo-e portrait of a geisha in the bijin-ga tradition, shown from the waist up in a three-quarter view. Her face is rendered with the classic oval shape, delicate eyebrows like willow leaves, and a small rosebud mouth with subtle crimson pigment. An elaborate hairstyle is adorned with golden kanzashi hairpins and silk flowers. She wears a richly patterned kimono in deep indigo with white crane motifs, the fabric folds described by flowing calligraphic lines. One graceful hand holds a partially open folding fan decorated with autumn maple leaves. The background is a flat wash of soft mica grey, characteristic of luxury Edo-period prints. Fine woodgrain texture is visible throughout.",
+    "aspect_ratio": "3:4",
+    "filename": "ukiyo-e-geisha-portrait.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ukiyo-e-great-wave",
+    "style_id": "ukiyo-e",
+    "prompt_text": "A dramatic ukiyo-e woodblock print depicting a towering ocean wave about to crash down upon three wooden fishing boats. The wave curls with menacing power, its crest dissolving into hundreds of white claw-like fingers of foam against a deep Prussian blue body of water. Fishermen cling to their vessels, rendered as small determined figures. In the distance, a snow-capped sacred mountain sits serenely beneath the chaos, its pale triangular form framed perfectly within the curve of the wave. The sky is rendered in a gradient from pale yellow near the horizon to a muted grey above. Bold black outlines define every element with the precision of carved woodblock lines.",
+    "aspect_ratio": "16:9",
+    "filename": "ukiyo-e-great-wave.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ukiyo-e-mount-fuji",
+    "style_id": "ukiyo-e",
+    "prompt_text": "A classic ukiyo-e landscape in the meisho-e tradition showing Mount Fuji on a clear autumn day, viewed across golden rice paddies. The sacred mountain dominates the upper portion of the composition, its symmetrical cone rendered in gradients of indigo at the base transitioning to a pure white snow cap. In the foreground, farmers bend among the harvest-ready rice fields, their conical straw hats forming rhythmic patterns. A line of dark pine trees creates a strong horizontal band across the middle ground. Two red-crowned cranes take flight from a shallow marsh, their wings outstretched. The sky is printed in a distinctive graduated blue wash called bokashi, deepening from pale near the mountain to rich Prussian blue at the top edge.",
+    "aspect_ratio": "16:9",
+    "filename": "ukiyo-e-mount-fuji.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "ukiyo-e-samurai-battle",
+    "style_id": "ukiyo-e",
+    "prompt_text": "A dynamic ukiyo-e battle scene in the musha-e warrior print tradition, depicting two samurai locked in fierce combat on a windswept battlefield. The central figure lunges forward with a katana raised overhead, wearing elaborate armor with laced plates in crimson and gold, a horned kabuto helmet, and a billowing sashimono banner on his back. His opponent braces with a long spear, armored in dark steel blue. Their robes and banners whip violently in the wind, creating dramatic diagonal lines across the composition. Swirling clouds of dust and stylized flames fill the background. Every element is defined by bold, energetic outlines with areas of flat vibrant color. The intensity of expression on their faces follows the exaggerated kabuki-inspired style.",
+    "aspect_ratio": "16:9",
+    "filename": "ukiyo-e-samurai-battle.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "vaporwave-neon-grid-highway",
+    "style_id": "vaporwave",
+    "prompt_text": "A straight highway stretching to infinity across a flat digital landscape, its surface made of glowing magenta grid lines on a black plane. On the horizon, a massive chrome sun sets between jagged purple mountain silhouettes. The sky above transitions from deep indigo to electric orange with thin cloud streaks. Retro sports car taillights leave long pink light trails along the road. Stars begin to appear as tiny white dots in the upper portion. The entire scene pulses with the energy of a synthesizer soundtrack, capturing the essence of speed, solitude, and an imagined future that never arrived.",
+    "aspect_ratio": "16:9",
+    "filename": "vaporwave-neon-grid-highway.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "vaporwave-palm-tree-sunset",
+    "style_id": "vaporwave",
+    "prompt_text": "Silhouettes of tall palm trees lining a coastal boulevard against a dramatic sunset sky rendered in horizontal bands of peach, lavender, and deep violet. The sun is a perfect glowing circle sinking below a calm ocean that reflects neon pink light across its surface. A tiled sidewalk in pastel checkerboard pattern leads the eye toward the horizon. Faint scan lines run across the entire image as if viewed on an old television. The atmosphere is warm, melancholic, and deeply romantic, evoking endless summer evenings that exist only in memory and synthesizer music.",
+    "aspect_ratio": "16:9",
+    "filename": "vaporwave-palm-tree-sunset.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "vaporwave-retro-computer-setup",
+    "style_id": "vaporwave",
+    "prompt_text": "A vintage desktop computer from the early nineties sitting on a glossy white desk, the chunky CRT monitor displaying a rotating wireframe globe in cyan and magenta. Stacks of floppy disks and a beige mechanical keyboard surround the machine. The entire scene is bathed in gradients of hot pink, electric purple, and turquoise. Soft halftone dots overlay the background, and Greek marble columns frame the composition on each side. Chrome Japanese text floats near the top of the image, catching light like liquid mercury. The mood is nostalgic yet futuristic, blending consumer technology with dreamlike surrealism.",
+    "aspect_ratio": "16:9",
+    "filename": "vaporwave-retro-computer-setup.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "vaporwave-roman-bust-statue",
+    "style_id": "vaporwave",
+    "prompt_text": "A classical white marble bust of a Roman figure, cracked and weathered with age, placed against a flat background of soft pink to blue gradient. One eye of the statue glitches with horizontal displacement artifacts, and rainbow light refracts through a triangular prism floating beside its head. Geometric wireframe shapes in cyan orbit the sculpture slowly. Tiny Japanese katakana characters cascade down one side like digital rain. The juxtaposition of ancient artistry and digital decay creates a meditation on beauty, impermanence, and the strange afterlife of cultural icons in the age of infinite reproduction.",
+    "aspect_ratio": "1:1",
+    "filename": "vaporwave-roman-bust-statue.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "vaporwave-shopping-mall",
+    "style_id": "vaporwave",
+    "prompt_text": "An abandoned shopping mall interior from the late nineteen eighties, its long corridors stretching into vanishing point perspective. Polished marble floors reflect the glow of purple and teal fluorescent lights overhead. Empty storefronts with faded signage in both English and Japanese line each side. Potted tropical plants in large ceramic planters sit beside dry decorative fountains. Escalators frozen mid-motion lead to an upper level shrouded in soft pink fog. The silence is palpable, creating a liminal space that feels both familiar and deeply uncanny, as if time itself has become a consumer product on clearance.",
+    "aspect_ratio": "3:4",
+    "filename": "vaporwave-shopping-mall.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "watercolor-cat-sleeping",
+    "style_id": "watercolor",
+    "prompt_text": "A tender watercolor study of a ginger tabby cat curled up asleep on a sunlit windowsill. The fur is rendered with layered wet-on-dry glazes in warm sienna, amber, and touches of soft peach, preserving the white of the paper for the brightest highlights on the ears and whiskers. One paw tucks beneath the chin while the tail wraps around the body in a gentle curve. A potted succulent and a ceramic mug sit nearby, painted with simple confident strokes. Afternoon light pours through sheer curtains, casting a pale lemon glow across the scene. The background remains largely unpainted, letting the paper breathe.",
+    "aspect_ratio": "1:1",
+    "filename": "watercolor-cat-sleeping.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "watercolor-coastal-lighthouse",
+    "style_id": "watercolor",
+    "prompt_text": "A dramatic watercolor painting of a white lighthouse perched on rugged coastal cliffs at golden hour. The ocean below churns with waves rendered in sweeping strokes of cerulean, ultramarine, and viridian, with sea foam suggested by lifting pigment back to bare paper. The cliff face is built from granulating earth tones layered wet into wet, creating natural textural effects. The lighthouse itself is painted with clean, precise edges that contrast the looseness of the surrounding landscape. A warm amber glow emanates from the lantern room against a sky graduating from peach near the horizon to soft violet overhead. Seabirds arc through the composition as simple calligraphic marks.",
+    "aspect_ratio": "4:3",
+    "filename": "watercolor-coastal-lighthouse.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "watercolor-rainy-street",
+    "style_id": "watercolor",
+    "prompt_text": "A moody watercolor scene of a narrow city street on a rainy evening. Wet pavement reflects blurred neon signs and warm golden light spilling from a small café doorway. Figures with umbrellas walk in silhouette, their forms rendered with loose, gestural brushstrokes that bleed into the surrounding wash. Puddles on the cobblestones mirror the deep indigo sky and streaks of crimson from a distant traffic light. The buildings are suggested rather than defined, with edges softening into the misty atmosphere. Droplets of clean water lifted from the surface create tiny starbursts of unpainted white paper, capturing the sparkle of rain.",
+    "aspect_ratio": "3:4",
+    "filename": "watercolor-rainy-street.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "watercolor-spring-garden",
+    "style_id": "watercolor",
+    "prompt_text": "A luminous watercolor painting of a spring garden in full bloom, viewed from a winding stone path. Soft washes of pink cherry blossoms and lavender wisteria cascade over a wooden pergola. Daffodils and tulips in warm yellows and corals line the edges of the path. The morning sunlight filters through translucent petals, creating gentle pools of light on the damp earth. A weathered wooden bench sits beneath an old magnolia tree. The background dissolves into soft wet-on-wet blends of pale green and sky blue, with pigment blooming naturally at the edges. Delicate spatters suggest pollen drifting in the breeze.",
+    "aspect_ratio": "16:9",
+    "filename": "watercolor-spring-garden.webp",
+    "output_dir": "prompts/"
+  },
+  {
+    "id": "watercolor-wildflower-meadow",
+    "style_id": "watercolor",
+    "prompt_text": "A vibrant watercolor of a wildflower meadow on a rolling hillside under a vast summer sky. The foreground bursts with loose, spontaneous marks representing poppies in cadmium red, cornflowers in cobalt blue, daisies in pure white, and buttercups in bright yellow, all dancing among tall grasses painted with quick upward flicks of sap green and yellow ochre. The middle ground softens into an impressionistic blur of color. Distant hills fade to a pale blue-grey, barely distinguishable from the sky. Fluffy cumulus clouds are shaped by leaving white paper untouched within subtle grey-blue outlines. A single butterfly hovers above the flowers, wings translucent against the light.",
+    "aspect_ratio": "16:9",
+    "filename": "watercolor-wildflower-meadow.webp",
+    "output_dir": "prompts/"
+  }
+]

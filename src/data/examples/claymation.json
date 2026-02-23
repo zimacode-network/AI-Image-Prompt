@@ -1,0 +1,67 @@
+[
+  {
+    "id": "claymation-cute-monster",
+    "style_id": "claymation",
+    "title_zh": "可爱怪兽",
+    "title_en": "Cute Monster",
+    "subject_zh": "可爱黏土小怪兽",
+    "prompt_text": "A charming claymation-style cute monster with a round squishy body in bright lime green, stubby arms, and two mismatched googly eyes. It has a wide toothy grin showing tiny white clay teeth, and small purple horns sit crookedly atop its head. The monster stands on a miniature clay landscape with mushrooms and pebbles. Visible fingerprint textures cover its surface, and warm studio lighting creates soft shadows emphasizing the handmade quality.",
+    "prompt_zh": "一只迷人的黏土动画风格可爱怪兽，拥有明亮青柠绿色的圆润柔软身体、短粗的手臂和两只大小不一的圆溜溜眼睛。它咧着大嘴笑，露出一排小巧的白色黏土牙齿，头顶歪歪扭扭地长着紫色小角。怪兽站在微型黏土景观上，周围有蘑菇和小石子。表面可见指纹纹理，温暖的工作室灯光投下柔和阴影，突出手工制作的品质。",
+    "example_image_url": "https://img.promptstudio.art/prompts/claymation-cute-monster.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["黏土动画", "可爱怪兽", "定格动画", "手工质感", "角色设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "claymation-bakery-shop",
+    "style_id": "claymation",
+    "title_zh": "黏土面包店",
+    "title_en": "Bakery Shop",
+    "subject_zh": "黏土风格面包烘焙店",
+    "prompt_text": "A cozy claymation bakery shop interior with warm terracotta walls and a checkered floor of flattened clay tiles. Shelves display handcrafted clay pastries including croissants with layered rolls, round bread loaves with scored tops, and colorful cupcakes with swirled frosting. A plump baker in a white apron pulls a tray from a brick oven. The shop window lets in golden afternoon light, and a small chalkboard menu hangs on the wall.",
+    "prompt_zh": "一间温馨的黏土动画面包店内景，赭石色暖墙和压平黏土瓷砖拼成的格子地板。货架上陈列着手工黏土糕点，包括层叠卷纹的羊角面包、顶部划纹的圆面包，以及螺旋糖霜的彩色纸杯蛋糕。一个胖乎乎的面包师穿着白围裙，从砖烤炉中取出烤盘。店铺橱窗透入金色午后阳光，墙上挂着一块小黑板菜单。",
+    "example_image_url": "https://img.promptstudio.art/prompts/claymation-bakery-shop.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["黏土动画", "面包店", "烘焙", "温馨场景", "微缩模型"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "claymation-space-astronaut",
+    "style_id": "claymation",
+    "title_zh": "太空宇航员",
+    "title_en": "Space Astronaut",
+    "subject_zh": "黏土太空宇航员",
+    "prompt_text": "A whimsical claymation astronaut floating in outer space, wearing a chunky rounded spacesuit sculpted from white and orange clay with visible seam lines. The helmet visor reflects a tiny clay Earth. The astronaut reaches toward a smiling crescent moon with rosy cheeks. Stars are small balls of yellow clay against a deep navy backdrop. A clay rocket with exaggerated proportions hovers nearby, trailing sculpted smoke puffs in delightful stop-motion style.",
+    "prompt_zh": "一个异想天开的黏土动画宇航员漂浮在外太空，穿着白色和橙色黏土雕塑的厚实圆润太空服，可见接缝线条。头盔面罩反射出一个小小的黏土地球。宇航员伸手触向一个带红润脸颊的微笑弯月。星星是小颗黄色黏土球点缀在深海军蓝背景上。一艘比例夸张的黏土火箭在旁边悬浮，拖着雕塑烟雾团，呈现出迷人的定格动画风格。",
+    "example_image_url": "https://img.promptstudio.art/prompts/claymation-space-astronaut.webp",
+    "aspect_ratio": "9:16",
+    "tags": ["黏土动画", "宇航员", "太空探索", "童趣风格", "定格动画"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "claymation-farm-animals",
+    "style_id": "claymation",
+    "title_zh": "农场动物",
+    "title_en": "Farm Animals",
+    "subject_zh": "黏土农场动物",
+    "prompt_text": "A lively claymation farm scene with adorable clay animals on a green pasture. A spotted cow with an oversized head chews grass beside a fluffy white sheep with curly wool pressed into the clay. Chickens peck near a bright red barn, and a pink pig rolls in a mud puddle. A border collie herds the group with an alert expression. The ground is textured clay with tiny sculpted flowers, and a wooden fence runs along the background.",
+    "prompt_zh": "一个生动的黏土动画农场场景，可爱的黏土动物在绿色牧场上。一头头部超大的斑点奶牛在吃草，旁边是一只蓬松的白色绵羊，卷曲的羊毛压入黏土中。鸡群在鲜红色谷仓旁啄食，一只粉红色小猪在泥潭中打滚。一只边境牧羊犬以警觉的表情驱赶着羊群。地面是带有微型雕塑花朵的纹理黏土，木栅栏在背景中延伸。",
+    "example_image_url": "https://img.promptstudio.art/prompts/claymation-farm-animals.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["黏土动画", "农场动物", "田园场景", "可爱角色", "手工质感"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "claymation-birthday-party",
+    "style_id": "claymation",
+    "title_zh": "生日派对",
+    "title_en": "Birthday Party",
+    "subject_zh": "黏土生日庆祝派对",
+    "prompt_text": "A festive claymation birthday party scene on a sculpted tabletop. A layered clay cake with rainbow frosting and tiny candle flames in orange and yellow clay sits at center. Happy clay characters wearing pointed party hats surround the table with raised arms. Streamers in bright primary colors drape across the frame, and confetti dots the surface. Wrapped gift boxes with clay ribbon bows are stacked beside the table under warm overhead lighting.",
+    "prompt_zh": "一个欢乐的黏土动画生日派对场景，设置在雕塑桌面上。一个彩虹糖霜的多层黏土蛋糕居中放置，橙黄色黏土制成的小蜡烛火焰闪烁。戴着尖顶派对帽的快乐黏土角色围坐桌旁举起双臂。鲜艳原色的彩带横挂在画面上，五彩纸屑散落在桌面。系着黏土蝴蝶结丝带的包装礼盒堆放在桌旁，温暖的顶部照明洒下光芒。",
+    "example_image_url": "https://img.promptstudio.art/prompts/claymation-birthday-party.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["黏土动画", "生日派对", "庆祝场景", "彩色蛋糕", "欢乐氛围"],
+    "created_at": "2026-02-20"
+  }
+]

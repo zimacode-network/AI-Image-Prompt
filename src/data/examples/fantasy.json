@@ -1,0 +1,67 @@
+[
+  {
+    "id": "fantasy-enchanted-forest",
+    "style_id": "fantasy",
+    "title_zh": "魔法森林",
+    "title_en": "Enchanted Forest",
+    "subject_zh": "弥漫着魔法光芒的古老森林深处",
+    "prompt_text": "A breathtaking enchanted forest bathed in ethereal moonlight, where ancient towering trees with twisting silver bark glow softly from within. Luminous fireflies and tiny sprites drift between massive roots draped in phosphorescent moss. A crystal-clear stream winds through the undergrowth, its surface reflecting scattered starlight. Delicate mushrooms with translucent caps emit a warm amber glow along the mossy banks. Faint wisps of golden magic spiral upward through the canopy, dissolving into the violet-hued mist above.",
+    "prompt_zh": "一片令人叹为观止的魔法森林沐浴在空灵的月光中，古老参天的大树扭曲的银色树皮从内部柔和地发光。发光的萤火虫和微小的精灵在覆满磷光苔藓的巨大树根间飘荡。一条清澈见底的小溪蜿蜒穿过灌木丛，水面映射着零散的星光。半透明菌盖的精致蘑菇沿着苔藓堤岸散发着温暖的琥珀色光芒。金色魔法的缥缈丝缕螺旋上升穿过树冠，消融在上方紫色调的薄雾中。",
+    "example_image_url": "https://img.promptstudio.art/prompts/fantasy-enchanted-forest.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["奇幻", "森林", "魔法", "月光", "精灵"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "fantasy-dragon-lair",
+    "style_id": "fantasy",
+    "title_zh": "龙之巢穴",
+    "title_en": "Dragon Lair",
+    "subject_zh": "堆满宝藏的火龙洞穴",
+    "prompt_text": "A vast underground dragon lair illuminated by rivers of molten lava flowing between jagged obsidian rocks. An enormous crimson dragon rests coiled atop a glittering mountain of gold coins, gemstones, and ancient crowns. Its scales shimmer with an inner fire, and thin tendrils of smoke curl from its nostrils. Massive stalactites hang from the cathedral-high ceiling, their tips glowing orange from the heat below. Scattered bones and rusted weapons hint at fallen adventurers who dared enter this forbidden domain.",
+    "prompt_zh": "一个巨大的地下龙穴，被流淌在锯齿状黑曜石岩石之间的熔岩河流照亮。一头巨型深红色巨龙盘踞在闪光的金币、宝石和古老王冠堆成的山丘之上。它的鳞片因内在之火而闪烁，细细的烟缕从鼻孔中盘旋而出。巨大的钟乳石悬挂在教堂般高耸的洞顶，尖端因下方的热量而泛着橙光。散落的骸骨和锈蚀的武器暗示着那些胆敢闯入这禁忌领地的冒险者的命运。",
+    "example_image_url": "https://img.promptstudio.art/prompts/fantasy-dragon-lair.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["奇幻", "龙", "宝藏", "洞穴", "熔岩"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "fantasy-wizard-tower",
+    "style_id": "fantasy",
+    "title_zh": "巫师塔",
+    "title_en": "Wizard Tower",
+    "subject_zh": "矗立在悬崖之上的神秘巫师高塔",
+    "prompt_text": "A tall spiraling wizard tower perched on a dramatic cliff edge, silhouetted against a sky swirling with aurora-like magical currents in deep purple and emerald green. Built from weathered grey stone with arched windows emitting warm candlelight. An open balcony near the top reveals shelves overflowing with ancient tomes and floating celestial globes. Arcane symbols carved into the stonework pulse with faint blue light. Ravens circle the pointed roof as storm clouds gather beyond a darkened valley.",
+    "prompt_zh": "一座高耸螺旋的巫师塔矗立在壮丽悬崖的边缘，以深紫色和翠绿色的极光般魔法气流旋涌的天空为背景形成剪影。塔身由风化的灰色石头砌成，拱形窗户透出温暖的烛光。顶部附近的开放阳台上可见塞满古老典籍和漂浮天球仪的书架。刻在石墙上的奥术符号闪烁着幽蓝微光。渡鸦环绕尖顶盘旋，风暴云在幽暗山谷之外聚集。",
+    "example_image_url": "https://img.promptstudio.art/prompts/fantasy-wizard-tower.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["奇幻", "巫师", "高塔", "魔法", "悬崖"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "fantasy-fairy-village",
+    "style_id": "fantasy",
+    "title_zh": "精灵村庄",
+    "title_en": "Fairy Village",
+    "subject_zh": "藏在巨型花朵间的微型精灵村落",
+    "prompt_text": "A miniature fairy village nestled among oversized wildflowers and towering blades of grass, seen from a tiny perspective. Delicate houses are crafted from acorn caps, hollowed-out mushrooms, and curled leaves stitched with spider silk. Tiny lanterns made of dewdrops and firefly light hang from woven grass bridges connecting the treetop dwellings. A gentle waterfall cascading from a mossy pebble forms a sparkling pond where fairies with iridescent dragonfly wings gather. Soft golden afternoon sunlight filters through the petal canopy above.",
+    "prompt_zh": "一个微型精灵村庄坐落在巨大的野花和高耸的草叶之间，从微小的视角呈现。精致的房屋由橡子帽、掏空的蘑菇和用蛛丝缝合的卷曲树叶制成。由露珠和萤火虫之光制成的小灯笼悬挂在连接树顶居所的编织草桥上。一道从苔藓卵石上倾泻而下的柔和瀑布形成了一个波光粼粼的池塘，拥有虹彩蜻蜓翅膀的精灵们在此聚集。柔和的金色午后阳光透过上方的花瓣穹顶洒落。",
+    "example_image_url": "https://img.promptstudio.art/prompts/fantasy-fairy-village.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["奇幻", "精灵", "村庄", "微缩", "童话"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "fantasy-underwater-kingdom",
+    "style_id": "fantasy",
+    "title_zh": "海底王国",
+    "title_en": "Underwater Kingdom",
+    "subject_zh": "深海中辉煌壮丽的美人鱼王国",
+    "prompt_text": "A magnificent underwater kingdom sprawling across the ocean floor, with grand palaces built from living coral in rose, gold, and turquoise. Bioluminescent jellyfish drift overhead like floating lanterns, casting shifting blue and violet light across pearl-inlaid streets. Mermaid sentinels in ornate shell armor patrol near towering gates with giant clamshell arches. Schools of tropical fish weave between spiraling seashell towers. Columns of sunlight pierce the deep water, illuminating a central throne carved from a single enormous amethyst.",
+    "prompt_zh": "一个壮丽的海底王国在海床上延展，宏伟的宫殿由玫瑰色、金色和绿松石色的活珊瑚建造。生物发光的水母如漂浮的灯笼般在头顶飘荡，将蓝紫色光的变幻图案投射在镶珍珠的街道上。佩戴华丽贝壳铠甲的美人鱼卫兵在装饰着巨型蚌壳拱门的高耸城门附近巡逻。成群的热带鱼在螺旋贝壳塔楼间穿梭。阳光柱从上方穿透深海，照亮了由一整块巨大紫水晶雕刻而成的中央王座。",
+    "example_image_url": "https://img.promptstudio.art/prompts/fantasy-underwater-kingdom.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["奇幻", "海底", "王国", "美人鱼", "珊瑚"],
+    "created_at": "2026-02-20"
+  }
+]

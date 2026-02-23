@@ -1,0 +1,67 @@
+[
+  {
+    "id": "infographic-climate-change",
+    "style_id": "infographic",
+    "title_zh": "气候变化",
+    "title_en": "Climate Change",
+    "subject_zh": "气候变化数据图",
+    "prompt_text": "A compelling infographic about global climate change, centered on a large thermometer rising from an Earth illustration that transitions from lush green to scorched brown. Circular charts show carbon emissions by sector in orange and red. A timeline along the left marks temperature anomalies from 1900 to 2025 with an alarming upward curve. Melting ice cap icons and rising sea level diagrams occupy the right panel. The design uses a white background with urgent red and cool blue contrast.",
+    "prompt_zh": "一张引人注目的全球气候变化信息图，中央是一个大型温度计图形从插图地球上升起，地球从底部的翠绿过渡到顶部的焦棕。圆形数据图表以橙红色调展示各部门的碳排放来源。左侧时间线标记1900至2025年的温度异常，呈现令人警醒的上升曲线。冰盖融化图标和海平面上升图表占据右侧面板。设计采用纯白背景搭配紧迫的红色与冷静的蓝色对比，兼具数据清晰度和环境紧迫感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/infographic-climate-change.webp",
+    "aspect_ratio": "9:16",
+    "tags": ["信息图", "气候变化", "数据可视化", "环保", "全球变暖"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "infographic-startup-growth",
+    "style_id": "infographic",
+    "title_zh": "创业增长",
+    "title_en": "Startup Growth",
+    "subject_zh": "创业公司增长路径",
+    "prompt_text": "A dynamic infographic charting growth stages of a tech startup, structured as an ascending rocket trajectory from bottom to top. Each stage is a labeled platform: ideation, seed funding, product launch, scaling, and IPO. Bar charts and pie graphs branch outward showing user growth and revenue milestones. The palette shifts from cool startup teal at the bottom to prosperous gold at the summit. Flat-design icons of laptops, handshakes, and dollar signs punctuate each section against a subtle grid background.",
+    "prompt_zh": "一张充满活力的科技创业公司增长阶段信息图，以火箭从底部向顶部的上升轨迹为结构。每个阶段是沿路径的标注平台：创意构思、种子融资、产品发布、规模扩张和IPO。柱状图和饼图向外延展，展示每个阶段的用户增长指标、营收里程碑和团队规模扩张。配色从底部清新的创业青色过渡到顶部繁荣的金色。笔记本电脑、握手和美元符号的扁平设计图标点缀各部分。背景采用微妙的网格图案，暗示精准与雄心。",
+    "example_image_url": "https://img.promptstudio.art/prompts/infographic-startup-growth.webp",
+    "aspect_ratio": "9:16",
+    "tags": ["信息图", "创业公司", "增长路径", "商业", "数据图表"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "infographic-nutrition-comparison",
+    "style_id": "infographic",
+    "title_zh": "营养对比",
+    "title_en": "Nutrition Comparison",
+    "subject_zh": "食物营养成分对比",
+    "prompt_text": "A clean infographic comparing nutritional profiles of five superfoods: avocado, quinoa, blueberries, salmon, and kale. Each food is represented by a realistic illustration with radiating data spokes showing protein, fiber, vitamins, and antioxidant levels. A horizontal bar at the bottom ranks them by nutrient density. The layout uses a fresh white background with each food assigned a distinct soft pastel color zone. Minimalist icons and modern sans-serif font keep the design approachable and easy to scan.",
+    "prompt_zh": "一张简洁而信息丰富的信息图，对比五种热门超级食物的营养特征：牛油果、藜麦、蓝莓、三文鱼和羽衣甘蓝。每种食物以写实插图呈现，辐射状数据辐条展示蛋白质、纤维、维生素、健康脂肪和抗氧化剂含量。底部水平对比条按总体营养密度排名。布局采用清新白色背景，每种食物分配柔和粉彩色系的独特色区。极简图标和现代几何无衬线字体让设计平易近人，一目了然。",
+    "example_image_url": "https://img.promptstudio.art/prompts/infographic-nutrition-comparison.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["信息图", "营养对比", "超级食物", "健康饮食", "数据可视化"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "infographic-world-population",
+    "style_id": "infographic",
+    "title_zh": "世界人口",
+    "title_en": "World Population",
+    "subject_zh": "世界人口分布",
+    "prompt_text": "A striking infographic visualizing world population distribution, featuring a stylized flat world map where each continent is sized proportionally to its population rather than land area. Human figure pictograms fill each region with density indicated by spacing. A vertical bar compares population milestones from one billion in 1800 to eight billion today. Callout bubbles highlight the ten most populous countries with flag icons. The design employs a dark navy background with warm amber and coral data highlights.",
+    "prompt_zh": "一张引人注目的世界人口分布信息图，中央是一幅风格化的扁平世界地图，每个大洲按人口而非面积比例调整大小。人形象形图填充每个区域，密度通过间距表示。侧面的纵向条形图对比从1800年十亿到如今八十亿的人口里程碑。标注气泡突出显示十个人口最多的国家及其国旗图标。设计采用精致的深藏青色背景搭配暖琥珀和珊瑚色的数据高亮，打造既戏剧化又易读的人口统计数据呈现。",
+    "example_image_url": "https://img.promptstudio.art/prompts/infographic-world-population.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["信息图", "世界人口", "数据地图", "人口统计", "全球视野"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "infographic-tech-evolution",
+    "style_id": "infographic",
+    "title_zh": "科技演进",
+    "title_en": "Tech Evolution",
+    "subject_zh": "科技发展历程",
+    "prompt_text": "A visually rich infographic tracing personal technology evolution from the 1980s to 2020s, arranged as a winding road timeline. Illustrated devices mark each era: bulky desktops, flip phones, smartphones, tablets, and smartwatches. Each device sits on a platform showing its year, key innovation, and adoption rate as a donut chart. The background gradient transitions from retro pixelated greens on the left to sleek minimalist whites on the right, reflecting the modernization of design across four decades.",
+    "prompt_zh": "一张视觉丰富的信息图，追踪个人科技从1980年代到2020年代的演进，以从左到右的蜿蜒路径时间线排列。插图设备标记每个时代：笨重的台式电脑、翻盖手机、早期智能手机、平板电脑、智能手表和AI助手。每个设备坐落在展示年份、关键创新和全球普及率环形图的平台上。背景渐变从左侧复古像素化的绿色和紫色过渡到右侧流线型极简的白色和银色，视觉上反映了四十年间设计本身的现代化。",
+    "example_image_url": "https://img.promptstudio.art/prompts/infographic-tech-evolution.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["信息图", "科技演进", "时间线", "数码设备", "科技史"],
+    "created_at": "2026-02-20"
+  }
+]

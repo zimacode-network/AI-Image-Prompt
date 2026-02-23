@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ink-painting-mountain-river",
+    "style_id": "ink-painting",
+    "title_zh": "山河万里",
+    "title_en": "Mountain River Panorama",
+    "subject_zh": "山水相依的壮阔江河全景",
+    "prompt_text": "A sweeping Chinese ink painting panorama of mountains and a winding river, executed in the grand shanshui tradition. The composition unfolds from right to left, beginning with towering craggy peaks rendered in bold, saturated ink with powerful textural strokes that suggest layered rock formations. The mountains gradually transition through lighter ink washes toward a broad river that meanders through the valley in silvery, barely tinted water. Tiny fishing boats with triangular sails dot the river surface. Sparse pine trees cling to ridgelines, their needles suggested by clusters of fine brushwork. Mist occupies the middle ground as pure blank space, allowing the paper itself to breathe as cloud and atmosphere. A distant mountain range dissolves into the palest grey, almost vanishing into the white void of the sky. The overall mood is one of vast solitude and philosophical contemplation.",
+    "prompt_zh": "一幅恢弘壮阔的中国水墨山水长卷，承袭传统山水画的宏大气韵。构图从右向左徐徐展开，起笔是以浓墨重笔、苍劲皴法绘就的巍峨险峰，层叠的岩石纹理尽显其中。群山由浓渐淡，过渡到一条宽阔的江河在山谷间蜿蜒流淌，水面泛着银白微光。细小的渔船点缀江面，三角帆影依稀可辨。稀疏的松树攀附在山脊线上，针叶以精细的笔触簇簇点出。中景以纯粹的留白充当云雾，让纸面本身化为天地间的气韵与呼吸。远山隐没在最淡的灰色中，几乎融入天空的茫茫白色虚空。整幅画面传达出辽阔的孤寂与深邃的哲思。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ink-painting-mountain-river.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["水墨", "山水", "长卷", "留白", "意境"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ink-painting-bamboo-forest",
+    "style_id": "ink-painting",
+    "title_zh": "竹林清风",
+    "title_en": "Bamboo Forest Breeze",
+    "subject_zh": "风中摇曳的幽深竹林",
+    "prompt_text": "A refined Chinese ink painting of a dense bamboo forest swaying in an unseen breeze. Tall bamboo stalks are rendered with confident, single-stroke segments in varying concentrations of ink, from jet black in the foreground to pale silvery grey in the receding depths. Each node is marked with a precise horizontal accent. The leaves burst outward in dynamic clusters, painted with swift, sharp brushstrokes that convey the energy of wind rustling through the grove. Light filters through the canopy, suggested by strategic areas of unpainted white paper that create dappled brightness on the forest floor. A narrow stone path winds between the stalks, disappearing into the misty depths. The ground is indicated with a few loose horizontal strokes and scattered ink dots representing fallen leaves and moss. The composition channels the spirit of the great bamboo painters, celebrating simplicity, resilience, and the beauty of monochrome expression.",
+    "prompt_zh": "一幅精妙的中国水墨竹林图，浓密的竹林在无形的微风中摇曳。高耸的竹竿以果断的一笔一节绘就，墨色由前景的浓黑到纵深处的银灰层层递退。每一个竹节都以精准的横笔点出。竹叶以迅疾锐利的笔锋向外簇放，传达出风穿竹林的生动气韵。光线透过竹冠筛落，以留白的策略布局在林地上营造出斑驳的明亮。一条窄窄的石径在竹竿间蜿蜒，消失在烟雾迷蒙的深处。地面以几笔松散的横扫和散落的墨点表现落叶与苔藓。整幅构图承袭历代竹画大师的精神，颂扬简约、坚韧，以及单色表达之美。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ink-painting-bamboo-forest.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["水墨", "竹林", "写意", "风", "文人画"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ink-painting-crane-bird",
+    "style_id": "ink-painting",
+    "title_zh": "松鹤延年",
+    "title_en": "Crane and Pine",
+    "subject_zh": "古松之上的仙鹤",
+    "prompt_text": "A striking ink painting of a red-crowned crane perched on the branch of an ancient pine tree, embodying the classical theme of longevity and nobility. The crane stands tall with its elegant neck curved in a gentle S-shape, its body rendered in clean white space defined by precise ink outlines, with wing tips detailed in graduating black ink feathers. The vivid red crown atop its head provides the single point of color in the otherwise monochrome composition. The pine tree is painted with a gnarled, powerful trunk using dry brush technique that reveals the texture of aged bark, while the needle clusters are depicted as dark ink masses with individual needles radiating outward. A few branches extend horizontally, creating strong compositional lines. The background remains pure white emptiness, evoking an infinite sky. A column of classical calligraphy and a red seal stamp occupy the upper left corner.",
+    "prompt_zh": "一幅气韵生动的水墨画，描绘丹顶鹤栖于古松枝头，承载着长寿与高洁的经典寓意。仙鹤昂然挺立，修长的颈部弯成优雅的S形，身体以精准的墨线勾勒留白而成，翅尖以层层递进的浓墨羽毛细致刻画。头顶那一抹鲜艳的丹红是整幅水墨画中唯一的色彩点睛。古松以枯笔技法绘出虬劲有力的树干，尽显老树皮的苍劲纹理，针叶则以浓墨团簇表现，根根松针向四方辐射。几枝横斜伸展，形成强有力的构图线条。背景保持纯净的留白，唤起无限天空的意象。左上方题有一列古典书法与一方朱印。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ink-painting-crane-bird.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["水墨", "仙鹤", "松树", "长寿", "花鸟画"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ink-painting-lotus-pond",
+    "style_id": "ink-painting",
+    "title_zh": "墨荷清韵",
+    "title_en": "Ink Lotus Pond",
+    "subject_zh": "水墨风格的荷塘景致",
+    "prompt_text": "A contemplative ink painting of a lotus pond at the height of summer. Large circular lotus leaves dominate the composition, painted with broad, expressive brushstrokes in varying ink densities from rich black to translucent grey, their surfaces showing the organic veining created by the brush moving across textured paper. Several lotus flowers rise on slender stems above the leaves, rendered with delicate outlines that suggest soft petals without filling them in, allowing the white of the paper to become the flower itself. A few seed pods stand tall on dried stems, their honeycomb faces dotted with dark seeds. The water surface is implied rather than drawn, existing in the negative space between leaves. A solitary dragonfly, captured in just three or four quick brushstrokes, hovers above one blossom. Ink splatter along the bottom edge suggests ripples and organic debris floating on still water.",
+    "prompt_zh": "一幅意境悠远的水墨荷塘图，描绘盛夏时节的荷塘景致。硕大的圆形荷叶占据画面主体，以阔笔大写意挥就，墨色浓淡相间，从醇厚的焦墨到清透的淡灰，叶面上留下毛笔在宣纸纹理上行走时形成的天然脉络。几朵莲花在细长的茎秆上亭亭玉立于荷叶之上，以纤细的线条勾勒出柔软的花瓣轮廓却不填色，让纸面的白成为花朵本身。几枝枯茎上挺立着莲蓬，蜂巢状的表面点缀着深色的莲子。水面是隐含而非描绘的，存在于荷叶之间的负空间里。一只蜻蜓仅用三四笔迅捷的笔触捕捉，悬停在一朵花上方。画面底部的墨点飞溅暗示着涟漪和静水上漂浮的有机碎屑。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ink-painting-lotus-pond.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["水墨", "荷花", "写意", "夏天", "禅意"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ink-painting-misty-village",
+    "style_id": "ink-painting",
+    "title_zh": "烟雨江南",
+    "title_en": "Misty Water Village",
+    "subject_zh": "烟雨朦胧中的江南水乡",
+    "prompt_text": "A poetic ink painting of a traditional Jiangnan water village shrouded in soft morning mist. White-walled houses with dark grey tiled roofs line both sides of a narrow canal, their reflections shimmering in loose, wet ink strokes on the water below. A single stone arch bridge spans the canal, its graceful curve echoed perfectly in the reflection to form a complete circle. A wooden sampan is moored beside stone steps descending into the water, a bamboo pole resting across its bow. Weeping willows drape their branches over the canal, their foliage rendered as soft, drooping ink dots that blur into the surrounding mist. The scene is executed in light to medium ink tones, with mist created through generous blank space and wet-on-wet diffusion. Distant rooftops and a pagoda dissolve into pure atmosphere at the edges.",
+    "prompt_zh": "一幅诗意盎然的水墨画，描绘晨雾笼罩中的江南水乡。白墙黛瓦的民居沿窄窄的运河两岸排列，倒影在水中以松润的湿墨笔触摇曳生姿。一座石拱桥横跨河面中景，优美的弧线与倒影完美呼应，合成一个圆满的圆。一叶木舟系泊在伸入水中的石阶旁，一根竹篙横搁船头。垂柳从两岸垂下枝条探入河面，枝叶化为柔软下垂的墨点，与四周的雾气融为一体。整幅画面以淡墨到中墨为主调，雾气通过大面积留白和微妙的湿画法晕散来营造。远处的屋顶和一座宝塔在画面边缘消融于纯粹的大气之中。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ink-painting-misty-village.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["水墨", "江南", "水乡", "烟雨", "古镇"],
+    "created_at": "2026-02-20"
+  }
+]

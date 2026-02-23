@@ -1,0 +1,67 @@
+[
+  {
+    "id": "ukiyo-e-great-wave",
+    "style_id": "ukiyo-e",
+    "title_zh": "巨浪",
+    "title_en": "Great Wave",
+    "subject_zh": "汹涌巨浪下的渔船与远山",
+    "prompt_text": "A dramatic ukiyo-e woodblock print depicting a towering ocean wave about to crash down upon three wooden fishing boats. The wave curls with menacing power, its crest dissolving into hundreds of white claw-like fingers of foam against a deep Prussian blue body of water. Fishermen cling to their vessels, rendered as small determined figures. In the distance, a snow-capped sacred mountain sits serenely beneath the chaos, its pale triangular form framed perfectly within the curve of the wave. The sky is rendered in a gradient from pale yellow near the horizon to a muted grey above. Bold black outlines define every element with the precision of carved woodblock lines.",
+    "prompt_zh": "一幅气势磅礴的浮世绘木版画，描绘一道巨浪即将倾覆三艘木质渔船。巨浪以威猛之势翻卷，浪尖化为数百只白色爪状泡沫，映衬着普鲁士蓝的深邃海水。渔夫们紧紧抓住船只，被描绘为渺小但坚毅的身影。远处，一座白雪皑皑的神圣之山在混乱之下安详静坐，其淡色三角形态完美地嵌入巨浪的弧线之中。天空从地平线附近的浅黄渐变到上方的灰色调。大胆的黑色轮廓线以木版雕刻般的精确度勾勒每一个元素。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-great-wave.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["浮世绘", "巨浪", "海洋", "渔船", "日本艺术"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ukiyo-e-geisha-portrait",
+    "style_id": "ukiyo-e",
+    "title_zh": "艺伎肖像",
+    "title_en": "Geisha Portrait",
+    "subject_zh": "手持折扇的艺伎半身像",
+    "prompt_text": "An elegant ukiyo-e portrait of a geisha in the bijin-ga tradition, shown from the waist up in a three-quarter view. Her face is rendered with the classic oval shape, delicate eyebrows like willow leaves, and a small rosebud mouth with subtle crimson pigment. An elaborate hairstyle is adorned with golden kanzashi hairpins and silk flowers. She wears a richly patterned kimono in deep indigo with white crane motifs, the fabric folds described by flowing calligraphic lines. One graceful hand holds a partially open folding fan decorated with autumn maple leaves. The background is a flat wash of soft mica grey, characteristic of luxury Edo-period prints. Fine woodgrain texture is visible throughout.",
+    "prompt_zh": "一幅优雅的浮世绘美人画，描绘一位艺伎的半身四分之三侧面像。面容以经典的鹅蛋脸型呈现，柳叶般纤细的眉毛，樱桃小口点缀着微妙的朱红色。精致的发髻上装饰着金色簪子和绢花。她身着深靛蓝底白鹤纹样的华丽和服，衣褶以流畅的书法线条描绘。一只纤纤玉手持着半开的折扇，扇面饰以秋日红枫。背景是江户时代高级版画特有的云母灰平涂。整幅画面可见细腻的木纹肌理。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-geisha-portrait.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["浮世绘", "美人画", "艺伎", "和服", "肖像"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ukiyo-e-cherry-blossom-temple",
+    "style_id": "ukiyo-e",
+    "title_zh": "樱花古寺",
+    "title_en": "Cherry Blossom Temple",
+    "subject_zh": "樱花环绕的日本古寺春景",
+    "prompt_text": "A serene ukiyo-e landscape of an ancient Japanese temple nestled among clouds of cherry blossoms in full bloom. The multi-tiered pagoda rises gracefully with its curved eaves, printed in warm vermillion and earthy brown tones with precise architectural lines. Cherry trees frame the composition from both sides, their branches heavy with clusters of pale pink petals, some drifting downward like snow. A stone path leads through a torii gate toward the temple entrance, where two small figures in traditional robes walk in quiet contemplation. A gentle stream crosses the foreground over mossy rocks. The sky shifts from warm peach at the horizon through bands of soft blue, rendered in the flat color planes typical of woodblock printing.",
+    "prompt_zh": "一幅宁静的浮世绘风景画，描绘一座古老的日本寺庙掩映在盛开的樱花云海之中。多层宝塔以优美的飞檐翘角拔地而起，用温暖的朱红和土褐色调配以精确的建筑线条呈现。樱花树从两侧框住构图，枝头挂满淡粉色花簇，花瓣如雪般飘落。石径穿过朱红的鸟居通向寺门，两个身着传统袍服的小小人影在静谧中漫步。前景一条溪流在青苔覆盖的岩石上潺潺流过。天空从地平线的暖桃色经过层层淡蓝渐变，以木版画特有的平面色块呈现。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-cherry-blossom-temple.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["浮世绘", "樱花", "寺庙", "春天", "风景"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ukiyo-e-samurai-battle",
+    "style_id": "ukiyo-e",
+    "title_zh": "武士激战",
+    "title_en": "Samurai Battle",
+    "subject_zh": "两位武士在战场上的激烈对决",
+    "prompt_text": "A dynamic ukiyo-e battle scene in the musha-e warrior print tradition, depicting two samurai locked in fierce combat on a windswept battlefield. The central figure lunges forward with a katana raised overhead, wearing elaborate armor with laced plates in crimson and gold, a horned kabuto helmet, and a billowing sashimono banner on his back. His opponent braces with a long spear, armored in dark steel blue. Their robes and banners whip violently in the wind, creating dramatic diagonal lines across the composition. Swirling clouds of dust and stylized flames fill the background. Every element is defined by bold, energetic outlines with areas of flat vibrant color. The intensity of expression on their faces follows the exaggerated kabuki-inspired style.",
+    "prompt_zh": "一幅充满动感的浮世绘武者绘战斗场景，描绘两位武士在风卷残云的战场上激烈交锋。中央人物高举太刀向前突刺，身着红金相间的华丽缀甲，头戴威武的角形兜鍪，背后的指物旗帜在风中飘扬。对手以长枪防御，身披深钢蓝色铠甲。两人的袍服和旗帜在疾风中猛烈翻飞，在构图中形成戏剧性的对角线。翻滚的尘云和程式化的火焰充满背景。每一个元素都以大胆而充满力量的轮廓线定义，配以平面鲜明的色彩。面部的激烈表情遵循歌舞伎风格的夸张手法。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-samurai-battle.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["浮世绘", "武士", "战斗", "武者绘", "铠甲"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "ukiyo-e-mount-fuji",
+    "style_id": "ukiyo-e",
+    "title_zh": "富士山",
+    "title_en": "Mount Fuji",
+    "subject_zh": "晴空下从田野远眺富士山",
+    "prompt_text": "A classic ukiyo-e landscape in the meisho-e tradition showing Mount Fuji on a clear autumn day, viewed across golden rice paddies. The sacred mountain dominates the upper portion of the composition, its symmetrical cone rendered in gradients of indigo at the base transitioning to a pure white snow cap. In the foreground, farmers bend among the harvest-ready rice fields, their conical straw hats forming rhythmic patterns. A line of dark pine trees creates a strong horizontal band across the middle ground. Two red-crowned cranes take flight from a shallow marsh, their wings outstretched. The sky is printed in a distinctive graduated blue wash called bokashi, deepening from pale near the mountain to rich Prussian blue at the top edge.",
+    "prompt_zh": "一幅经典的浮世绘名所绘风景画，描绘秋日晴空下从金色稻田远眺富士山。神圣之山占据画面上方，对称的锥形山体以靛蓝色从山脚渐变至顶端纯白的积雪。前景中，农人在即将收获的稻田间弯腰劳作，斗笠形成有节奏的图案。一排深色松树在中景构成强有力的水平带。两只丹顶鹤从浅沼泽地起飞，双翅展开。天空以名为「晕染」的特色渐变蓝色印刷，从山峰附近的浅色加深至画面顶端浓郁的普鲁士蓝。",
+    "example_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-mount-fuji.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["浮世绘", "富士山", "名所绘", "秋天", "田园"],
+    "created_at": "2026-02-20"
+  }
+]

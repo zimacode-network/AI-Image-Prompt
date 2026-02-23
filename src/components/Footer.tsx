@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="mt-20 border-t border-border-default bg-bg-card">
@@ -12,7 +14,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-sm leading-relaxed text-text-muted">
-              AI 绘画提示词工具站 — 精选高质量提示词，中英双语，选词即出图。为下一代视觉创作者打造。
+              AI 图像风格提示词工具站 — 精选风格模板，一键复制，搭配你的创意内容即可生成精美图片。
             </p>
           </div>
 
@@ -23,24 +25,24 @@ export default function Footer() {
             </h4>
             <ul className="flex flex-col gap-3 text-sm font-medium text-text-muted">
               <li>
-                <a href="/explore" className="hover:text-primary transition-colors">
-                  探索提示词
-                </a>
+                <Link href="/styles" className="hover:text-primary transition-colors">
+                  所有风格
+                </Link>
               </li>
               <li>
-                <a href="/explore?style=anime" className="hover:text-primary transition-colors">
-                  动漫风格
-                </a>
+                <Link href="/styles?category=artistic" className="hover:text-primary transition-colors">
+                  艺术绘画
+                </Link>
               </li>
               <li>
-                <a href="/explore?style=realistic" className="hover:text-primary transition-colors">
-                  写实摄影
-                </a>
+                <Link href="/styles?category=illustration" className="hover:text-primary transition-colors">
+                  现代插画
+                </Link>
               </li>
               <li>
-                <a href="/models" className="hover:text-primary transition-colors">
-                  模型排行
-                </a>
+                <Link href="/styles?category=practical" className="hover:text-primary transition-colors">
+                  实用模板
+                </Link>
               </li>
             </ul>
           </div>
@@ -61,11 +63,6 @@ export default function Footer() {
                   GitHub
                 </a>
               </li>
-              <li>
-                <a href="/models" className="hover:text-primary transition-colors">
-                  AI 模型
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -75,7 +72,7 @@ export default function Footer() {
               保持灵感
             </h4>
             <p className="text-xs text-text-muted mb-4">
-              加入创作者社区，获取每周精选提示词推荐。
+              加入创作者社区，获取每周精选风格推荐。
             </p>
             <div className="flex gap-2">
               <input
@@ -96,12 +93,6 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} PromptStudio. 保留所有权利。
           </p>
           <div className="flex gap-5">
-            <a href="#" className="text-text-muted hover:text-primary transition-colors">
-              <span className="material-symbols-outlined text-lg">public</span>
-            </a>
-            <a href="#" className="text-text-muted hover:text-primary transition-colors">
-              <span className="material-symbols-outlined text-lg">alternate_email</span>
-            </a>
             <a
               href="https://github.com/xiaoYuan928/AI-Image-Prompt"
               target="_blank"

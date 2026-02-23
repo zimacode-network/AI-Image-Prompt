@@ -1,0 +1,67 @@
+[
+  {
+    "id": "graffiti-street-wall-mural",
+    "style_id": "graffiti",
+    "title_zh": "街头巨幅壁画",
+    "title_en": "Street Wall Mural",
+    "subject_zh": "涂鸦街头壁画",
+    "prompt_text": "A massive street graffiti mural covering an entire brick warehouse wall in an urban alley. The centerpiece is a roaring lion head painted in dripping neon pink and electric blue with sharp black outlines. Abstract splatter patterns in orange and lime green explode outward. Wildstyle lettering spelling FREEDOM arches above in chrome silver with purple shadows. Raw concrete and peeling posters frame the edges.",
+    "prompt_zh": "一幅覆盖整面砖砌仓库墙壁的巨型街头涂鸦壁画，位于城市小巷中。中心是一个咆哮的狮头，以滴淌的霓虹粉和电光蓝绘制，配以锐利的黑色轮廓线。橙色和青柠绿的抽象泼溅图案向外爆发。狂野风格字体拼出FREEDOM字样拱立上方，铬银色配紫色阴影。裸露的混凝土和剥落的海报构成画面边缘。",
+    "example_image_url": "https://img.promptstudio.art/prompts/graffiti-street-wall-mural.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["涂鸦", "壁画", "街头艺术", "狮子"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "graffiti-hip-hop-portrait",
+    "style_id": "graffiti",
+    "title_zh": "嘻哈肖像",
+    "title_en": "Hip-Hop Portrait",
+    "subject_zh": "涂鸦嘻哈人物肖像",
+    "prompt_text": "A bold graffiti style portrait of a hip-hop artist wearing oversized headphones and a snapback cap tilted sideways. The face is rendered in high contrast with thick black marker outlines and filled with gradient spray paint from deep violet to bright magenta. The background is a chaotic collage of torn music posters, spray can drips, and bubble letter tags in gold and red.",
+    "prompt_zh": "一幅大胆的涂鸦风格嘻哈艺术家肖像，佩戴超大头戴式耳机，棒球帽斜戴。面部以高对比度呈现，粗黑马克笔轮廓线内填充从深紫到亮洋红的渐变喷漆。背景是撕裂的音乐海报、喷漆罐滴痕以及金色和红色泡泡字体标签的混乱拼贴。",
+    "example_image_url": "https://img.promptstudio.art/prompts/graffiti-hip-hop-portrait.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["涂鸦", "嘻哈", "肖像", "喷漆", "街头文化"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "graffiti-skateboard-design",
+    "style_id": "graffiti",
+    "title_zh": "滑板涂鸦",
+    "title_en": "Graffiti Deck Art",
+    "subject_zh": "涂鸦风格滑板设计",
+    "prompt_text": "A skateboard deck design painted in raw graffiti style, viewed from above on a concrete skatepark floor. The deck surface features a screaming skull with flame hair in yellow and orange, surrounded by dripping throw-up letters reading SKATE OR DIE in toxic green with red outlines. Crossed spray cans form an X behind the skull. Paint splatters and scratches give it an authentic street-worn texture.",
+    "prompt_zh": "一块以原始涂鸦风格绘制的滑板板面设计，从上方俯视放在混凝土滑板场地面上。板面上是一个火焰头发的尖叫骷髅，黄橙色调，周围环绕着滴淌的涂鸦字母SKATE OR DIE，毒绿色配红色轮廓。两只交叉的喷漆罐在骷髅背后构成X形。油漆飞溅和划痕赋予其真实的街头磨损质感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/graffiti-skateboard-design.webp",
+    "aspect_ratio": "9:16",
+    "tags": ["涂鸦", "滑板", "骷髅", "街头文化"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "graffiti-subway-train",
+    "style_id": "graffiti",
+    "title_zh": "地铁涂鸦列车",
+    "title_en": "Subway Train Piece",
+    "subject_zh": "涂鸦地铁车厢",
+    "prompt_text": "A silver subway train car completely covered in colorful whole-car graffiti piece parked at an underground station platform. The artwork features wildstyle interlocking letters in rainbow gradients with three-dimensional block shadows, surrounded by cartoon characters peeking between letters. The station walls show additional tags and throw-ups. Fluorescent platform lights cast a gritty yellow glow over the scene.",
+    "prompt_zh": "一节银色地铁车厢停在地下站台，整车覆盖着彩色涂鸦作品。画面展现了彩虹渐变的狂野风格互锁字母，配以三维立体块状阴影，卡通角色在字母间探头。站台墙壁上可见更多涂鸦标签和速写。荧光站台灯投下粗粝的黄色光芒笼罩整个场景。",
+    "example_image_url": "https://img.promptstudio.art/prompts/graffiti-subway-train.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["涂鸦", "地铁", "狂野风格", "彩虹"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "graffiti-animal-character",
+    "style_id": "graffiti",
+    "title_zh": "涂鸦动物角色",
+    "title_en": "Graffiti Animal Character",
+    "subject_zh": "涂鸦风格动物角色",
+    "prompt_text": "A cool graffiti style cartoon bear character standing upright on a painted brick wall, wearing a gold chain necklace and holding a boombox on its shoulder. The bear is spray painted in turquoise and white with heavy black outlines and expressive angular eyes. Dripping paint runs down from the figure. Surrounding elements include stars, arrows, and the tag name BEAR KING in bubbly pink letters.",
+    "prompt_zh": "一只酷炫的涂鸦风格卡通熊角色直立在彩绘砖墙上，戴着金链项链，肩上扛着手提音响。熊以青绿色和白色喷绘，配以厚重的黑色轮廓线和富有表现力的棱角分明的眼睛。滴淌的颜料从角色身上流下。周围元素包括星星、箭头，以及泡泡粉色字体的标签名BEAR KING。",
+    "example_image_url": "https://img.promptstudio.art/prompts/graffiti-animal-character.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["涂鸦", "卡通角色", "熊", "街头艺术", "嘻哈"],
+    "created_at": "2026-02-20"
+  }
+]

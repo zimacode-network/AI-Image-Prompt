@@ -1,0 +1,67 @@
+[
+  {
+    "id": "watercolor-spring-garden",
+    "style_id": "watercolor",
+    "title_zh": "春日花园",
+    "title_en": "Spring Garden",
+    "subject_zh": "阳光下盛开的春日花园",
+    "prompt_text": "A luminous watercolor painting of a spring garden in full bloom, viewed from a winding stone path. Soft washes of pink cherry blossoms and lavender wisteria cascade over a wooden pergola. Daffodils and tulips in warm yellows and corals line the edges of the path. The morning sunlight filters through translucent petals, creating gentle pools of light on the damp earth. A weathered wooden bench sits beneath an old magnolia tree. The background dissolves into soft wet-on-wet blends of pale green and sky blue, with pigment blooming naturally at the edges. Delicate spatters suggest pollen drifting in the breeze.",
+    "prompt_zh": "一幅明亮的水彩画，描绘盛开的春日花园，从蜿蜒的石板小径视角望去。粉色樱花和淡紫色紫藤的柔和晕染垂落在木制凉棚上。水仙和郁金香以暖黄与珊瑚色排列在小径两旁。晨光透过半透明的花瓣，在湿润的泥土上洒下柔和的光斑。一张饱经风霜的木椅安放在老玉兰树下。背景以湿画法融化为淡绿与天蓝的交织，颜料在边缘自然晕开。细腻的飞溅暗示花粉在微风中飘散。",
+    "example_image_url": "https://img.promptstudio.art/prompts/watercolor-spring-garden.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["水彩", "花园", "春天", "花卉", "自然光"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "watercolor-rainy-street",
+    "style_id": "watercolor",
+    "title_zh": "雨中街道",
+    "title_en": "Rainy Street",
+    "subject_zh": "雨夜中倒映霓虹灯光的城市街道",
+    "prompt_text": "A moody watercolor scene of a narrow city street on a rainy evening. Wet pavement reflects blurred neon signs and warm golden light spilling from a small café doorway. Figures with umbrellas walk in silhouette, their forms rendered with loose, gestural brushstrokes that bleed into the surrounding wash. Puddles on the cobblestones mirror the deep indigo sky and streaks of crimson from a distant traffic light. The buildings are suggested rather than defined, with edges softening into the misty atmosphere. Droplets of clean water lifted from the surface create tiny starbursts of unpainted white paper, capturing the sparkle of rain.",
+    "prompt_zh": "一幅意境深远的水彩画，描绘雨夜中的狭窄城市街道。湿润的路面倒映着模糊的霓虹招牌和从小咖啡馆门口溢出的温暖金光。撑伞的行人以剪影形态出现，用松散而富有表现力的笔触绘制，晕染渗入周围的水渍。鹅卵石路面的水洼映射出深靛蓝的天空和远处红绿灯的绯红光线。建筑以暗示而非明确的方式呈现，边缘在薄雾般的氛围中柔化。用清水从画面提起形成细小的留白星芒，捕捉雨丝的闪烁感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/watercolor-rainy-street.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["水彩", "雨夜", "城市", "街道", "氛围"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "watercolor-cat-sleeping",
+    "style_id": "watercolor",
+    "title_zh": "酣睡的猫",
+    "title_en": "Cat Sleeping",
+    "subject_zh": "蜷缩在阳光窗台上的睡猫",
+    "prompt_text": "A tender watercolor study of a ginger tabby cat curled up asleep on a sunlit windowsill. The fur is rendered with layered wet-on-dry glazes in warm sienna, amber, and touches of soft peach, preserving the white of the paper for the brightest highlights on the ears and whiskers. One paw tucks beneath the chin while the tail wraps around the body in a gentle curve. A potted succulent and a ceramic mug sit nearby, painted with simple confident strokes. Afternoon light pours through sheer curtains, casting a pale lemon glow across the scene. The background remains largely unpainted, letting the paper breathe.",
+    "prompt_zh": "一幅温柔的水彩小品，描绘一只橘色虎斑猫蜷缩在阳光窗台上酣睡。猫毛以湿画干叠的多层罩染呈现，运用暖赭石、琥珀和柔桃色，保留纸白作为耳尖和胡须上最明亮的高光。一只前爪藏在下巴之下，尾巴以优雅的弧线环绕身体。旁边摆着一盆多肉植物和一只陶瓷杯，用简洁自信的笔触描绘。午后的阳光穿透薄纱窗帘，在画面上投下浅柠檬色的光晕。背景大部分留白，让纸面自由呼吸。",
+    "example_image_url": "https://img.promptstudio.art/prompts/watercolor-cat-sleeping.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["水彩", "猫咪", "温馨", "阳光", "生活"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "watercolor-coastal-lighthouse",
+    "style_id": "watercolor",
+    "title_zh": "海岸灯塔",
+    "title_en": "Coastal Lighthouse",
+    "subject_zh": "矗立在悬崖上的灯塔与汹涌海浪",
+    "prompt_text": "A dramatic watercolor painting of a white lighthouse perched on rugged coastal cliffs at golden hour. The ocean below churns with waves rendered in sweeping strokes of cerulean, ultramarine, and viridian, with sea foam suggested by lifting pigment back to bare paper. The cliff face is built from granulating earth tones layered wet into wet, creating natural textural effects. The lighthouse itself is painted with clean, precise edges that contrast the looseness of the surrounding landscape. A warm amber glow emanates from the lantern room against a sky graduating from peach near the horizon to soft violet overhead. Seabirds arc through the composition as simple calligraphic marks.",
+    "prompt_zh": "一幅气势恢宏的水彩画，描绘金色时分矗立在崎岖海岸悬崖上的白色灯塔。下方的海洋以天蓝、群青和翠绿色的大笔触翻涌，海浪泡沫通过提色回到裸纸来暗示。悬崖以颗粒化的大地色系湿接湿叠加，创造出自然的肌理效果。灯塔本身以干净精确的边缘绘制，与周围风景的写意形成鲜明对比。温暖的琥珀色光芒从灯室散发，映衬着从地平线桃色渐变到头顶柔紫的天空。海鸟以简洁的书法式笔触划过画面构图。",
+    "example_image_url": "https://img.promptstudio.art/prompts/watercolor-coastal-lighthouse.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["水彩", "灯塔", "海岸", "黄金时刻", "风景"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "watercolor-wildflower-meadow",
+    "style_id": "watercolor",
+    "title_zh": "野花草甸",
+    "title_en": "Wildflower Meadow",
+    "subject_zh": "夏日山坡上五彩缤纷的野花草甸",
+    "prompt_text": "A vibrant watercolor of a wildflower meadow on a rolling hillside under a vast summer sky. The foreground bursts with loose, spontaneous marks representing poppies in cadmium red, cornflowers in cobalt blue, daisies in pure white, and buttercups in bright yellow, all dancing among tall grasses painted with quick upward flicks of sap green and yellow ochre. The middle ground softens into an impressionistic blur of color. Distant hills fade to a pale blue-grey, barely distinguishable from the sky. Fluffy cumulus clouds are shaped by leaving white paper untouched within subtle grey-blue outlines. A single butterfly hovers above the flowers, wings translucent against the light.",
+    "prompt_zh": "一幅生机盎然的水彩画，描绘起伏山坡上广阔夏日天空下的野花草甸。前景以松散自发的笔触绽放着镉红色的罂粟花、钴蓝色的矢车菊、纯白的雏菊和明黄的毛茛，在用树绿和黄赭快速向上挑笔绘成的高草中摇曳起舞。中景柔化为印象派般的色彩模糊。远山淡化为浅蓝灰色，与天空几乎融为一体。蓬松的积云通过在微妙灰蓝轮廓内保留白纸来塑造形态。一只蝴蝶悬停在花丛上方，翅膀在逆光中半透明。",
+    "example_image_url": "https://img.promptstudio.art/prompts/watercolor-wildflower-meadow.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["水彩", "野花", "草甸", "夏天", "田园"],
+    "created_at": "2026-02-20"
+  }
+]

@@ -20,24 +20,11 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* Search (hidden on mobile) */}
-        <div className="hidden md:flex items-center flex-1 max-w-md mx-8">
-          <div className="relative w-full">
-            <span className="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-text-muted text-[18px]">search</span>
-            <input
-              type="text"
-              placeholder="搜索提示词..."
-              className="w-full pl-10 pr-4 py-2 rounded-xl border border-border-default bg-bg-surface text-sm text-text-primary placeholder:text-text-muted focus:outline-none focus:border-primary/30 focus:ring-2 focus:ring-primary/10 transition-all"
-            />
-          </div>
-        </div>
-
         {/* Nav + Actions */}
         <div className="flex items-center gap-1">
           <nav className="hidden sm:flex items-center gap-0.5">
             <NavLink href="/" label="首页" icon="home" active={pathname === "/"} />
-            <NavLink href="/explore" label="探索" icon="explore" active={pathname.startsWith("/explore")} />
-            <NavLink href="/models" label="模型" icon="smart_toy" active={pathname.startsWith("/models")} />
+            <NavLink href="/styles" label="风格" icon="palette" active={pathname.startsWith("/style")} />
           </nav>
 
           <div className="w-px h-5 bg-border-default mx-2 hidden sm:block" />
@@ -45,11 +32,11 @@ export default function Header() {
           <ThemeToggle />
 
           <Link
-            href="/explore"
+            href="/styles"
             className="ml-2 hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-white text-sm font-bold hover:bg-primary-hover transition-colors duration-200"
           >
-            <span className="material-symbols-outlined text-[16px]">add</span>
-            投稿
+            <span className="material-symbols-outlined text-[16px]">explore</span>
+            探索风格
           </Link>
 
           {/* Mobile menu button */}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "chinese-classical-mountain-landscape",
+    "style_id": "chinese-classical",
+    "title_zh": "云山仙境",
+    "title_en": "Celestial Mountain Landscape",
+    "subject_zh": "云雾缭绕的仙山胜景",
+    "prompt_text": "A breathtaking Chinese classical landscape depicting towering jade-green mountains rising through layers of swirling white clouds and golden mist. Ancient pine trees cling to sheer cliff faces, their gnarled branches reaching toward the heavens. A slender waterfall cascades from the highest peak into a tranquil emerald pool far below. A tiny wooden pavilion sits on a rocky outcrop halfway up the mountain, where a lone scholar gazes into the vast distance. The color palette draws from traditional Chinese pigments with rich mineral greens, soft ink washes, and touches of vermillion on the pavilion roof. Auspicious cranes soar between the peaks, their white feathers catching the warm light of a setting sun that bathes the entire scene in a dreamlike amber glow.",
+    "prompt_zh": "一幅令人叹为观止的中国古典山水画，巍峨的翠绿群山穿越层层缭绕的白云与金色薄雾拔地而起。苍劲古松攀附在峭壁之上，虬枝向天际伸展。一道纤细的瀑布从最高峰倾泻而下，汇入远方幽静的翡翠色深潭。山腰的岩石台地上坐落着一座小巧的木亭，一位孤独的文人正凝望着苍茫远方。色彩取自传统中国矿物颜料——浓郁的石绿、柔和的水墨晕染，以及亭顶的一抹朱砂。祥鹤在群峰间翱翔，白羽在夕阳的温暖光芒中闪耀，整个画面笼罩在如梦似幻的琥珀色光晕之中。",
+    "example_image_url": "https://img.promptstudio.art/prompts/chinese-classical-mountain-landscape.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["古风", "山水", "仙境", "国画", "云雾"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "chinese-classical-hanfu-portrait",
+    "style_id": "chinese-classical",
+    "title_zh": "汉服仕女",
+    "title_en": "Hanfu Portrait",
+    "subject_zh": "身着华丽汉服的古典美人",
+    "prompt_text": "An elegant portrait of a young woman wearing a flowing Tang Dynasty style hanfu in layers of soft peach silk and embroidered celadon gauze. Her hair is styled in an elaborate updo adorned with golden phoenix hairpins, jade pendants, and tiny pearl chains that cascade beside her temples. She holds a folding silk fan painted with plum blossoms near her chest, her expression serene and contemplative. Delicate makeup follows classical beauty standards with finely drawn moth eyebrows, powdered porcelain skin, and lips tinted in a subtle cherry red. Behind her, a circular moon gate frames a courtyard garden of blooming peonies and a gently curving willow tree. Soft lantern light illuminates her face from the side, creating a warm painterly atmosphere reminiscent of classical court paintings.",
+    "prompt_zh": "一幅优雅的人像画，年轻女子身着层叠的唐风汉服，柔桃色丝绸外罩刺绣青瓷色薄纱。发髻精心盘起，饰以金凤步摇、玉坠和垂落在鬓边的细珍珠链。她手持一把绘有梅花的折扇置于胸前，神情恬静而若有所思。妆容遵循古典审美，蛾眉细画，肌肤如凝脂，唇施淡樱桃红。身后一道圆形月洞门框出庭院中盛开的牡丹和轻曳的垂柳。柔和的灯笼光从侧面映照她的面庞，营造出一种温暖的、宛若宫廷工笔画般的氛围。",
+    "example_image_url": "https://img.promptstudio.art/prompts/chinese-classical-hanfu-portrait.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["古风", "汉服", "仕女", "人像", "唐风"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "chinese-classical-tea-ceremony",
+    "style_id": "chinese-classical",
+    "title_zh": "茶韵雅集",
+    "title_en": "Tea Ceremony",
+    "subject_zh": "文人雅士的品茗场景",
+    "prompt_text": "A refined Chinese classical scene of an intimate tea ceremony in a scholar's bamboo studio. On a dark rosewood tea table, a rustic clay Yixing teapot steams gently beside a row of small porcelain cups glazed in pale celadon. Dried tea leaves are scattered artfully on a woven bamboo tea tray. An antique bronze incense burner releases a thin curl of fragrant smoke that drifts upward through a shaft of warm afternoon light entering from a latticed wooden window. A partially unrolled calligraphy scroll, an ink stone, and a brush rest occupy one corner of the table. The background reveals a quiet garden courtyard with mossy stones and a single twisted pine. The entire composition conveys scholarly tranquility, rendered in warm earth tones with accents of jade green and aged gold.",
+    "prompt_zh": "一幅精致的中国古典场景，描绘文人竹斋中的品茗雅集。深色花梨木茶桌上，一把古朴的紫砂壶轻轻冒着热气，旁边整齐排列着几只浅青瓷釉的小茶杯。干茶叶错落有致地散落在竹编茶盘上。一尊古铜香炉升起一缕袅袅的香烟，穿过木格花窗透入的温暖午后光柱缓缓飘散。桌角摆放着一卷半展的书法卷轴、一方砚台和一支笔搁。背景可见幽静的庭院，苔石点缀其间，一株虬松独立。整幅画面以暖色大地色调为主，点缀玉绿与古金色，传达出文人特有的恬淡雅趣。",
+    "example_image_url": "https://img.promptstudio.art/prompts/chinese-classical-tea-ceremony.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["古风", "茶道", "文人", "雅集", "静物"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "chinese-classical-palace-architecture",
+    "style_id": "chinese-classical",
+    "title_zh": "紫禁黄昏",
+    "title_en": "Imperial Palace at Dusk",
+    "subject_zh": "夕阳下的宏伟宫殿建筑",
+    "prompt_text": "A majestic view of a Chinese imperial palace complex at dusk, rendered in the rich aesthetic of classical Chinese painting with a contemporary sense of grandeur. Massive red lacquered columns support layered roofs with upturned golden eaves that gleam against a sky painted in gradients of tangerine, rose, and deep indigo. A wide marble terrace leads up to the main hall, flanked by carved stone balustrades and bronze lion guardians. Red palace lanterns hang in rows beneath the eaves, their warm glow beginning to illuminate as twilight deepens. The vast courtyard stretches forward, its polished stone floor reflecting the last light of day. In the distance, watchtowers and secondary halls create a layered silhouette against the darkening sky. Wisps of cloud streak overhead in strokes of gold and violet.",
+    "prompt_zh": "一幅宏伟壮观的中国皇家宫殿群在黄昏时分的景象，以古典中国画的浓郁美学与当代的磅礴气势呈现。巨大的朱红漆柱支撑着层层叠叠的屋檐，金色飞檐翘角在橘红、玫瑰与深靛蓝渐变的天空下熠熠生辉。宽阔的汉白玉平台通向正殿，两侧是雕花石栏和铜铸狮子护卫。一排排红灯笼悬挂在檐下，随着暮色渐深开始散发温暖的光芒。广阔的庭院向前延伸，抛光的石地面映照着最后一缕日光。远处，角楼与偏殿在渐暗的天幕中勾勒出层次分明的剪影。缕缕祥云以金紫色的笔触划过天际。",
+    "example_image_url": "https://img.promptstudio.art/prompts/chinese-classical-palace-architecture.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["古风", "宫殿", "建筑", "黄昏", "皇家"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "chinese-classical-koi-fish",
+    "style_id": "chinese-classical",
+    "title_zh": "锦鲤戏荷",
+    "title_en": "Koi Among Lotus",
+    "subject_zh": "荷塘中嬉戏的锦鲤",
+    "prompt_text": "A vivid Chinese classical painting of koi fish swimming gracefully through a lotus pond. Three magnificent koi glide beneath the water surface, their scales shimmering in brilliant vermillion, pure white, and deep obsidian with golden patches. The water is rendered with translucent layered washes that reveal smooth pebbles and trailing aquatic grasses on the pond floor. Above the surface, large lotus leaves in varying shades of emerald and sage create circular canopies, while a single perfect pink lotus blossom opens its layered petals toward the viewer. Tiny water droplets sit like glass beads on the waxy leaf surfaces. Ripples radiate outward from where one koi breaks the surface, distorting the reflection of a weeping willow overhead. The style blends the precision of traditional gongbi technique with the lively spirit of folk new year paintings, celebrating abundance and good fortune.",
+    "prompt_zh": "一幅生动的中国古典画作，描绘锦鲤在荷塘中优雅游弋的景象。三尾华丽的锦鲤在水面下悠然滑行，鳞片在朱红、纯白与缀有金斑的墨黑色中闪烁。水面以半透明的层层渲染呈现，隐约可见池底光滑的卵石和飘曳的水草。水面之上，深浅不一的翡翠与鼠尾草绿荷叶撑起圆形的华盖，一朵完美的粉色莲花向观者绽放层层花瓣。晶莹的水珠如玻璃珠般停驻在蜡质荷叶表面。一尾锦鲤跃出水面，涟漪向四方扩散，扭曲了头顶垂柳的倒影。画风融合了工笔的精细与民间年画的活泼生气，寓意富贵有余、吉祥如意。",
+    "example_image_url": "https://img.promptstudio.art/prompts/chinese-classical-koi-fish.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["古风", "锦鲤", "荷花", "国潮", "吉祥"],
+    "created_at": "2026-02-20"
+  }
+]

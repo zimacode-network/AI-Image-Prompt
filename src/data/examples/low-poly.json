@@ -1,0 +1,67 @@
+[
+  {
+    "id": "low-poly-mountain-landscape",
+    "style_id": "low-poly",
+    "title_zh": "山脉风光",
+    "title_en": "Mountain Landscape",
+    "subject_zh": "雪山与湖泊的壮丽低多边形风景",
+    "prompt_text": "A breathtaking low-poly landscape of snow-capped mountains towering above a mirror-still alpine lake. The scene is constructed entirely from triangular facets, with the peaks rendered in crisp white and pale blue polygons that transition to slate grey and deep indigo at the base. The lake surface is a mosaic of teal and cerulean triangles reflecting the mountain geometry in a slightly shifted pattern. A narrow band of evergreen forest lines the shore, built from dark green and emerald faceted shapes resembling abstract pine silhouettes. The sky graduates from warm peach at the horizon through soft lavender to a deep cobalt overhead, each color zone defined by clean geometric planes. The entire composition feels like a crystalline digital diorama.",
+    "prompt_zh": "一幅令人惊叹的低多边形风景画，雪山高耸于如镜面般平静的高山湖泊之上。整个场景完全由三角形面构建，山峰以清晰的白色和浅蓝色多边形呈现，向山脚过渡为板岩灰和深靛蓝色。湖面是青色和天蓝色三角形的镶嵌图案，以微微偏移的模式倒映着山体几何。一条狭窄的常绿森林带沿湖岸排列，由深绿和翠绿的切面形状构成，类似抽象的松树轮廓。天空从地平线的暖桃色经柔和薰衣草紫渐变至头顶的深钴蓝，每个色带由干净的几何平面定义。整个构图宛如一个晶莹的数字微缩景观。",
+    "example_image_url": "https://img.promptstudio.art/prompts/low-poly-mountain-landscape.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["低多边形", "雪山", "湖泊", "风景", "几何"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "low-poly-forest-deer",
+    "style_id": "low-poly",
+    "title_zh": "林中鹿",
+    "title_en": "Forest Deer",
+    "subject_zh": "秋日森林中站立的雄鹿",
+    "prompt_text": "A majestic low-poly stag standing in an autumn forest clearing. The deer is composed of angular triangular facets in rich amber, warm chestnut, and creamy beige, with its large antlers branching upward in sharp crystalline formations of bronze and gold. The animal stands on a carpet of fallen leaves rendered as small flat polygons in burnt orange, deep red, and mustard yellow. Surrounding birch trees are built from vertical faceted cylinders of white and pale grey, their canopies a burst of triangulated amber and crimson. Shafts of low golden sunlight cut through the forest as geometric beams, illuminating floating dust motes represented by tiny bright triangles. The background fades into cooler purple and blue-grey facets suggesting distant forest depth.",
+    "prompt_zh": "一只威武的低多边形雄鹿站在秋日森林的空地上。鹿的身体由富丽的琥珀色、暖栗色和奶油米色的棱角三角面构成，巨大的鹿角以铜色和金色的锐利晶体造型向上分叉延伸。它站在一片落叶地毯上，落叶以焦橙、深红和芥末黄的小平面多边形呈现。周围的白桦树由白色和浅灰色的垂直切面圆柱构建，树冠是琥珀和绯红三角形的爆发。低角度的金色阳光以几何光束穿过森林，照亮飘浮的尘埃微粒——用微小的明亮三角形表示。背景渐变为较冷的紫色和蓝灰色切面，暗示着幽深的远处森林。",
+    "example_image_url": "https://img.promptstudio.art/prompts/low-poly-forest-deer.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["低多边形", "鹿", "秋天", "森林", "动物"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "low-poly-ocean-sunset",
+    "style_id": "low-poly",
+    "title_zh": "海上日落",
+    "title_en": "Ocean Sunset",
+    "subject_zh": "海平面上壮观的多边形日落",
+    "prompt_text": "A stunning low-poly ocean sunset viewed from a rocky shore. The sky is a dramatic tessellation of triangular facets transitioning from intense tangerine and molten gold near the sun to deep magenta, violet, and finally dark navy at the top. The sun itself is a bright faceted hexagon of pure warm yellow sitting on the horizon line. Ocean waves are abstracted into rows of elongated triangles in deep teal, dark turquoise, and midnight blue, with occasional bright orange facets catching the reflected sunlight. Foreground rocks jut from the water as clusters of dark angular polygons in charcoal and slate. A lone sailboat in the mid-distance is reduced to a handful of white and grey triangles. The water near the horizon glows with a shimmering path of amber and pink geometric fragments.",
+    "prompt_zh": "一幅壮观的低多边形海上日落，从岩石海岸视角望去。天空是三角切面的戏剧性镶嵌，从太阳附近的浓烈橘红和熔金色过渡到深洋红、紫罗兰，最终到达顶部的深海军蓝。太阳本身是一个明亮的纯暖黄色切面六边形，悬于地平线上。海浪被抽象为深青、暗青绿和午夜蓝的细长三角形排列，偶有明亮的橙色切面捕捉反射的阳光。前景的岩石以木炭色和石板色的深色棱角多边形簇从水面突起。中景远处的孤帆被简化为几片白色和灰色三角形。靠近地平线的水面以琥珀和粉色几何碎片的闪光路径发出柔光。",
+    "example_image_url": "https://img.promptstudio.art/prompts/low-poly-ocean-sunset.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["低多边形", "日落", "海洋", "风景", "光影"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "low-poly-geometric-portrait",
+    "style_id": "low-poly",
+    "title_zh": "几何肖像",
+    "title_en": "Geometric Portrait",
+    "subject_zh": "由三角形面构成的人物肖像",
+    "prompt_text": "A striking low-poly portrait of a woman facing slightly to the left, her features defined entirely by triangular facets of varying sizes. Larger polygons shape the broad planes of the forehead and cheeks in warm peach and soft terracotta, while smaller, more detailed triangles define the nose ridge, lips, and the subtle curve of the eyelids. Her eyes are rendered as deep amber and dark walnut facets with a single bright highlight triangle in each. The hair cascades in flowing geometric planes of deep burgundy, chocolate brown, and hints of copper, each strand suggested by elongated angular shapes. The background shifts from a warm rose gold on the lit side to cool slate blue in shadow, creating a dramatic chiaroscuro effect built entirely from flat polygonal surfaces.",
+    "prompt_zh": "一幅引人注目的低多边形女性肖像，面部微微转向左侧，所有面部特征完全由大小不一的三角形切面定义。较大的多边形以暖桃色和柔和赤陶色塑造前额和脸颊的宽阔平面，而更小更精细的三角形定义鼻梁、嘴唇和眼睑的微妙弧度。双眼以深琥珀和深胡桃色切面呈现，每只眼中点缀一个明亮的高光三角形。头发以深酒红、巧克力棕和铜色光泽的流动几何平面倾泻而下，每缕发丝由细长的棱角形状暗示。背景从受光面的暖玫瑰金过渡到阴影面的冷石板蓝，营造出完全由平面多边形表面构建的戏剧性明暗对比效果。",
+    "example_image_url": "https://img.promptstudio.art/prompts/low-poly-geometric-portrait.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["低多边形", "肖像", "几何", "人物", "艺术"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "low-poly-crystal-cave",
+    "style_id": "low-poly",
+    "title_zh": "水晶洞穴",
+    "title_en": "Crystal Cave",
+    "subject_zh": "散发奇幻光芒的水晶洞穴",
+    "prompt_text": "A mesmerizing low-poly crystal cave interior glowing with otherworldly light. Massive crystalline formations jut from the floor and ceiling as clusters of elongated geometric prisms in translucent amethyst purple, icy aquamarine, and pale rose quartz. The faceted surfaces catch and refract an unseen light source, creating bright highlight triangles of white and soft pink on each crystal face. The cave walls are composed of rough, irregular polygons in deep charcoal, dark brown, and mossy green, providing stark contrast to the luminous crystals. A shallow underground pool on the cave floor reflects the crystal formations as a mosaic of shimmering color fragments. Faint bioluminescent spots in electric blue dot the darker recesses, adding depth and mystery to the geometric underworld.",
+    "prompt_zh": "一幅令人着迷的低多边形水晶洞穴内景，散发着超凡脱俗的光芒。巨大的晶体结构以透明紫水晶、冰蓝海蓝宝石和淡粉玫瑰石英色调的细长几何棱柱簇从地面和洞顶突出。切面表面捕捉并折射着看不见的光源，在每个晶面上创造出白色和柔粉的明亮高光三角形。洞壁由深炭灰、深棕和苔绿色的粗糙不规则多边形组成，与发光的水晶形成鲜明对比。洞穴地面的浅层地下水池将水晶结构倒映为闪烁色彩碎片的镶嵌图案。微弱的电蓝色生物荧光点缀在较暗的凹处，为这个几何地下世界增添了纵深感和神秘气息。",
+    "example_image_url": "https://img.promptstudio.art/prompts/low-poly-crystal-cave.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["低多边形", "水晶", "洞穴", "奇幻", "光影"],
+    "created_at": "2026-02-20"
+  }
+]

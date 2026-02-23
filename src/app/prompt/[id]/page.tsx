@@ -1,13 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getPromptById, getRelatedPrompts, prompts } from "@/lib/data";
-import { STYLE_LABELS, SCENE_LABELS, MODEL_LABELS } from "@/lib/types";
+import { getExampleById, getRelatedExamples, getAllExamples, getStyleById } from "@/lib/data";
+import { CATEGORY_LABELS } from "@/lib/types";
 import CopyButton from "@/components/CopyButton";
 import PromptCard from "@/components/PromptCard";
 
 export async function generateStaticParams() {
-  return prompts.map((p) => ({ id: p.id }));
+  return getAllExamples().map((e) => ({ id: e.id }));
 }
 
 export async function generateMetadata({
@@ -16,19 +16,19 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const prompt = getPromptById(id);
-  if (!prompt) return { title: "未找到" };
+  const example = getExampleById(id);
+  if (!example) return { title: "未找到" };
 
-  const url = `https://promptstudio.art/prompt/${prompt.id}`;
+  const url = `https://promptstudio.art/prompt/${example.id}`;
 
   return {
-    title: `${prompt.title_zh} — AI 绘画提示词`,
-    description: `${prompt.title_en}。${prompt.prompt_zh.slice(0, 120)}`,
+    title: `${example.title_zh} — AI 图像提示词`,
+    description: `${example.title_en}。${example.prompt_zh.slice(0, 120)}`,
     alternates: { canonical: url },
     openGraph: {
-      title: prompt.title_zh,
-      description: prompt.title_en,
-      images: [prompt.example_image_url],
+      title: example.title_zh,
+      description: example.title_en,
+      images: [example.example_image_url],
       url,
       type: "article",
     },
@@ -41,36 +41,35 @@ export default async function PromptDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const prompt = getPromptById(id);
-  if (!prompt) notFound();
+  const example = getExampleById(id);
+  if (!example) notFound();
 
-  const style = STYLE_LABELS[prompt.category_style];
-  const scene = SCENE_LABELS[prompt.category_scene];
-  const model = MODEL_LABELS[prompt.category_model];
-  const related = getRelatedPrompts(prompt);
+  const style = getStyleById(example.style_id);
+  const categoryLabel = style ? CATEGORY_LABELS[style.category] : null;
+  const related = getRelatedExamples(example);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: prompt.title_zh,
-    alternativeHeadline: prompt.title_en,
-    description: prompt.prompt_zh,
-    image: prompt.example_image_url,
-    url: `https://promptstudio.art/prompt/${prompt.id}`,
-    datePublished: prompt.created_at,
-    dateModified: prompt.created_at,
+    headline: example.title_zh,
+    alternativeHeadline: example.title_en,
+    description: example.prompt_zh,
+    image: example.example_image_url,
+    url: `https://promptstudio.art/prompt/${example.id}`,
+    datePublished: example.created_at,
+    dateModified: example.created_at,
     author: { "@type": "Organization", name: "PromptStudio" },
     publisher: {
       "@type": "Organization",
       name: "PromptStudio",
       url: "https://promptstudio.art",
     },
-    keywords: [style.zh, style.en, scene.zh, scene.en, prompt.source_model, ...prompt.tags].join(", "),
+    keywords: [...example.tags, style?.name_zh, style?.name_en].filter(Boolean).join(", "),
     associatedMedia: {
       "@type": "ImageObject",
-      contentUrl: prompt.example_image_url,
-      name: prompt.title_en,
-      description: `AI-generated image using ${prompt.source_model}: ${prompt.title_en}`,
+      contentUrl: example.example_image_url,
+      name: example.title_en,
+      description: `AI-generated image: ${example.title_en}`,
     },
   };
 
@@ -80,63 +79,66 @@ export default async function PromptDetailPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
-        <Link href="/" className="hover:text-primary transition-colors duration-200">首页</Link>
-        <span>/</span>
-        <Link href="/explore" className="hover:text-primary transition-colors duration-200">探索</Link>
-        <span>/</span>
-        <Link
-          href={`/explore?style=${prompt.category_style}`}
-          className="hover:text-primary transition-colors duration-200"
-        >
-          {style.zh}
+        <Link href="/" className="hover:text-primary transition-colors duration-200">
+          首页
         </Link>
         <span>/</span>
-        <span className="text-text-secondary truncate max-w-[180px] normal-case">{prompt.title_zh}</span>
+        <Link href="/styles" className="hover:text-primary transition-colors duration-200">
+          风格
+        </Link>
+        {style && (
+          <>
+            <span>/</span>
+            <Link
+              href={`/style/${style.id}`}
+              className="hover:text-primary transition-colors duration-200"
+            >
+              {style.name_zh}
+            </Link>
+          </>
+        )}
+        <span>/</span>
+        <span className="text-text-secondary truncate max-w-[180px] normal-case">
+          {example.title_zh}
+        </span>
       </nav>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
-        {/* Image column — LEFT, larger (7 cols) */}
+        {/* Image column — LEFT (7 cols) */}
         <div className="lg:col-span-7 animate-fade-in-up">
           <div className="sticky top-20">
             <div className="overflow-hidden rounded-3xl bg-bg-surface">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={prompt.example_image_url}
-                alt={prompt.title_zh}
+                src={example.example_image_url}
+                alt={example.title_zh}
                 className="w-full block aspect-square object-cover"
               />
             </div>
 
-            {/* Image toolbar */}
-            <div className="flex items-center justify-between mt-4">
-              <div className="flex items-center gap-2">
-                <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-bg-card border border-border-default text-sm font-medium text-text-secondary hover:border-primary/30 transition-all">
-                  <span className="material-symbols-outlined text-[16px]">zoom_in</span>
-                  放大
-                </button>
-                <button className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-bg-card border border-border-default text-sm font-medium text-text-secondary hover:border-primary/30 transition-all">
-                  <span className="material-symbols-outlined text-[16px]">download</span>
-                  下载
-                </button>
-              </div>
-              <div className="flex items-center gap-1 rounded-xl bg-bg-card border border-border-default p-1">
-                <button className="px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-bold">高清</button>
-                <button className="px-3 py-1.5 rounded-lg text-xs font-medium text-text-muted hover:text-text-primary transition-colors">原图</button>
-              </div>
-            </div>
-
-            {/* Author card */}
-            <div className="flex items-center gap-3 mt-6 p-4 rounded-2xl bg-bg-card border border-border-default">
-              <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-sm">
-                {prompt.source_model.charAt(0).toUpperCase()}
-              </div>
-              <div>
-                <div className="text-sm font-bold text-text-primary">{prompt.source_model}</div>
-                <div className="text-xs text-text-muted">AI 模型</div>
-              </div>
-            </div>
+            {/* Style link card */}
+            {style && (
+              <Link
+                href={`/style/${style.id}`}
+                className="flex items-center gap-3 mt-6 p-4 rounded-2xl bg-bg-card border border-border-default hover:border-primary/20 transition-all group"
+              >
+                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <span className="material-symbols-outlined text-[20px]">palette</span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-bold text-text-primary group-hover:text-primary transition-colors">
+                    {style.name_zh}
+                  </div>
+                  <div className="text-xs text-text-muted">{style.name_en}</div>
+                </div>
+                <span className="material-symbols-outlined text-[16px] text-text-muted group-hover:text-primary transition-colors">
+                  arrow_forward
+                </span>
+              </Link>
+            )}
           </div>
         </div>
 
@@ -144,92 +146,72 @@ export default async function PromptDetailPage({
         <div className="lg:col-span-5 animate-fade-in-up stagger-2">
           {/* Title */}
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-2">
-            {prompt.title_zh}
+            {example.title_zh}
             <span className="text-primary">.</span>
           </h1>
-          <p className="text-sm text-text-secondary mb-6">{prompt.title_en}</p>
+          <p className="text-sm text-text-secondary mb-6">{example.title_en}</p>
 
           {/* Meta badges */}
           <div className="flex flex-wrap items-center gap-2 mb-8">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wide rounded-xl bg-primary/10 text-primary border border-primary/20">
-              <span className="material-symbols-outlined text-[14px]">smart_toy</span>
-              {model.en}
+            {style && (
+              <Link
+                href={`/style/${style.id}`}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wide rounded-xl bg-primary/10 text-primary border border-primary/20"
+              >
+                <span className="material-symbols-outlined text-[14px]">palette</span>
+                {style.name_zh}
+              </Link>
+            )}
+            {categoryLabel && (
+              <Link
+                href={`/styles?category=${style!.category}`}
+                className="tag-chip text-xs"
+              >
+                <span className="material-symbols-outlined text-[14px]">{categoryLabel.icon}</span>
+                {categoryLabel.zh}
+              </Link>
+            )}
+            <span className="tag-chip text-xs">
+              {example.aspect_ratio}
             </span>
-            <Link
-              href={`/explore?style=${prompt.category_style}`}
-              className="tag-chip text-xs"
-            >
-              {style.icon} {style.zh}
-            </Link>
-            <Link
-              href={`/explore?scene=${prompt.category_scene}`}
-              className="tag-chip text-xs"
-            >
-              {scene.icon} {scene.zh}
-            </Link>
           </div>
 
           {/* Large Copy CTA */}
-          <CopyButton text={prompt.prompt_text} label="复制提示词" large />
+          <CopyButton text={example.prompt_text} label="复制提示词" large />
 
           {/* Full prompt block */}
           <div className="mt-6 mb-6">
             <div className="flex items-center justify-between mb-3">
               <span className="section-label">英文提示词</span>
-              <CopyButton text={prompt.prompt_text} label="复制" />
+              <CopyButton text={example.prompt_text} label="复制" />
             </div>
-            <div className="prompt-code text-sm">{prompt.prompt_text}</div>
+            <div className="prompt-code text-sm">{example.prompt_text}</div>
           </div>
 
           {/* Chinese translation */}
           <div className="mb-8">
             <div className="flex items-center justify-between mb-3">
               <span className="section-label">中文描述</span>
-              <CopyButton text={prompt.prompt_zh} label="复制" />
+              <CopyButton text={example.prompt_zh} label="复制" />
             </div>
-            <div className="prompt-code text-sm">{prompt.prompt_zh}</div>
+            <div className="prompt-code text-sm">{example.prompt_zh}</div>
           </div>
-
-          {/* Parameters — 2x2 grid */}
-          {Object.keys(prompt.parameters).length > 0 && (
-            <div className="mb-8">
-              <span className="section-label block mb-4">参数配置</span>
-              <div className="grid grid-cols-2 gap-3">
-                {Object.entries(prompt.parameters).map(([key, val]) => (
-                  <div
-                    key={key}
-                    className="flex flex-col gap-1 px-4 py-3 rounded-2xl bg-bg-card border border-border-default"
-                  >
-                    <div className="flex items-center gap-1.5">
-                      <span className="material-symbols-outlined text-[14px] text-primary">tune</span>
-                      <span className="text-[11px] text-text-muted font-medium uppercase tracking-wider">{key}</span>
-                    </div>
-                    <span className="text-sm text-text-primary font-bold">{String(val)}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
 
           {/* Tags */}
           <div className="mb-8">
             <span className="section-label block mb-4">标签</span>
             <div className="flex flex-wrap gap-2">
-              {prompt.tags.map((tag) => (
-                <Link
-                  key={tag}
-                  href={`/explore?style=${prompt.category_style}`}
-                  className="tag-chip text-xs"
-                >
+              {example.tags.map((tag) => (
+                <span key={tag} className="tag-chip text-xs">
                   {tag}
-                </Link>
+                </span>
               ))}
             </div>
           </div>
         </div>
       </div>
 
-      {/* Related prompts */}
+      {/* Related examples */}
       {related.length > 0 && (
         <section className="mt-20">
           <div className="divider mb-10" />
@@ -243,7 +225,7 @@ export default async function PromptDetailPage({
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {related.map((p, i) => (
-              <PromptCard key={p.id} prompt={p} index={i} />
+              <PromptCard key={p.id} example={p} index={i} />
             ))}
           </div>
         </section>

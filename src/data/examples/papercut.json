@@ -1,0 +1,67 @@
+[
+  {
+    "id": "papercut-spring-festival",
+    "style_id": "papercut",
+    "title_zh": "春节剪纸",
+    "title_en": "Spring Festival",
+    "subject_zh": "春节庆典场景",
+    "prompt_text": "An intricate Chinese papercut artwork depicting a joyful Spring Festival scene in traditional red and gold. A family gathers around a round table laden with dumplings, framed by an ornate window lattice border. Paper lanterns hang from above while firecrackers burst in symmetrical patterns. Plum blossoms weave through the negative space. Every element is connected by delicate bridges of uncut paper, maintaining single-sheet integrity characteristic of folk papercut art.",
+    "prompt_zh": "一幅精美的中国剪纸艺术作品，以传统红金配色描绘欢乐的春节场景。一家人围坐在摆满饺子的圆桌旁，被华丽的窗棂边框环绕。纸灯笼从上方垂下，鞭炮以对称图案绽放。梅花穿梭于镂空之间。每个元素都由精细的未剪纸桥连接，保持了民间剪纸艺术特有的单张纸完整性。",
+    "example_image_url": "https://img.promptstudio.art/prompts/papercut-spring-festival.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["剪纸艺术", "春节", "传统民俗", "红金配色", "家庭团圆"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "papercut-forest-animals",
+    "style_id": "papercut",
+    "title_zh": "森林动物",
+    "title_en": "Forest Animals",
+    "subject_zh": "森林动物群像",
+    "prompt_text": "A layered papercut diorama of a whimsical forest scene with multiple depth layers in soft earth tones. In the foreground, a fox and rabbit sit among ferns cut from amber paper. The middle layer shows birch trees in cream white with delicate bark texture. Deeper layers reveal a deer family silhouetted against a pale peach sunset. Tiny birds perch on branches throughout, and mushrooms dot the floor. Each layer casts subtle shadows on the one behind it.",
+    "prompt_zh": "一幅多层剪纸立体透视的奇幻森林场景，采用柔和大地色调的多重景深层次。前景中，一只狐狸和一只兔子坐在琥珀色纸张剪成的蕨类植物间。中间层展示着奶油白色的白桦树，带有精致的树皮纹理。更深层次展现一个鹿家族在淡桃色夕阳前的剪影。小鸟栖息在各层的树枝上，蘑菇点缀在地面。每一层在后面的层上投下微妙的阴影。",
+    "example_image_url": "https://img.promptstudio.art/prompts/papercut-forest-animals.webp",
+    "aspect_ratio": "4:3",
+    "tags": ["剪纸艺术", "森林动物", "多层立体", "大地色调", "童话风格"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "papercut-ocean-waves",
+    "style_id": "papercut",
+    "title_zh": "海浪翻涌",
+    "title_en": "Ocean Waves",
+    "subject_zh": "海浪与海洋生物",
+    "prompt_text": "A dramatic papercut artwork of rolling ocean waves in graduated shades of blue, teal, and white. Curling wave crests are formed by intricate spiral cuts that let light pass through, creating a luminous foam effect. Beneath the surface, silhouettes of whales and sea turtles are visible through delicate cutout windows. A small sailing boat rides the tallest wave. The entire composition uses negative space masterfully to suggest motion, depth, and the raw power of the sea.",
+    "prompt_zh": "一幅戏剧性的剪纸艺术作品，以渐变的蓝色、青色和白色展现翻滚的海浪。卷曲的浪尖由精密的螺旋剪裁形成，让光线穿透营造出发光的泡沫效果。水面之下，鲸鱼和海龟的剪影通过精细的镂空窗口隐约可见。一艘小帆船驾驭着最高的浪峰。整体构图巧妙运用负空间来表现运动、深度和大海的原始力量。",
+    "example_image_url": "https://img.promptstudio.art/prompts/papercut-ocean-waves.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["剪纸艺术", "海浪", "海洋生物", "蓝色渐变", "负空间"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "papercut-village-landscape",
+    "style_id": "papercut",
+    "title_zh": "乡村风光",
+    "title_en": "Village Landscape",
+    "subject_zh": "田园乡村景色",
+    "prompt_text": "A charming papercut panorama of a pastoral village landscape in warm harvest colors. Rolling hills in layered ochre and sage green paper recede into the distance. Cottages with thatched roofs sit beside a winding river cut from silver-blue paper. Terraced rice paddies step down a hillside, and a stone bridge arches over the stream. A farmer leads an ox along a narrow path while geese waddle nearby. Willow trees frame the scene with cascading cut-paper leaves.",
+    "prompt_zh": "一幅迷人的剪纸全景画，以温暖的丰收色调展现田园乡村风光。层叠的赭色和灰绿色纸张制成的起伏丘陵向远方延伸。茅草屋顶的小屋坐落在银蓝色纸张剪成的蜿蜒河流旁。梯田沿山坡层层递下，一座石桥横跨溪流。一位农夫牵着牛沿小路行走，鹅群在旁边蹒跚而行。垂柳以层叠剪纸叶片框住画面。",
+    "example_image_url": "https://img.promptstudio.art/prompts/papercut-village-landscape.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["剪纸艺术", "乡村风光", "田园牧歌", "丰收色调", "层叠景深"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "papercut-butterfly-garden",
+    "style_id": "papercut",
+    "title_zh": "蝴蝶花园",
+    "title_en": "Butterfly Garden",
+    "subject_zh": "蝴蝶与花卉花园",
+    "prompt_text": "A vibrant papercut artwork of a butterfly garden bursting with color and intricate detail. Dozens of butterflies in jewel tones of sapphire, ruby, and emerald flutter among blooming peonies and wisteria vines. Each butterfly wing features symmetrical filigree cuts revealing the pale background beneath. Flower petals layer upon one another with visible paper edges adding texture. A decorative archway of intertwined stems frames the central composition, blending traditional papercut precision with botanical illustration sensibility.",
+    "prompt_zh": "一幅色彩缤纷、细节精致的蝴蝶花园剪纸艺术作品。数十只宝石色调的蝴蝶——蓝宝石、红宝石和翡翠色——在盛开的牡丹和紫藤之间翩翩飞舞。每只蝴蝶的翅膀都有对称的花丝剪裁，透出下方的浅色背景。花瓣层层叠叠，可见的纸张边缘增添了质感。交织茎蔓构成的装饰拱门框住中央构图，融合了传统剪纸的精确与植物插画的审美。",
+    "example_image_url": "https://img.promptstudio.art/prompts/papercut-butterfly-garden.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["剪纸艺术", "蝴蝶花园", "花卉", "宝石色调", "植物插画"],
+    "created_at": "2026-02-20"
+  }
+]

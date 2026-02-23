@@ -1,0 +1,67 @@
+[
+  {
+    "id": "abstract-emotional-explosion",
+    "style_id": "abstract",
+    "title_zh": "情感爆发",
+    "title_en": "Emotional Explosion",
+    "subject_zh": "情绪与色彩的激烈碰撞",
+    "prompt_text": "An abstract painting capturing the raw intensity of human emotion through violent splashes of crimson red, deep violet, and molten gold against a stark black background. Thick impasto brushstrokes radiate outward from the center like a supernova, with drips and splatters creating a sense of uncontrolled energy. The composition feels chaotic yet deeply intentional, with layers of translucent color building depth and complexity. Fine cracks in the paint surface add texture and age, as if the emotion has been crystallized in time. The overall mood is cathartic, passionate, and overwhelmingly alive.",
+    "prompt_zh": "一幅抽象画作，通过猛烈飞溅的深红、深紫和熔金色在纯黑背景上的碰撞，捕捉人类情感的原始强度。厚重的堆叠笔触从中心向外辐射，如同超新星爆发，滴落和飞溅营造出不可控的能量感。构图看似混乱却深具匠心，层层半透明色彩构建出深度与复杂性。画面表面的细微裂纹增添了质感与岁月感，仿佛情感已凝结在时间之中。整体氛围是宣泄的、热烈的、充满生命力的。",
+    "example_image_url": "https://img.promptstudio.art/prompts/abstract-emotional-explosion.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["抽象艺术", "情感表达", "色彩爆发", "表现主义"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "abstract-flowing-forms",
+    "style_id": "abstract",
+    "title_zh": "流动的形态",
+    "title_en": "Flowing Forms",
+    "subject_zh": "液态般柔和流动的有机形态",
+    "prompt_text": "A serene abstract composition of soft, organic forms flowing gracefully across the canvas like slow-moving currents of water. Pale cerulean blue, seafoam green, and warm ivory blend seamlessly into one another with no hard edges. The shapes suggest natural phenomena such as clouds drifting, rivers meandering, or silk fabric caught in a gentle breeze. Subtle gradients create a sense of luminosity from within, as though the forms themselves are glowing softly. The overall feeling is meditative and tranquil, evoking the quiet beauty of nature in constant gentle motion.",
+    "prompt_zh": "一幅宁静的抽象构图，柔和的有机形态如缓慢流动的水流般优雅地穿越画布。淡天蓝、海沫绿与暖象牙白彼此无缝融合，没有任何硬边。形态暗示着云朵飘移、河流蜿蜒或丝绸在微风中飘荡等自然现象。微妙的渐变营造出内在的光感，仿佛形态本身在柔和地发光。整体感受是冥想式的宁静，唤起自然在持续轻柔运动中的静美。",
+    "example_image_url": "https://img.promptstudio.art/prompts/abstract-flowing-forms.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["有机形态", "流动感", "柔和色彩", "冥想", "自然"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "abstract-geometric-meditation",
+    "style_id": "abstract",
+    "title_zh": "几何冥想",
+    "title_en": "Geometric Meditation",
+    "subject_zh": "精密几何图案构成的沉思空间",
+    "prompt_text": "A precise and contemplative abstract artwork built entirely from interlocking geometric shapes. Concentric circles, perfect triangles, and tessellated hexagons overlap and nest within each other in a mathematically harmonious arrangement. The color palette is restrained, using only matte charcoal, dusty rose, muted teal, and antique white. Each shape casts a subtle shadow suggesting slight depth, as if the geometry floats just above the surface. Fine golden lines trace the edges of key forms, adding a sacred quality. The composition radiates outward from a central point, inviting the viewer into deep, focused contemplation.",
+    "prompt_zh": "一件精确而沉思的抽象艺术作品，完全由互锁的几何形状构建。同心圆、完美三角形和镶嵌六边形以数学般和谐的排列相互重叠嵌套。色彩克制，仅使用哑光炭灰、灰玫瑰、柔和青绿和古白色。每个形状投射出微妙阴影，暗示轻微的深度感，仿佛几何图形悬浮于表面之上。精细的金色线条勾勒关键形态的边缘，增添了一种神圣的品质。构图从中心点向外辐射，引导观者进入深沉、专注的冥想。",
+    "example_image_url": "https://img.promptstudio.art/prompts/abstract-geometric-meditation.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["几何抽象", "冥想", "数学之美", "极简主义", "神圣几何"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "abstract-color-field-painting",
+    "style_id": "abstract",
+    "title_zh": "色域绘画",
+    "title_en": "Color Field Painting",
+    "subject_zh": "大面积纯色块的宏大视觉体验",
+    "prompt_text": "A monumental color field painting in the tradition of Mark Rothko, featuring two large horizontal bands of color hovering on a luminous background. The upper rectangle is a deep, velvety ultramarine blue with softly feathered edges that seem to breathe and pulse. Below it floats a warm rectangle of burnt sienna that glows like embers at dusk. Between and around these forms, a pale saffron ground shimmers with barely visible brushwork. The boundaries between colors are deliberately blurred, creating an atmospheric haze that gives the painting a profound emotional resonance and spiritual depth.",
+    "prompt_zh": "一幅宏伟的色域绘画，延续马克·罗斯科的传统，两个大型水平色块悬浮在明亮的背景之上。上方的矩形是深邃丝绒般的群青蓝，柔和羽化的边缘仿佛在呼吸和脉动。下方漂浮着一个温暖的赭石矩形，如黄昏中的余烬般发光。在这些形态之间和周围，淡藏红花色的底色闪烁着几乎不可见的笔触。色彩之间的边界被刻意模糊，营造出一种大气般的朦胧感，赋予画面深刻的情感共鸣和精神深度。",
+    "example_image_url": "https://img.promptstudio.art/prompts/abstract-color-field-painting.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["色域绘画", "罗斯科风格", "情感共鸣", "极简色彩"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "abstract-rhythm-and-movement",
+    "style_id": "abstract",
+    "title_zh": "韵律与动感",
+    "title_en": "Rhythm and Movement",
+    "subject_zh": "音乐般的线条与节奏韵律",
+    "prompt_text": "A dynamic abstract composition that translates the sensation of music into visual form. Sweeping curved lines in jet black dance across a warm cream background, rising and falling like the notation of an unheard symphony. Bursts of bright cadmium orange and electric magenta punctuate the composition at rhythmic intervals, suggesting staccato notes and cymbal crashes. Thinner lines weave between the bold strokes like delicate violin melodies. The entire composition moves from left to right with building intensity, creating a visual crescendo. The energy feels joyful and kinetic, as if the painting itself is performing.",
+    "prompt_zh": "一幅充满活力的抽象构图，将音乐的感觉转化为视觉形式。乌黑的弧线在温暖的奶油色背景上起舞，如同未被听见的交响乐乐谱般起伏。明亮的镉橙与电光品红在构图中按节奏间隔爆发，暗示着断音和铙钹的碰撞。更细的线条在大胆笔触之间穿梭，如同精致的小提琴旋律。整个构图从左至右以渐强的力度推进，创造出视觉上的高潮。能量感欢快而充满动感，仿佛画作本身正在演奏。",
+    "example_image_url": "https://img.promptstudio.art/prompts/abstract-rhythm-and-movement.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["韵律感", "音乐可视化", "动态构图", "线条艺术", "抽象表现"],
+    "created_at": "2026-02-20"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "memphis-poster-design",
+    "style_id": "memphis",
+    "title_zh": "孟菲斯狂想曲",
+    "title_en": "Memphis Rhapsody",
+    "subject_zh": "孟菲斯风格海报",
+    "prompt_text": "A vibrant Memphis style poster with bold geometric shapes scattered across a hot pink background. Oversized yellow triangles, teal squiggly lines, black and white checkerboard patterns, and floating purple circles overlap playfully. Large sans-serif typography reads DESIGN FEST in electric blue. Confetti-like dots and zigzag borders frame the composition in a joyful celebration of color and pattern.",
+    "prompt_zh": "一张充满活力的孟菲斯风格海报，大胆的几何形状散布在亮粉色背景上。超大的黄色三角形、蓝绿色波浪线、黑白棋盘格图案和漂浮的紫色圆圈俏皮地重叠。大号无衬线字体用电光蓝写着DESIGN FEST。五彩纸屑般的圆点和锯齿形边框构成欢快的色彩与图案的盛宴。",
+    "example_image_url": "https://img.promptstudio.art/prompts/memphis-poster-design.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["孟菲斯", "海报设计", "几何图形", "波普"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "memphis-furniture-set",
+    "style_id": "memphis",
+    "title_zh": "趣味家居",
+    "title_en": "Playful Living",
+    "subject_zh": "孟菲斯风格家具组合",
+    "prompt_text": "A Memphis design furniture set in a bright studio space. A bookshelf with asymmetric colored shelves in red, yellow, and turquoise stands beside a terrazzo-patterned armchair with tubular chrome legs. A kidney-shaped coffee table in bubblegum pink sits on a geometric rug with black zigzag lines on a mint green ground. Bold, whimsical, and unapologetically postmodern.",
+    "prompt_zh": "明亮工作室空间中的一组孟菲斯设计家具。一个不对称的彩色书架——红、黄、青绿色隔板——旁边是一把水磨石纹理扶手椅，配以管状镀铬椅腿。泡泡糖粉色的肾形茶几放在薄荷绿底黑色锯齿纹的几何地毯上。大胆、异想天开、毫不掩饰的后现代风格。",
+    "example_image_url": "https://img.promptstudio.art/prompts/memphis-furniture-set.webp",
+    "aspect_ratio": "16:9",
+    "tags": ["孟菲斯", "家具设计", "后现代", "色彩"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "memphis-pattern-background",
+    "style_id": "memphis",
+    "title_zh": "几何万花筒",
+    "title_en": "Geometric Kaleidoscope",
+    "subject_zh": "孟菲斯图案背景",
+    "prompt_text": "A seamless Memphis pattern background densely packed with geometric motifs on a cream white base. Scattered elements include coral pink semicircles, cobalt blue lightning bolts, yellow polka dots, green cross shapes, and thin black parallel lines at various angles. Small terrazzo speckles fill the gaps. The pattern is flat, graphic, and radiates retro eighties energy with contemporary freshness.",
+    "prompt_zh": "一幅无缝孟菲斯图案背景，奶油白底色上密集排布着几何图形元素。散落的元素包括珊瑚粉半圆、钴蓝闪电符号、黄色波点、绿色十字形以及不同角度的细黑平行线。水磨石碎点填充空隙。图案扁平、图形化，散发着八十年代复古活力与当代清新感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/memphis-pattern-background.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["孟菲斯", "图案设计", "几何", "无缝纹理", "复古"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "memphis-party-invitation",
+    "style_id": "memphis",
+    "title_zh": "派对邀请函",
+    "title_en": "Party Invitation Card",
+    "subject_zh": "孟菲斯风格派对邀请",
+    "prompt_text": "A fun Memphis style party invitation card with a lavender background. A large star shape in neon orange dominates the center with party details in bold black text inside. Surrounding decorations include wavy teal ribbons, yellow confetti triangles, red outlined circles, and small black squiggles. The border features alternating pink and blue rectangular tabs creating a playful torn-ticket aesthetic.",
+    "prompt_zh": "一张有趣的孟菲斯风格派对邀请卡，薰衣草紫色背景。中央一个霓虹橙色大星形占据主体，内部用粗黑字体写着派对详情。周围装饰包括波浪形蓝绿色丝带、黄色五彩纸屑三角形、红色描边圆圈和小黑色波浪线。边框由粉蓝相间的长方形标签交替排列，营造出俏皮的撕票美感。",
+    "example_image_url": "https://img.promptstudio.art/prompts/memphis-party-invitation.webp",
+    "aspect_ratio": "3:4",
+    "tags": ["孟菲斯", "邀请函", "派对", "平面设计"],
+    "created_at": "2026-02-20"
+  },
+  {
+    "id": "memphis-product-packaging",
+    "style_id": "memphis",
+    "title_zh": "潮趣包装",
+    "title_en": "Bold Box Design",
+    "subject_zh": "孟菲斯风格产品包装",
+    "prompt_text": "A product packaging box design in Memphis style for a trendy snack brand. The box surface features a bright yellow base covered with scattered geometric shapes including magenta diamonds, cyan wavy stripes, and black dotted circles. The brand logo sits inside a green rounded rectangle with white retro lettering. Studio shot on a pastel gradient background with playful shadow angles.",
+    "prompt_zh": "一款孟菲斯风格的潮流零食品牌产品包装盒设计。盒面以明黄色为底，覆盖着散落的几何图形——洋红色菱形、青色波浪条纹和黑色虚线圆圈。品牌标志置于绿色圆角矩形中，配以白色复古字体。柔和渐变背景上的影棚拍摄，投影角度俏皮活泼。",
+    "example_image_url": "https://img.promptstudio.art/prompts/memphis-product-packaging.webp",
+    "aspect_ratio": "1:1",
+    "tags": ["孟菲斯", "包装设计", "品牌", "零食"],
+    "created_at": "2026-02-20"
+  }
+]
