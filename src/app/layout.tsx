@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://promptstudio.art"),
   title: {
     default: "PromptStudio — AI 绘画提示词工具站",
     template: "%s | PromptStudio",
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     "提示词大全",
     "prompt gallery",
   ],
+  alternates: { canonical: "/" },
   openGraph: {
     title: "PromptStudio — AI 绘画提示词工具站",
     description: "精选高质量 AI 绘画提示词，中英双语，选词即出图。",

@@ -7,8 +7,28 @@ export default function HomePage() {
   const featured = prompts[0];
   const trending = prompts.slice(1, 9);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "PromptStudio",
+    alternateName: "AI 绘画提示词工具站",
+    url: "https://promptstudio.art",
+    description:
+      "精选高质量 AI 绘画提示词，支持 Midjourney、Stable Diffusion、FLUX、Gemini、DALL-E 等模型。中英双语，一键复制，选词即出图。",
+    inLanguage: ["zh-CN", "en"],
+    publisher: {
+      "@type": "Organization",
+      name: "PromptStudio",
+      url: "https://promptstudio.art",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero — Prompt of the Day */}
       <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-12 pb-10 animate-fade-in-up">
         <div className="rounded-3xl bg-amber-tint/40 dark:bg-amber-tint p-6 sm:p-8 md:p-10">

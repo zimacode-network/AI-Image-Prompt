@@ -19,13 +19,18 @@ export async function generateMetadata({
   const prompt = getPromptById(id);
   if (!prompt) return { title: "未找到" };
 
+  const url = `https://promptstudio.art/prompt/${prompt.id}`;
+
   return {
     title: `${prompt.title_zh} — AI 绘画提示词`,
     description: `${prompt.title_en}。${prompt.prompt_zh.slice(0, 120)}`,
+    alternates: { canonical: url },
     openGraph: {
       title: prompt.title_zh,
       description: prompt.title_en,
       images: [prompt.example_image_url],
+      url,
+      type: "article",
     },
   };
 }
@@ -44,8 +49,37 @@ export default async function PromptDetailPage({
   const model = MODEL_LABELS[prompt.category_model];
   const related = getRelatedPrompts(prompt);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: prompt.title_zh,
+    alternativeHeadline: prompt.title_en,
+    description: prompt.prompt_zh,
+    image: prompt.example_image_url,
+    url: `https://promptstudio.art/prompt/${prompt.id}`,
+    datePublished: prompt.created_at,
+    dateModified: prompt.created_at,
+    author: { "@type": "Organization", name: "PromptStudio" },
+    publisher: {
+      "@type": "Organization",
+      name: "PromptStudio",
+      url: "https://promptstudio.art",
+    },
+    keywords: [style.zh, style.en, scene.zh, scene.en, prompt.source_model, ...prompt.tags].join(", "),
+    associatedMedia: {
+      "@type": "ImageObject",
+      contentUrl: prompt.example_image_url,
+      name: prompt.title_en,
+      description: `AI-generated image using ${prompt.source_model}: ${prompt.title_en}`,
+    },
+  };
+
   return (
     <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
         <Link href="/" className="hover:text-primary transition-colors duration-200">首页</Link>
