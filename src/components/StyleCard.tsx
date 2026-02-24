@@ -8,7 +8,7 @@ export default function StyleCard({ style, index = 0 }: { style: StyleTemplate; 
   return (
     <Link
       href={`/style/${style.id}`}
-      className={`prompt-card group block p-3.5 rounded-2xl bg-bg-card border border-border-default hover:shadow-lg transition-all duration-300 animate-fade-in-up stagger-${Math.min(index % 8 + 1, 8)}`}
+      className={`prompt-card group block p-3.5 rounded-2xl bg-bg-card border border-border-default/60 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 animate-fade-in-up stagger-${Math.min(index % 8 + 1, 8)}`}
     >
       <div className="relative overflow-hidden rounded-xl">
         {/* eslint-disable-next-line @next/next/no-img-element */}

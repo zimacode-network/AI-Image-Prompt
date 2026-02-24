@@ -4,9 +4,15 @@ import { useState } from "react";
 
 export default function TemplateBlock({ template }: { template: string }) {
   const [copied, setCopied] = useState(false);
+  const [userContent, setUserContent] = useState("");
+
+  const hasContent = userContent.trim().length > 0;
 
   async function handleCopy() {
-    await navigator.clipboard.writeText(template);
+    const text = hasContent
+      ? template.replace("{content}", userContent.trim())
+      : template;
+    await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   }
@@ -29,17 +35,38 @@ export default function TemplateBlock({ template }: { template: string }) {
           <span className="material-symbols-outlined text-[14px]">
             {copied ? "check" : "content_copy"}
           </span>
-          {copied ? "已复制" : "复制模板"}
+          {copied ? "已复制" : hasContent ? "复制提示词" : "复制模板"}
         </button>
       </div>
+      {/* User content input */}
+      <div className="px-5 py-3 border-b border-border-default bg-bg-surface/30">
+        <label className="flex items-center gap-1.5 text-xs font-medium text-text-secondary mb-2">
+          <span className="material-symbols-outlined text-[14px] text-primary">edit</span>
+          输入你的内容
+        </label>
+        <input
+          type="text"
+          value={userContent}
+          onChange={(e) => setUserContent(e.target.value)}
+          placeholder="描述你想生成的内容，如：一只在花丛中的猫咪"
+          className="w-full px-3.5 py-2.5 rounded-xl border border-border-default bg-bg-card text-sm text-text-primary placeholder:text-text-muted focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary/30 transition-colors"
+        />
+      </div>
+      {/* Template preview */}
       <div className="px-5 py-4 text-sm leading-relaxed text-text-secondary font-[family-name:var(--font-sans)]">
         {parts.length > 1 ? (
           <>
             {parts[0]}
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 mx-0.5 rounded-lg bg-primary/10 text-primary font-bold border border-primary/20">
-              <span className="material-symbols-outlined text-[14px]">edit</span>
-              {"{content}"}
-            </span>
+            {hasContent ? (
+              <span className="inline px-1.5 py-0.5 mx-0.5 rounded-md bg-primary/15 text-primary font-bold">
+                {userContent.trim()}
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 px-2 py-0.5 mx-0.5 rounded-lg bg-primary/10 text-primary font-bold border border-primary/20">
+                <span className="material-symbols-outlined text-[14px]">edit</span>
+                {"{content}"}
+              </span>
+            )}
             {parts[1]}
           </>
         ) : (
@@ -49,7 +76,10 @@ export default function TemplateBlock({ template }: { template: string }) {
       <div className="px-5 py-3 border-t border-border-default bg-bg-surface/30">
         <p className="text-xs text-text-muted">
           <span className="material-symbols-outlined text-[12px] mr-1 align-middle">info</span>
-          将 <span className="text-primary font-bold">{"{content}"}</span> 替换为你的具体内容描述，然后复制完整提示词到 AI 图像生成工具中使用。
+          {hasContent
+            ? "点击「复制提示词」即可获得替换后的完整提示词，直接粘贴到 AI 图像生成工具中使用。"
+            : <>将 <span className="text-primary font-bold">{"{content}"}</span> 替换为你的具体内容描述，然后复制完整提示词到 AI 图像生成工具中使用。</>
+          }
         </p>
       </div>
     </div>
