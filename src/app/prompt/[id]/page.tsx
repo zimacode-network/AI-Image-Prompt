@@ -5,6 +5,7 @@ import { getExampleById, getRelatedExamples, getAllExamples, getStyleById } from
 import { CATEGORY_LABELS } from "@/lib/types";
 import CopyButton from "@/components/CopyButton";
 import PromptCard from "@/components/PromptCard";
+import { buildGenerateUrl } from "@/lib/generate-url";
 
 export async function generateStaticParams() {
   return getAllExamples().map((e) => ({ id: e.id }));
@@ -47,6 +48,9 @@ export default async function PromptDetailPage({
   const style = getStyleById(example.style_id);
   const categoryLabel = style ? CATEGORY_LABELS[style.category] : null;
   const related = getRelatedExamples(example);
+  const generateUrl = buildGenerateUrl(example.prompt_text, {
+    aspectRatio: example.aspect_ratio,
+  });
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -176,8 +180,21 @@ export default async function PromptDetailPage({
             </span>
           </div>
 
-          {/* Large Copy CTA */}
-          <CopyButton text={example.prompt_text} label="复制提示词" large />
+          {/* Large CTA: Copy + Generate */}
+          <div className="flex gap-3">
+            <div className="flex-1 min-w-0">
+              <CopyButton text={example.prompt_text} label="复制提示词" large />
+            </div>
+            <a
+              href={generateUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 flex items-center justify-center gap-2 h-14 px-6 rounded-2xl font-bold text-white bg-primary hover:bg-primary/90 transition-colors duration-200"
+            >
+              <span className="material-symbols-outlined text-[18px]">open_in_new</span>
+              去生成
+            </a>
+          </div>
 
           {/* Full prompt block */}
           <div className="mt-6 mb-6">

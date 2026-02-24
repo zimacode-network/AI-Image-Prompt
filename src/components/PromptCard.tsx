@@ -1,9 +1,14 @@
 import Link from "next/link";
 import { StyleExample } from "@/lib/types";
 import { getStyleById } from "@/lib/data";
+import { buildGenerateUrl } from "@/lib/generate-url";
+import PromptCardActions from "./PromptCardActions";
 
 export default function PromptCard({ example, index = 0 }: { example: StyleExample; index?: number }) {
   const style = getStyleById(example.style_id);
+  const generateUrl = buildGenerateUrl(example.prompt_text, {
+    aspectRatio: example.aspect_ratio,
+  });
 
   return (
     <Link
@@ -19,12 +24,7 @@ export default function PromptCard({ example, index = 0 }: { example: StyleExamp
           loading="lazy"
         />
         {/* Hover gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-          <span className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-white/90 backdrop-blur text-charcoal text-xs font-bold">
-            <span className="material-symbols-outlined text-[14px]">content_copy</span>
-            快速复制
-          </span>
-        </div>
+        <PromptCardActions generateUrl={generateUrl} />
 
         {/* Style badge — top right */}
         {style && (
