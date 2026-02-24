@@ -7,7 +7,7 @@
     "subject_zh": "等距房间",
     "prompt_text": "A beautifully detailed isometric view of a creative studio room with the front two walls removed to reveal the interior. The space contains a wooden desk with a glowing monitor, a pegboard wall covered in colorful tools, and a cozy armchair with a knitted throw blanket. Warm afternoon sunlight pours through a tall arched window, casting long soft shadows across a herringbone wood floor. Potted plants in terracotta pots sit on floating shelves. A sleeping golden retriever lies on a round rug. The rendering style is clean and slightly stylized with soft global illumination, giving the scene a miniature architectural model quality.",
     "prompt_zh": "一个精美细致的创意工作室等距视图，前两面墙被移除以展示内部。空间包含一张放着发光显示器的木桌、一面挂满彩色工具的洞洞板墙，以及一把搭着针织毯子的舒适扶手椅。温暖的午后阳光透过高大拱形窗户倾泻而入，在人字形木地板上投下长长的柔和阴影。陶土盆栽植物放在悬浮搁板上。一只金毛猎犬睡在圆形地毯上。渲染风格干净且略带风格化，配合柔和的全局光照，赋予场景一种微缩建筑模型的质感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/3d-render-isometric-room.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/3d-render-isometric-room.webp",
     "aspect_ratio": "1:1",
     "tags": ["3D渲染", "等距视图", "创意工作室", "微缩场景", "室内设计"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "卡通角色",
     "prompt_text": "A lovable three-dimensional cartoon character resembling a small round fox with oversized sparkling eyes and tiny stubby legs, standing on a grassy hilltop at golden hour. The fox wears a miniature blue scarf that flutters gently in the breeze. Its fur has a velvety subsurface scattering quality, glowing warmly where the backlight hits the edges of its ears and tail. Daisies and clover surround its feet. The background shows a soft bokeh landscape of rolling green hills under a peachy sunset sky. The overall aesthetic is toy-like and endearing, with smooth rounded forms and a pastel color harmony that feels gentle and inviting.",
     "prompt_zh": "一个可爱的三维卡通角色，形似一只圆滚滚的小狐狸，有着超大的闪亮眼睛和短小的腿，站在黄金时刻的草地山丘上。小狐狸戴着一条微型蓝色围巾在微风中轻轻飘动。它的毛皮具有天鹅绒般的次表面散射质感，在逆光照射耳朵和尾巴边缘时发出温暖的光芒。雏菊和三叶草环绕在它脚边。背景是柔和散景效果的连绵绿色山丘，在桃色日落天空下延展。整体美学如玩具般讨人喜爱，光滑圆润的造型配合柔和的粉彩色彩和谐，给人温柔而亲切的感觉。",
-    "example_image_url": "https://img.promptstudio.art/prompts/3d-render-cute-character.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/3d-render-cute-character.webp",
     "aspect_ratio": "3:4",
     "tags": ["3D渲染", "可爱角色", "卡通狐狸", "黄金时刻", "玩具质感"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "运动鞋产品",
     "prompt_text": "A high-end product visualization of a futuristic sneaker floating at a dynamic angle against a smooth gradient background transitioning from warm gray to white. The shoe features a translucent icy blue sole unit, a knitted upper in midnight black with iridescent thread accents, and a chunky sculpted midsole with visible air cushioning chambers. Dramatic studio lighting from the upper left creates crisp highlights along the edges and a soft contact shadow beneath. Tiny particles of light dust drift around the shoe, suggesting weightlessness. The rendering is photorealistic with attention to material differentiation between the matte knit, glossy rubber, and frosted translucent elements.",
     "prompt_zh": "一幅高端产品可视化作品，展示一只未来主义运动鞋以动感角度漂浮在从暖灰到白色平滑渐变的背景前。鞋子配备半透明冰蓝色鞋底单元、午夜黑针织鞋面带有虹彩丝线点缀，以及可见气垫腔室的厚实雕塑感中底。来自左上方的戏剧性影棚灯光在边缘创造出清晰的高光，下方产生柔和的接触阴影。微小的光尘颗粒在鞋子周围飘散，暗示失重感。渲染效果逼真如照片，注重哑光针织、光亮橡胶和磨砂半透明元素之间的材质区分。",
-    "example_image_url": "https://img.promptstudio.art/prompts/3d-render-product-sneaker.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/3d-render-product-sneaker.webp",
     "aspect_ratio": "4:3",
     "tags": ["3D渲染", "产品可视化", "运动鞋", "影棚灯光", "未来设计"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "抽象雕塑",
     "prompt_text": "A striking abstract sculpture rendered in three dimensions, consisting of intertwined ribbons of polished rose gold and matte ceramic white that spiral upward from a dark stone pedestal. The ribbons twist and fold with organic fluidity, creating negative spaces that frame glimpses of a deep teal background. Each metallic surface catches environmental reflections with photographic accuracy, while the ceramic portions absorb light with a chalky softness. The composition is balanced yet asymmetrical, suggesting both growth and tension. A single overhead spotlight produces a complex pattern of overlapping shadows on the ground plane, adding another layer of visual rhythm to the piece.",
     "prompt_zh": "一件引人注目的三维抽象雕塑，由抛光玫瑰金和哑光陶瓷白相互缠绕的丝带从深色石材底座向上螺旋而成。丝带以有机的流动性扭曲和折叠，创造出的负空间框住了深青色背景的片段。每个金属表面以照片级精度捕捉环境反射，而陶瓷部分则以粉笔般的柔和感吸收光线。构图平衡但不对称，暗示着生长与张力。一盏顶部聚光灯在地面上产生了复杂的重叠阴影图案，为作品增添了另一层视觉韵律。",
-    "example_image_url": "https://img.promptstudio.art/prompts/3d-render-abstract-sculpture.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/3d-render-abstract-sculpture.webp",
     "aspect_ratio": "9:16",
     "tags": ["3D渲染", "抽象艺术", "雕塑", "玫瑰金", "极简美学"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "迷你厨房",
     "prompt_text": "A delightful miniature kitchen diorama rendered in three dimensions with tilt-shift depth of field that enhances the tiny scale. The kitchen has sage green cabinetry with brass knob hardware, a white subway tile backsplash, and butcher block countertops holding a tiny stand mixer and ceramic canisters. A miniature copper kettle sits on a vintage-style gas range. Open shelving displays rows of small jars and hanging mugs. Morning light enters through a small window above the sink, illuminating floating dust motes. The scene is cropped tight, filling the frame completely, with every surface showing realistic wear and material texture that sells the illusion of a real space photographed through a macro lens.",
     "prompt_zh": "一个令人愉悦的微缩厨房透视模型，以三维渲染并配合移轴景深效果增强微小尺度感。厨房配有鼠尾草绿色橱柜和黄铜把手五金件、白色地铁砖背景墙，以及放着小型搅拌机和陶瓷罐子的砧板台面。一个微型铜壶放在复古风格的煤气灶上。开放式搁架展示着一排排小罐子和悬挂的马克杯。晨光从水槽上方的小窗户进入，照亮飘浮的尘埃微粒。画面紧密裁切，完全填满画框，每个表面都展现出逼真的使用痕迹和材质纹理，营造出通过微距镜头拍摄真实空间的错觉。",
-    "example_image_url": "https://img.promptstudio.art/prompts/3d-render-miniature-kitchen.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/3d-render-miniature-kitchen.webp",
     "aspect_ratio": "4:3",
     "tags": ["3D渲染", "微缩模型", "厨房场景", "移轴摄影", "复古风格"],
     "created_at": "2026-02-20"

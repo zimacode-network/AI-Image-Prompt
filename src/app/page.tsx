@@ -6,7 +6,7 @@ import { getFeaturedStyles, getFeaturedExamples } from "@/lib/data";
 
 export default function HomePage() {
   const featuredStyles = getFeaturedStyles(8);
-  const featuredExamples = getFeaturedExamples(8);
+  const featuredExamples = getFeaturedExamples(8, featuredStyles.map((s) => s.id));
 
   const jsonLd = {
     "@context": "https://schema.org",

@@ -77,15 +77,48 @@ export function getFeaturedStyles(limit = 8): StyleTemplate[] {
   return picks;
 }
 
-export function getFeaturedExamples(limit = 8): StyleExample[] {
-  // Take one example from each of the first N styles
+export function getFeaturedExamples(
+  limit = 8,
+  excludeStyleIds: string[] = []
+): StyleExample[] {
+  // Hand-picked visually striking examples, avoiding overlap with featured style covers
+  const curatedIds = [
+    "cyberpunk-cyber-girl",
+    "oil-painting-flower-bouquet",
+    "anime-sunset-rooftop-scene",
+    "ukiyo-e-geisha-portrait",
+    "fantasy-dragon-lair",
+    "watercolor-rainy-street",
+    "steampunk-clockwork-robot",
+    "pixel-art-cozy-room",
+    "concept-art-alien-planet",
+    "claymation-bakery-shop",
+    "pop-art-classic-car",
+    "photography-street-photography",
+  ];
+
   const result: StyleExample[] = [];
-  for (const style of allStyles) {
+  for (const id of curatedIds) {
     if (result.length >= limit) break;
-    const examples = getExamplesByStyleId(style.id);
-    if (examples.length > 0) {
-      result.push(examples[0]);
+    const ex = allExamples.find((e) => e.id === id);
+    if (ex && !excludeStyleIds.includes(ex.style_id)) {
+      result.push(ex);
     }
   }
+
+  // Fallback: fill remaining slots with non-first examples from diverse styles
+  if (result.length < limit) {
+    const usedStyleIds = new Set(result.map((e) => e.style_id));
+    for (const style of allStyles) {
+      if (result.length >= limit) break;
+      if (usedStyleIds.has(style.id) || excludeStyleIds.includes(style.id)) continue;
+      const examples = getExamplesByStyleId(style.id);
+      if (examples.length > 1) {
+        result.push(examples[1]);
+        usedStyleIds.add(style.id);
+      }
+    }
+  }
+
   return result;
 }

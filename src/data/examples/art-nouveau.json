@@ -7,7 +7,7 @@
     "subject_zh": "被鲜花环绕的优雅女性形象",
     "prompt_text": "An Art Nouveau illustration of a beautiful woman surrounded by an abundance of flowers in the style of Alphonse Mucha. She is depicted in profile with flowing auburn hair that cascades and intertwines with sinuous stems of lilies and irises. Her features are idealized and serene, with closed eyes suggesting quiet reverie. She wears a loosely draped gown in soft gold and cream that follows the organic curves of her body. An ornate circular halo frames her head, filled with intricate geometric and floral patterns. The color palette is dominated by muted pastels with accents of deep burgundy and forest green. Every line in the composition curves and flows, with the characteristic whiplash curves defining borders and decorative bands at top and bottom.",
     "prompt_zh": "一幅新艺术运动风格的插画，描绘一位被繁花簇拥的美丽女子，采用穆夏的典型风格。她以侧面呈现，流淌的赤褐色长发与百合和鸢尾的蜿蜒茎叶交织在一起。面容理想化而宁静，闭合的双眼暗示着静谧的遐想。她身着柔软金色与奶白色的垂坠长裙，顺应身体有机的曲线。精致的圆形光环框住她的头部，内填复杂的几何与花卉图案。色彩以柔和的粉彩为主调，点缀深勃艮第红和森林绿的强调色。构图中每一条线都流转弯曲，以标志性的鞭形曲线定义边框以及顶部和底部的装饰带。",
-    "example_image_url": "https://img.promptstudio.art/prompts/art-nouveau-woman-with-flowers.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/art-nouveau-woman-with-flowers.webp",
     "aspect_ratio": "3:4",
     "tags": ["新艺术运动", "穆夏风格", "花卉", "女性", "装饰艺术"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "华丽展屏的孔雀装饰画",
     "prompt_text": "An opulent Art Nouveau decorative panel featuring a majestic peacock displaying its full tail in a symmetrical fan. Each feather eye is rendered as an intricate medallion of iridescent teal, sapphire blue, and burnished gold, outlined with sinuous black lines that echo organic plant tendrils. The peacock stands on a stylized mosaic floor of interlocking geometric tiles in jade green and amber. Its body is painted in deep jewel-toned blues and greens with metallic gold accents on the breast and crown feathers. The background features a repeating pattern of elongated lily pads and water ripples. The entire composition is framed within a tall arched border decorated with Celtic-inspired knotwork that transitions seamlessly into the natural forms of the feathers.",
     "prompt_zh": "一幅华丽的新艺术运动装饰面板，描绘一只雄伟的孔雀对称展开全部尾羽。每一个羽眼被描绘为精致的圆形徽章，闪烁着虹彩青绿、宝石蓝和磨光金色，以模仿有机植物卷须的蜿蜒黑线勾勒。孔雀站立在翡翠绿和琥珀色相间的程式化镶嵌地面上。身体以深邃的宝石蓝绿色调绘制，胸部和冠羽处点缀金属金色。背景是细长睡莲叶和水波纹的重复图案。整体构图被纳入一个高耸拱形边框内，边框饰以凯尔特结饰图案，与羽毛的自然形态无缝过渡融合。",
-    "example_image_url": "https://img.promptstudio.art/prompts/art-nouveau-peacock-feathers.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/art-nouveau-peacock-feathers.webp",
     "aspect_ratio": "9:16",
     "tags": ["新艺术运动", "孔雀", "装饰面板", "宝石色", "对称"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "阳光穿透的新艺术风格彩色玻璃窗",
     "prompt_text": "A luminous Art Nouveau stained glass window design depicting a lush garden scene at sunrise. The central motif is a tall wisteria tree with cascading purple and violet blossom clusters, its trunk forming the main structural lead line that branches into graceful organic curves. Dragonflies with translucent amber wings hover among the blooms. The lower section shows a tranquil pond with water lilies in soft pink and white. Warm golden sunlight streams through from behind, causing each glass segment to glow with saturated color. The lead came lines follow flowing natural forms rather than rigid geometric divisions. Rich emerald greens, deep amethyst purples, and warm honey golds dominate the palette, all appearing to radiate inner light as if backlit by morning sun.",
     "prompt_zh": "一幅明亮的新艺术运动彩色玻璃窗设计，描绘日出时分的繁茂花园景致。中央主题是一棵高大的紫藤树，紫色和堇色花串垂挂而下，树干形成主要的铅条结构线，向上分支为优雅的有机曲线。透翅琥珀色的蜻蜓在花丛间盘旋。下部展示一方宁静的池塘，粉白色的睡莲浮于水面。温暖的金色阳光从背后穿透而来，让每一片玻璃都焕发饱和的色彩光辉。铅条线条遵循流动的自然形态而非僵硬的几何分割。浓郁的翠绿、深邃的紫水晶色和温暖的蜜金色主导整体色调，所有色彩仿佛被晨光从后方照亮般散发内在光芒。",
-    "example_image_url": "https://img.promptstudio.art/prompts/art-nouveau-stained-glass-window.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/art-nouveau-stained-glass-window.webp",
     "aspect_ratio": "9:16",
     "tags": ["新艺术运动", "彩色玻璃", "紫藤", "光影", "教堂"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "藤蔓与花卉交织的装饰边框",
     "prompt_text": "An intricate Art Nouveau decorative border frame composed entirely of intertwining botanical elements. Morning glory vines with heart-shaped leaves spiral upward along both vertical sides, their trumpet flowers opening in gradients of lavender to deep purple. At the top, the vines meet and form an elaborate arched crest where ginkgo leaves fan out in pale gold. The bottom border features a row of stylized lotus buds rising from flowing water lines. Delicate tendrils and unfurling fern fronds fill every gap with rhythmic organic curves. The interior of the frame is left as open negative space with a subtle parchment texture. The line work varies from thick confident outlines on structural elements to hairline details on secondary ornament, all rendered in rich sepia ink with selective color fills in sage green, dusty rose, and antique gold.",
     "prompt_zh": "一个精致的新艺术运动装饰边框，完全由交织缠绕的植物元素构成。牵牛花藤蔓带着心形叶片沿两侧垂直螺旋上升，喇叭形花朵以薰衣草紫到深紫的渐变绽放。在顶部，藤蔓交汇形成精致的拱形冠饰，银杏叶以淡金色扇形展开。底部边框是一排程式化的莲花苞从流水纹中升起。纤细的卷须和舒展的蕨叶芽以富有韵律的有机曲线填充每一处空隙。边框内部留为开放的负空间，带有微妙的羊皮纸质感。线条从结构性元素上粗壮自信的轮廓到次要装饰的发丝般细节不等，全部以浓郁的棕褐色墨水绘制，选择性地填充鼠尾草绿、灰玫瑰和古金色。",
-    "example_image_url": "https://img.promptstudio.art/prompts/art-nouveau-botanical-frame.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/art-nouveau-botanical-frame.webp",
     "aspect_ratio": "3:4",
     "tags": ["新艺术运动", "边框", "植物", "装饰纹样", "线条艺术"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "华丽的新艺术风格剧院演出海报",
     "prompt_text": "A striking Art Nouveau theater poster advertising a dramatic performance. A statuesque actress stands center stage in a flowing midnight blue velvet gown, one arm raised gracefully toward a constellation of stars rendered as golden spirals. Her dark hair streams upward, transforming into ornamental swirls that merge with the decorative typography above. The title lettering uses custom hand-drawn characters with elongated serifs that morph into vine tendrils and small blossoms. A border of stylized poppies in vermillion and orange frames the composition. The background transitions from a deep theatrical black at the bottom to a warm amber spotlight effect behind the figure. Smaller text at the bottom announces dates and venue in an elegant period typeface. The overall effect combines dramatic illustration with functional graphic design in the tradition of Toulouse-Lautrec and Mucha.",
     "prompt_zh": "一幅引人注目的新艺术运动剧院海报，宣传一场戏剧演出。一位身材高挑的女演员站在舞台中央，身着流动的午夜蓝天鹅绒长裙，一只手臂优雅地伸向由金色螺旋构成的星座。她的深色长发向上飘扬，化为装饰性的涡旋与上方的装饰字体融为一体。标题字体使用定制手绘字形，拉长的衬线变形为藤蔓卷须和小花朵。朱红色和橙色的程式化罂粟花边框环绕整个构图。背景从底部深沉的戏剧黑色过渡到人物身后温暖的琥珀色聚光灯效果。底部较小的文字以优雅的时代字体公布演出日期和场地。整体效果将戏剧性的插画与功能性的平面设计相结合，延续了劳特累克和穆夏的传统。",
-    "example_image_url": "https://img.promptstudio.art/prompts/art-nouveau-theater-poster.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/art-nouveau-theater-poster.webp",
     "aspect_ratio": "9:16",
     "tags": ["新艺术运动", "海报", "剧院", "字体设计", "平面设计"],
     "created_at": "2026-02-20"

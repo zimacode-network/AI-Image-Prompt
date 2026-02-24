@@ -7,7 +7,7 @@
     "subject_zh": "夕阳逆光下的唯美人像摄影",
     "prompt_text": "A portrait photograph of a young woman during golden hour, the warm setting sun behind her left shoulder creating a radiant backlit halo around her windswept hair. Soft amber light wraps around her face, casting gentle shadows beneath her cheekbones. She gazes slightly off-camera with a serene expression. The background is dreamy bokeh of sun-dappled meadow grasses in warm honey and apricot tones. Shallow depth of field at f/1.8, natural skin tones, warm color grading.",
     "prompt_zh": "一张黄金时刻拍摄的年轻女性人像照片，温暖的落日在她左肩后方营造出光芒四射的逆光光晕环绕着被风吹拂的发丝。柔和的琥珀色光线包裹面庞，在颧骨下方投射轻柔阴影。她微微偏离镜头凝视，表情宁静。背景是梦幻散景，阳光斑驳的草地呈温暖蜜糖色和杏色调。浅景深f/1.8，自然肤色，暖色调调色。",
-    "example_image_url": "https://img.promptstudio.art/prompts/photography-golden-hour-portrait.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/photography-golden-hour-portrait.webp",
     "aspect_ratio": "3:4",
     "tags": ["摄影", "人像", "黄金时刻", "逆光", "唯美"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "清晨花瓣上晶莹露珠的微距特写",
     "prompt_text": "An extreme macro photograph of a single perfect dewdrop resting on the velvety petal of a deep red rose in early morning light. The droplet acts as a natural lens, refracting an inverted image of the surrounding garden within its curved surface. Tiny surface tension ripples visible at the contact point. The petal texture shows intricate cellular patterns in rich crimson. Background dissolves into creamy soft-focus green and pink. Dedicated macro lens at 2:1 magnification, focus-stacked for razor sharpness.",
     "prompt_zh": "一张极致微距照片，清晨光线下一颗完美的露珠静息在深红色玫瑰天鹅绒般的花瓣上。水滴如天然透镜，在弯曲表面折射出周围花园的倒影。接触点处可见微小的表面张力涟漪。花瓣纹理展现丰富深红色的精密细胞图案。背景化为绿色和粉色的奶油般柔焦。专业微距镜头2:1放大倍率，焦点堆叠确保锐利清晰。",
-    "example_image_url": "https://img.promptstudio.art/prompts/photography-macro-dewdrop.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/photography-macro-dewdrop.webp",
     "aspect_ratio": "1:1",
     "tags": ["摄影", "微距", "露珠", "花卉", "特写"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "雨天东京街头的光影瞬间",
     "prompt_text": "A candid street photograph on a rainy evening in Tokyo. A lone figure with a transparent umbrella walks across a neon-reflected crosswalk, silhouette sharp against blurred streaks of passing taxi lights. Puddles on asphalt mirror glowing signs of izakayas and convenience stores in warm reds and cool blues. Composition uses leading lines from crosswalk stripes toward the figure. Slight motion blur on passing traffic, high contrast black and white with selective color preserving only neon reflections.",
     "prompt_zh": "一张东京雨夜的抓拍街头照片。一个撑着透明雨伞的孤独身影走过霓虹灯倒映的人行横道，剪影在驶过的出租车灯光模糊条纹映衬下格外清晰。沥青水洼倒映着居酒屋和便利店暖红冷蓝的发光招牌。构图利用人行横道条纹的引导线引向人物。经过车辆带有轻微动态模糊，高对比度黑白处理配合选择性调色仅保留霓虹灯倒影色彩。",
-    "example_image_url": "https://img.promptstudio.art/prompts/photography-street-photography.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/photography-street-photography.webp",
     "aspect_ratio": "16:9",
     "tags": ["摄影", "街头", "东京", "雨夜", "纪实"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "精致摆盘的法式甜点俯拍",
     "prompt_text": "A top-down food photograph of an elegantly plated French dessert on a handmade ceramic plate with an organic irregular edge. A dark chocolate mousse dome with mirror glaze reflecting studio lights, garnished with gold leaf, a delicate tuile cookie, and three precisely placed fresh raspberries. Scattered cocoa powder and a thin berry coulis drizzle create artful negative space. Weathered grey marble surface beneath. Soft diffused overhead lighting, styled with linen napkin and vintage silver spoon at frame edge.",
     "prompt_zh": "一张优雅摆盘法式甜点的俯拍美食照片，置于手工陶瓷盘上，盘缘呈有机不规则形状。覆有镜面淋酱反射棚灯的黑巧克力慕斯穹顶，以金箔、精致薄脆饼和三颗精确摆放的新鲜覆盆子装饰。撒落可可粉和细细莓果酱汁营造巧妙留白。底面是风化灰色大理石台面。柔和扩散顶部照明，画面边缘用亚麻餐巾和复古银勺点缀。",
-    "example_image_url": "https://img.promptstudio.art/prompts/photography-food-styling.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/photography-food-styling.webp",
     "aspect_ratio": "1:1",
     "tags": ["摄影", "美食", "甜点", "摆盘", "俯拍"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "极简几何感的混凝土粗野主义建筑",
     "prompt_text": "A dramatic architectural photograph of a brutalist concrete building from a low angle against a stark overcast sky. Bold geometric forms with massive cantilevered slabs, deep recessed windows creating strong shadow patterns, and raw board-formed concrete textures showing every grain. Strong diagonal lines from an exterior staircase cut across the composition. A single small human figure at the base provides powerful scale contrast. High contrast black and white with rich tonal range emphasizing the sculptural quality of raw concrete.",
     "prompt_zh": "一张粗野主义混凝土建筑的震撼建筑摄影，以低角度仰拍对比纯白阴沉天空。大胆几何形体配以巨大悬挑板，深凹窗户创造强烈阴影图案，原始木模混凝土纹理展现每道纹理和瑕疵。外部楼梯的强烈对角线切割画面构图。底部一个微小人影形成强烈尺度对比。高对比度黑白处理配合丰富影调层次，强调原始混凝土的雕塑品质。",
-    "example_image_url": "https://img.promptstudio.art/prompts/photography-architecture-brutalist.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/photography-architecture-brutalist.webp",
     "aspect_ratio": "9:16",
     "tags": ["摄影", "建筑", "粗野主义", "混凝土", "极简"],
     "created_at": "2026-02-20"

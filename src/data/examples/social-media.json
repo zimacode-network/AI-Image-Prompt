@@ -7,7 +7,7 @@
     "subject_zh": "励志语录卡片",
     "prompt_text": "A polished social media quote card featuring an inspirational message in bold white calligraphy centered on a dreamy out-of-focus golden sunset cloud background. The quote appears in elegant flowing script with thin decorative lines above and below. The author attribution sits in small caps beneath. Subtle lens flare blooms from the upper right corner. The composition is perfectly sized for Instagram with generous breathing room around the text. The color mood blends peach, amber, and soft lavender hues.",
     "prompt_zh": "一张精美的社交媒体语录卡片，以粗体白色书法呈现励志信息，居中放置在梦幻虚化的金色日落云彩背景上。语录以优雅流畅的手写体呈现，上下各有一条细装饰线。作者署名以小型大写字母置于下方。微妙的镜头光晕从右上角绽放，增添温暖感。整体构图完美适配Instagram帖子尺寸，文字周围留有充裕的呼吸空间。底角有一个低调的水印标志，色调融合蜜桃、琥珀和柔和薰衣草色。",
-    "example_image_url": "https://img.promptstudio.art/prompts/social-media-quote-card.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/social-media-quote-card.webp",
     "aspect_ratio": "1:1",
     "tags": ["社交媒体", "语录卡片", "励志", "Instagram", "文字排版"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "新品发布海报",
     "prompt_text": "A high-impact social media announcement for a wireless earbud launch, featuring sleek pearl-white earbuds floating against a gradient from deep midnight blue to vibrant electric purple. Dynamic light streaks radiate outward suggesting innovation and energy. Bold sans-serif headline announces the launch date in crisp white. Feature icons for noise cancellation, battery life, and water resistance line the bottom. The composition is sharp and premium, designed to stop the scroll with cinematic lighting and minimalist luxury.",
     "prompt_zh": "一张高冲击力的无线耳机新品发布社交媒体公告，展示流线型珍珠白耳机悬浮在从深午夜蓝到鲜艳电光紫的渐变背景前。动态光线从产品向外辐射，暗示创新与活力。粗体无衬线标题以清晰白色宣布发布日期。底部排列着降噪、续航和防水功能的微妙图标网格。构图锋利而高端，以电影级光影和极简奢华美学设计，旨在让用户停止滚动并激发期待。",
-    "example_image_url": "https://img.promptstudio.art/prompts/social-media-product-launch.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/social-media-product-launch.webp",
     "aspect_ratio": "1:1",
     "tags": ["社交媒体", "产品发布", "科技产品", "营销设计", "品牌推广"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "线下活动海报",
     "prompt_text": "A vibrant social media event poster for a summer music festival, featuring a bold geometric sun bursting with rays in hot orange, magenta, and golden yellow. Silhouettes of festival-goers with raised hands dance along the bottom. The event name appears in chunky retro display font at center, with date and venue stacked below. Confetti particles and musical notes scatter across the design. The energy is celebratory and youthful, using a saturated tropical palette conveying outdoor summer vibes.",
     "prompt_zh": "一张充满活力的夏季音乐节社交媒体活动公告海报，以大胆的几何太阳插图为特色，光线以热橙、品红和金黄迸发。音乐节参与者举手舞动的剪影沿底部边缘排列。活动名称以厚重的复古展示字体居中呈现，日期、场地和票务信息以简洁对比字体堆叠在下方。彩纸颗粒和音符图标散布在设计中。整体氛围庆祝而年轻，采用饱和的热带色彩，立即传达出欢乐、音乐和户外夏日的气息。",
-    "example_image_url": "https://img.promptstudio.art/prompts/social-media-event-announcement.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/social-media-event-announcement.webp",
     "aspect_ratio": "9:16",
     "tags": ["社交媒体", "活动公告", "音乐节", "海报设计", "夏日活动"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "个人品牌形象",
     "prompt_text": "A sophisticated personal branding social media template with a professional headshot in a circular frame, surrounded by name, title, and three expertise areas displayed as elegant pill-shaped tags. The background uses a refined split design with soft blush pink on the left and crisp white on the right, divided by a thin gold line. Contact icons for email, LinkedIn, and portfolio align along the bottom. Typography pairs a modern serif for the name with light sans-serif for details.",
     "prompt_zh": "一张精致的个人品牌社交媒体模板，展示圆形框中的专业头像占位符，周围是简洁的布局，姓名、头衔和三个核心专长领域以优雅的胶囊形标签展示。背景采用精致的分割设计，左侧是柔和的腮红粉，右侧是干净的白色，以一条细金线分隔。邮箱、领英和作品集网站的联系图标沿底部整齐排列。字体将现代衬线体用于姓名，轻量无衬线体用于细节，传达出自信、温暖和专业光泽。",
-    "example_image_url": "https://img.promptstudio.art/prompts/social-media-personal-branding.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/social-media-personal-branding.webp",
     "aspect_ratio": "1:1",
     "tags": ["社交媒体", "个人品牌", "职业形象", "模板设计", "自我营销"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "节日祝福贺卡",
     "prompt_text": "A festive social media holiday greeting for Chinese New Year, featuring an adorable illustrated dragon in red and gold coiling playfully around a glowing lantern. Cherry blossom branches frame the top corners, and golden firework bursts sparkle across a rich crimson background. The greeting in elegant Chinese calligraphy wishes prosperity, with a smaller English translation beneath. Traditional cloud motifs and lucky coin patterns fill the negative space. Red envelopes and tangerine illustrations decorate the lower border.",
     "prompt_zh": "一张喜庆的中国新年社交媒体节日贺卡，以一条红金配色的可爱插画龙为主角，俏皮地盘绕在一个发光的大灯笼周围。樱花枝条装饰上方两角，金色烟花在浓郁的深红色背景上闪耀。优雅的中文书法祝福语寄予繁荣与好运，下方附有较小的英文翻译。传统云纹和铜钱图案微妙地填充留白空间。红包和柑橘插图装饰下方边框，打造出欢乐且具有文化底蕴的庆祝帖子。",
-    "example_image_url": "https://img.promptstudio.art/prompts/social-media-holiday-greeting.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/social-media-holiday-greeting.webp",
     "aspect_ratio": "1:1",
     "tags": ["社交媒体", "节日祝福", "中国新年", "贺卡设计", "传统文化"],
     "created_at": "2026-02-20"

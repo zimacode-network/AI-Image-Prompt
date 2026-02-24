@@ -7,7 +7,7 @@
     "subject_zh": "在家远程办公的自由职业者",
     "prompt_text": "A cheerful flat illustration of a young freelancer working from home at a clean wooden desk. The character sits in a cozy room wearing headphones, typing on a laptop with a steaming cup of coffee beside them. A large window behind reveals a sunny cityscape with simplified geometric buildings in soft pastel tones. A playful cat naps on a stack of books nearby. Potted plants with bold green leaves frame the scene. The color palette uses warm coral, muted teal, creamy yellow, and soft lavender. All shapes are clean with no outlines, relying on color contrast and subtle shadows to define forms. The overall mood is productive yet relaxed.",
     "prompt_zh": "一幅明快的扁平插画，描绘一位年轻的自由职业者在家中整洁的木桌前远程办公。角色坐在温馨的房间里戴着耳机，在笔记本电脑上打字，旁边放着一杯冒着热气的咖啡。身后的大窗户展现出阳光明媚的城市景观，用柔和粉彩色调的简化几何建筑呈现。一只顽皮的猫咪在旁边的一摞书上打盹。大胆绿叶的盆栽植物点缀着画面边缘。配色使用暖珊瑚色、柔和的青色、奶油黄和淡薰衣草紫。所有形状干净利落无描边，依靠色彩对比和微妙的阴影来定义形体。整体氛围高效而又放松。",
-    "example_image_url": "https://img.promptstudio.art/prompts/flat-illustration-remote-work.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/flat-illustration-remote-work.webp",
     "aspect_ratio": "16:9",
     "tags": ["扁平插画", "远程办公", "生活方式", "自由职业", "居家"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "周末热闹的城市公园",
     "prompt_text": "A lively flat illustration of a bustling city park on a weekend afternoon. Simplified human figures stroll along curving paths, jog with dogs, and sit on benches reading. A small pond in the center reflects rounded trees in muted olive, sage, and forest green. Children fly a diamond-shaped kite against a pale sky with layered pastel clouds. A food cart with a striped awning sells ice cream near the entrance. The background skyline features geometric skyscrapers in dusty blue and light grey. The entire composition uses flat color blocks without gradients, bold yet harmonious hues, and slightly elongated character proportions that give the scene a modern editorial feel.",
     "prompt_zh": "一幅生动的扁平插画，描绘周末午后热闹的城市公园。简化的人物沿着弯曲的小路散步、带着狗慢跑、坐在长椅上阅读。中央的小池塘倒映着用柔和橄榄绿、鼠尾草绿和森林绿描绘的圆润树冠。孩子们在浅色天空下放着菱形风筝，天上层叠着粉彩色的云朵。入口处一辆带条纹遮阳篷的小吃车售卖冰淇淋。背景天际线是灰蓝和浅灰色调的几何摩天大楼。整个构图使用无渐变的平涂色块、大胆而和谐的配色，以及略微拉长的角色比例，赋予画面现代编辑风格。",
-    "example_image_url": "https://img.promptstudio.art/prompts/flat-illustration-city-park.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/flat-illustration-city-park.webp",
     "aspect_ratio": "16:9",
     "tags": ["扁平插画", "公园", "城市", "休闲", "周末"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "温馨的街角咖啡馆内景",
     "prompt_text": "A warm flat illustration of the interior of a cozy corner coffee shop. A barista in an apron stands behind a wooden counter preparing a pour-over, with neatly arranged glass jars of beans on shelves behind. Two customers sit at a round marble table, one sketching in a notebook while the other scrolls through a phone. Warm overhead pendant lamps cast circular pools of golden light. The walls are decorated with simple framed prints and a hanging chalkboard menu with playful lettering. The palette is built around warm browns, burnt orange, cream, and touches of dusty pink. Shapes are geometric and clean, with no visible line work, creating a welcoming and stylish atmosphere.",
     "prompt_zh": "一幅温暖的扁平插画，描绘一家温馨的街角咖啡馆内景。一位穿围裙的咖啡师站在木质吧台后制作手冲咖啡，身后的架子上整齐排列着玻璃咖啡豆罐。两位顾客坐在圆形大理石桌旁，一位在笔记本上素描，另一位在滑动手机。头顶的暖色吊灯投下圆形的金色光池。墙上装饰着简约的相框画作和一块挂式黑板菜单，上面是俏皮的手写字体。配色以暖棕色、焦橙色、奶油白和些许灰粉色为主。造型几何而干净，没有可见的线条勾勒，营造出温馨而时尚的氛围。",
-    "example_image_url": "https://img.promptstudio.art/prompts/flat-illustration-coffee-shop.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/flat-illustration-coffee-shop.webp",
     "aspect_ratio": "4:3",
     "tags": ["扁平插画", "咖啡馆", "温馨", "室内", "生活"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "标注著名地标的世界旅行地图",
     "prompt_text": "A colorful flat illustration of a stylized world travel map spread across the full frame. Continents are rendered as simplified shapes in distinct muted pastels, ocean areas in soft teal blue. Iconic landmarks are scattered across their locations as tiny pictograms: the Eiffel Tower, Mount Fuji, the Pyramids of Giza, the Statue of Liberty, the Sydney Opera House, and the Great Wall. Small airplanes with dotted flight paths arc between destinations. Suitcases, cameras, and passport stamps are tucked into the corners as decorative elements. The typography for continent names uses a clean rounded sans-serif font. The overall design feels like a cheerful infographic poster with a bold yet approachable visual language.",
     "prompt_zh": "一幅色彩丰富的扁平插画，描绘一张铺满画面的风格化世界旅行地图。各大洲以简化的形状呈现，用各不相同的柔和粉彩色调区分，海洋区域为柔和的蓝绿色。标志性地标以微型图标散布在对应位置：埃菲尔铁塔、富士山、吉萨金字塔、自由女神像、悉尼歌剧院和长城。小飞机沿着虚线飞行路径在目的地之间穿梭。行李箱、相机和护照印章作为装饰元素点缀在边角。大洲名称使用干净的圆角无衬线字体。整体设计像一张明快的信息图海报，具有大胆而平易近人的视觉语言。",
-    "example_image_url": "https://img.promptstudio.art/prompts/flat-illustration-travel-map.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/flat-illustration-travel-map.webp",
     "aspect_ratio": "16:9",
     "tags": ["扁平插画", "旅行", "地图", "地标", "世界"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "科技公司的头脑风暴会议",
     "prompt_text": "A dynamic flat illustration of a diverse team brainstorming in a modern open-plan office. Five characters with varied skin tones and hairstyles gather around a large whiteboard covered with colorful sticky notes and hand-drawn diagrams. One person stands pointing at the board, another leans forward excitedly from a bright orange chair, while others hold tablets and notebooks. The room features floor-to-ceiling glass walls showing a blurred green courtyard outside. Overhead, round acoustic panels in coral and mint hang from the ceiling. A long conference table holds scattered markers, a laptop, and paper coffee cups. The style uses confident flat shapes, no outlines, and a vibrant yet professional palette of navy, coral, mint green, and warm grey.",
     "prompt_zh": "一幅充满活力的扁平插画，描绘一支多元化团队在现代开放式办公室中进行头脑风暴。五位肤色和发型各异的角色围坐在一块贴满彩色便签纸和手绘图表的大白板前。一人站着指向白板，另一人从亮橙色椅子上兴奋地前倾，其他人手持平板和笔记本。房间配有落地玻璃墙，透出外面模糊的绿色庭院。头顶上，珊瑚色和薄荷色的圆形吸音板悬挂在天花板上。长会议桌上散落着马克笔、一台笔记本电脑和纸质咖啡杯。风格采用自信的平面形状、无描边，以及充满活力又不失专业感的海军蓝、珊瑚色、薄荷绿和暖灰配色。",
-    "example_image_url": "https://img.promptstudio.art/prompts/flat-illustration-team-meeting.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/flat-illustration-team-meeting.webp",
     "aspect_ratio": "16:9",
     "tags": ["扁平插画", "团队", "会议", "办公", "协作"],
     "created_at": "2026-02-20"

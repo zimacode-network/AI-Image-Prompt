@@ -7,7 +7,7 @@
     "subject_zh": "意大利面食谱",
     "prompt_text": "A warm recipe card for classic spaghetti carbonara, featuring the finished dish in a rustic ceramic bowl, creamy egg sauce coating each strand with crispy guanciale on top. Fresh cracked pepper and grated pecorino dust the surface. Below, neatly typeset ingredient lists and numbered steps appear on a linen-textured background. Small watercolor illustrations of eggs, cheese, and pasta accent the margins. The design feels like a page from an Italian grandmother's handwritten cookbook.",
     "prompt_zh": "一张温馨诱人的经典意面奶油培根酱食谱卡，主图展示成品盛在质朴的陶瓷碗中，奶油蛋酱裹住每根面条，酥脆的风干猪颊肉散落其上。表面撒着现磨黑胡椒和刨碎的佩科里诺奶酪。图片下方，整齐排版的配料表和编号步骤呈现在亚麻纹理背景上。鸡蛋、奶酪和意面的小幅水彩插图点缀在边缘。整体设计感觉如同从意大利祖母手写食谱中珍藏的一页。",
-    "example_image_url": "https://img.promptstudio.art/prompts/recipe-card-pasta-recipe.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/recipe-card-pasta-recipe.webp",
     "aspect_ratio": "3:4",
     "tags": ["食谱卡片", "意面", "意大利美食", "烹饪", "经典菜谱"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "寿司制作教程",
     "prompt_text": "A refined recipe card for homemade sushi rolls, featuring an overhead shot of a bamboo mat with neatly sliced maki revealing salmon, avocado, and cucumber fillings. Wasabi and pickled ginger sit in small ceramic dishes beside dark soy sauce. Step-by-step illustrations along the bottom show hands spreading rice, placing fillings, and rolling tightly. The card uses a clean Japanese aesthetic with soft cream background, indigo accents, and minimalist brush-stroke typography.",
     "prompt_zh": "一张精致的自制寿司卷食谱卡，主图为俯拍的竹帘上整齐切片的卷寿司，露出三文鱼、牛油果和黄瓜馅料。芥末和腌姜放在小陶碟中，旁边是一小池深色酱油。底部的分步插图展示双手铺饭、放馅料和紧密卷制的过程。卡片采用简洁的日式美学，柔和米色背景搭配靛蓝点缀，极简的笔触字体唤起传统书法的韵味。",
-    "example_image_url": "https://img.promptstudio.art/prompts/recipe-card-sushi-making.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/recipe-card-sushi-making.webp",
     "aspect_ratio": "3:4",
     "tags": ["食谱卡片", "寿司", "日本料理", "手工制作", "美食教程"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "巧克力蛋糕烘焙",
     "prompt_text": "A decadent recipe card for triple-layer chocolate cake, showcasing a cross-section slice revealing moist dark sponge layers with glossy ganache filling. Rich frosting drips down the sides, topped with fresh raspberries and cocoa powder. The layout arranges ingredients in a flat-lay circle around the cake photo, including cocoa beans, butter, and vanilla pods. A vintage kraft paper background with hand-drawn cocoa plant borders frames everything. Typography mixes serif headers with handwritten baking tips.",
     "prompt_zh": "一张诱人的三层巧克力蛋糕食谱卡，展示切面露出湿润的黑色海绵蛋糕层和光亮的甘纳许夹心。浓郁的巧克力糖霜沿侧面滴落，顶部装饰新鲜树莓和可可粉。卡片布局将配料以平铺圆形排列在蛋糕照片周围，包括可可豆、黄油块、糖晶和香草荚。复古牛皮纸背景搭配手绘可可植物边框作为整体框架。字体混合优雅衬线标题和友好的手写烘焙小贴士。",
-    "example_image_url": "https://img.promptstudio.art/prompts/recipe-card-chocolate-cake.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/recipe-card-chocolate-cake.webp",
     "aspect_ratio": "3:4",
     "tags": ["食谱卡片", "巧克力蛋糕", "烘焙", "甜品", "美食摄影"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "健康果昔碗",
     "prompt_text": "A vibrant recipe card for an acai smoothie bowl, featuring a top-down photo of a deep purple blended base topped with sliced banana, granola clusters, chia seeds, coconut flakes, and fresh blueberries in neat rows. The bowl sits on a light marble surface with a wooden spoon beside it. The design uses a tropical palette of magenta, teal, and sunny yellow. Nutritional icons display calories and protein in circular badges. Clean sans-serif text keeps the layout airy.",
     "prompt_zh": "一张活力四射的巴西莓果昔碗食谱卡，主图为俯拍的深紫色混合基底，上面精心排列着香蕉片、格兰诺拉麦片簇、奇亚籽、椰子片和新鲜蓝莓。碗放在浅色大理石台面上，旁边是一把木勺。卡片设计采用清新的热带色彩——品红、青色和明亮黄色。营养信息图标以俏皮的圆形徽章展示卡路里、蛋白质和纤维素。简洁的现代无衬线字体让布局清爽而注重健康感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/recipe-card-smoothie-bowl.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/recipe-card-smoothie-bowl.webp",
     "aspect_ratio": "1:1",
     "tags": ["食谱卡片", "果昔碗", "健康饮食", "早餐", "超级食物"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "广式点心制作",
     "prompt_text": "A charming recipe card for traditional Cantonese dim sum, featuring a steaming bamboo basket filled with translucent crystal shrimp dumplings, their pleated edges folded with precision. Alongside sit fluffy char siu bao with golden tops revealing barbecue pork filling. Wisps of steam rise against a warm red and gold background evoking a tea house atmosphere. Side panels illustrate the wrapping technique in four sequential sketches. The typography combines bold Chinese brush characters with bilingual instructions.",
     "prompt_zh": "一张精美的传统广式点心食谱卡，主图展示冒着蒸汽的竹蒸笼中装满晶莹剔透的水晶虾饺，褶边精确折叠。旁边是蓬松的叉烧包，金色顶部裂开露出甜蜜的烧肉馅。蒸汽缕缕升起，映衬着暖红与金色背景，唤起经典茶楼的氛围。侧面板以四幅连续速写展示包皮技巧。字体将粗犷的中文毛笔字标题与下方的中英双语说明相结合。",
-    "example_image_url": "https://img.promptstudio.art/prompts/recipe-card-dim-sum.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/recipe-card-dim-sum.webp",
     "aspect_ratio": "4:3",
     "tags": ["食谱卡片", "广式点心", "虾饺", "叉烧包", "中华美食"],
     "created_at": "2026-02-20"

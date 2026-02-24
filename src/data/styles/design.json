@@ -7,8 +7,14 @@
     "description_zh": "以最少的视觉元素传达核心信息，强调留白与负空间的运用。色彩通常限制在单色或双色系统内，线条简洁利落，追求\"少即是多\"的设计哲学。",
     "description_en": "Conveys core messages with the fewest visual elements, emphasizing whitespace and negative space. Colors are typically limited to monochrome or two-tone systems, with clean and sharp lines, pursuing the \"less is more\" design philosophy.",
     "template_prompt": "Create a minimalist design of {content}, using extremely restrained visual elements with generous negative space and whitespace. Employ a strict monochrome or limited two-color palette with clean geometric forms and precise lines. Remove all unnecessary decoration, focusing on essential shapes and typography. The composition should breathe with elegant simplicity, embodying the less-is-more philosophy with balanced proportions and refined subtlety.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/minimalism-geometric-chair.webp",
-    "tags": ["极简", "留白", "负空间", "单色", "几何"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/minimalism-interior-space.webp",
+    "tags": [
+      "极简",
+      "留白",
+      "负空间",
+      "单色",
+      "几何"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -19,8 +25,14 @@
     "description_zh": "源自1980年代意大利的后现代设计运动，以大胆鲜艳的撞色、不规则几何图形和活泼的波点条纹为标志。构图打破传统对称规则，充满趣味性和叛逆精神。",
     "description_en": "Originating from the 1980s Italian postmodern design movement, characterized by bold clashing colors, irregular geometric shapes, and playful polka dots and stripes. Compositions break traditional symmetry rules, full of whimsy and rebellious spirit.",
     "template_prompt": "Design {content} in the Memphis design style of the 1980s postmodern movement, featuring bold clashing neon colors like hot pink, electric blue, bright yellow, and mint green. Include irregular geometric shapes such as squiggly lines, triangles, circles, and zigzag patterns scattered dynamically across the composition. Add playful polka dots, bold stripes, and terrazzo-like speckled textures. The layout should feel energetic, asymmetrical, and deliberately anti-conventional with a sense of humor.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/memphis-abstract-shelf.webp",
-    "tags": ["孟菲斯", "撞色", "几何图形", "波点", "后现代"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/memphis-poster-design.webp",
+    "tags": [
+      "孟菲斯",
+      "撞色",
+      "几何图形",
+      "波点",
+      "后现代"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -31,8 +43,14 @@
     "description_zh": "融合维多利亚时代美学与蒸汽动力科幻想象，充满黄铜齿轮、管道、铆钉和精密仪表等机械元素。色调以古铜、暗金和深褐为主，营造出复古未来主义的工业质感。",
     "description_en": "Blends Victorian-era aesthetics with steam-powered sci-fi imagination, filled with brass gears, pipes, rivets, and precision instruments. Dominated by antique bronze, dark gold, and deep brown tones, creating a retro-futuristic industrial texture.",
     "template_prompt": "Render {content} in an elaborate steampunk aesthetic combining Victorian-era elegance with industrial machinery. Feature intricate brass gears, copper pipes, riveted metal plates, pressure gauges, and clockwork mechanisms integrated into the design. Use a warm color palette of burnished bronze, aged copper, dark mahogany, and antique gold with atmospheric steam and ambient gaslight glow. Include ornate filigree details, leather straps, and goggles as decorative accents throughout the retro-futuristic composition.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/steampunk-mechanical-owl.webp",
-    "tags": ["蒸汽朋克", "齿轮", "维多利亚", "机械", "复古未来"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/steampunk-flying-airship.webp",
+    "tags": [
+      "蒸汽朋克",
+      "齿轮",
+      "维多利亚",
+      "机械",
+      "复古未来"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -43,8 +61,14 @@
     "description_zh": "起源于街头文化的视觉表达形式，以喷漆质感、粗犷的笔触和鲜明的色彩对比为特征。常见气泡字体、滴落效果和叠层标签，传递自由奔放的都市能量。",
     "description_en": "A visual expression originating from street culture, characterized by spray paint textures, bold brushstrokes, and vivid color contrasts. Features bubble lettering, dripping effects, and layered tags, conveying a free-spirited urban energy.",
     "template_prompt": "Create {content} as vibrant street graffiti art with authentic spray paint textures on a rough concrete or brick wall surface. Use bold, saturated colors with dripping paint effects, splatter marks, and layered tags. Incorporate bubble letters, wildstyle lettering, and thick outlines with dynamic shadow effects. Add stencil elements, wheat-paste textures, and faded older layers beneath the main piece. The overall mood should feel raw, energetic, and authentically urban with visible overspray and cap-drip details.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/graffiti-urban-lion.webp",
-    "tags": ["涂鸦", "街头艺术", "喷漆", "都市", "嘻哈文化"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/graffiti-street-wall-mural.webp",
+    "tags": [
+      "涂鸦",
+      "街头艺术",
+      "喷漆",
+      "都市",
+      "嘻哈文化"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -55,8 +79,14 @@
     "description_zh": "用于影视游戏前期视觉开发的专业艺术形式，注重氛围营造、光影戏剧性和世界观构建。画面兼具写实基础与想象力飞跃，通常包含环境设计或角色设定的叙事感。",
     "description_en": "A professional art form used in pre-production visual development for film and games, focusing on atmosphere creation, dramatic lighting, and world-building. Combines realistic foundations with imaginative leaps, usually conveying narrative depth through environment design or character concepts.",
     "template_prompt": "Paint {content} as professional concept art for a high-budget film or AAA game production. Employ dramatic cinematic lighting with strong key lights and atmospheric depth using volumetric fog and haze. Render with a painterly yet semi-realistic technique showing confident brushwork and dynamic composition. Include environmental storytelling details that suggest a larger narrative world. Use a cinematic color grade with rich contrast, subtle color temperature shifts between light and shadow, and a clear focal hierarchy guiding the viewer's eye.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/concept-art-floating-citadel.webp",
-    "tags": ["概念艺术", "影视设定", "世界观", "氛围", "数字绘画"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/concept-art-alien-planet.webp",
+    "tags": [
+      "概念艺术",
+      "影视设定",
+      "世界观",
+      "氛围",
+      "数字绘画"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -67,8 +97,14 @@
     "description_zh": "通过纸张的切割、折叠和层叠创造出精美的立体视觉效果。利用不同层次的纸片产生自然投影，形成丰富的深度感。色彩可以鲜艳多彩，也可以是单色剪影风格。",
     "description_en": "Creates exquisite three-dimensional visual effects through cutting, folding, and layering paper. Uses different layers of paper to cast natural shadows, forming rich depth perception. Colors can be vibrantly multicolored or monochrome silhouette style.",
     "template_prompt": "Illustrate {content} as an intricate multi-layered papercut art piece with visible paper layers stacked at different depths. Each layer should cast realistic soft shadows onto the layers beneath, creating a dimensional parallax effect. Use clean-cut edges with delicate cutout patterns including fine latticework and organic flowing shapes. Paper textures should appear authentic with subtle fiber details and a harmonious color palette, enhanced by gentle backlighting to reveal sculptural depth and translucency.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/papercut-forest-deer.webp",
-    "tags": ["剪纸", "层叠", "纸艺", "立体", "手工艺"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/papercut-spring-festival.webp",
+    "tags": [
+      "剪纸",
+      "层叠",
+      "纸艺",
+      "立体",
+      "手工艺"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -79,8 +115,14 @@
     "description_zh": "模仿定格动画中黏土模型的质感，角色和场景呈现出手工捏制的圆润体积感。表面保留指纹和工具痕迹等手作细节，配合柔和的工作室布光，充满温馨可爱的触感魅力。",
     "description_en": "Mimics the texture of clay models in stop-motion animation, with characters and scenes showing the rounded volumetric feel of hand-sculpted forms. Surfaces retain handmade details like fingerprints and tool marks, paired with soft studio lighting, full of warm and adorable tactile charm.",
     "template_prompt": "Sculpt {content} as a charming claymation scene in the style of professional stop-motion animation. Every element should appear hand-molded from colorful polymer clay with visible fingerprints, subtle tool marks, and slightly imperfect organic forms. Characters and objects should have a rounded, chunky, and endearing quality with smooth but tactile surfaces. Light the scene with warm, soft studio lighting that highlights the waxy sheen of clay material. Place elements on a miniature handcrafted set with a shallow depth of field.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/claymation-friendly-robot.webp",
-    "tags": ["黏土动画", "定格动画", "手工", "立体角色", "可爱"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/claymation-cute-monster.webp",
+    "tags": [
+      "黏土动画",
+      "定格动画",
+      "手工",
+      "立体角色",
+      "可爱"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -91,8 +133,14 @@
     "description_zh": "使用大量小型彩色碎片（如石块、玻璃或瓷砖）拼接组合而成的装饰艺术。每块碎片之间留有灰浆缝隙，整体画面在远处观看时呈现出完整而斑斓的图像效果。",
     "description_en": "A decorative art composed of numerous small colored pieces such as stones, glass, or ceramic tiles assembled together. Grout lines remain visible between each piece, and the overall image appears complete and colorful when viewed from a distance.",
     "template_prompt": "Compose {content} as a stunning mosaic artwork assembled from thousands of small tesserae made of colored glass, natural stone, and glazed ceramic tiles. Each piece should be clearly visible with distinct color variations, separated by thin grout lines. Use rich jewel tones including deep blues, emerald greens, golds, and crimson reds with occasional iridescent tiles catching the light. Follow classical mosaic techniques with pieces curving along contours to define form and create a shimmering, luminous surface texture.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/mosaic-peacock-portrait.webp",
-    "tags": ["马赛克", "拼贴", "瓷砖", "装饰艺术", "镶嵌"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/mosaic-roman-portrait.webp",
+    "tags": [
+      "马赛克",
+      "拼贴",
+      "瓷砖",
+      "装饰艺术",
+      "镶嵌"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -103,8 +151,14 @@
     "description_zh": "脱离具象描绘，通过纯粹的色彩、形状、线条和肌理来表达情感与概念。构图自由奔放，可以是几何抽象的理性秩序，也可以是抒情抽象的感性流动，激发观者的无限想象。",
     "description_en": "Departing from representational depiction, it expresses emotions and concepts through pure color, shape, line, and texture. Compositions are free-flowing, ranging from the rational order of geometric abstraction to the emotional fluidity of lyrical abstraction, inspiring boundless imagination in viewers.",
     "template_prompt": "Transform {content} into a bold abstract art composition that transcends literal representation. Use expressive sweeps of saturated color, dynamic geometric and organic forms, and varied textural layers including thick impasto strokes, translucent washes, and sharp linear elements. Create visual tension through contrasting warm and cool palettes, hard and soft edges, and structured versus chaotic zones. The piece should evoke emotional resonance through pure visual language rather than figurative depiction, with an energetic sense of movement and layered spatial depth.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/abstract-cosmic-energy.webp",
-    "tags": ["抽象", "色彩", "几何", "表现主义", "当代艺术"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/abstract-emotional-explosion.webp",
+    "tags": [
+      "抽象",
+      "色彩",
+      "几何",
+      "表现主义",
+      "当代艺术"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -115,8 +169,14 @@
     "description_zh": "借鉴20世纪中叶至70年代的经典海报设计语言，运用大面积平涂色块、粗体无衬线字体和简化的图形符号。印刷质感带有半调网点、套色偏移和纸张泛黄等年代感细节。",
     "description_en": "Draws from classic poster design language of the mid-20th century through the 1970s, using large flat color blocks, bold sans-serif typography, and simplified graphic symbols. Print textures include halftone dots, registration misalignment, and yellowed paper aging details.",
     "template_prompt": "Design {content} as a vintage retro poster from the mid-20th century golden age of graphic design. Use bold flat color blocks in a muted yet striking palette of dusty oranges, teals, creams, and deep reds. Incorporate strong sans-serif typography with impactful headlines and simplified iconic graphic elements. Add authentic print aging effects including halftone dot patterns, slight color registration misalignment, and subtle yellowed paper grain. The composition should follow classic poster hierarchy with a powerful central visual.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/retro-poster-space-travel.webp",
-    "tags": ["复古海报", "平面设计", "半调网点", "印刷风", "中世纪现代"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/retro-poster-travel-destination.webp",
+    "tags": [
+      "复古海报",
+      "平面设计",
+      "半调网点",
+      "印刷风",
+      "中世纪现代"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -127,8 +187,14 @@
     "description_zh": "专注于品牌标志和视觉识别系统的设计风格，强调图形的高度凝练与可识别性。设计需考虑多场景适配性，追求在最简洁的形式中传递品牌核心价值和个性特征。",
     "description_en": "Focused on brand logo and visual identity system design, emphasizing highly refined and recognizable graphics. Design must consider multi-scenario adaptability, pursuing the conveyance of core brand values and personality traits in the most concise form.",
     "template_prompt": "Design {content} as a professional brand logo and visual identity mark suitable for a premium brand. Create a clean, refined vector-style symbol that is instantly recognizable and works at any scale from favicon to billboard. Use precise geometric construction with balanced proportions, optical alignment, and purposeful negative space. Present on a clean background with a limited palette of two to three colors maximum. The mark should convey authority and memorability through elegant simplicity with enough distinctiveness to stand apart.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/logo-brand-phoenix-mark.webp",
-    "tags": ["Logo", "品牌设计", "标志", "视觉识别", "矢量图形"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/logo-brand-coffee-shop.webp",
+    "tags": [
+      "Logo",
+      "品牌设计",
+      "标志",
+      "视觉识别",
+      "矢量图形"
+    ],
     "created_at": "2026-02-20"
   }
 ]

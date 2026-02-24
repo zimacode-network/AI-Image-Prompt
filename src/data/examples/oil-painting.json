@@ -7,7 +7,7 @@
     "subject_zh": "夕阳下金色麦田的壮丽景色",
     "prompt_text": "A richly textured oil painting of a vast wheat field stretching toward a dramatic sunset horizon. The foreground is filled with golden stalks of ripe wheat rendered with thick impasto brushstrokes that catch the light, each stroke visible and tactile. A dirt path cuts diagonally through the field, leading the eye toward dark cypress trees silhouetted against the sky. The sky is a symphony of color in layered glazes, transitioning from deep cadmium orange near the sun to bands of rose madder, then cooling into cerulean and deep prussian blue at the zenith. The sun sits low as a molten disk of Naples yellow surrounded by radiating streaks of light. Long shadows stretch across the field in warm purple tones. The paint surface is richly built up with visible palette knife marks that give the canvas a sculptural quality reminiscent of Impressionist landscape masters.",
     "prompt_zh": "一幅质感浓厚的油画，描绘广袤的麦田向壮丽的日落地平线延伸。前景是金色的成熟麦穗，以厚实的堆叠笔触绘就，每一笔都清晰可触、捕捉着光线。一条泥土小径斜穿麦田，引导视线朝向天际线前一簇深色柏树的剪影。天空本身是色彩的交响曲，以层层罩染叠加而成——从太阳附近浓烈的镉橙与赭石，到玫瑰红的色带，再冷却为天蓝，最终在天顶化为深普鲁士蓝。落日如一轮融化的那不勒斯黄圆盘低悬在地平线上，周围放射出道道光芒。长长的影子以温暖的紫色调横跨麦田。画面的颜料堆积丰富，可见调色刀的痕迹和笔触纹理，赋予画布一种雕塑般的立体品质，令人联想起印象派风景大师的杰作。",
-    "example_image_url": "https://img.promptstudio.art/prompts/oil-painting-sunset-landscape.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/oil-painting-sunset-landscape.webp",
     "aspect_ratio": "16:9",
     "tags": ["油画", "日落", "麦田", "风景", "印象派"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "古典花瓶中的华丽花束",
     "prompt_text": "A lush oil painting still life of a lavish flower bouquet arranged in an ornate blue and white Delft ceramic vase. The arrangement overflows with full-blown garden roses in cream and blush pink, deep burgundy dahlias, sprays of white hydrangea, and trailing stems of purple wisteria. Each petal is modeled with careful attention to the play of light and shadow, built up from dark undertones to luminous highlights with visible directional brushwork. Several petals have begun to fall, resting on the dark mahogany tabletop alongside a few scattered water droplets that gleam like tiny jewels. The background is a deep, warm umber that gradually darkens toward the edges in the Dutch Golden Age tradition, focusing all attention on the radiant bouquet. A single bumblebee rests on a rose petal, adding a touch of life. The overall lighting is soft and directional from the upper left, creating a Baroque chiaroscuro effect.",
     "prompt_zh": "一幅华丽浓郁的油画静物，描绘一束繁盛的花束插在精美的蓝白代尔夫特陶瓷花瓶中。花束中溢满了盛开的奶油色与腮红色花园玫瑰、深酒红色大丽花、白色绣球花喷洒而出，以及垂坠的紫色紫藤枝条。每一片花瓣都精心塑造光影变化，从深沉的底色到明亮的高光层层叠加，笔触方向清晰可辨。几片花瓣已然飘落，静卧在深色桃花心木桌面上，旁边散落的水珠如细小的宝石般闪烁。背景是浓郁温暖的赭色，按照荷兰黄金时代的传统向边缘逐渐加深，将所有注意力凝聚在光彩照人的花束上。一只大黄蜂停驻在玫瑰花瓣上，为画面增添一丝生趣。整体光线柔和地从左上方射入，营造出巴洛克式的明暗对照效果。",
-    "example_image_url": "https://img.promptstudio.art/prompts/oil-painting-flower-bouquet.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/oil-painting-flower-bouquet.webp",
     "aspect_ratio": "3:4",
     "tags": ["油画", "花卉", "静物", "古典", "荷兰画派"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "雨后欧洲古镇街道的温暖景象",
     "prompt_text": "An atmospheric oil painting of a narrow cobblestone street in a European old town just after a rain shower. The wet stones glisten and reflect the warm amber light pouring from cafe windows and wrought-iron street lamps. Colorful building facades in faded ochre, terracotta, and sage green line both sides, their plaster walls showing charming signs of age with peeling paint and exposed brick. Window boxes overflow with red geraniums. A lone figure with a dark umbrella walks away from the viewer down the gently curving street, their reflection stretching along the wet pavement. Puddles mirror fragments of the buildings and a strip of clearing evening sky in soft lavender and steel blue. The paint is applied with confident, expressive strokes that balance detail in the foreground with increasingly loose, suggestive marks in the distance. The palette is dominated by warm golds and cool blue-greys, creating a nostalgic, intimate mood.",
     "prompt_zh": "一幅氛围感十足的油画，描绘欧洲古镇一条狭窄的鹅卵石街道在雨后的景象。湿润的石面闪闪发光，映射着从咖啡馆窗户和铸铁路灯中涌出的温暖琥珀色光芒。两旁的建筑立面色彩斑斓——褪色的赭黄、赤陶红与鼠尾草绿，灰泥墙面带着迷人的岁月痕迹，漆皮剥落处露出砖墙。窗台花箱中红色天竺葵盛放溢出。一个撑着深色雨伞的孤独身影背对观者，沿着微微弯曲的街道渐行渐远，倒影在湿漉漉的路面上拉长。水洼中映出建筑的碎片和一线放晴的薄暮天空，呈现柔和的薰衣草色与钢蓝色。颜料以自信而富有表现力的笔触涂抹，前景细节丰富，向远处则渐趋松放与暗示。色调以暖金色与冷蓝灰色为主导，营造出怀旧而亲切的情调。",
-    "example_image_url": "https://img.promptstudio.art/prompts/oil-painting-old-town-street.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/oil-painting-old-town-street.webp",
     "aspect_ratio": "3:4",
     "tags": ["油画", "街景", "欧洲", "雨后", "氛围"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "窗边沉思的女性肖像",
     "prompt_text": "A captivating oil portrait of a young woman seated beside a tall window, bathed in soft natural light streaming through sheer linen curtains. She turns slightly toward the viewer with a thoughtful, enigmatic expression. Her dark auburn hair is loosely gathered, with strands falling across her forehead. She wears a simple white cotton blouse with sleeves rolled to her elbows, the fabric folds rendered with subtle variations of warm white, pale blue shadows, and creamy highlights. One hand rests on the windowsill near a ceramic bowl of ripe figs. Her skin is painted with remarkable luminosity, warm undertones of cheeks and lips contrasting with cooler shadows beneath the jaw. The background is a muted grey-green interior wall, understated to keep focus on the figure. The brushwork blends smooth modeling with visible energetic strokes that give the painting life and immediacy.",
     "prompt_zh": "一幅引人入胜的油画肖像，年轻女子坐在高窗旁，柔和的自然光透过薄亚麻窗帘洒落在她身上。她微微侧首面向观者，表情沉思而含蓄。深赤褐色的头发松散地挽起，几缕发丝垂落在额前。她身穿一件简洁的白色棉质衬衫，袖子挽至肘部，衣褶以暖白色的微妙变化、淡蓝色阴影和奶油色高光精心刻画。一只手搁在窗台上，靠近一只盛着成熟无花果的小陶碗。她的肌肤画得格外透亮，双颊与唇部温暖的底色与下颌和眼周较冷的阴影形成对比。背景是柔和灰绿色的室内墙壁，刻意低调处理以保持对人物的聚焦。笔触流畅而自信，光滑的塑造区域与可见的、充满活力的笔触段落交织，赋予画面生命力与即时感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/oil-painting-portrait-woman.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/oil-painting-portrait-woman.webp",
     "aspect_ratio": "3:4",
     "tags": ["油画", "肖像", "人物", "光影", "写实"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "暴风雨中汹涌澎湃的大海",
     "prompt_text": "A powerful oil painting of a raging sea during a violent storm. Enormous waves rise like dark mountains of water, their crests curling and breaking into explosions of white foam rendered with thick palette knife strokes. The water churns in deep viridian, prussian blue, and near-black indigo, with flashes of translucent turquoise where light penetrates the thinnest wave edges. A small wooden sailing vessel tilts precariously on the slope of a massive swell, its torn sails whipping in the gale, tiny figures on deck clinging to the rigging. The sky is a turbulent mass of slate grey storm clouds, split by a dramatic shaft of golden light breaking through and illuminating the nearest wave. Lightning forks in the distance. The entire surface is alive with texture, paint applied with raw physical energy that mirrors the fury of the ocean.",
     "prompt_zh": "一幅气势磅礴的油画，描绘狂暴风暴中怒吼的大海。巨浪如深色的水之山脉拔地而起，浪尖翻卷碎裂为白色泡沫与飞溅的水花，以厚重有力的调色刀笔触挥就。海水在深翠绿、普鲁士蓝和近乎漆黑的靛蓝中翻涌，光线穿透浪峰最薄处闪现出半透明的绿松石色。一艘小型木帆船在巨浪的斜坡上危险地倾斜，撕裂的船帆在狂风中猛烈抖动，甲板上的小小人影紧紧攀附着索具。天空是一团翻滚的板岩灰与炭黑色风暴云，被一道戏剧性的淡金色光柱撕裂——光线穿破云层的缝隙，照亮了最近一道巨浪的泡沫。远方有闪电分叉划过。整幅画面的表面充满质感与张力，颜料以原始的物理能量涂抹，呼应着大海本身的狂怒。",
-    "example_image_url": "https://img.promptstudio.art/prompts/oil-painting-stormy-sea.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/oil-painting-stormy-sea.webp",
     "aspect_ratio": "16:9",
     "tags": ["油画", "大海", "风暴", "戏剧性", "古典"],
     "created_at": "2026-02-20"

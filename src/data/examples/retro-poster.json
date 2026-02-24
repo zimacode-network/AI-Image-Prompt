@@ -7,7 +7,7 @@
     "subject_zh": "阿尔卑斯山复古旅游海报",
     "prompt_text": "A vintage travel poster advertising the Swiss Alps in the classic mid-century illustration style. A majestic snow-capped mountain peak rises against a brilliant azure sky, with a charming alpine village nestled in the green valley below. Bold sans-serif typography at the top reads the destination name in an elegant arc. The color palette uses rich, slightly faded tones of forest green, sky blue, warm ochre, and crisp white, printed with visible halftone dot texture. A small retro airplane trails across the corner of the sky. The overall design channels the golden age of travel with optimism and wanderlust.",
     "prompt_zh": "一张复古旅游海报，以经典的世纪中叶插画风格宣传瑞士阿尔卑斯山。雄伟的雪顶山峰耸立在明亮的天蓝色天空下，迷人的阿尔卑斯山村庄坐落在下方的绿色山谷中。顶部粗体无衬线字体以优雅的弧形排列目的地名称。色彩使用浓郁而略微褪色的森林绿、天蓝、暖赭石和清晰白色，带有可见的半色调网点纹理印刷效果。一架小型复古飞机在天空角落划过。整体设计传递出旅行黄金时代的乐观与远方的向往。",
-    "example_image_url": "https://img.promptstudio.art/prompts/retro-poster-travel-destination.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/retro-poster-travel-destination.webp",
     "aspect_ratio": "3:4",
     "tags": ["复古海报", "旅行", "瑞士", "世纪中叶", "插画"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "黑色电影风格的悬疑片海报",
     "prompt_text": "A dramatic film noir movie poster from the 1940s featuring a mysterious detective standing beneath a flickering streetlamp on a rain-slicked city street. Deep shadows cut across the scene at sharp diagonal angles. A femme fatale silhouette appears in an illuminated window above. The composition uses a stark contrast of pitch black and golden lamplight, with occasional accents of blood red. Hand-painted lettering in a classic serif typeface announces the film title at the bottom. The entire poster has a slightly weathered, aged paper quality with subtle fold marks and foxing spots that suggest decades of history.",
     "prompt_zh": "一张1940年代风格的黑色电影海报，一位神秘侦探站在雨水浸湿的城市街道上闪烁的街灯下。深邃的阴影以锐利的对角线切割画面。一个蛇蝎美人的剪影出现在上方一扇明亮的窗户中。构图使用纯黑与金色灯光的强烈对比，偶尔点缀血红色。经典衬线字体的手绘字样在底部宣告电影标题。整张海报带有略微磨损的陈旧纸质感，细微的折痕和霉斑暗示着几十年的历史。",
-    "example_image_url": "https://img.promptstudio.art/prompts/retro-poster-movie-poster.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/retro-poster-movie-poster.webp",
     "aspect_ratio": "3:4",
     "tags": ["黑色电影", "悬疑", "1940年代", "电影海报", "复古"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "迷幻摇滚音乐节海报",
     "prompt_text": "A psychedelic rock concert poster inspired by the San Francisco poster art of the late 1960s. Swirling, organic lettering morphs and flows like melting wax, spelling out the band name in nearly illegible but visually stunning typography. The background features kaleidoscopic patterns of electric purple, acid green, hot pink, and sunshine yellow radiating from a central mandala. A stylized figure plays guitar surrounded by blooming flowers and cosmic starbursts. The ink appears to have been screen-printed with slight registration misalignment, adding authentic vintage charm. Every inch of the poster is filled with intricate decorative detail.",
     "prompt_zh": "一张迷幻摇滚演唱会海报，灵感来自1960年代末旧金山海报艺术。旋转的有机字体如融化的蜡般变形流动，以近乎难以辨认但视觉震撼的排版拼出乐队名称。背景是万花筒般的电光紫、酸性绿、艳粉和阳光黄从中央曼陀罗向外辐射的图案。一个风格化的人物在盛开的花朵和宇宙星爆中弹奏吉他。油墨呈现丝网印刷的效果，带有轻微的套色偏移，增添真实的复古魅力。海报的每一寸都充满了精细的装饰细节。",
-    "example_image_url": "https://img.promptstudio.art/prompts/retro-poster-concert-announcement.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/retro-poster-concert-announcement.webp",
     "aspect_ratio": "3:4",
     "tags": ["迷幻艺术", "摇滚", "1960年代", "音乐节", "丝网印刷"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "1950年代风格的咖啡广告海报",
     "prompt_text": "A cheerful 1950s-style advertising poster for a premium coffee brand. A smiling housewife in a polka-dot dress holds up a steaming cup of coffee with an expression of pure delight. The illustration style is clean and optimistic with bold outlines and flat colors typical of postwar commercial art. A large coffee cup dominates the lower portion with aromatic steam curling upward in decorative swirls. The background is a warm buttercup yellow with a red and white checkerboard border. Retro display typeface announces the brand slogan in a playful, confident tone. The print quality mimics offset lithography with rich, saturated inks.",
     "prompt_zh": "一张1950年代风格的优质咖啡品牌广告海报。一位穿波点裙的微笑主妇举起一杯热气腾腾的咖啡，表情充满纯粹的愉悦。插画风格干净乐观，带有战后商业艺术典型的粗轮廓线和平面色彩。一个大咖啡杯占据下方，芳香的蒸汽以装饰性旋涡向上卷曲。背景是温暖的奶黄色，配有红白棋盘格边框。复古展示字体以俏皮自信的语调宣布品牌标语。印刷质感模仿胶印石版画的浓郁饱和油墨效果。",
-    "example_image_url": "https://img.promptstudio.art/prompts/retro-poster-product-advertisement.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/retro-poster-product-advertisement.webp",
     "aspect_ratio": "3:4",
     "tags": ["1950年代", "商业广告", "咖啡", "复古插画", "美式风格"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "复古未来主义火星探索海报",
     "prompt_text": "A retro-futuristic space exploration poster depicting a grand vision of human settlement on Mars, styled after mid-century NASA promotional artwork. A sleek rocket ship with chrome fins stands tall on the rust-red Martian surface, with geodesic dome habitats glowing warmly in the background. Two astronauts in bulky vintage spacesuits plant a flag while gazing at the pale blue dot of Earth in the starry sky above. The illustration uses a limited palette of deep space navy, Martian terra cotta, metallic silver, and warm white. Bold condensed sans-serif lettering at the top proclaims an inspiring call to explore the cosmos.",
     "prompt_zh": "一张复古未来主义的太空探索海报，描绘人类在火星定居的宏大愿景，风格仿照世纪中叶NASA宣传艺术。一艘带有铬合金尾翼的流线型火箭矗立在铁锈红的火星表面，背景中测地线穹顶栖息地散发着温暖的光芒。两名穿着厚重复古太空服的宇航员插下旗帜，同时仰望星空中地球那颗淡蓝色小点。插画使用有限的色彩——深空藏青、火星赤陶、金属银和暖白。顶部粗体窄体无衬线字体宣告着探索宇宙的鼓舞人心的号召。",
-    "example_image_url": "https://img.promptstudio.art/prompts/retro-poster-space-exploration.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/retro-poster-space-exploration.webp",
     "aspect_ratio": "3:4",
     "tags": ["太空探索", "复古未来", "火星", "NASA风格", "科幻"],
     "created_at": "2026-02-20"

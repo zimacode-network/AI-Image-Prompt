@@ -7,7 +7,7 @@
     "subject_zh": "古罗马人物肖像",
     "prompt_text": "A classical Roman mosaic portrait of a noble woman rendered in small square tesserae of marble and colored glass. Her face is composed of warm ivory, sienna, and terracotta tiles with subtle gradations modeling the cheekbones. Dark obsidian pieces define her almond-shaped eyes, and tiny gold leaf tesserae highlight her earrings and laurel crown. The background features a geometric border in navy and cream with visible grout lines lending authentic archaeological texture.",
     "prompt_zh": "一幅古典罗马马赛克贵妇肖像，由大理石和彩色玻璃的小方形嵌片拼成。她的面庞由温暖的象牙色、赭色和赤陶色嵌片组成，微妙的渐变塑造出颧骨线条。深黑曜石嵌片勾勒出杏仁形眼睛，微小的金箔嵌片点亮耳环和月桂冠。背景采用海军蓝和奶油色的几何边框，可见灰缝线条增添了真实的考古质感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/mosaic-roman-portrait.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/mosaic-roman-portrait.webp",
     "aspect_ratio": "3:4",
     "tags": ["马赛克", "罗马肖像", "古典艺术", "嵌片工艺", "考古风格"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "教堂穹顶马赛克",
     "prompt_text": "A magnificent Byzantine-style mosaic ceiling viewed from directly below, radiating outward from a central golden sun motif. Concentric rings of angels with outstretched wings are formed from thousands of shimmering gold, cobalt blue, and deep crimson glass tesserae. Halos glow with real gold smalti catching scattered light. Intricate vine scrolls fill the pendentives between arches. The dome's curved surface creates a breathtaking sense of heavenly depth with rich gold suggesting infinite divine light.",
     "prompt_zh": "一幅壮丽的拜占庭风格马赛克穹顶，从正下方仰望，从中央金色太阳图案向外辐射。由成千上万闪烁的金色、钴蓝色和深红色玻璃嵌片组成的天使展翅环绕成同心圆。光环以真金珐琅嵌片发光捕捉散射的光线。精致的藤蔓卷轴填满拱门间的帆拱。穹顶弧面营造出令人叹为观止的天堂纵深感，丰富的金色暗示着无限的神圣之光。",
-    "example_image_url": "https://img.promptstudio.art/prompts/mosaic-cathedral-ceiling.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/mosaic-cathedral-ceiling.webp",
     "aspect_ratio": "1:1",
     "tags": ["马赛克", "教堂穹顶", "拜占庭风格", "金色辉煌", "宗教艺术"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "花园中的小鸟",
     "prompt_text": "A delightful mosaic artwork of a European robin perched on a flowering branch, crafted from irregularly shaped ceramic and glass tiles. The bird's breast glows in warm orange and rust tesserae, while its wings use cool slate gray pieces. Cherry blossom petals are made from pale pink porcelain fragments with visible crackle glaze. The background is a soft sage green field of uniform square tiles. The overall effect feels fresh, decorative, and garden-inspired.",
     "prompt_zh": "一幅令人愉悦的马赛克艺术品，展现一只欧洲知更鸟栖息在开花的树枝上，由不规则形状的陶瓷和玻璃嵌片制成。鸟的胸部以温暖的橙色和锈红色嵌片发光，翅膀使用冷色调的石板灰嵌片。樱花花瓣由淡粉色瓷片碎片制成，可见裂纹釉面。背景是柔和鼠尾草绿色的均匀方形嵌片。整体效果清新、装饰性强，充满花园灵感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/mosaic-garden-bird.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/mosaic-garden-bird.webp",
     "aspect_ratio": "1:1",
     "tags": ["马赛克", "花园飞鸟", "陶瓷嵌片", "装饰艺术", "自然主题"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "海洋鱼类马赛克",
     "prompt_text": "A vibrant mosaic depicting a school of tropical fish swimming through a coral reef, using iridescent glass tiles that shimmer between turquoise and sapphire. Each fish is outlined in darker tesserae with scales suggested by tiny tiles in electric blue, tangerine, and lemon yellow. Sea anemones anchor the bottom in textured pink pieces. Bubbles are circular arrangements of translucent white glass. The flowing composition captures underwater movement with grout lines adding a rhythmic grid unifying the organic forms.",
     "prompt_zh": "一幅生动的马赛克作品，描绘一群热带鱼穿游于珊瑚礁之间，使用在青绿和蓝宝石色之间闪烁的虹彩玻璃嵌片。每条鱼以深色嵌片勾勒轮廓，鳞片由电光蓝、橘橙色和柠檬黄的微小嵌片组成。海葵以粉红色纹理嵌片固定在底部。气泡由半透明白色玻璃的圆形排列表现。流动的构图捕捉水下运动感，灰缝线条增添了统一有机形态的韵律网格。",
-    "example_image_url": "https://img.promptstudio.art/prompts/mosaic-ocean-fish.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/mosaic-ocean-fish.webp",
     "aspect_ratio": "16:9",
     "tags": ["马赛克", "海洋鱼群", "珊瑚礁", "虹彩玻璃", "热带风情"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "现代城市天际线",
     "prompt_text": "A modern mosaic interpretation of a city skyline at twilight, blending contemporary design with traditional tile craft. Skyscrapers rise in columns of mirrored silver and steel blue glass tesserae, their windows suggested by tiny gold pieces glowing against dark facades. The sky transitions from deep violet through rose to a luminous golden horizon. A river in the foreground reflects the skyline in softly scrambled tiles. Geometric building precision contrasts beautifully with the organic water flow.",
     "prompt_zh": "一幅现代马赛克诠释的暮色城市天际线，将当代设计与传统嵌片工艺融为一体。摩天大楼以镜面银和钢蓝玻璃嵌片的柱列拔地而起，窗户由微小的金色嵌片暗示，在深色立面上熠熠生辉。天空从深紫色经玫瑰粉过渡到明亮的金色地平线。前景的河流以柔和打乱排列的嵌片反射天际线。建筑的几何精确与有机的水流形成美丽对比。",
-    "example_image_url": "https://img.promptstudio.art/prompts/mosaic-city-skyline.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/mosaic-city-skyline.webp",
     "aspect_ratio": "16:9",
     "tags": ["马赛克", "城市天际线", "暮色景观", "现代风格", "建筑艺术"],
     "created_at": "2026-02-20"

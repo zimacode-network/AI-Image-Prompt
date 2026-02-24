@@ -7,8 +7,14 @@
     "description_zh": "将复杂知识浓缩为视觉精美的卡片式排版。适合制作学习笔记、科普内容和知识分享，以清晰的层级结构和醒目的视觉元素让信息一目了然。",
     "description_en": "Condenses complex knowledge into visually polished card-style layouts. Ideal for study notes, educational content, and knowledge sharing, using clear hierarchy and eye-catching visual elements to make information instantly digestible.",
     "template_prompt": "Design a clean, modern knowledge card about {content}. Use a structured layout with a bold headline at the top, key facts organized in labeled sections with icons, a subtle color-coded sidebar for category indication, and a soft gradient background. Include concise bullet points, small illustrative diagrams or pictograms, and a footer with source attribution. The typography should be crisp and readable with clear visual hierarchy.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/knowledge-card-photosynthesis.webp",
-    "tags": ["知识卡片", "教育", "信息可视化", "笔记", "科普"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/knowledge-card-solar-system.webp",
+    "tags": [
+      "知识卡片",
+      "教育",
+      "信息可视化",
+      "笔记",
+      "科普"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -19,8 +25,14 @@
     "description_zh": "将烹饪食谱转化为精美的图文卡片，兼具实用性和美感。清晰展示食材清单、步骤说明和成品效果，让做饭变成一种视觉享受。",
     "description_en": "Transforms cooking recipes into beautifully illustrated cards that balance practicality with aesthetics. Clearly presents ingredient lists, step-by-step instructions, and finished dish visuals, making cooking a visually delightful experience.",
     "template_prompt": "Create an elegant recipe card for {content}. Feature a hero photograph of the finished dish at the top with warm, appetizing lighting. Below, arrange the ingredient list in a neat two-column grid with hand-drawn icons for each item. Number the cooking steps with clear typography on a creamy parchment-textured background. Add subtle watercolor food illustrations in the margins, a prep-time and serving-size badge, and a decorative border that evokes a cozy kitchen atmosphere.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/recipe-card-pasta-carbonara.webp",
-    "tags": ["食谱", "美食", "烹饪", "卡片设计", "生活"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/recipe-card-pasta-recipe.webp",
+    "tags": [
+      "食谱",
+      "美食",
+      "烹饪",
+      "卡片设计",
+      "生活"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -31,8 +43,14 @@
     "description_zh": "为真实或虚构人物打造专业的档案式可视化展示。包含肖像、关键属性、人物关系和背景信息，适用于历史人物介绍、小说角色设定或团队成员展示。",
     "description_en": "Creates professional dossier-style visual profiles for real or fictional characters. Includes portrait, key attributes, relationships, and background information, suitable for historical figure introductions, novel character sheets, or team member showcases.",
     "template_prompt": "Design a detailed character profile sheet for {content}. Place a stylized portrait in the upper-left with a vignette frame. Beside it, list core attributes like name, age, occupation, and traits using label-value pairs in a monospaced accent font. Below, include a short biography, a radar chart of personality dimensions, a relationship map connecting to other figures, and notable quotes in an italic callout box. Use a dark matte background with gold accent lines.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/character-profile-detective.webp",
-    "tags": ["人物档案", "角色设定", "信息图", "档案", "可视化"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/character-profile-fantasy-wizard.webp",
+    "tags": [
+      "人物档案",
+      "角色设定",
+      "信息图",
+      "档案",
+      "可视化"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -43,8 +61,14 @@
     "description_zh": "将数据和信息转化为引人注目的可视化长图。运用图表、图标和简洁文案，让枯燥的数据讲述生动的故事，适合报告展示和社交传播。",
     "description_en": "Converts data and information into eye-catching visual long-form graphics. Uses charts, icons, and concise copy to turn dry data into compelling stories, perfect for report presentations and social media sharing.",
     "template_prompt": "Create a vertical infographic about {content}. Start with a bold title banner and a hook sentence. Organize data top-to-bottom using numbered sections connected by a flowing timeline graphic. Include bar charts, pie charts, and icon arrays for statistics. Use a cohesive two-tone color scheme with generous white space. Add callout boxes for key takeaways, flat-style pictograms for each data point, and a sources footer. The style should be modern, corporate-friendly, and easy to scan.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/infographic-climate-change.webp",
-    "tags": ["信息图表", "数据可视化", "统计", "图表", "报告"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/infographic-climate-change.webp",
+    "tags": [
+      "信息图表",
+      "数据可视化",
+      "统计",
+      "图表",
+      "报告"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -55,8 +79,14 @@
     "description_zh": "为各类社交平台量身定制的内容模板，涵盖封面、帖子和故事格式。采用当下流行的设计趋势，帮助快速产出高质量的社交媒体视觉内容。",
     "description_en": "Tailored content templates for various social platforms, covering covers, posts, and story formats. Adopts current design trends to help rapidly produce high-quality social media visual content.",
     "template_prompt": "Design a trendy social media post template about {content}. Use a bold, attention-grabbing layout optimized for mobile with large headline text in a modern sans-serif typeface. Apply a vibrant gradient mesh background blending two complementary colors. Include a central visual element, short body text with emoji-style icons, a clear call-to-action button, and a brand handle corner badge. Add subtle noise texture and rounded corners for a polished contemporary aesthetic.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/social-media-product-launch.webp",
-    "tags": ["社交媒体", "模板", "营销", "平面设计", "内容创作"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/social-media-quote-card.webp",
+    "tags": [
+      "社交媒体",
+      "模板",
+      "营销",
+      "平面设计",
+      "内容创作"
+    ],
     "created_at": "2026-02-20"
   }
 ]

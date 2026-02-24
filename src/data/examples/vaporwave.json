@@ -7,7 +7,7 @@
     "subject_zh": "复古电脑",
     "prompt_text": "A vintage desktop computer from the early nineties sitting on a glossy white desk, the chunky CRT monitor displaying a rotating wireframe globe in cyan and magenta. Stacks of floppy disks and a beige mechanical keyboard surround the machine. The entire scene is bathed in gradients of hot pink, electric purple, and turquoise. Soft halftone dots overlay the background, and Greek marble columns frame the composition on each side. Chrome Japanese text floats near the top of the image, catching light like liquid mercury. The mood is nostalgic yet futuristic, blending consumer technology with dreamlike surrealism.",
     "prompt_zh": "一台九十年代初的老式台式电脑放在光滑的白色桌子上，笨重的CRT显示器上显示着青色和品红色的旋转线框地球。软盘堆和米色机械键盘环绕在机器周围。整个场景沐浴在粉红、电光紫和绿松石色的渐变中。柔和的半色调网点覆盖背景，希腊大理石柱从两侧框住构图。铬色日文文字漂浮在画面顶部，像液态水银般捕捉光线。氛围既怀旧又未来感十足，将消费科技与梦幻超现实主义融合在一起。",
-    "example_image_url": "https://img.promptstudio.art/prompts/vaporwave-retro-computer-setup.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/vaporwave-retro-computer-setup.webp",
     "aspect_ratio": "16:9",
     "tags": ["蒸汽波", "复古电脑", "赛博怀旧", "霓虹渐变", "超现实"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "棕榈树与日落",
     "prompt_text": "Silhouettes of tall palm trees lining a coastal boulevard against a dramatic sunset sky rendered in horizontal bands of peach, lavender, and deep violet. The sun is a perfect glowing circle sinking below a calm ocean that reflects neon pink light across its surface. A tiled sidewalk in pastel checkerboard pattern leads the eye toward the horizon. Faint scan lines run across the entire image as if viewed on an old television. The atmosphere is warm, melancholic, and deeply romantic, evoking endless summer evenings that exist only in memory and synthesizer music.",
     "prompt_zh": "高大棕榈树的剪影排列在海岸大道旁，背景是由桃色、淡紫和深紫色水平色带渲染的壮丽日落天空。太阳是一个完美的发光圆形，沉入平静的海面以下，霓虹粉光在海面上反射。粉彩棋盘格图案的瓷砖人行道引导视线通向地平线。微弱的扫描线贯穿整张画面，仿佛在老电视上观看。氛围温暖、忧郁而浪漫至极，唤起只存在于记忆和合成器音乐中的无尽夏日傍晚。",
-    "example_image_url": "https://img.promptstudio.art/prompts/vaporwave-palm-tree-sunset.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/vaporwave-palm-tree-sunset.webp",
     "aspect_ratio": "16:9",
     "tags": ["蒸汽波", "棕榈树", "日落海滩", "怀旧美学", "霓虹天空"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "购物中心",
     "prompt_text": "An abandoned shopping mall interior from the late nineteen eighties, its long corridors stretching into vanishing point perspective. Polished marble floors reflect the glow of purple and teal fluorescent lights overhead. Empty storefronts with faded signage in both English and Japanese line each side. Potted tropical plants in large ceramic planters sit beside dry decorative fountains. Escalators frozen mid-motion lead to an upper level shrouded in soft pink fog. The silence is palpable, creating a liminal space that feels both familiar and deeply uncanny, as if time itself has become a consumer product on clearance.",
     "prompt_zh": "一座八十年代末废弃购物中心的内部，长长的走廊延伸至消失点透视。抛光大理石地板反射着头顶紫色和青色荧光灯的光芒。两侧排列着带有褪色英日双语招牌的空店面。大型陶瓷花盆中的热带盆栽植物立在干涸的装饰喷泉旁。静止在半途的自动扶梯通向笼罩在柔和粉色雾气中的上层。寂静感扑面而来，创造出一个既熟悉又深感诡异的阈限空间，仿佛时间本身已成为一件清仓处理的消费品。",
-    "example_image_url": "https://img.promptstudio.art/prompts/vaporwave-shopping-mall.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/vaporwave-shopping-mall.webp",
     "aspect_ratio": "3:4",
     "tags": ["蒸汽波", "废弃商场", "阈限空间", "消费主义", "荧光灯光"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "罗马雕塑",
     "prompt_text": "A classical white marble bust of a Roman figure, cracked and weathered with age, placed against a flat background of soft pink to blue gradient. One eye of the statue glitches with horizontal displacement artifacts, and rainbow light refracts through a triangular prism floating beside its head. Geometric wireframe shapes in cyan orbit the sculpture slowly. Tiny Japanese katakana characters cascade down one side like digital rain. The juxtaposition of ancient artistry and digital decay creates a meditation on beauty, impermanence, and the strange afterlife of cultural icons in the age of infinite reproduction.",
     "prompt_zh": "一座古典白色大理石罗马人物半身像，因岁月而开裂风化，放置在从柔粉到蓝色渐变的平面背景前。雕像的一只眼睛出现水平位移的故障伪影，彩虹光通过漂浮在头部旁边的三角棱镜折射。青色几何线框形状缓慢环绕雕塑。微小的日文片假名字符像数字雨一样从一侧倾泻而下。古代艺术与数字衰变的并置，创造了一场关于美、无常以及文化偶像在无限复制时代奇异来世的沉思。",
-    "example_image_url": "https://img.promptstudio.art/prompts/vaporwave-roman-bust-statue.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/vaporwave-roman-bust-statue.webp",
     "aspect_ratio": "1:1",
     "tags": ["蒸汽波", "古典雕塑", "故障艺术", "棱镜光", "文化拼贴"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "霓虹公路",
     "prompt_text": "A straight highway stretching to infinity across a flat digital landscape, its surface made of glowing magenta grid lines on a black plane. On the horizon, a massive chrome sun sets between jagged purple mountain silhouettes. The sky above transitions from deep indigo to electric orange with thin cloud streaks. Retro sports car taillights leave long pink light trails along the road. Stars begin to appear as tiny white dots in the upper portion. The entire scene pulses with the energy of a synthesizer soundtrack, capturing the essence of speed, solitude, and an imagined future that never arrived.",
     "prompt_zh": "一条笔直的公路在平坦的数字景观上延伸至无穷远处，路面由黑色平面上发光的品红网格线构成。地平线上，一轮巨大的铬色太阳在锯齿状紫色山脉剪影之间落下。上方天空从深靛蓝过渡到电光橙，伴有细长云纹。复古跑车的尾灯沿公路留下长长的粉色光迹。星星以微小白点出现在画面上方。整个场景随着合成器配乐的节奏跳动，捕捉了速度、孤独以及一个从未到来的想象未来的本质。",
-    "example_image_url": "https://img.promptstudio.art/prompts/vaporwave-neon-grid-highway.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/vaporwave-neon-grid-highway.webp",
     "aspect_ratio": "16:9",
     "tags": ["蒸汽波", "霓虹网格", "复古未来", "合成器波", "无限公路"],
     "created_at": "2026-02-20"

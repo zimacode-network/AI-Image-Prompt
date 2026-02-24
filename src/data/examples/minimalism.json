@@ -7,7 +7,7 @@
     "subject_zh": "极简室内空间",
     "prompt_text": "A serene minimalist living room bathed in soft natural light streaming through floor-to-ceiling windows. White linen sofa rests on pale oak flooring, a single ceramic vase with one dried pampas grass stem sits on a low concrete coffee table. Walls are bare plaster in warm ivory, casting gentle shadows. The composition breathes with negative space and quiet elegance.",
     "prompt_zh": "一间宁静的极简主义客厅沐浴在透过落地窗洒入的柔和自然光中。白色亚麻沙发安放在浅色橡木地板上，低矮的混凝土茶几上摆着一只陶瓷花瓶，插着一枝干燥的蒲苇。墙面是温暖的象牙色裸灰泥，投下柔和的阴影。构图充满留白与静谧的优雅。",
-    "example_image_url": "https://img.promptstudio.art/prompts/minimalism-interior-space.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/minimalism-interior-space.webp",
     "aspect_ratio": "16:9",
     "tags": ["极简主义", "室内设计", "留白", "自然光"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "极简产品设计",
     "prompt_text": "A minimalist desk lamp with a slender matte black metal arm and a thin circular LED disc head, placed on a smooth white marble surface. The base is a single solid brass cylinder. Background is a uniform warm gray gradient. Studio lighting highlights the clean geometric lines and premium material contrast between metal, brass, and stone.",
     "prompt_zh": "一盏极简台灯，纤细的哑光黑色金属灯臂顶端是薄圆形LED灯盘，放置在光滑的白色大理石台面上。底座是一个实心黄铜圆柱体。背景为均匀的暖灰色渐变。影棚灯光突出了干净的几何线条以及金属、黄铜与石材之间的高级材质对比。",
-    "example_image_url": "https://img.promptstudio.art/prompts/minimalism-product-design.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/minimalism-product-design.webp",
     "aspect_ratio": "1:1",
     "tags": ["产品设计", "极简", "材质对比", "几何线条"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "极简地平线风景",
     "prompt_text": "A vast minimalist landscape where a perfectly straight horizon line divides the canvas into two halves. The upper half is a pale lavender sky fading into soft peach at the edge. The lower half is a calm still lake reflecting the sky like a mirror. A single tiny sailboat sits off-center, creating a quiet focal point in the immense emptiness of sky and water.",
     "prompt_zh": "一幅辽阔的极简风景，一条完美的水平线将画面分为两半。上半部分是淡紫色天空，在边缘渐变为柔和的桃色。下半部分是平静如镜的湖面映射着天空。一艘小帆船偏离中心，在天与水的巨大空旷中形成安静的焦点。",
-    "example_image_url": "https://img.promptstudio.art/prompts/minimalism-landscape-horizon.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/minimalism-landscape-horizon.webp",
     "aspect_ratio": "16:9",
     "tags": ["风景", "地平线", "极简", "宁静", "倒影"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "极简单枝花卉",
     "prompt_text": "A single white tulip with a long elegant stem placed in a narrow frosted glass vase, set against a pure soft beige background. Delicate morning light enters from the left side, creating a subtle shadow on the wall behind. Every petal edge is crisp and luminous. The mood is meditative and pure, celebrating the profound beauty found in one solitary bloom.",
     "prompt_zh": "一枝白色郁金香，茎干修长优雅，插在一只窄口磨砂玻璃花瓶中，置于纯净的浅米色背景前。细腻的晨光从左侧照入，在身后墙上投下淡淡的影子。每片花瓣边缘清晰而明亮。氛围冥想而纯粹，赞颂一朵孤花中蕴含的深邃之美。",
-    "example_image_url": "https://img.promptstudio.art/prompts/minimalism-single-flower.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/minimalism-single-flower.webp",
     "aspect_ratio": "3:4",
     "tags": ["花卉", "极简", "静物", "光影"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "极简建筑立面",
     "prompt_text": "A monumental minimalist building facade of raw white concrete, featuring a single large rectangular window positioned asymmetrically. Sharp afternoon sunlight carves deep geometric shadows across the flat surface. A narrow vertical slit window punctuates the far edge. The sky above is a clear deep blue, amplifying the stark contrast between light, shadow, and pure architectural form.",
     "prompt_zh": "一面宏伟的极简主义建筑立面，由素白混凝土构成，一扇大型长方形窗户不对称地嵌入其中。锐利的午后阳光在平坦的表面上刻出深邃的几何阴影。远端边缘有一道狭窄的竖向缝窗作为点缀。上方天空是纯净的深蓝色，强化了光线、阴影与纯粹建筑形态之间的鲜明对比。",
-    "example_image_url": "https://img.promptstudio.art/prompts/minimalism-architecture-facade.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/minimalism-architecture-facade.webp",
     "aspect_ratio": "4:3",
     "tags": ["建筑", "极简", "混凝土", "光影", "立面"],
     "created_at": "2026-02-20"

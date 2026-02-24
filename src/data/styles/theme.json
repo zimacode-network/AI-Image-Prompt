@@ -7,8 +7,14 @@
     "description_zh": "将任何内容融入奇幻魔法世界的视觉语言中，充满瑰丽的想象力和史诗感。适合创作充满龙、魔法、中世纪城堡等元素的幻想世界场景。",
     "description_en": "Immerses any content into the visual language of a fantastical magical world, brimming with magnificent imagination and epic grandeur. Perfect for crafting scenes filled with dragons, sorcery, medieval castles, and otherworldly landscapes.",
     "template_prompt": "Reimagine {content} in a high-fantasy art style. Place the subject within an enchanted realm featuring towering ancient castles in the distance, luminous magical runes floating in the air, and a dramatic sky swirling with auroras and distant moons. Use rich jewel-tone colors of emerald, amethyst, and gold. Add atmospheric fog, volumetric god rays piercing through mystical forests, and subtle particle effects of glowing magical dust. Render in a painterly digital art style with cinematic epic composition.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/fantasy-enchanted-forest.webp",
-    "tags": ["奇幻", "魔法", "史诗", "中世纪", "幻想世界"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/fantasy-enchanted-forest.webp",
+    "tags": [
+      "奇幻",
+      "魔法",
+      "史诗",
+      "中世纪",
+      "幻想世界"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -19,8 +25,14 @@
     "description_zh": "专注于角色概念设计的专业风格，提供多角度展示和细节标注。适合游戏角色、动画人物和IP形象的前期视觉开发，输出可直接用于制作流程。",
     "description_en": "A professional style focused on character concept design, offering multi-angle views and detail annotations. Ideal for visual development of game characters, animation figures, and IP mascots, producing output ready for production pipelines.",
     "template_prompt": "Create a professional character design sheet for {content}. Present the character in a turnaround view showing front, three-quarter, and side poses on a neutral light-gray background. Include close-up callouts for distinctive features like face, accessories, and costume elements. Add a color palette swatch strip below, annotation labels for key design choices, and expression thumbnails showing different emotions. Use crisp line art with flat cel-shaded coloring suitable for animation or game production.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/character-design-space-ranger.webp",
-    "tags": ["角色设计", "概念艺术", "游戏", "动画", "IP设计"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/character-design-robot-companion.webp",
+    "tags": [
+      "角色设计",
+      "概念艺术",
+      "游戏",
+      "动画",
+      "IP设计"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -31,8 +43,14 @@
     "description_zh": "模拟专业摄影的真实质感和光影效果，追求照片级的逼真度。涵盖人像、风光、产品等多种摄影题材，呈现如同高端相机实拍的视觉效果。",
     "description_en": "Simulates the authentic texture and lighting of professional photography, pursuing photo-level realism. Covers portrait, landscape, product, and other photographic genres, delivering visuals indistinguishable from high-end camera captures.",
     "template_prompt": "Capture {content} as a stunning professional photograph with absolute photorealism. Use natural golden-hour lighting, shallow depth of field creating creamy bokeh, and precise focus on the primary subject. Apply subtle film grain for organic texture, accurate material rendering, and balanced rule-of-thirds composition. Simulate a full-frame camera with an 85mm prime lens at f/1.8, delivering rich dynamic range, true-to-life colors, and fine micro-detail in textures like fabric, metal, and skin.",
-    "cover_image_url": "https://img.promptstudio.art/prompts/photography-street-portrait.webp",
-    "tags": ["写实摄影", "专业摄影", "光影", "人像", "风光"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/photography-golden-hour-portrait.webp",
+    "tags": [
+      "写实摄影",
+      "专业摄影",
+      "光影",
+      "人像",
+      "风光"
+    ],
     "created_at": "2026-02-20"
   }
 ]

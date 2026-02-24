@@ -7,8 +7,14 @@
     "description_zh": "融合传统中国绘画技法与古典美学，以水墨晕染、工笔细描为核心表现手法。色彩以朱砂红、靛青、鎏金为主调，搭配宣纸质感与留白构图，营造出典雅深远的东方意境。常见元素包括祥云、亭台楼阁、仙鹤与山水，展现浓郁的华夏文化底蕴。",
     "description_en": "Blending traditional Chinese painting techniques with classical aesthetics, this style features ink wash rendering and meticulous brushwork as its core expression. The color palette centers on vermillion red, indigo blue, and gold accents, paired with aged rice paper textures and generous negative space composition, creating an elegant and profound Eastern artistic mood. Common motifs include auspicious clouds, pavilions, cranes, and landscapes, showcasing rich Chinese cultural heritage.",
     "template_prompt": "A {content}, rendered in traditional Chinese classical art style with elegant ink wash painting techniques and meticulous gongbi brushwork, featuring a refined color palette of vermillion red, indigo blue, and shimmering gold accents, set against an aged rice paper texture, composed with generous negative space and balanced asymmetry, evoking the timeless grace of ancient Chinese painting traditions",
-    "cover_image_url": "https://img.promptstudio.art/prompts/chinese-classical-mountain-landscape.webp",
-    "tags": ["古风", "国潮", "水墨", "传统美学", "东方意境"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/chinese-classical-mountain-landscape.webp",
+    "tags": [
+      "古风",
+      "国潮",
+      "水墨",
+      "传统美学",
+      "东方意境"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -19,8 +25,14 @@
     "description_zh": "以黑墨浓淡干湿的变化为主要表现手段，追求气韵生动与笔墨意趣。通过墨色的五彩——焦、浓、重、淡、清，在宣纸上呈现丰富的层次与肌理。构图讲究虚实相生、疏密有致，以极简的笔触传达深远的意境与哲思。",
     "description_en": "Using variations in ink density, dryness, and wetness as the primary means of expression, this style pursues vivid spirit resonance and the charm of brush and ink. Through the five tones of ink — scorched, dense, heavy, light, and clear — it presents rich layers and textures on rice paper. The composition emphasizes the interplay of void and substance, with sparse and dense elements in harmony, conveying profound artistic mood and philosophical depth through minimalist brushstrokes.",
     "template_prompt": "A {content}, depicted in traditional East Asian ink painting style using black sumi ink on white rice paper, with expressive brushstrokes varying from bold and saturated to delicate and translucent, showcasing the five tonal gradations of ink wash, embracing vast empty space and minimalist composition, capturing spiritual essence over physical likeness, evoking contemplative Zen aesthetics",
-    "cover_image_url": "https://img.promptstudio.art/prompts/ink-painting-bamboo-forest.webp",
-    "tags": ["水墨", "写意", "留白", "禅意", "笔墨"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/ink-painting-mountain-river.webp",
+    "tags": [
+      "水墨",
+      "写意",
+      "留白",
+      "禅意",
+      "笔墨"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -31,8 +43,14 @@
     "description_zh": "以丰富的色彩层次和厚重的颜料肌理为显著特征，通过多层叠加与混色技法营造立体感与光影效果。笔触或细腻写实，或大胆粗犷，在画布纹理上展现强烈的质感与表现力。光影明暗对比鲜明，色彩饱和度高，画面具有浓郁的艺术感染力与视觉冲击力。",
     "description_en": "Characterized by rich color layering and thick paint texture, this style creates depth and luminous light effects through multiple glazing and color-mixing techniques. Brushstrokes range from delicately realistic to boldly expressive, revealing strong tactile quality and artistic power on canvas texture. The dramatic contrast between light and shadow, combined with highly saturated colors, produces paintings with intense artistic impact and visual presence.",
     "template_prompt": "A {content}, painted in classical oil painting style on textured canvas, with rich impasto brushwork and visible palette knife strokes, featuring dramatic chiaroscuro lighting with deep shadows and luminous highlights, layers of saturated pigments blended with masterful glazing technique, reminiscent of Old Master paintings with a warm golden undertone and atmospheric depth",
-    "cover_image_url": "https://img.promptstudio.art/prompts/oil-painting-sunset-countryside.webp",
-    "tags": ["油画", "厚涂", "光影", "古典主义", "色彩层次"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/oil-painting-sunset-landscape.webp",
+    "tags": [
+      "油画",
+      "厚涂",
+      "光影",
+      "古典主义",
+      "色彩层次"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -43,8 +61,15 @@
     "description_zh": "以水与颜料的自然交融为核心魅力，呈现出通透、轻盈、灵动的视觉效果。色彩在湿润的纸面上自由晕染扩散，形成柔和渐变与意外的纹理之美。画面清新明快，保留纸张的白色透光感，笔触流畅自然，兼具写实描绘与抽象表现的诗意美感。",
     "description_en": "Centered on the natural interplay of water and pigment, this style presents a translucent, airy, and fluid visual effect. Colors bleed and diffuse freely on wet paper, creating soft gradients and serendipitous textural beauty. The artwork feels fresh and bright, preserving the paper's white luminosity, with fluid natural brushstrokes that balance realistic depiction and abstract poetic expression.",
     "template_prompt": "A {content}, illustrated in delicate watercolor painting style on cold-pressed watercolor paper, with translucent pigment washes bleeding softly into one another, wet-on-wet technique creating gentle color gradients and organic edge effects, preserving white paper highlights for luminosity, loose expressive brushwork with visible water blooms and granulation, airy and poetic atmosphere",
-    "cover_image_url": "https://img.promptstudio.art/prompts/watercolor-spring-garden.webp",
-    "tags": ["水彩", "透明感", "晕染", "清新", "轻盈", "湿画法"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/watercolor-spring-garden.webp",
+    "tags": [
+      "水彩",
+      "透明感",
+      "晕染",
+      "清新",
+      "轻盈",
+      "湿画法"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -55,8 +80,14 @@
     "description_zh": "源自日本江户时代的木版画艺术，以鲜明的轮廓线条、平涂色块和精巧的构图为特色。色彩对比强烈而和谐，常用靛蓝、朱红、藤黄等传统颜料。画面具有独特的装饰性与叙事性，善于表现自然风光、市井百态与歌舞伎角色，线条流畅有力，极具辨识度。",
     "description_en": "Originating from Edo-period Japanese woodblock print art, this style features bold outlines, flat color areas, and sophisticated composition. Colors are vibrantly contrasting yet harmonious, often employing traditional pigments like indigo blue, vermillion red, and gamboge yellow. The artwork possesses a distinctive decorative and narrative quality, excelling at depicting natural scenery, everyday life, and kabuki characters, with fluid powerful linework that is instantly recognizable.",
     "template_prompt": "A {content}, rendered in traditional Japanese ukiyo-e woodblock print style, with bold black outlines and flat areas of vivid color including Prussian blue, vermillion red, and soft ochre, characteristic wave-like patterns and decorative cloud motifs, flattened perspective with layered compositional depth, fine carved linework with wood grain texture, inspired by masters like Hokusai and Hiroshige",
-    "cover_image_url": "https://img.promptstudio.art/prompts/ukiyo-e-ocean-waves.webp",
-    "tags": ["浮世绘", "木版画", "江户", "日式美学", "平涂"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/ukiyo-e-great-wave.webp",
+    "tags": [
+      "浮世绘",
+      "木版画",
+      "江户",
+      "日式美学",
+      "平涂"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -67,8 +98,14 @@
     "description_zh": "兴起于19世纪末的装饰艺术风格，以优雅流畅的有机曲线和自然形态为灵感源泉。大量运用花卉、藤蔓、孔雀羽毛等自然纹样，线条如行云流水般蜿蜒缠绕。色彩柔和而富有层次，常配以金色装饰边框，呈现出精致华美、浪漫唯美的视觉格调，兼具绘画性与装饰性。",
     "description_en": "Emerging in the late 19th century as a decorative art movement, this style draws inspiration from elegant, flowing organic curves and natural forms. It extensively employs floral motifs, climbing vines, and peacock feathers as ornamental patterns, with sinuously intertwining lines that flow like wind and water. Colors are soft yet richly layered, often complemented by gilded decorative borders, presenting an exquisitely ornate and romantically beautiful visual sensibility that merges fine art with decorative craft.",
     "template_prompt": "A {content}, designed in Art Nouveau decorative style with sinuous organic flowing lines and whiplash curves inspired by natural botanical forms, intricate floral and vine ornamental borders, elegant female figures with flowing hair, a sophisticated muted color palette of sage green, dusty rose, and gold leaf accents, reminiscent of Alphonse Mucha's iconic poster art with ornate typographic framing",
-    "cover_image_url": "https://img.promptstudio.art/prompts/art-nouveau-floral-portrait.webp",
-    "tags": ["新艺术", "装饰艺术", "有机曲线", "花卉纹样", "穆夏风格"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/art-nouveau-woman-with-flowers.webp",
+    "tags": [
+      "新艺术",
+      "装饰艺术",
+      "有机曲线",
+      "花卉纹样",
+      "穆夏风格"
+    ],
     "created_at": "2026-02-20"
   }
 ]

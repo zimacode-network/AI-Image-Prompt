@@ -7,7 +7,7 @@
     "subject_zh": "超级英雄动作场景",
     "prompt_text": "A bold superhero soaring through the sky above a sprawling cartoon city at sunset, cape billowing dramatically behind them. The hero is mid-punch, clashing with a masked villain on a floating platform surrounded by crackling energy rings. Thick black outlines define every shape, and the color palette is saturated with primary reds, blues, and yellows. Motion lines radiate from the point of impact, and small debris chunks fly outward in exaggerated arcs. The city below is rendered in a simplified, blocky style with tiny cars and pedestrians looking up in awe. Dynamic diagonal composition conveys intense speed and power.",
     "prompt_zh": "一位英勇的超级英雄在日落时分飞越广阔的卡通城市上空，披风在身后戏剧性地飘扬。英雄正挥拳出击，与一个戴面具的反派在被噼啪作响的能量环环绕的悬浮平台上交锋。粗黑色轮廓线勾勒出每一个形状，配色方案以饱和的原色红、蓝、黄为主。运动线从撞击点向外辐射，小碎片块以夸张的弧线飞散。下方的城市以简化的方块风格呈现，微小的汽车和行人抬头仰望。动态的对角线构图传达出强烈的速度感和力量感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-superhero-action.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-superhero-action.webp",
     "aspect_ratio": "16:9",
     "tags": ["超级英雄", "动作场景", "卡通城市", "漫画风格", "动态构图"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "搞笑动物角色",
     "prompt_text": "A hilarious cartoon scene of a four-piece animal rock band performing on a makeshift wooden stage deep in a lush green forest. A bear wearing sunglasses plays electric guitar, a fox in a leather jacket pounds the drums, a rabbit with oversized ears sings passionately into a microphone, and a raccoon slaps a bass guitar with a mischievous grin. The audience is a crowd of wide-eyed woodland creatures cheering, some holding tiny glow sticks. Bright stage lights cast colorful beams through the trees. The style is rounded and bouncy with clean outlines, playful exaggerated expressions, and a warm cheerful color palette.",
     "prompt_zh": "一个令人捧腹的卡通场景——一支四人动物摇滚乐队在茂密绿色森林深处的临时木舞台上表演。一只戴墨镜的熊弹奏电吉他，一只穿皮夹克的狐狸猛敲架子鼓，一只长着超大耳朵的兔子对着麦克风激情演唱，一只浣熊带着调皮的咧嘴笑弹贝斯。观众是一群瞪大眼睛欢呼的森林小动物，有些还举着小荧光棒。明亮的舞台灯光在树林间投射出五彩缤纷的光束。风格圆润活泼，线条干净，表情夸张俏皮，色调温暖欢快。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-funny-animals.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-funny-animals.webp",
     "aspect_ratio": "16:9",
     "tags": ["搞笑动物", "摇滚乐队", "森林场景", "卡通风格", "欢乐氛围"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "连环漫画场景",
     "prompt_text": "A four-panel comic strip layout telling a short visual story set in a cozy cartoon coffee shop. In the first panel, a cheerful barista with a tall chef hat greets a sleepy office worker. In the second panel, the barista prepares an enormous, impossibly tall latte with dramatic flair. In the third panel, the office worker takes a single sip, eyes bulging wide with shock. In the fourth panel, the worker rockets through the ceiling, leaving a person-shaped hole, while the barista gives a thumbs up. Each panel has a simple flat background with pastel tones, thick black panel borders, and small speech bubbles with symbols instead of words.",
     "prompt_zh": "一组四格漫画布局，讲述发生在温馨卡通咖啡厅里的短篇视觉故事。第一格中，一位戴着高厨师帽的开朗咖啡师迎接一位困倦的上班族。第二格中，咖啡师以夸张的手法制作了一杯巨大得不可思议的超高拿铁。第三格中，上班族喝了一小口，眼睛震惊得瞪得溜圆。第四格中，上班族像火箭一样冲破天花板，留下一个人形大洞，而咖啡师竖起了大拇指。每格都有简洁的平面背景，采用柔和的粉彩色调，配有粗黑色面板边框，以及用符号代替文字的小对话气泡。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-comic-strip-scene.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-comic-strip-scene.webp",
     "aspect_ratio": "4:3",
     "tags": ["四格漫画", "咖啡厅", "幽默故事", "连环画", "日常搞笑"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "儿童绘本插画",
     "prompt_text": "A heartwarming children's book illustration of a small baby elephant sitting on a fluffy cloud high above a sleeping village at night. The elephant holds a glowing golden lantern that casts a warm circle of light, illuminating nearby stars that have friendly smiling faces. Below, tiny cottages with orange-lit windows nestle among rolling green hills. A crescent moon wearing a sleeping cap peeks from the corner. The art style is soft and gentle with rounded shapes, subtle watercolor textures, and a soothing palette of deep indigo, lavender, warm gold, and mint green. Everything feels safe, magical, and dreamlike.",
     "prompt_zh": "一幅温馨的儿童绘本插画——一只小象宝宝坐在夜空中高高的蓬松云朵上，俯瞰着沉睡的村庄。小象手持一盏发光的金色灯笼，投射出一圈温暖的光芒，照亮了附近带有友善笑脸的星星。下方，亮着橘色灯光窗户的小屋依偎在起伏的绿色山丘之间。一轮戴着睡帽的弯月从角落探出头来。艺术风格柔和温柔，形状圆润，带有细腻的水彩质感，配以深靛蓝、薰衣草紫、暖金色和薄荷绿的舒缓色调。一切都让人感到安全、奇幻和如梦似幻。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-children-book-illustration.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-children-book-illustration.webp",
     "aspect_ratio": "1:1",
     "tags": ["儿童绘本", "小象", "星空", "温馨插画", "睡前故事"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "吉祥物角色设计",
     "prompt_text": "A friendly cartoon mascot character design of a round, chubby owl wearing a tiny pair of blue-tinted smart glasses and a miniature hoodie with a lightning bolt logo. The owl stands upright on two stubby legs, one wing raised in a confident wave, the other holding a small glowing tablet. Its large expressive eyes are bright amber with a spark of curiosity. The character is shown against a clean white background with a subtle circular shadow beneath, presented in a three-quarter view. The style uses smooth vector-like shapes, minimal shading, a limited palette of teal, amber, soft gray, and white, designed to work as an app icon or brand mascot.",
     "prompt_zh": "一个友好的卡通吉祥物角色设计——一只圆滚滚、胖乎乎的猫头鹰，戴着一副蓝色智能小眼镜，穿着带闪电标志的迷你连帽衫。猫头鹰用两条短粗的腿直立站着，一只翅膀自信地举起挥手，另一只翅膀拿着一个发光的小平板电脑。它大大的富有表现力的眼睛是明亮的琥珀色，闪烁着好奇的光芒。角色以四分之三视角呈现在干净的白色背景上，下方有微妙的圆形阴影。风格采用光滑的矢量化形状，极简阴影，以青色、琥珀色、柔灰色和白色为主的有限调色板，适合用作应用图标或品牌吉祥物。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-mascot-character.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-mascot-character.webp",
     "aspect_ratio": "1:1",
     "tags": ["吉祥物", "猫头鹰", "角色设计", "科技风", "品牌形象"],
     "created_at": "2026-02-20"

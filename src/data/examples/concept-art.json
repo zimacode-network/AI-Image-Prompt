@@ -7,7 +7,7 @@
     "subject_zh": "外星球地貌",
     "prompt_text": "A breathtaking concept art vista of an alien planet at dusk, featuring towering bioluminescent crystal spires rising from a violet desert. Twin suns hang low on the horizon, casting amber and magenta shadows across rippled dunes. Strange flora with translucent petals sway in an unseen wind. A lone explorer in a pressure suit stands atop a ridge, gazing toward a distant floating archipelago suspended by unknown forces.",
     "prompt_zh": "一幅令人叹为观止的外星球概念艺术黄昏全景，巨大的生物发光水晶尖塔从紫色沙漠中拔地而起。双子太阳低悬于地平线，在起伏的沙丘上投下琥珀色和品红色阴影。半透明花瓣的奇异植物在无形的风中摇曳。一位身穿压力服的孤独探险者站在山脊上，凝望着远处由未知力量悬浮的浮空群岛。",
-    "example_image_url": "https://img.promptstudio.art/prompts/concept-art-alien-planet.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/concept-art-alien-planet.webp",
     "aspect_ratio": "16:9",
     "tags": ["概念艺术", "外星球", "科幻探索", "奇异地貌", "双子太阳"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "未来交通工具",
     "prompt_text": "A sleek futuristic hover vehicle concept art in three-quarter front view against a neutral studio backdrop. The craft features an aerodynamic teardrop body with exposed turbine intakes, glowing cyan propulsion strips along the undercarriage, and a transparent canopy revealing a minimalist cockpit. Matte charcoal carbon fiber panels contrast with polished chrome accents. Faint blue exhaust trails suggest silent electromagnetic propulsion, conveying speed even at rest.",
     "prompt_zh": "一幅流线型未来悬浮载具概念艺术，以四分之三正面视角呈现在中性工作室背景前。飞行器采用空气动力学水滴形车身，设有外露涡轮进气口，底盘分布着发光青色推进光带，透明舱盖内可见极简座舱。磨砂炭灰色碳纤维面板与抛光镀铬装饰形成对比。淡蓝色尾气痕迹暗示着静音电磁推进，即使静止也传达出速度感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/concept-art-futuristic-vehicle.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/concept-art-futuristic-vehicle.webp",
     "aspect_ratio": "16:9",
     "tags": ["概念艺术", "未来载具", "悬浮飞行器", "工业设计", "科幻"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "废弃古代神殿",
     "prompt_text": "A grand abandoned temple concept art, half-swallowed by jungle overgrowth. Massive stone columns carved with serpentine motifs lean at precarious angles, draped in thick vines. Golden sunlight pierces through the collapsed roof, illuminating a cracked mosaic floor where rainwater reflects the sky. Ancient statues with weathered faces guard a darkened inner sanctum. Parrots perch on broken archways while roots split the flagstones apart.",
     "prompt_zh": "一幅宏伟的废弃神殿概念艺术，半被丛林植被吞噬。刻有蛇纹图案的巨大石柱以危险的角度倾斜，披覆着粗壮的藤蔓。金色阳光从坍塌的屋顶射入，照亮龟裂的马赛克地面上一汪雨水倒映着天空。风化面容的古老雕像守护着幽暗的内殿。鹦鹉栖息在断裂的拱门上，树根将石板地面撑裂。",
-    "example_image_url": "https://img.promptstudio.art/prompts/concept-art-abandoned-temple.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/concept-art-abandoned-temple.webp",
     "aspect_ratio": "4:3",
     "tags": ["概念艺术", "废弃神殿", "丛林遗迹", "古代文明", "探险"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "奇幻生物设计",
     "prompt_text": "A detailed creature design concept art sheet showing a majestic forest guardian beast from multiple angles. The creature combines an elk and a great owl, with a broad antlered skull, luminous amber eyes, and layered feather-fur covering its muscular body. Bioluminescent markings trace along its spine in soft green patterns. The sheet includes front, side, and rear views alongside close-ups of claws and wing membrane structure.",
     "prompt_zh": "一幅详细的生物设计概念艺术图鉴，从多个角度展示一只威严的森林守护兽。该生物融合了麋鹿和巨鸮的特征，拥有宽阔的鹿角头骨、明亮的琥珀色眼睛，以及覆盖在肌肉发达身体上的层叠羽毛皮毛。生物发光纹理沿脊柱分布，呈现柔和的绿色图案。图鉴包含正面、侧面和背面视图，以及爪子和翼膜结构的特写。",
-    "example_image_url": "https://img.promptstudio.art/prompts/concept-art-creature-design.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/concept-art-creature-design.webp",
     "aspect_ratio": "4:3",
     "tags": ["概念艺术", "生物设计", "奇幻生物", "设计图鉴", "森林守护者"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "海底城市景观",
     "prompt_text": "A sprawling underwater city concept art glowing beneath a deep ocean twilight zone. Domed habitats of reinforced glass and coral-inspired architecture cluster around a central spire pulsing with amber light. Transparent transit tubes connect districts while bioluminescent jellyfish drift between towers like living lanterns. Kelp gardens line terraced balconies and tiny submarines glide along designated lanes. The water shifts from deep indigo above to soft turquoise near the city lights.",
     "prompt_zh": "一幅广阔的海底城市概念艺术，在深海暮光带下发出光芒。由强化玻璃和珊瑚仿生建筑构成的穹顶栖息地围绕着一座脉动琥珀光芒的中央尖塔聚集。透明交通管道连接各区域，生物发光水母如活灯笼般在塔楼间漂浮。海藻花园点缀在阶梯式阳台上，微型潜艇沿指定航道滑行。水色从上方深靛蓝过渡到城市灯光附近的柔和青绿。",
-    "example_image_url": "https://img.promptstudio.art/prompts/concept-art-underwater-city.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/concept-art-underwater-city.webp",
     "aspect_ratio": "16:9",
     "tags": ["概念艺术", "海底城市", "深海建筑", "生物发光", "未来文明"],
     "created_at": "2026-02-20"

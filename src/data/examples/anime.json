@@ -7,7 +7,7 @@
     "subject_zh": "樱花季校园少女",
     "prompt_text": "A beautiful anime-style illustration of a high school girl standing beneath a canopy of blooming cherry blossom trees along a quiet school path. She wears a classic navy sailor uniform with a red ribbon tie, her long dark hair flowing gently in the spring breeze. Soft pink petals drift around her as she tilts her head slightly, smiling with warm brown eyes. The background shows a blurred school building and a pale blue sky streaked with wispy clouds. The lighting is gentle and diffused, creating a dreamy atmosphere with soft lens-flare accents. Delicate linework, pastel color harmony, and subtle cel-shading give the scene a refined Japanese animation quality.",
     "prompt_zh": "一幅精美的动漫风格插画——一位高中女生站在安静校园小路旁盛开的樱花树冠下。她穿着经典的深蓝色水手服校服，系着红色蝴蝶结领带，一头乌黑长发在春风中轻轻飘动。柔软的粉色花瓣在她周围飘散，她微微侧头，用温暖的棕色眼睛微笑着。背景是模糊的校舍和淡蓝色天空中飘着的缕缕白云。光线柔和弥散，营造出梦幻般的氛围，点缀着柔和的镜头光晕效果。细腻的线条、柔和的色彩和谐以及微妙的赛璐珞着色赋予画面精致的日本动画质感。",
-    "example_image_url": "https://img.promptstudio.art/prompts/anime-cherry-blossom-school-girl.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/anime-cherry-blossom-school-girl.webp",
     "aspect_ratio": "3:4",
     "tags": ["樱花", "校园少女", "日系动漫", "春天", "水手服"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "机甲战斗场景",
     "prompt_text": "An intense anime mecha battle scene showing a towering humanoid robot clashing with a monstrous biomechanical creature in the ruins of a futuristic Tokyo. The mecha is sleek and angular, armored in white and cobalt blue with glowing orange energy vents along its joints. It wields a massive plasma sword mid-swing, trailing arcs of brilliant white light. The creature is dark and organic, covered in spiny carapace plates. Shattered skyscrapers and clouds of dust fill the background under a blood-red evening sky. Speed lines, particle effects, and dramatic foreshortening emphasize the explosive moment of impact. The rendering combines sharp mechanical detail with fluid action poses characteristic of classic mecha anime.",
     "prompt_zh": "一幅紧张激烈的动漫机甲战斗场景——一台高耸的人形机器人在未来东京的废墟中与一只可怕的生物机械怪兽交锋。机甲线条流畅棱角分明，白色和钴蓝色装甲上关节处有发光的橙色能量排气口。它挥舞着一把巨大的等离子剑正在挥砍中，拖曳出耀眼的白色光弧。怪兽黝黑而有机，覆盖着尖刺甲壳板。碎裂的摩天大楼和滚滚尘云在血红色的傍晚天空下填满背景。速度线、粒子效果和戏剧性的透视缩短强调了爆炸性的撞击瞬间。渲染结合了锐利的机械细节与经典机甲动漫特有的流畅动作姿态。",
-    "example_image_url": "https://img.promptstudio.art/prompts/anime-mecha-battle.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/anime-mecha-battle.webp",
     "aspect_ratio": "16:9",
     "tags": ["机甲", "战斗场景", "未来都市", "日系动漫", "巨大机器人"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "黄昏天台场景",
     "prompt_text": "A melancholic anime scene of a teenage boy sitting alone on the edge of a school rooftop during golden hour. He leans back on his hands, legs dangling over the railing, gazing out at a vast cityscape bathed in warm amber and deep orange sunset light. His school blazer is draped over the railing beside him, his white shirt slightly untucked, tie loosened. The wind tousles his messy dark hair. In the distance, layered silhouettes of buildings fade into a gradient sky that transitions from fiery orange to soft violet. Power lines cut across the composition. The mood is quiet and contemplative, with rich atmospheric perspective and the soft painterly glow typical of emotional anime key visuals.",
     "prompt_zh": "一幅忧郁的动漫场景——一个少年在黄金时刻独自坐在学校天台边缘。他双手撑在身后向后靠，双腿悬在栏杆外，凝望着沐浴在温暖琥珀色和深橙色夕阳光芒中的广阔城市景观。他的校服西装外套搭在身旁的栏杆上，白衬衫微微外露，领带松开。风吹乱了他凌乱的黑发。远处，层层叠叠的建筑剪影渐渐消融在从炽热橙色过渡到柔和紫罗兰色的渐变天空中。电线横穿画面构图。氛围宁静而沉思，具有丰富的大气透视效果和情感动漫关键视觉中典型的柔和绘画般光晕。",
-    "example_image_url": "https://img.promptstudio.art/prompts/anime-sunset-rooftop-scene.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/anime-sunset-rooftop-scene.webp",
     "aspect_ratio": "16:9",
     "tags": ["黄昏", "天台", "少年", "城市风景", "治愈系"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "魔法少女变身",
     "prompt_text": "A dazzling anime magical girl transformation sequence captured in a single dynamic frame. The girl is mid-spin at the center of the composition, surrounded by swirling ribbons of sparkling light that are forming her elaborate costume. Her hair transforms from short brown to flowing silver-white, radiating outward in elegant spirals. Crystalline wings begin to materialize behind her, refracting rainbow light. Her expression is one of fierce determination mixed with joy. The background is an abstract burst of concentric star patterns and shimmering geometric shapes in magenta, gold, and cerulean. Every element conveys motion and magic, with generous use of lens flares, glowing particles, and iridescent highlights in the tradition of classic magical girl anime.",
     "prompt_zh": "一幅炫目的动漫魔法少女变身序列，在一个动态画面中呈现。女孩在构图中心旋转，周围环绕着正在形成华丽服装的闪烁光带。她的头发从棕色短发变为飘逸的银白色长发，以优雅的螺旋状向外辐射。水晶翅膀开始在她身后凝聚成形，折射出彩虹般的光芒。她的表情融合了坚定的决心和喜悦。背景是品红、金色和天蓝色同心星形图案和闪烁几何形状的抽象爆发。每个元素都传达着运动和魔法，大量运用镜头光晕、发光粒子和虹彩高光，延续了经典魔法少女动漫的传统。",
-    "example_image_url": "https://img.promptstudio.art/prompts/anime-magical-girl-transformation.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/anime-magical-girl-transformation.webp",
     "aspect_ratio": "3:4",
     "tags": ["魔法少女", "变身", "华丽特效", "日系动漫", "奇幻"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "温馨拉面店场景",
     "prompt_text": "A warm and inviting anime illustration of a tiny ramen shop on a quiet Japanese side street at night. Soft golden light spills from the open front onto the wet cobblestone, where a cat sits grooming itself. Inside, a kind elderly chef in a white headband stirs a steaming pot behind a worn wooden counter. A lone female customer sits on a stool, happily slurping noodles from a large bowl, steam curling upward. Handwritten menu signs hang from the ceiling, and vintage posters decorate the tiled walls. A string of paper lanterns glows above the entrance. Rain falls gently outside, visible as fine silver streaks against the dark indigo sky. The palette is dominated by warm yellows, soft oranges, and cool night blues, evoking nostalgia and comfort.",
     "prompt_zh": "一幅温暖迷人的动漫插画——夜晚日本安静小巷中的一家小小拉面店。柔和的金色灯光从敞开的店面洒向湿润的鹅卵石路面，一只猫坐在那里梳理毛发。店内，一位和蔼的老厨师头系白色头巾，在磨损的木质柜台后搅拌着一锅热气腾腾的汤。一位女性顾客独自坐在凳子上，开心地从大碗里吸着面条，蒸汽袅袅上升。手写菜单牌挂在天花板上，复古海报装饰着瓷砖墙壁。一串纸灯笼在入口上方发出柔和的光。窗外细雨轻轻飘落，在深靛蓝色的夜空中呈现为细细的银色条纹。色调以温暖的黄色、柔和的橙色和清凉的夜蓝色为主，唤起怀旧与舒适的感觉。",
-    "example_image_url": "https://img.promptstudio.art/prompts/anime-cozy-ramen-shop.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/anime-cozy-ramen-shop.webp",
     "aspect_ratio": "4:3",
     "tags": ["拉面店", "深夜食堂", "日本街景", "治愈系", "怀旧氛围"],
     "created_at": "2026-02-20"

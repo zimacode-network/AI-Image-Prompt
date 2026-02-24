@@ -7,7 +7,7 @@
     "subject_zh": "雨夜中霓虹闪烁的未来都市天际线",
     "prompt_text": "A sprawling cyberpunk cityscape at night, drenched in rain and bathed in neon light. Towering mega-skyscrapers stretch impossibly high, their surfaces covered with massive holographic advertisements in electric pink, cyan, and acid green that reflect off the wet streets below. Elevated monorail tracks weave between buildings, carrying sleek luminous trains. Dense clusters of smaller structures crowd the lower levels, connected by walkways and tangled cables. Steam vents release plumes of warm vapor that catch the colored light, creating an atmospheric haze. The sky above is a dark bruised purple, barely visible through the light pollution. Tiny figures with umbrellas navigate the crowded ground level, dwarfed by the colossal urban machinery surrounding them.",
     "prompt_zh": "一幅广袤的赛博朋克夜间城市景观，浸透在雨水中，沐浴着霓虹灯光。巍峨的巨型摩天大楼高耸入云，表面覆盖着电粉、青色和酸绿色的巨型全息广告，倒映在下方湿漉漉的街道上。高架单轨铁路在建筑间穿梭，载着流线型的发光列车。密集的小型建筑群拥挤在下层，由天桥和缠绕的电缆相互连接。蒸汽排气口喷出温暖的蒸汽柱，捕捉着彩色灯光，营造出雾蒙蒙的大气氛围。头顶的天空是暗沉的紫色，在光污染中几乎不可见。撑着伞的微小人影在拥挤的地面层穿行，被周围庞大的城市机械所矮化。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cyberpunk-neon-cityscape.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cyberpunk-neon-cityscape.webp",
     "aspect_ratio": "16:9",
     "tags": ["赛博朋克", "霓虹", "城市", "未来", "夜景"],
     "created_at": "2026-02-20"
@@ -20,7 +20,7 @@
     "subject_zh": "拥有机械改造的赛博朋克少女特写",
     "prompt_text": "A close-up portrait of a young woman with striking cybernetic enhancements in a dark cyberpunk setting. One side of her face is organic with pale luminous skin, dark eyeliner, and a piercing violet eye. The other side reveals sleek titanium-grey mechanical components integrated seamlessly beneath translucent synthetic skin, with tiny circuits glowing in soft cyan lines along her cheekbone and temple. Her hair is a dramatic asymmetric cut, jet black on one side and electric white on the other, with fiber-optic strands that emit a faint blue shimmer. She wears a high-collared black jacket with subtle LED piping along the seams. Behind her, out of focus, a rain-streaked window shows the blurred neon glow of the city. Her expression is calm, contemplative, almost melancholic.",
     "prompt_zh": "一幅赛博朋克少女的近景肖像，在昏暗的赛博朋克环境中展示引人注目的机械改造。她面部的一侧是有机的，拥有苍白发光的皮肤、深色眼线和一只锐利的紫罗兰色眼眸。另一侧露出光滑的钛灰色机械组件，无缝整合在半透明的合成皮肤之下，微小的电路以柔和的青色线条沿颧骨和太阳穴发光。她的头发是戏剧性的不对称剪裁，一侧漆黑一侧电光白，光纤发丝散发着微弱的蓝色微光。她穿着高领黑色夹克，接缝处有细微的LED管线装饰。身后，失焦的雨水冲刷的窗户透出城市模糊的霓虹辉光。她的表情平静、沉思，带着几分忧郁。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cyberpunk-cyber-girl.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cyberpunk-cyber-girl.webp",
     "aspect_ratio": "3:4",
     "tags": ["赛博朋克", "肖像", "机械改造", "少女", "霓虹"],
     "created_at": "2026-02-20"
@@ -33,7 +33,7 @@
     "subject_zh": "摩天大楼间的飞行汽车追逐战",
     "prompt_text": "A high-speed chase between two flying vehicles threading through the canyons of a cyberpunk megacity. The lead vehicle is a battered, heavily modified hover-car trailing sparks and blue exhaust flame, banking hard around the corner of a massive building covered in flickering kanji neon signs. The pursuing craft is a sleek black enforcement drone with pulsing red scanner lights and angular predatory lines. Motion blur streaks the neon-lit building facades as both vehicles scream past at impossible speed. Below, thousands of feet down, the city floor glows with a grid of amber streetlights. Holographic traffic lanes glow faintly in parallel green lines between the towers. The atmosphere is thick with rain and smog, catching every light source in a cinematic haze of color.",
     "prompt_zh": "两辆飞行器在赛博朋克巨型都市的楼宇峡谷间展开高速追逐。领先的是一辆饱经风霜、经过大量改装的悬浮车，拖着火花和蓝色尾焰，在一栋覆满闪烁日文霓虹招牌的巨型建筑拐角急转弯。追击的是一架流线型黑色执法无人机，脉动的红色扫描灯和棱角分明的掠食者线条。运动模糊拉长了霓虹灯映照的建筑立面，两辆飞行器以不可思议的速度呼啸而过。脚下数千英尺之下，城市地面以琥珀色路灯网格发着微光。全息交通车道在塔楼之间以平行的绿色线条隐隐闪烁。大气中弥漫着雨水和烟雾，捕捉着每个光源，形成电影般的色彩迷雾。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cyberpunk-flying-car-chase.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cyberpunk-flying-car-chase.webp",
     "aspect_ratio": "16:9",
     "tags": ["赛博朋克", "飞行汽车", "追逐", "速度", "未来科技"],
     "created_at": "2026-02-20"
@@ -46,7 +46,7 @@
     "subject_zh": "隐藏在城市地下的非法科技集市",
     "prompt_text": "A bustling underground black market hidden beneath a cyberpunk city, crammed into a converted subway station. Vendors hawk their wares from makeshift stalls built of scrap metal and illuminated by strings of mismatched colored lights. One stall displays rows of glowing cybernetic eyes floating in jars of blue liquid. Another offers racks of data chips and cracked holographic displays. The crowd is a motley mix of augmented humans, masked figures in hooded coats, and small cargo drones weaving overhead. Graffiti in multiple languages covers every concrete pillar. Thick cables snake across the ceiling, some sparking where insulation has worn through. The air is hazy with smoke from a noodle stand whose chef works behind a cloud of fragrant steam. A flickering sign overhead reads an indecipherable script in hot magenta neon.",
     "prompt_zh": "一个藏在赛博朋克城市地下的喧嚣黑市，挤在一个改建的地铁站里。小贩们从废旧金属搭建的临时摊位上兜售货物，由不搭配的彩色灯串照亮。一个摊位展示着漂浮在蓝色液体罐中的成排发光机械眼球。另一个摊位提供成架的数据芯片和破解的全息显示器。人群是各色改造人类、穿连帽大衣的蒙面人物和头顶穿梭的小型货运无人机的混合体。多语言涂鸦覆盖了每根混凝土柱。粗壮的电缆蛇形穿过天花板，有些绝缘层磨损处火花四溅。空气中弥漫着一个面摊的烟雾，厨师在芳香蒸汽的云雾后忙碌。头顶一块闪烁的招牌用热洋红霓虹显示着无法辨识的文字。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cyberpunk-underground-market.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cyberpunk-underground-market.webp",
     "aspect_ratio": "16:9",
     "tags": ["赛博朋克", "黑市", "地下", "科技", "市集"],
     "created_at": "2026-02-20"
@@ -59,7 +59,7 @@
     "subject_zh": "在霓虹酒吧工作的仿人形机器人调酒师",
     "prompt_text": "A humanoid robot bartender working behind the counter of a moody cyberpunk bar. The robot has a polished chrome torso and articulated fingers that move with elegant precision, pouring a luminous turquoise cocktail from a crystal shaker into a glass that glows from within. Its face is a smooth featureless oval with a single horizontal strip of soft amber light where eyes would be, giving it an enigmatic expression. The bar counter is dark mahogany with embedded LED strips pulsing slowly in deep purple. Behind the robot, shelves of exotic bottles contain liquids in impossible neon colors. A few patrons sit on tall stools in the foreground, visible only as dark silhouettes against the warm bar light. Jazz plays from an unseen speaker, suggested by floating holographic music notes drifting lazily through the smoky air.",
     "prompt_zh": "一个仿人形机器人调酒师在一家暗调赛博朋克酒吧的吧台后工作。机器人拥有抛光铬合金躯干和铰接式手指，以优雅精确的动作从水晶摇酒壶中倒出发光的青绿色鸡尾酒，注入一个从内部发光的杯子中。它的面部是光滑无特征的椭圆形，眼睛位置有一条水平的柔和琥珀色光带，赋予它神秘莫测的表情。吧台是深色红木材质，嵌入的LED灯带以深紫色缓缓脉动。机器人身后，架子上的异国酒瓶装着不可思议的霓虹色液体。几位客人坐在前景的高脚凳上，在温暖的吧台灯光映衬下只呈现为暗色剪影。爵士乐从看不见的音箱中流出，由漂浮的全息音符在烟雾缭绕的空气中慵懒飘荡来暗示。",
-    "example_image_url": "https://img.promptstudio.art/prompts/cyberpunk-robot-bartender.webp",
+    "example_image_url": "https://cdn.pynice.com/prompts/cyberpunk-robot-bartender.webp",
     "aspect_ratio": "4:3",
     "tags": ["赛博朋克", "机器人", "酒吧", "调酒", "科幻"],
     "created_at": "2026-02-20"

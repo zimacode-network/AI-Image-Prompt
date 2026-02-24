@@ -7,8 +7,14 @@
     "description_zh": "采用简洁的几何形状和明快的纯色块构建画面，去除多余的阴影与透视细节。整体风格干净利落，强调色彩搭配的和谐感与信息的直观传达，广泛应用于 UI 设计和品牌视觉中。",
     "description_en": "Built with clean geometric shapes and bold flat color blocks, eliminating unnecessary shadows and perspective details. The overall style is crisp and polished, emphasizing harmonious color palettes and intuitive visual communication, widely used in UI design and brand identity.",
     "template_prompt": "A flat illustration of {content}, using bold solid color blocks with no gradients or shadows, clean geometric shapes, simplified forms with minimal detail, vibrant and harmonious color palette, vector-style artwork with crisp edges, modern graphic design aesthetic, balanced composition with clear visual hierarchy",
-    "cover_image_url": "https://img.promptstudio.art/prompts/flat-illustration-city-street.webp",
-    "tags": ["扁平设计", "矢量风格", "几何图形", "纯色块", "UI插画"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/flat-illustration-remote-work.webp",
+    "tags": [
+      "扁平设计",
+      "矢量风格",
+      "几何图形",
+      "纯色块",
+      "UI插画"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -19,8 +25,14 @@
     "description_zh": "以大量三角形和多边形面片拼合成像，营造出棱角分明的晶体质感。色彩在每个面片上呈现微妙的明暗变化，兼具抽象的几何美感与立体空间感，常见于游戏美术和现代装饰插画。",
     "description_en": "Composed of numerous triangular and polygonal facets assembled into crystalline forms with sharp angular edges. Colors shift subtly across each facet to create depth, combining abstract geometric beauty with a strong sense of three-dimensional space, commonly seen in game art and modern decorative illustrations.",
     "template_prompt": "A low poly artwork of {content}, constructed from triangular polygonal facets with sharp geometric edges, subtle color gradients across each triangle face, crystalline and faceted appearance, vibrant yet cohesive color palette, stylized 3D look with visible polygon mesh, clean digital rendering with abstract geometric beauty",
-    "cover_image_url": "https://img.promptstudio.art/prompts/low-poly-mountain-landscape.webp",
-    "tags": ["低多边形", "三角面片", "几何晶体", "棱角分明", "数字艺术"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/low-poly-mountain-landscape.webp",
+    "tags": [
+      "低多边形",
+      "三角面片",
+      "几何晶体",
+      "棱角分明",
+      "数字艺术"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -31,8 +43,14 @@
     "description_zh": "以霓虹灯光、暗色调城市景观和高科技元素为核心视觉语言，营造未来反乌托邦氛围。画面常充斥着全息投影、机械义体和雨夜街道，色调以深蓝、品红与电光青绿为主，传递出科技与颓废交织的美学。",
     "description_en": "Defined by neon lighting, dark urban landscapes, and high-tech visual elements that evoke a dystopian future atmosphere. Scenes are filled with holographic projections, cybernetic augmentations, and rain-soaked streets, dominated by deep blue, magenta, and electric cyan tones conveying an aesthetic where technology meets decay.",
     "template_prompt": "A cyberpunk illustration of {content}, immersed in neon-lit darkness with electric cyan and hot magenta glowing lights, rain-slicked futuristic streets, holographic advertisements and digital overlays, high-tech cybernetic details, dense urban dystopian atmosphere, dramatic volumetric lighting cutting through fog and smoke, dark moody sci-fi aesthetic",
-    "cover_image_url": "https://img.promptstudio.art/prompts/cyberpunk-neon-alley.webp",
-    "tags": ["赛博朋克", "霓虹灯光", "未来都市", "反乌托邦", "科技美学"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/cyberpunk-neon-cityscape.webp",
+    "tags": [
+      "赛博朋克",
+      "霓虹灯光",
+      "未来都市",
+      "反乌托邦",
+      "科技美学"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -43,8 +61,14 @@
     "description_zh": "融合复古电子美学与超现实主义元素，大量运用粉紫渐变色、网格地面和古希腊雕塑等标志性符号。画面带有浓厚的怀旧感与迷幻氛围，是对上世纪八九十年代消费文化与早期互联网视觉的致敬与解构。",
     "description_en": "Blends retro electronic aesthetics with surrealist elements, heavily featuring pink-to-purple gradients, wireframe grids, and iconic symbols like Greek statues. The imagery carries a strong sense of nostalgia and psychedelic atmosphere, serving as both a tribute to and deconstruction of 80s-90s consumer culture and early internet visuals.",
     "template_prompt": "A vaporwave artwork of {content}, featuring dreamy pink and purple gradient skies, retro wireframe grid ground stretching to the horizon, glitch effects and chromatic aberration, classical Greek sculpture elements, palm trees and sunset hues, nostalgic 80s-90s aesthetic with lo-fi digital artifacts, surreal and ethereal atmosphere",
-    "cover_image_url": "https://img.promptstudio.art/prompts/vaporwave-sunset-temple.webp",
-    "tags": ["蒸汽波", "复古电子", "粉紫渐变", "怀旧美学", "超现实"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/vaporwave-retro-computer-setup.webp",
+    "tags": [
+      "蒸汽波",
+      "复古电子",
+      "粉紫渐变",
+      "怀旧美学",
+      "超现实"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -55,8 +79,14 @@
     "description_zh": "以可见的方形像素为最小绘图单位，通过有限的色彩和精心排列的像素点构建画面细节。风格带有浓郁的复古游戏气息，在极简的分辨率限制下展现出独特的手工感与创意表达力。",
     "description_en": "Uses visible square pixels as the fundamental drawing unit, building imagery through a limited color palette and carefully placed pixel clusters. The style carries a strong retro gaming charm, demonstrating remarkable craftsmanship and creative expression within the constraints of minimal resolution.",
     "template_prompt": "A pixel art depiction of {content}, rendered with clearly visible square pixels on a grid, limited retro color palette with dithering techniques, crisp and clean pixel placement, nostalgic 16-bit or 32-bit video game aesthetic, charming low-resolution detail work, no anti-aliasing with sharp blocky edges, vibrant sprite-like quality",
-    "cover_image_url": "https://img.promptstudio.art/prompts/pixel-art-fantasy-castle.webp",
-    "tags": ["像素艺术", "复古游戏", "方块像素", "有限色板", "怀旧风格"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/pixel-art-forest-adventure.webp",
+    "tags": [
+      "像素艺术",
+      "复古游戏",
+      "方块像素",
+      "有限色板",
+      "怀旧风格"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -67,8 +97,14 @@
     "description_zh": "模拟三维建模软件的渲染输出效果，呈现出光滑的材质表面、精确的光影关系和逼真的空间纵深感。常采用柔和的环境光照和微妙的反射效果，适用于产品展示、角色设计和场景概念图。",
     "description_en": "Simulates the rendered output of 3D modeling software, presenting smooth material surfaces, precise lighting and shadow relationships, and convincing spatial depth. Often employs soft ambient lighting and subtle reflections, well-suited for product showcases, character design, and scene concept art.",
     "template_prompt": "A high-quality 3D render of {content}, smooth and polished material surfaces with realistic subsurface scattering, soft studio lighting with ambient occlusion, subtle reflections and specular highlights, clean three-dimensional depth and volume, professional CGI quality, octane render style with ray-traced global illumination, neutral studio background",
-    "cover_image_url": "https://img.promptstudio.art/prompts/3d-render-abstract-sculpture.webp",
-    "tags": ["3D渲染", "三维建模", "材质光影", "CGI质感", "立体空间"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/3d-render-isometric-room.webp",
+    "tags": [
+      "3D渲染",
+      "三维建模",
+      "材质光影",
+      "CGI质感",
+      "立体空间"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -79,8 +115,14 @@
     "description_zh": "以粗黑轮廓线条、夸张的人物比例和丰富的面部表情为核心特征，画风活泼生动。色彩饱满鲜亮，通过戏剧化的动态姿态和幽默的视觉叙事传递故事感，适合儿童读物和趣味内容创作。",
     "description_en": "Characterized by bold black outlines, exaggerated character proportions, and rich facial expressions, creating a lively and animated visual style. Colors are saturated and bright, conveying narrative through dramatic dynamic poses and humorous visual storytelling, ideal for children's books and entertaining content creation.",
     "template_prompt": "A cartoon comic illustration of {content}, bold black ink outlines with confident linework, exaggerated proportions and expressive character poses, bright saturated colors with cel-shading style, playful and energetic composition, humorous and whimsical visual storytelling, clean vector-like finish, reminiscent of modern animated series",
-    "cover_image_url": "https://img.promptstudio.art/prompts/cartoon-comic-superhero-cat.webp",
-    "tags": ["卡通漫画", "粗线条", "夸张表情", "鲜艳色彩", "趣味叙事"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/cartoon-comic-superhero-action.webp",
+    "tags": [
+      "卡通漫画",
+      "粗线条",
+      "夸张表情",
+      "鲜艳色彩",
+      "趣味叙事"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -91,8 +133,14 @@
     "description_zh": "源自日本动画与漫画的视觉传统，人物拥有大而灵动的眼睛、精致的发型和纤细的身体比例。画面注重细腻的光影层次和唯美的氛围渲染，配色柔和而富有层次感，整体风格兼具浪漫与叙事张力。",
     "description_en": "Rooted in the visual traditions of Japanese animation and manga, featuring characters with large expressive eyes, detailed hairstyles, and slender body proportions. The artwork emphasizes delicate light and shadow layering with atmospheric rendering, using soft yet nuanced color palettes that balance romantic beauty with narrative tension.",
     "template_prompt": "An anime-style illustration of {content}, large detailed expressive eyes with sparkling highlights, delicate and refined linework, soft cel-shading with beautiful color gradients, flowing hair with dynamic movement, atmospheric lighting with lens flare effects, dreamy pastel and vivid color harmony, Japanese animation aesthetic with emotional depth",
-    "cover_image_url": "https://img.promptstudio.art/prompts/anime-cherry-blossom-girl.webp",
-    "tags": ["日系动漫", "大眼人物", "赛璐璐上色", "唯美氛围", "精致线条"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/anime-cherry-blossom-school-girl.webp",
+    "tags": [
+      "日系动漫",
+      "大眼人物",
+      "赛璐璐上色",
+      "唯美氛围",
+      "精致线条"
+    ],
     "created_at": "2026-02-20"
   },
   {
@@ -103,8 +151,14 @@
     "description_zh": "受安迪·沃霍尔和罗伊·利希滕斯坦影响，采用高对比度的原色组合、粗黑轮廓线和半调网点印刷效果。画面大胆醒目，常通过重复排列和戏剧性构图对流行文化符号进行再创作，极具视觉冲击力。",
     "description_en": "Influenced by Andy Warhol and Roy Lichtenstein, featuring high-contrast primary color combinations, bold black outlines, and halftone dot printing effects. The imagery is striking and audacious, often reimagining pop culture symbols through repetitive arrangements and dramatic compositions with powerful visual impact.",
     "template_prompt": "A pop art illustration of {content}, bold high-contrast primary colors in red yellow and blue, thick black outlines with Ben-Day halftone dots pattern, screen-printing aesthetic inspired by Andy Warhol and Roy Lichtenstein, dramatic graphic composition, retro comic book visual language, flat bold shapes with strong visual impact, iconic and instantly recognizable style",
-    "cover_image_url": "https://img.promptstudio.art/prompts/pop-art-retro-portrait.webp",
-    "tags": ["波普艺术", "半调网点", "高对比原色", "流行文化", "视觉冲击"],
+    "cover_image_url": "https://cdn.pynice.com/prompts/pop-art-portrait-woman.webp",
+    "tags": [
+      "波普艺术",
+      "半调网点",
+      "高对比原色",
+      "流行文化",
+      "视觉冲击"
+    ],
     "created_at": "2026-02-20"
   }
 ]
