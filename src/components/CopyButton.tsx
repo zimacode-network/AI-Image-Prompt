@@ -5,10 +5,14 @@ import { useState } from "react";
 export default function CopyButton({
   text,
   label = "复制",
+  copiedLabel = "已复制",
+  copiedLargeLabel = "已复制到剪贴板",
   large = false,
 }: {
   text: string;
   label?: string;
+  copiedLabel?: string;
+  copiedLargeLabel?: string;
   large?: boolean;
 }) {
   const [copied, setCopied] = useState(false);
@@ -32,7 +36,7 @@ export default function CopyButton({
         <span className="material-symbols-outlined text-[20px]">
           {copied ? "check" : "content_copy"}
         </span>
-        {copied ? "已复制到剪贴板" : label}
+        {copied ? copiedLargeLabel : label}
       </button>
     );
   }
@@ -49,7 +53,7 @@ export default function CopyButton({
       <span className="material-symbols-outlined text-[14px]">
         {copied ? "check" : "content_copy"}
       </span>
-      {copied ? "已复制" : label}
+      {copied ? copiedLabel : label}
     </button>
   );
 }

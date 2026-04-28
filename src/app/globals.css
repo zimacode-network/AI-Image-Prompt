@@ -79,6 +79,17 @@
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
+
+  button:not(:disabled),
+  a[href],
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
 }
 
 /* Material Symbols config */

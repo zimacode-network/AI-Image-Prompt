@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://promptstudio.art/sitemap.xml",
+    sitemap: "https://prompt.hiapi.ai/sitemap.xml",
   };
 }

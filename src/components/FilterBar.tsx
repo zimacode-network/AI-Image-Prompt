@@ -1,11 +1,14 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
-import { CATEGORY_LABELS, StyleCategory } from "@/lib/types";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { StyleCategory } from "@/lib/types";
+import { CATEGORY_TEXT, getLocaleFromPathname, localizePath, UI_TEXT } from "@/lib/i18n";
 
 export default function FilterBar() {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const locale = getLocaleFromPathname(usePathname());
+  const t = UI_TEXT[locale];
 
   const activeCategory = searchParams.get("category") || "";
 
@@ -17,11 +20,11 @@ export default function FilterBar() {
       params.set("category", value);
     }
     const qs = params.toString();
-    router.push(qs ? `/styles?${qs}` : "/styles", { scroll: false });
+    router.push(qs ? `${localizePath("/styles", locale)}?${qs}` : localizePath("/styles", locale), { scroll: false });
   }
 
   function clearAll() {
-    router.push("/styles", { scroll: false });
+    router.push(localizePath("/styles", locale), { scroll: false });
   }
 
   return (
@@ -35,9 +38,9 @@ export default function FilterBar() {
         }`}
       >
         <span className="material-symbols-outlined text-[16px]">grid_view</span>
-        全部风格
+        {t.allStyles}
       </button>
-      {(Object.entries(CATEGORY_LABELS) as [StyleCategory, typeof CATEGORY_LABELS[StyleCategory]][]).map(
+      {(Object.entries(CATEGORY_TEXT) as [StyleCategory, typeof CATEGORY_TEXT[StyleCategory]][]).map(
         ([key, val]) => (
           <button
             key={key}
@@ -49,7 +52,7 @@ export default function FilterBar() {
             }`}
           >
             <span className="material-symbols-outlined text-[16px]">{val.icon}</span>
-            {val.zh}
+            {locale === "zh" ? val.zh : val.en}
           </button>
         )
       )}

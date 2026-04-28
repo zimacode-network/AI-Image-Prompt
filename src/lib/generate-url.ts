@@ -1,5 +1,5 @@
 const HIAPI_DRAW_URL =
-  process.env.NEXT_PUBLIC_HIAPI_DRAW_URL || "https://hiapi.ai/draw";
+  process.env.NEXT_PUBLIC_HIAPI_DRAW_URL || "https://www.hiapi.ai/draw";
 const DEFAULT_MODEL =
   process.env.NEXT_PUBLIC_DEFAULT_DRAW_MODEL || "nano-banana-pro";
 

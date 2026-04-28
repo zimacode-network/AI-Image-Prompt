@@ -2,10 +2,19 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getExampleById, getRelatedExamples, getAllExamples, getStyleById } from "@/lib/data";
-import { CATEGORY_LABELS } from "@/lib/types";
 import CopyButton from "@/components/CopyButton";
+import GenerateButton from "@/components/GenerateButton";
 import PromptCard from "@/components/PromptCard";
 import { buildGenerateUrl } from "@/lib/generate-url";
+import {
+  CATEGORY_TEXT,
+  getExamplePrompt,
+  getExampleSubtitle,
+  getExampleTitle,
+  getStyleName,
+  localizePath,
+  UI_TEXT,
+} from "@/lib/i18n";
 
 export async function generateStaticParams() {
   return getAllExamples().map((e) => ({ id: e.id }));
@@ -17,18 +26,19 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
+  const locale = "zh";
   const example = getExampleById(id);
   if (!example) return { title: "未找到" };
 
-  const url = `https://promptstudio.art/prompt/${example.id}`;
+  const url = `https://prompt.hiapi.ai/prompt/${example.id}`;
 
   return {
-    title: `${example.title_zh} — AI 图像提示词`,
-    description: `${example.title_en}。${example.prompt_zh.slice(0, 120)}`,
+    title: `${getExampleTitle(example, locale)} — AI 图像提示词`,
+    description: `${getExampleSubtitle(example, locale)}。${getExamplePrompt(example, locale).slice(0, 120)}`,
     alternates: { canonical: url },
     openGraph: {
-      title: example.title_zh,
-      description: example.title_en,
+      title: getExampleTitle(example, locale),
+      description: getExampleSubtitle(example, locale),
       images: [example.example_image_url],
       url,
       type: "article",
@@ -38,35 +48,48 @@ export async function generateMetadata({
 
 export default async function PromptDetailPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams?: Promise<{ model?: string }>;
 }) {
   const { id } = await params;
+  const locale = "zh";
+  const t = UI_TEXT[locale];
+  const query = searchParams ? await searchParams : {};
   const example = getExampleById(id);
   if (!example) notFound();
 
   const style = getStyleById(example.style_id);
-  const categoryLabel = style ? CATEGORY_LABELS[style.category] : null;
+  const categoryLabel = style ? CATEGORY_TEXT[style.category] : null;
   const related = getRelatedExamples(example);
-  const generateUrl = buildGenerateUrl(example.prompt_text, {
+  const model =
+    typeof query.model === "string" && query.model.trim()
+      ? query.model.trim()
+      : undefined;
+  const prompt = getExamplePrompt(example, locale);
+  const title = getExampleTitle(example, locale);
+  const subtitle = getExampleSubtitle(example, locale);
+  const generateUrl = buildGenerateUrl(prompt, {
+    model,
     aspectRatio: example.aspect_ratio,
   });
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: example.title_zh,
-    alternativeHeadline: example.title_en,
-    description: example.prompt_zh,
+    headline: title,
+    alternativeHeadline: subtitle,
+    description: prompt,
     image: example.example_image_url,
-    url: `https://promptstudio.art/prompt/${example.id}`,
+    url: `https://prompt.hiapi.ai/prompt/${example.id}`,
     datePublished: example.created_at,
     dateModified: example.created_at,
     author: { "@type": "Organization", name: "PromptStudio" },
     publisher: {
       "@type": "Organization",
       name: "PromptStudio",
-      url: "https://promptstudio.art",
+      url: "https://prompt.hiapi.ai",
     },
     keywords: [...example.tags, style?.name_zh, style?.name_en].filter(Boolean).join(", "),
     associatedMedia: {
@@ -86,27 +109,27 @@ export default async function PromptDetailPage({
 
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
-        <Link href="/" className="hover:text-primary transition-colors duration-200">
-          首页
+        <Link href={localizePath("/", locale)} className="hover:text-primary transition-colors duration-200">
+          {t.home}
         </Link>
         <span>/</span>
-        <Link href="/styles" className="hover:text-primary transition-colors duration-200">
-          风格
+        <Link href={localizePath("/styles", locale)} className="hover:text-primary transition-colors duration-200">
+          {t.style}
         </Link>
         {style && (
           <>
             <span>/</span>
             <Link
-              href={`/style/${style.id}`}
+              href={localizePath(`/style/${style.id}`, locale)}
               className="hover:text-primary transition-colors duration-200"
             >
-              {style.name_zh}
+              {getStyleName(style, locale)}
             </Link>
           </>
         )}
         <span>/</span>
         <span className="text-text-secondary truncate max-w-[180px] normal-case">
-          {example.title_zh}
+          {title}
         </span>
       </nav>
 
@@ -134,9 +157,9 @@ export default async function PromptDetailPage({
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="text-sm font-bold text-text-primary group-hover:text-primary transition-colors">
-                    {style.name_zh}
+                  {getStyleName(style, locale)}
                   </div>
-                  <div className="text-xs text-text-muted">{style.name_en}</div>
+                  <div className="text-xs text-text-muted">{locale === "zh" ? style.name_en : style.name_zh}</div>
                 </div>
                 <span className="material-symbols-outlined text-[16px] text-text-muted group-hover:text-primary transition-colors">
                   arrow_forward
@@ -150,29 +173,29 @@ export default async function PromptDetailPage({
         <div className="lg:col-span-5 animate-fade-in-up stagger-2">
           {/* Title */}
           <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-tight mb-2">
-            {example.title_zh}
+            {title}
             <span className="text-primary">.</span>
           </h1>
-          <p className="text-sm text-text-secondary mb-6">{example.title_en}</p>
+          <p className="text-sm text-text-secondary mb-6">{subtitle}</p>
 
           {/* Meta badges */}
           <div className="flex flex-wrap items-center gap-2 mb-8">
             {style && (
               <Link
-                href={`/style/${style.id}`}
+                href={localizePath(`/style/${style.id}`, locale)}
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wide rounded-xl bg-primary/10 text-primary border border-primary/20"
               >
                 <span className="material-symbols-outlined text-[14px]">palette</span>
-                {style.name_zh}
+                {getStyleName(style, locale)}
               </Link>
             )}
             {categoryLabel && (
               <Link
-                href={`/styles?category=${style!.category}`}
+                href={`${localizePath("/styles", locale)}?category=${style!.category}`}
                 className="tag-chip text-xs"
               >
                 <span className="material-symbols-outlined text-[14px]">{categoryLabel.icon}</span>
-                {categoryLabel.zh}
+                {locale === "zh" ? categoryLabel.zh : categoryLabel.en}
               </Link>
             )}
             <span className="tag-chip text-xs">
@@ -183,40 +206,30 @@ export default async function PromptDetailPage({
           {/* Large CTA: Copy + Generate */}
           <div className="flex gap-3">
             <div className="flex-1 min-w-0">
-              <CopyButton text={example.prompt_text} label="复制提示词" large />
+              <CopyButton text={prompt} label={t.copyPrompt} copiedLabel={t.copied} copiedLargeLabel={t.copiedToClipboard} large />
             </div>
-            <a
+            <GenerateButton
               href={generateUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              promptText={prompt}
               className="shrink-0 flex items-center justify-center gap-2 h-14 px-6 rounded-2xl font-bold text-white bg-primary hover:bg-primary/90 transition-colors duration-200"
             >
               <span className="material-symbols-outlined text-[18px]">open_in_new</span>
-              去生成
-            </a>
+              {t.generate}
+            </GenerateButton>
           </div>
 
           {/* Full prompt block */}
           <div className="mt-6 mb-6">
             <div className="flex items-center justify-between mb-3">
-              <span className="section-label">英文提示词</span>
-              <CopyButton text={example.prompt_text} label="复制" />
+              <span className="section-label">{t.prompt}</span>
+              <CopyButton text={prompt} label={t.copy} copiedLabel={t.copied} />
             </div>
-            <div className="prompt-code text-sm">{example.prompt_text}</div>
-          </div>
-
-          {/* Chinese translation */}
-          <div className="mb-8">
-            <div className="flex items-center justify-between mb-3">
-              <span className="section-label">中文描述</span>
-              <CopyButton text={example.prompt_zh} label="复制" />
-            </div>
-            <div className="prompt-code text-sm">{example.prompt_zh}</div>
+            <div className="prompt-code text-sm">{prompt}</div>
           </div>
 
           {/* Tags */}
           <div className="mb-8">
-            <span className="section-label block mb-4">标签</span>
+            <span className="section-label block mb-4">{locale === "zh" ? "标签" : "Tags"}</span>
             <div className="flex flex-wrap gap-2">
               {example.tags.map((tag) => (
                 <span key={tag} className="tag-chip text-xs">
@@ -234,15 +247,15 @@ export default async function PromptDetailPage({
           <div className="divider mb-10" />
           <div className="flex items-center gap-3 mb-6">
             <h2 className="text-xl font-bold text-text-primary">
-              相似风格推荐
+              {t.related}
             </h2>
             <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider">
-              推荐
+              {t.recommended}
             </span>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {related.map((p, i) => (
-              <PromptCard key={p.id} example={p} index={i} />
+              <PromptCard key={p.id} example={p} index={i} model={model} locale={locale} />
             ))}
           </div>
         </section>

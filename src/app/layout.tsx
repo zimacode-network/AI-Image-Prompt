@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://promptstudio.art"),
+  metadataBase: new URL("https://prompt.hiapi.ai"),
   title: {
     default: "PromptStudio — AI 图像风格提示词工具站",
     template: "%s | PromptStudio",

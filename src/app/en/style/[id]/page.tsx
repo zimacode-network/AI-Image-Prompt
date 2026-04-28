@@ -23,33 +23,30 @@ export async function generateMetadata({
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const locale = "zh";
   const style = getStyleById(id);
-  if (!style) return { title: "未找到" };
-
-  const url = `https://prompt.hiapi.ai/style/${style.id}`;
+  if (!style) return { title: "Not found" };
 
   return {
-    title: `${getStyleName(style, locale)} — AI 图像风格模板`,
-    description: `${getStyleDescription(style, locale)} 包含 5 个示例提示词，复制模板即可使用。`,
-    alternates: { canonical: url },
+    title: `${style.name_en} — AI image style template`,
+    description: `${style.description_en} Includes 5 prompt examples ready to copy and adapt.`,
+    alternates: { canonical: `https://prompt.hiapi.ai/en/style/${style.id}` },
     openGraph: {
-      title: `${style.name_zh} (${style.name_en})`,
-      description: getStyleDescription(style, locale),
+      title: `${style.name_en} (${style.name_zh})`,
+      description: style.description_en,
       images: [style.cover_image_url],
-      url,
+      url: `https://prompt.hiapi.ai/en/style/${style.id}`,
       type: "article",
     },
   };
 }
 
-export default async function StyleDetailPage({
+export default async function EnStyleDetailPage({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const locale = "zh";
+  const locale = "en";
   const t = UI_TEXT[locale];
   const style = getStyleById(id);
   if (!style) notFound();
@@ -57,51 +54,20 @@ export default async function StyleDetailPage({
   const examples = getExamplesByStyleId(style.id);
   const categoryLabel = CATEGORY_TEXT[style.category];
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: `${getStyleName(style, locale)} — AI 图像风格模板`,
-    description: getStyleDescription(style, locale),
-    url: `https://prompt.hiapi.ai/style/${style.id}`,
-    image: style.cover_image_url,
-    publisher: {
-      "@type": "Organization",
-      name: "PromptStudio",
-      url: "https://prompt.hiapi.ai",
-    },
-    numberOfItems: examples.length,
-  };
-
   return (
     <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-20">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-
-      {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
-        <Link href={localizePath("/", locale)} className="hover:text-primary transition-colors duration-200">
-          {t.home}
+        <Link href={localizePath("/", locale)} className="hover:text-primary transition-colors duration-200">{t.home}</Link>
+        <span>/</span>
+        <Link href={localizePath("/styles", locale)} className="hover:text-primary transition-colors duration-200">{t.style}</Link>
+        <span>/</span>
+        <Link href={`${localizePath("/styles", locale)}?category=${style.category}`} className="hover:text-primary transition-colors duration-200">
+          {categoryLabel.en}
         </Link>
         <span>/</span>
-        <Link href={localizePath("/styles", locale)} className="hover:text-primary transition-colors duration-200">
-          {t.style}
-        </Link>
-        <span>/</span>
-        <Link
-          href={`${localizePath("/styles", locale)}?category=${style.category}`}
-          className="hover:text-primary transition-colors duration-200"
-        >
-          {categoryLabel.zh}
-        </Link>
-        <span>/</span>
-        <span className="text-text-secondary truncate max-w-[180px] normal-case">
-          {getStyleName(style, locale)}
-        </span>
+        <span className="text-text-secondary truncate max-w-[180px] normal-case">{getStyleName(style, locale)}</span>
       </nav>
 
-      {/* Style header */}
       <div className="mb-10 animate-fade-in-up">
         <div className="flex flex-wrap items-center gap-3 mb-4">
           <Link
@@ -109,7 +75,7 @@ export default async function StyleDetailPage({
             className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold tracking-wide rounded-xl bg-primary/10 text-primary border border-primary/20 hover:bg-primary/15 transition-colors"
           >
             <span className="material-symbols-outlined text-[14px]">{categoryLabel.icon}</span>
-            {categoryLabel.zh}
+            {categoryLabel.en}
           </Link>
         </div>
 
@@ -117,36 +83,25 @@ export default async function StyleDetailPage({
           {getStyleName(style, locale)}
           <span className="text-primary">.</span>
         </h1>
-        <p className="text-sm text-text-secondary mb-2">{style.name_en}</p>
         <p className="text-sm text-text-muted leading-relaxed max-w-2xl mb-4">
           {getStyleDescription(style, locale)}
         </p>
 
-        {/* Tags */}
         <div className="flex flex-wrap gap-2">
-          {style.tags.map((tag) => (
-            <span
-              key={tag}
-              className="tag-chip text-xs"
-            >
-              {tag}
-            </span>
+          {[style.name_en, categoryLabel.en, "AI image prompt", "Style template"].map((tag) => (
+            <span key={tag} className="tag-chip text-xs">{tag}</span>
           ))}
         </div>
       </div>
 
-      {/* Template Block */}
       <div className="mb-12 animate-fade-in-up stagger-2">
         <TemplateBlock template={getLocalizedTemplate(style, locale)} locale={locale} />
       </div>
 
-      {/* Examples */}
       {examples.length > 0 && (
         <section className="animate-fade-in-up stagger-3">
           <div className="flex items-center gap-3 mb-6">
-            <h2 className="text-xl font-bold text-text-primary">
-              {locale === "zh" ? "示例展示" : "Examples"}
-            </h2>
+            <h2 className="text-xl font-bold text-text-primary">Examples</h2>
             <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider">
               {examples.length} {t.examples}
             </span>

@@ -3,14 +3,16 @@
 import { useRef, useEffect, useState, useCallback } from "react";
 import Link from "next/link";
 import { StyleTemplate } from "@/lib/types";
+import { getStyleName, localizePath, Locale, UI_TEXT } from "@/lib/i18n";
 
 interface CarouselStyle extends StyleTemplate {
   exampleCount: number;
 }
 
-export default function StyleCarousel({ styles }: { styles: CarouselStyle[] }) {
+export default function StyleCarousel({ styles, locale = "zh" }: { styles: CarouselStyle[]; locale?: Locale }) {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
+  const t = UI_TEXT[locale];
 
   /* ---- helpers ---- */
   const getStep = useCallback(() => {
@@ -58,8 +60,10 @@ export default function StyleCarousel({ styles }: { styles: CarouselStyle[] }) {
       {/* header */}
       <div className="flex items-end justify-between mb-5">
         <div>
-          <span className="section-label">风格精选</span>
-          <h2 className="text-2xl font-bold text-text-primary mt-1">热门风格推荐</h2>
+          <span className="section-label">{t.featuredStyles}</span>
+          <h2 className="text-2xl font-bold text-text-primary mt-1">
+            {locale === "zh" ? "热门风格推荐" : "Popular style templates"}
+          </h2>
         </div>
         <div className="flex items-center gap-1.5">
           <button
@@ -89,7 +93,7 @@ export default function StyleCarousel({ styles }: { styles: CarouselStyle[] }) {
         {styles.map((style) => (
           <Link
             key={style.id}
-            href={`/style/${style.id}`}
+            href={localizePath(`/style/${style.id}`, locale)}
             data-card=""
             className="group flex-none w-[80%] sm:w-[calc((100%-1.25rem)/2)] lg:w-[calc((100%-3.75rem)/4)] snap-start"
           >
@@ -97,18 +101,18 @@ export default function StyleCarousel({ styles }: { styles: CarouselStyle[] }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={style.cover_image_url}
-                alt={style.name_zh}
+                alt={getStyleName(style, locale)}
                 className="w-full block aspect-[3/4] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <span className="absolute top-3 right-3 px-2.5 py-1 text-[10px] font-bold tracking-wide rounded-lg bg-white/90 backdrop-blur-sm text-charcoal">
-                {style.exampleCount} 示例
+                {style.exampleCount} {t.examples}
               </span>
             </div>
             <div className="pt-3 px-0.5">
               <h3 className="text-base font-bold text-text-primary group-hover:text-primary transition-colors duration-200">
-                {style.name_zh}
+                {getStyleName(style, locale)}
               </h3>
               <p className="text-xs text-text-muted mt-0.5 uppercase tracking-wider">
                 {style.name_en}

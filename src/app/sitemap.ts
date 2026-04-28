@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllStyles, getAllExamples } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://promptstudio.art";
+  const baseUrl = "https://prompt.hiapi.ai";
 
   const stylePages = getAllStyles().map((s) => ({
     url: `${baseUrl}/style/${s.id}`,
