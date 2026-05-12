@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AwesomePromptCard from "@/components/AwesomePromptCard";
+import GitHubMark from "@/components/GitHubMark";
 import PromptCard from "@/components/PromptCard";
 import StyleCarousel from "@/components/StyleCarousel";
+import {
+  AWESOME_REPO_URL,
+  getAwesomePromptStats,
+  getFeaturedAwesomePromptCases,
+} from "@/lib/awesome-prompts";
 import { getAllExamples, getExamplesByStyleId, getFeaturedStyles, getStyleById } from "@/lib/data";
 import { CATEGORY_TEXT, getStyleName, localizePath } from "@/lib/i18n";
 import { StyleCategory, StyleExample } from "@/lib/types";
@@ -40,6 +47,8 @@ export const metadata: Metadata = {
 
 export default function EnGptImage2Page() {
   const locale = "en";
+  const awesomeStats = getAwesomePromptStats();
+  const awesomeCases = getFeaturedAwesomePromptCases(36);
   const featuredStyles = getFeaturedStyles(12);
   const carouselStyles = featuredStyles.map((style) => ({
     ...style,
@@ -79,13 +88,24 @@ export default function EnGptImage2Page() {
               <span className="w-px h-4 bg-border-default" />
               <span className="flex items-center gap-1.5">
                 <span className="material-symbols-outlined text-primary text-[18px]">auto_awesome</span>
-                <strong className="text-text-primary">170+</strong> examples
+                <strong className="text-text-primary">{awesomeStats.itemCount}</strong> real cases
               </span>
             </div>
-            <a href={HIAPI_MODEL_URL} className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white hover:bg-primary-hover transition-colors">
-              Use GPT Image 2
-              <span className="material-symbols-outlined text-[16px]">open_in_new</span>
-            </a>
+            <div className="flex flex-wrap items-center gap-2 md:justify-end">
+              <a href={HIAPI_MODEL_URL} className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white hover:bg-primary-hover transition-colors">
+                Use GPT Image 2
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+              <a
+                href={AWESOME_REPO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full border border-border-default bg-bg-card px-5 py-2.5 text-sm font-bold text-text-primary transition-colors hover:border-primary/30 hover:text-primary"
+              >
+                <GitHubMark />
+                Full prompt library
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -134,6 +154,36 @@ export default function EnGptImage2Page() {
               </div>
             );
           })}
+        </div>
+      </section>
+
+      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-2 pb-16">
+        <div className="divider mb-10" />
+        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between mb-6">
+          <div>
+            <span className="section-label">Awesome GPT Image 2 Prompts</span>
+            <h2 className="text-2xl font-bold text-text-primary mt-1">
+              Curated from the GitHub prompt library
+            </h2>
+            <p className="text-sm text-text-secondary mt-2 max-w-[640px] leading-relaxed">
+              Synced from the HiAPI GitHub prompt repository: {awesomeStats.itemCount} real output cases, {awesomeStats.categoryCount} categories, full prompts, source links, and generation-ready parameters.
+            </p>
+          </div>
+          <a
+            href={AWESOME_REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border-default bg-bg-card px-5 py-2.5 text-sm font-bold text-text-primary transition-colors hover:border-primary/30 hover:text-primary"
+          >
+            <GitHubMark />
+            View all {awesomeStats.itemCount} on GitHub
+          </a>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {awesomeCases.map((item) => (
+            <AwesomePromptCard key={item.id} item={item} locale={locale} />
+          ))}
         </div>
       </section>
     </>

@@ -64,12 +64,12 @@ export default function Footer() {
             <ul className="flex flex-col gap-3 text-sm font-medium text-text-muted">
               <li>
                 <a
-                  href="https://github.com/zimacode-network/AI-Image-Prompt"
+                  href="https://github.com/HiAPIAI/awesome-gpt-image-2-prompts"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  GitHub
+                  {locale === "zh" ? "GPT Image 2 提示词库" : "GPT Image 2 prompt library"}
                 </a>
               </li>
             </ul>
@@ -105,12 +105,13 @@ export default function Footer() {
           </p>
           <div className="flex gap-5">
             <a
-              href="https://github.com/zimacode-network/AI-Image-Prompt"
+              href="https://github.com/HiAPIAI/awesome-gpt-image-2-prompts"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-muted hover:text-primary transition-colors"
+              aria-label="GitHub prompt library"
             >
-              <span className="material-symbols-outlined text-lg">share</span>
+              <span className="material-symbols-outlined text-lg">code</span>
             </a>
           </div>
         </div>

@@ -1,23 +1,29 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+type Theme = "light" | "dark";
+
+function getThemeSnapshot(): Theme {
+  if (typeof document === "undefined") return "light";
+  return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
+function subscribeThemeChange(onStoreChange: () => void) {
+  window.addEventListener("storage", onStoreChange);
+  window.addEventListener("promptstudio-theme-change", onStoreChange);
+  return () => {
+    window.removeEventListener("storage", onStoreChange);
+    window.removeEventListener("promptstudio-theme-change", onStoreChange);
+  };
+}
 
 export default function ThemeToggle() {
-  const [dark, setDark] = useState(false);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const stored = localStorage.getItem("theme");
-    if (stored === "dark") {
-      setDark(true);
-      document.documentElement.classList.add("dark");
-    }
-  }, []);
+  const theme = useSyncExternalStore(subscribeThemeChange, getThemeSnapshot, () => "light");
+  const dark = theme === "dark";
 
   function toggle() {
     const next = !dark;
-    setDark(next);
     if (next) {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
@@ -25,14 +31,7 @@ export default function ThemeToggle() {
       document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  }
-
-  if (!mounted) {
-    return (
-      <button className="w-9 h-9 rounded-xl flex items-center justify-center border border-border-default text-text-muted">
-        <span className="material-symbols-outlined text-[20px]">light_mode</span>
-      </button>
-    );
+    window.dispatchEvent(new Event("promptstudio-theme-change"));
   }
 
   return (

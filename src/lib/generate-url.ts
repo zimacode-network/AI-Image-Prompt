@@ -12,13 +12,13 @@ const DEFAULT_MODEL =
  */
 export function buildGenerateUrl(
   promptText: string,
-  options?: { model?: string; aspectRatio?: string }
+  options?: { model?: string; aspectRatio?: string; source?: string }
 ): string {
   const encoded = Buffer.from(promptText, "utf-8").toString("base64");
   const params = new URLSearchParams({
     p: encoded,
     m: options?.model || DEFAULT_MODEL,
-    utm_source: "promptstudio",
+    utm_source: options?.source || "promptstudio",
   });
   if (options?.aspectRatio) params.set("s", options.aspectRatio);
   return `${HIAPI_DRAW_URL}?${params.toString()}`;
