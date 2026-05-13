@@ -40,7 +40,23 @@ type AwesomePromptData = {
 const data = awesomeData as AwesomePromptData;
 
 export type AwesomePromptCategory = AwesomeCategory;
-export type AwesomePromptCase = AwesomePromptItem & {
+type PublicAwesomePromptItem = Pick<
+  AwesomePromptItem,
+  | "id"
+  | "category"
+  | "title_zh"
+  | "title_en"
+  | "source_url"
+  | "author"
+  | "author_url"
+  | "image"
+  | "aspect_ratio"
+  | "prompt_language"
+  | "prompt"
+  | "case_number"
+>;
+
+export type AwesomePromptCase = PublicAwesomePromptItem & {
   image_url: string;
   category_zh: string;
   category_en: string;
@@ -70,7 +86,18 @@ export function getAwesomePromptCases(): AwesomePromptCase[] {
   return data.items.map((item) => {
     const category = data.categories.find((entry) => entry.id === item.category);
     return {
-      ...item,
+      id: item.id,
+      category: item.category,
+      title_zh: item.title_zh,
+      title_en: item.title_en,
+      source_url: item.source_url,
+      author: item.author,
+      author_url: item.author_url,
+      image: item.image,
+      aspect_ratio: item.aspect_ratio,
+      prompt_language: item.prompt_language,
+      prompt: item.prompt,
+      case_number: item.case_number,
       image_url: toPublicImageUrl(item.image),
       category_zh: category?.zh || item.category,
       category_en: category?.en || item.category,
