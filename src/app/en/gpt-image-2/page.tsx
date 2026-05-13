@@ -166,7 +166,7 @@ export default function EnGptImage2Page() {
               Curated from the GitHub prompt library
             </h2>
             <p className="text-sm text-text-secondary mt-2 max-w-[640px] leading-relaxed">
-              Synced from the HiAPI GitHub prompt repository: {awesomeStats.itemCount} real output cases, {awesomeStats.categoryCount} categories, full prompts, source links, and generation-ready parameters.
+              Synced from the HiAPI GitHub prompt library: {awesomeStats.itemCount} real output cases with complete prompts. Open a card to generate with the prompt, or visit GitHub to browse the full set.
             </p>
           </div>
           <a

@@ -208,7 +208,7 @@ export default function GptImage2Page() {
               GitHub 提示词库精选
             </h2>
             <p className="text-sm text-text-secondary mt-2 max-w-[640px] leading-relaxed">
-              同步自 HiAPI 的 GitHub 提示词仓库，包含 {awesomeStats.itemCount} 个真实效果案例、{awesomeStats.categoryCount} 个分类、完整 Prompt、来源链接和可直接跳转生成的参数。
+              同步自 HiAPI 的 GitHub 提示词库，收录 {awesomeStats.itemCount} 个真实效果案例和完整 Prompt。点开卡片可直接带着提示词去生成，也可以进 GitHub 查看全部案例。
             </p>
           </div>
           <a
