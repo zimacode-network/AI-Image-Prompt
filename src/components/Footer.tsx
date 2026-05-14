@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <footer className="mt-20 border-t border-border-default bg-bg-card">
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 py-16">
+      <div className="site-shell py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Logo + description */}
           <div className="flex flex-col gap-5">

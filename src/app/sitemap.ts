@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { getAllStyles, getAllExamples } from "@/lib/data";
+import { getAwesomePromptCases } from "@/lib/awesome-prompts";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://prompt.hiapi.ai";
@@ -18,6 +19,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const awesomeCases = getAwesomePromptCases();
+  const gptImage2CasePages = awesomeCases.flatMap((item) => [
+    {
+      url: `${baseUrl}/gpt-image-2/${item.id}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/en/gpt-image-2/${item.id}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+  ]);
+
   return [
     {
       url: baseUrl,
@@ -31,7 +48,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/gpt-image-2`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.95,
+    },
+    {
+      url: `${baseUrl}/en/gpt-image-2`,
+      lastModified: new Date(),
+      changeFrequency: "daily",
+      priority: 0.95,
+    },
     ...stylePages,
     ...examplePages,
+    ...gptImage2CasePages,
   ];
 }

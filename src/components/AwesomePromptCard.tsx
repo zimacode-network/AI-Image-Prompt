@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { AwesomePromptCase } from "@/lib/awesome-prompts";
+import { localizePath } from "@/lib/i18n";
 import CopyButton from "./CopyButton";
 
 export default function AwesomePromptCard({
@@ -14,10 +16,11 @@ export default function AwesomePromptCard({
   const category = locale === "zh" ? item.category_zh : item.category_en;
   const sourceLabel = locale === "zh" ? "来源" : "Source";
   const generateLabel = locale === "zh" ? "去生成" : "Generate";
+  const detailPath = `${localizePath("/gpt-image-2", locale)}/${item.id}`;
 
   return (
     <article className="prompt-card group overflow-hidden rounded-2xl border border-border-default/70 bg-bg-card shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-      <a href={item.source_url} target="_blank" rel="noopener noreferrer" className="block overflow-hidden bg-bg-surface">
+      <Link href={detailPath} className="block overflow-hidden bg-bg-surface">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={item.image_url}
@@ -25,15 +28,17 @@ export default function AwesomePromptCard({
           loading="lazy"
           className="prompt-card-image block aspect-[4/5] w-full object-cover"
         />
-      </a>
+      </Link>
       <div className="p-4">
         <div className="mb-3 flex items-center justify-between gap-2 text-[11px] font-bold uppercase tracking-[0.12em] text-text-muted">
           <span className="truncate">{category}</span>
           <span className="shrink-0 rounded-lg bg-primary/10 px-2 py-1 text-primary">{item.aspect_ratio}</span>
         </div>
-        <h3 className="mb-2 line-clamp-2 min-h-[2.75rem] text-sm font-bold leading-snug text-text-primary">
-          {title}
-        </h3>
+        <Link href={detailPath}>
+          <h3 className="mb-2 line-clamp-2 min-h-[2.75rem] text-sm font-bold leading-snug text-text-primary hover:text-primary transition-colors">
+            {title}
+          </h3>
+        </Link>
         <p className="mb-4 line-clamp-3 text-xs leading-relaxed text-text-secondary">
           {item.prompt}
         </p>

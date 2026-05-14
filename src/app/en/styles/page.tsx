@@ -18,7 +18,7 @@ export default async function EnStylesPage({
   const categoryLabel = activeCategory ? CATEGORY_TEXT[activeCategory]?.en : null;
 
   return (
-    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-20">
+    <div className="site-shell pt-10 pb-20">
       <div className="mb-10 animate-fade-in-up">
         <Suspense fallback={null}>
           <FilterBar />

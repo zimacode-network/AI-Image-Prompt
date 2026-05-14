@@ -39,7 +39,7 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-4 animate-fade-in-up">
+      <section className="site-shell pt-10 pb-4 animate-fade-in-up">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div className="md:max-w-[60%]">
             <h1 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-text-primary leading-[1.15] tracking-tight">
@@ -71,7 +71,7 @@ export default function HomePage() {
       </section>
 
       {/* Category tabs */}
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-2 pb-6">
+      <section className="site-shell pt-2 pb-6">
         <div className="flex items-center gap-6 overflow-x-auto no-scrollbar border-b border-border-default">
           <Link
             href={localizePath("/styles", locale)}
@@ -97,12 +97,12 @@ export default function HomePage() {
       <StyleCarousel styles={carouselStyles} locale={locale} />
 
       {/* Divider */}
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
+      <div className="site-shell">
         <div className="divider" />
       </div>
 
       {/* Featured Examples */}
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-6 pb-16">
+      <section className="site-shell pt-6 pb-16">
         <div className="flex items-end justify-between mb-5">
           <div>
             <span className="section-label">作品展示</span>

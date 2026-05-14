@@ -32,7 +32,7 @@ export default async function StylesPage({
     : null;
 
   return (
-    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-20">
+    <div className="site-shell pt-10 pb-20">
       {/* Filters */}
       <div className="mb-10 animate-fade-in-up">
         <Suspense fallback={null}>

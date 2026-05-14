@@ -101,7 +101,7 @@ export default async function PromptDetailPage({
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-20">
+    <div className="site-shell pt-8 pb-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

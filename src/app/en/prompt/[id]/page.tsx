@@ -71,7 +71,7 @@ export default async function EnPromptDetailPage({
   });
 
   return (
-    <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-8 pb-20">
+    <div className="site-shell pt-8 pb-20">
       <nav className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.15em] text-text-muted/60 mb-10 animate-fade-in">
         <Link href={localizePath("/", locale)} className="hover:text-primary transition-colors duration-200">{t.home}</Link>
         <span>/</span>

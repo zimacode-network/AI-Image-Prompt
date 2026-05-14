@@ -56,7 +56,7 @@ export default function StyleCarousel({ styles, locale = "zh" }: { styles: Carou
   }, [isPaused, getStep]);
 
   return (
-    <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-4 pb-8">
+    <section className="site-shell pt-4 pb-8">
       {/* header */}
       <div className="flex items-end justify-between mb-5">
         <div>

@@ -37,10 +37,10 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={toggle}
-      className="w-9 h-9 rounded-xl flex items-center justify-center border border-border-default text-text-muted hover:text-primary hover:border-primary/30 transition-all duration-200"
+      className="flex h-9 w-9 items-center justify-center rounded-lg text-text-secondary transition-colors hover:bg-bg-surface hover:text-text-primary"
       aria-label={dark ? "切换为浅色模式" : "切换为深色模式"}
     >
-      <span className="material-symbols-outlined text-[20px]">
+      <span className="material-symbols-outlined text-[19px]">
         {dark ? "light_mode" : "dark_mode"}
       </span>
     </button>

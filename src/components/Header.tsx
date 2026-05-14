@@ -13,6 +13,8 @@ export default function Header() {
   const locale = getLocaleFromPathname(pathname);
   const t = UI_TEXT[locale];
   const pathWithoutLocale = stripLocale(pathname);
+  const nextLocale = locale === "zh" ? "en" : "zh";
+  const languagePath = localizePath(pathWithoutLocale, nextLocale);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -23,7 +25,7 @@ export default function Header() {
 
   return (
     <header className="glass-header fixed top-0 left-0 right-0 z-50 border-b border-border-default">
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 h-16 flex items-center gap-6">
+      <div className="site-shell h-16 flex items-center gap-6">
         {/* Logo */}
         <Link href={localizePath("/", locale)} className="flex items-center gap-2.5 shrink-0">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
@@ -83,8 +85,12 @@ export default function Header() {
             {t.browseAll}
           </Link>
           <Link
-            href={localizePath(pathWithoutLocale, locale === "zh" ? "en" : "zh")}
-            className="hidden sm:inline-flex h-9 items-center gap-1 rounded-xl border border-border-default px-3 text-[13px] font-bold text-text-secondary transition-colors hover:border-primary/30 hover:text-primary"
+            href={languagePath}
+            onClick={(event) => {
+              event.preventDefault();
+              router.push(`${languagePath}${window.location.search}`);
+            }}
+            className="hidden sm:inline-flex h-9 items-center gap-1.5 rounded-lg px-2.5 text-[13px] font-medium text-text-secondary transition-colors hover:bg-bg-surface hover:text-text-primary"
             aria-label={locale === "zh" ? "Switch to English" : "切换到中文"}
           >
             <span className="material-symbols-outlined text-[16px]">translate</span>

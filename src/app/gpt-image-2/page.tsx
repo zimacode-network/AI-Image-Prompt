@@ -2,91 +2,49 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AwesomePromptCard from "@/components/AwesomePromptCard";
 import GitHubMark from "@/components/GitHubMark";
-import PromptCard from "@/components/PromptCard";
-import StyleCarousel from "@/components/StyleCarousel";
-import { StyleCategory, StyleExample } from "@/lib/types";
 import {
   AWESOME_REPO_URL,
   getAwesomePromptStats,
-  getFeaturedAwesomePromptCases,
+  getAwesomePromptCases,
+  getAwesomePromptCategories,
 } from "@/lib/awesome-prompts";
 import {
-  getAllExamples,
-  getExamplesByStyleId,
-  getFeaturedStyles,
-  getStyleById,
-} from "@/lib/data";
-import { CATEGORY_TEXT, getStyleName, localizePath } from "@/lib/i18n";
+  buildGptImage2HomeJsonLd,
+  buildGptImage2HomeMetadata,
+} from "@/lib/gpt-image-2-seo";
+import { localizePath } from "@/lib/i18n";
 
-const MODEL_ID = "gpt-image-2-beta";
 const HIAPI_MODEL_URL = "https://www.hiapi.ai/zh/models/gpt-image-2-beta";
 
-const curatedExampleIds = [
-  "knowledge-card-solar-system",
-  "knowledge-card-programming-concept",
-  "memphis-poster-design",
-  "character-design-robot-companion",
-  "flat-illustration-remote-work",
-  "minimalism-interior-space",
-  "recipe-card-pasta-recipe",
-  "cyberpunk-neon-cityscape",
-  "watercolor-rainy-street",
-  "pixel-art-cozy-room",
-  "oil-painting-sunset-landscape",
-  "pop-art-classic-car",
-];
+export const metadata: Metadata = buildGptImage2HomeMetadata({
+  locale: "zh",
+  stats: getAwesomePromptStats(),
+  featuredCase: getAwesomePromptCases()[0],
+});
 
-export const metadata: Metadata = {
-  title: "GPT Image 2 提示词模板与精选案例",
-  description:
-    "为 GPT Image 2 精选的 AI 图像提示词模板与案例，涵盖知识卡片、海报设计、角色 IP、插画、摄影和商业视觉。",
-  alternates: { canonical: "https://prompt.hiapi.ai/gpt-image-2" },
-  openGraph: {
-    title: "GPT Image 2 提示词模板与精选案例",
-    description: "选择案例，复制提示词，直接跳转到 HiAPI 使用 GPT Image 2 生成图片。",
-    images: ["https://cdn.pynice.com/prompts/knowledge-card-solar-system.webp"],
-    url: "https://prompt.hiapi.ai/gpt-image-2",
-    type: "website",
-  },
-};
-
-export default function GptImage2Page() {
+export default async function GptImage2Page({
+  searchParams,
+}: {
+  searchParams?: Promise<{ category?: string }>;
+}) {
   const locale = "zh";
   const awesomeStats = getAwesomePromptStats();
-  const awesomeCases = getFeaturedAwesomePromptCases(36);
-  const featuredStyles = getFeaturedStyles(12);
-  const carouselStyles = featuredStyles.map((style) => ({
-    ...style,
-    exampleCount: getExamplesByStyleId(style.id).length,
-  }));
+  const awesomeCategories = getAwesomePromptCategories();
+  const query = searchParams ? await searchParams : {};
+  const selectedCategory = awesomeCategories.some((cat) => cat.id === query.category)
+    ? query.category
+    : undefined;
+  const allCases = getAwesomePromptCases();
+  const visibleCases = selectedCategory
+    ? allCases.filter((item) => item.category === selectedCategory)
+    : allCases;
 
-  const allExamples = getAllExamples();
-  const curatedExamples = [
-    ...curatedExampleIds
-      .map((id) => allExamples.find((example) => example.id === id))
-      .filter((example): example is StyleExample => Boolean(example)),
-    ...allExamples.filter((example) => !curatedExampleIds.includes(example.id)),
-  ].slice(0, 24);
-
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: "GPT Image 2 提示词模板与精选案例",
-    url: "https://prompt.hiapi.ai/gpt-image-2",
-    description:
-      "为 GPT Image 2 精选的 AI 图像提示词模板与案例，可复制提示词或跳转到 HiAPI 生成。",
-    isPartOf: {
-      "@type": "WebSite",
-      name: "PromptStudio",
-      url: "https://prompt.hiapi.ai",
-    },
-    about: {
-      "@type": "SoftwareApplication",
-      name: "GPT Image 2",
-      url: HIAPI_MODEL_URL,
-    },
-    numberOfItems: awesomeStats.itemCount,
-  };
+  const jsonLd = buildGptImage2HomeJsonLd({
+    locale,
+    stats: awesomeStats,
+    categories: awesomeCategories,
+    cases: allCases,
+  });
 
   return (
     <>
@@ -95,30 +53,30 @@ export default function GptImage2Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-4 animate-fade-in-up">
+      <section className="site-shell pt-10 pb-4 animate-fade-in-up">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div className="md:max-w-[62%]">
-            <span className="section-label">GPT IMAGE 2 TEMPLATES</span>
+            <span className="section-label">GPT IMAGE 2 PROMPTS</span>
             <h1 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-text-primary leading-[1.15] tracking-tight mt-4">
-              适合 GPT Image 2 的
+              GPT Image 2
               <br className="hidden sm:block" />
-              <span className="text-primary italic">提示词模板</span>与案例
+              <span className="text-primary italic">提示词案例库</span>
             </h1>
             <p className="text-sm sm:text-base text-text-secondary mt-3 leading-relaxed">
-              从知识卡片、商业海报到角色 IP 和社媒封面，挑选一个案例，复制提示词，或直接跳转到 HiAPI 使用 GPT Image 2 生成。
+              浏览真实效果图，复制 Prompt，或直接跳转生成。
             </p>
           </div>
 
           <div className="flex flex-col items-start md:items-end gap-4 shrink-0">
             <div className="flex items-center gap-4 text-sm text-text-secondary">
               <span className="flex items-center gap-1.5">
-                <span className="material-symbols-outlined text-primary text-[18px]">palette</span>
-                <strong className="text-text-primary">34</strong> 种风格
+                <span className="material-symbols-outlined text-primary text-[18px]">category</span>
+                <strong className="text-text-primary">{awesomeStats.categoryCount}</strong> 个分类
               </span>
               <span className="w-px h-4 bg-border-default" />
               <span className="flex items-center gap-1.5">
                 <span className="material-symbols-outlined text-primary text-[18px]">auto_awesome</span>
-                <strong className="text-text-primary">{awesomeStats.itemCount}</strong> 真实案例
+                <strong className="text-text-primary">{awesomeStats.itemCount}</strong> 个案例
               </span>
             </div>
             <div className="flex flex-wrap items-center gap-2 md:justify-end">
@@ -136,94 +94,44 @@ export default function GptImage2Page() {
                 className="inline-flex items-center gap-2 rounded-full border border-border-default bg-bg-card px-5 py-2.5 text-sm font-bold text-text-primary transition-colors hover:border-primary/30 hover:text-primary"
               >
                 <GitHubMark />
-                完整提示词库
+                GitHub 仓库
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-2 pb-6">
+      <section className="site-shell pt-2 pb-6">
         <div className="flex items-center gap-6 overflow-x-auto no-scrollbar border-b border-border-default">
           <Link
             href={localizePath("/gpt-image-2", locale)}
-            className="shrink-0 pb-3 border-b-2 border-primary text-sm font-semibold text-text-primary"
+            className={`shrink-0 pb-3 border-b-2 text-sm font-semibold transition-colors duration-200 ${
+              selectedCategory
+                ? "border-transparent text-text-muted hover:text-text-primary"
+                : "border-primary text-text-primary"
+            }`}
           >
             全部
           </Link>
-          {(Object.entries(CATEGORY_TEXT) as [StyleCategory, typeof CATEGORY_TEXT[StyleCategory]][]).map(
-            ([key, val]) => (
-              <Link
-                key={key}
-                href={`${localizePath("/styles", locale)}?category=${key}`}
-                className="shrink-0 pb-3 border-b-2 border-transparent text-sm font-medium text-text-muted hover:text-text-primary transition-colors duration-200"
-              >
-                {val.zh}
-              </Link>
-            ),
-          )}
+          {awesomeCategories.map((cat) => (
+            <Link
+              key={cat.id}
+              href={`${localizePath("/gpt-image-2", locale)}?category=${cat.id}`}
+              className={`shrink-0 pb-3 border-b-2 text-sm font-medium transition-colors duration-200 ${
+                selectedCategory === cat.id
+                  ? "border-primary text-text-primary"
+                  : "border-transparent text-text-muted hover:text-text-primary"
+              }`}
+            >
+              {cat.zh}
+            </Link>
+          ))}
         </div>
       </section>
 
-      <StyleCarousel styles={carouselStyles} locale={locale} />
-
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
-        <div className="divider" />
-      </div>
-
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-6 pb-16">
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-5">
-          <div>
-            <span className="section-label">精选案例</span>
-            <h2 className="text-2xl font-bold text-text-primary mt-1">点击案例查看提示词</h2>
-          </div>
-          <p className="text-xs text-text-muted leading-relaxed max-w-[360px]">
-            卡片上的「去生成」会带着对应提示词和比例跳转到 HiAPI，并固定选择 GPT Image 2 Beta。
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {curatedExamples.map((example, i) => {
-            const style = getStyleById(example.style_id);
-            return (
-              <div key={example.id}>
-                <PromptCard example={example} index={i} model={MODEL_ID} locale={locale} />
-                {style && (
-                  <p className="mt-2 px-1 text-[11px] text-text-muted">
-                    {getStyleName(style, locale)} / {style.name_en}
-                  </p>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-2 pb-16">
-        <div className="divider mb-10" />
-        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between mb-6">
-          <div>
-            <span className="section-label">Awesome GPT Image 2 Prompts</span>
-            <h2 className="text-2xl font-bold text-text-primary mt-1">
-              GitHub 提示词库精选
-            </h2>
-            <p className="text-sm text-text-secondary mt-2 max-w-[640px] leading-relaxed">
-              同步自 HiAPI 的 GitHub 提示词库，收录 {awesomeStats.itemCount} 个真实效果案例和完整 Prompt。点开卡片可直接带着提示词去生成，也可以进 GitHub 查看全部案例。
-            </p>
-          </div>
-          <a
-            href={AWESOME_REPO_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border border-border-default bg-bg-card px-5 py-2.5 text-sm font-bold text-text-primary transition-colors hover:border-primary/30 hover:text-primary"
-          >
-            <GitHubMark />
-            在 GitHub 查看全部 {awesomeStats.itemCount} 个
-          </a>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {awesomeCases.map((item) => (
+      <section className="site-shell pt-6 pb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 2xl:grid-cols-5 gap-5">
+          {visibleCases.map((item) => (
             <AwesomePromptCard key={item.id} item={item} locale={locale} />
           ))}
         </div>

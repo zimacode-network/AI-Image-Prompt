@@ -16,7 +16,7 @@ export default function EnHomePage() {
 
   return (
     <>
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-10 pb-4 animate-fade-in-up">
+      <section className="site-shell pt-10 pb-4 animate-fade-in-up">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div className="md:max-w-[60%]">
             <h1 className="text-3xl sm:text-4xl md:text-[2.75rem] font-bold text-text-primary leading-[1.15] tracking-tight">
@@ -45,7 +45,7 @@ export default function EnHomePage() {
         </div>
       </section>
 
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-2 pb-6">
+      <section className="site-shell pt-2 pb-6">
         <div className="flex items-center gap-6 overflow-x-auto no-scrollbar border-b border-border-default">
           <Link href={localizePath("/styles", locale)} className="shrink-0 pb-3 border-b-2 border-primary text-sm font-semibold text-text-primary">
             All
@@ -64,11 +64,11 @@ export default function EnHomePage() {
 
       <StyleCarousel styles={carouselStyles} locale={locale} />
 
-      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
+      <div className="site-shell">
         <div className="divider" />
       </div>
 
-      <section className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16 pt-6 pb-16">
+      <section className="site-shell pt-6 pb-16">
         <div className="flex items-end justify-between mb-5">
           <div>
             <span className="section-label">Gallery</span>
